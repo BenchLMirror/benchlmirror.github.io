@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BenchLMirror — Открытые данные ИИ-бенчмарков</title>
+  <meta name="description" content="Небольшое открытое зеркало данных BenchLM: модели, бенчмарки, цены и сравнения, обновляются каждые 24 часа.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
+
+  <meta name="theme-color" content="#0d0c09">
+  <meta name="color-scheme" content="dark">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <link rel="canonical" href="https://benchlmirror.pages.dev/">
+
+  <meta property="og:title" content="BenchLMirror — Открытые данные ИИ-бенчмарков">
+  <meta property="og:description" content="Зеркало данных BenchLM: модели, цены, скорость, сравнения и бенчмарки. Обновляется ежедневно.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://benchlmirror.pages.dev/">
+  <meta property="og:image" content="https://benchlmirror.pages.dev/og-image.svg">
+  <meta property="og:image:alt" content="BenchLMirror — открытое зеркало данных ИИ-бенчмарков">
+  <meta property="og:site_name" content="BenchLMirror">
+  <meta property="og:locale" content="ru_RU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BenchLMirror — Открытые данные ИИ-бенчмарков">
+  <meta name="twitter:description" content="Зеркало данных BenchLM: модели, цены, скорость, сравнения и бенчмарки.">
+  <meta name="twitter:image" content="https://benchlmirror.pages.dev/og-image.svg">
+  <meta name="twitter:image:alt" content="BenchLMirror">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300..700;1,300..700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0c09;
+      --bg-elev: #13110c;
+      --border: rgba(232, 226, 210, 0.07);
+      --border-strong: rgba(232, 226, 210, 0.16);
+      --text: #ebe4d2;
+      --text-bright: #f7f2e3;
+      --text-dim: #8a8472;
+      --text-muted: #46433b;
+
+      --serif: 'Fraunces', 'Songti SC', 'Yu Mincho', 'Hiragino Mincho ProN', Georgia, 'Times New Roman', serif;
+      --sans: 'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans', 'Microsoft YaHei', sans-serif;
+
+      --wrap-max: 1240px;
+      --wrap-pad: 32px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-feature-settings: 'kern', 'liga', 'ss01';
+      font-optical-sizing: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse 1200px 700px at 50% -10%, rgba(245, 230, 195, 0.025), transparent 70%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; color: inherit; cursor: pointer; }
+
+    ::selection { background: rgba(232, 226, 210, 0.18); color: var(--text-bright); }
+
+    h1, h2, h3 { text-wrap: balance; font-weight: 400; }
+    p { text-wrap: pretty; }
+
+    .wrap {
+      max-width: var(--wrap-max);
+      margin: 0 auto;
+      padding-left: var(--wrap-pad);
+      padding-right: var(--wrap-pad);
+    }
+
+    /* ---------- HEADER ---------- */
+    header { padding: 24px 0 18px; }
+
+    .header__main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px 32px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: var(--serif);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 21px;
+      letter-spacing: -0.02em;
+      color: var(--text-bright);
+      flex-shrink: 0;
+    }
+
+    /* ---------- LANG PICKER ---------- */
+    .lang { position: relative; flex-shrink: 0; }
+
+    .lang__btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 4px 0;
+      background: transparent;
+      border: 0;
+      color: var(--text-dim);
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      transition: color 0.2s ease;
+    }
+    .lang__btn:hover { color: var(--text-bright); }
+    .lang__code { line-height: 1; }
+
+    .lang__icon {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 22px;
+      height: 13px;
+      flex-shrink: 0;
+    }
+
+    .lang__icon span {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: currentColor;
+      transform-origin: center;
+      transition: transform 0.25s ease, opacity 0.2s ease;
+    }
+
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(2) { opacity: 0; }
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+    .lang__menu {
+      position: absolute;
+      top: calc(100% + 14px);
+      right: 0;
+      min-width: 160px;
+      max-width: calc(100vw - 32px);
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+      padding: 6px;
+      background: var(--bg-elev);
+      border: 1px solid var(--border-strong);
+      border-radius: 10px;
+      box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.5);
+      z-index: 50;
+    }
+    .lang__menu[hidden] { display: none; }
+
+    .lang__menu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 8px 12px;
+      font-size: 13.5px;
+      font-family: var(--sans);
+      color: var(--text-dim);
+      background: transparent;
+      border: 0;
+      border-radius: 6px;
+      transition: color 0.15s ease, background 0.15s ease;
+    }
+    .lang__menu button:hover { color: var(--text-bright); background: rgba(245, 240, 220, 0.04); }
+    .lang__menu button.active { color: var(--text-bright); }
+
+    /* ---------- HEADER NAV ---------- */
+    .header__nav {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+      font-size: 13.5px;
+    }
+
+    .header__nav-link {
+      color: var(--text-dim);
+      transition: color 0.2s ease;
+    }
+    .header__nav-link:hover { color: var(--text-bright); }
+
+    /* ---------- HERO ---------- */
+    .hero { padding: 88px 0 110px; border-bottom: 1px solid var(--border); }
+
+    .hero__title {
+      font-family: var(--serif);
+      font-size: clamp(48px, 8vw, 112px);
+      line-height: 0.96;
+      letter-spacing: -0.035em;
+      color: var(--text-bright);
+      max-width: 1100px;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    .hero__title em { font-style: italic; font-weight: 300; }
+
+    .hero__bottom {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 80px;
+      align-items: end;
+      margin-top: 64px;
+    }
+    .hero__bottom > * { min-width: 0; }
+
+    .hero__lede {
+      font-size: 16.5px;
+      line-height: 1.6;
+      color: var(--text-dim);
+      max-width: 460px;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    .hero__actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+    }
+
+    .hero__action {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+      padding: 8px 0;
+      border-bottom: 1px solid transparent;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .hero__action-main {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 10px;
+      font-family: var(--serif);
+      font-size: 22px;
+      letter-spacing: -0.015em;
+      color: var(--text);
+    }
+    .hero__action .arrow {
+      font-family: var(--sans);
+      font-size: 20px;
+      transition: transform 0.25s ease;
+      display: inline-block;
+    }
+    .hero__action .sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+    .hero__action:hover { color: var(--text-bright); border-bottom-color: var(--border-strong); }
+    .hero__action:hover .arrow { transform: translate(4px, 1px); }
+
+    /* ---------- SECTION ---------- */
+    .section { padding: 80px 0; border-bottom: 1px solid var(--border); }
+
+    .section__head {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+      gap: 60px;
+      align-items: end;
+      margin-bottom: 56px;
+    }
+    .section__head > * { min-width: 0; }
+
+    .section__num {
+      display: block;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 14px;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      margin-bottom: 18px;
+    }
+
+    .section__title {
+      font-family: var(--serif);
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.04;
+      letter-spacing: -0.025em;
+      color: var(--text-bright);
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+    .section__title em { font-style: italic; color: var(--text-dim); }
+
+    .section__desc {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text-dim);
+      max-width: 320px;
+      justify-self: end;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    /* ---------- DATASETS ---------- */
+    .datasets {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .dataset {
+      display: grid;
+      grid-template-columns: 56px minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: baseline;
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+      min-width: 0;
+    }
+
+    .dataset:nth-child(odd)  { padding-right: 32px; border-right: 1px solid var(--border); }
+    .dataset:nth-child(even) { padding-left: 32px; }
+
+    .dataset__num {
+      font-family: var(--serif);
+      font-size: 14px;
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .dataset__body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+
+    .dataset__title {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      transition: color 0.2s ease;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    .dataset__desc {
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--text-dim);
+      max-width: 320px;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    .dataset__go {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 22px;
+      color: var(--text-muted);
+      align-self: center;
+      line-height: 1;
+      display: inline-block;
+      transition: color 0.2s ease, transform 0.25s ease;
+    }
+
+    .dataset:hover .dataset__title { color: var(--text-bright); }
+    .dataset:hover .dataset__go    { color: var(--text-bright); transform: translateX(4px); }
+
+    /* ---------- INFO (compact) ---------- */
+    .info { border: 1px solid var(--border); }
+
+    .info__row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+    .info__cell {
+      padding: 18px 22px 20px;
+      border-right: 1px solid var(--border);
+      min-width: 0;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+    .info__cell:last-child { border-right: none; }
+
+    .info__label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .info__value {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 21px;
+      letter-spacing: -0.025em;
+      color: var(--text-bright);
+      line-height: 1;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    .info__meta {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 6px;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer { padding: 50px 0 60px; }
+
+    .footer__inner {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer__credit em { font-family: var(--serif); font-style: italic; color: var(--text-dim); }
+    .footer__separator { color: var(--text-muted); opacity: 0.7; margin: 0 2px; }
+
+    .footer__links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer__links a { color: var(--text-dim); transition: color 0.2s ease; }
+    .footer__links a:hover { color: var(--text-bright); }
+    .footer__links a::after { content: ' ↗'; font-size: 11px; opacity: 0.7; }
+
+    /* ---------- LANGUAGE-SPECIFIC OVERRIDES ---------- */
+    :lang(de) .hero__title,
+    :lang(de) .section__title,
+    :lang(de) .dataset__title,
+    :lang(de) .hero__lede,
+    :lang(de) .section__desc,
+    :lang(de) .dataset__desc,
+    :lang(de) .info__value { hyphens: auto; }
+
+    :lang(zh) .hero__title,
+    :lang(ja) .hero__title,
+    :lang(ko) .hero__title {
+      font-size: clamp(40px, 6.5vw, 88px);
+      word-break: break-all;
+      hyphens: none;
+    }
+
+    :lang(zh) .section__title,
+    :lang(ja) .section__title,
+    :lang(ko) .section__title {
+      font-size: clamp(24px, 3.4vw, 36px);
+      word-break: break-all;
+      hyphens: none;
+    }
+
+    :lang(zh) .dataset__title,
+    :lang(ja) .dataset__title,
+    :lang(ko) .dataset__title {
+      font-size: 21px;
+      word-break: break-all;
+      hyphens: none;
+    }
+
+    :lang(zh) .dataset__desc,
+    :lang(ja) .dataset__desc,
+    :lang(ko) .dataset__desc,
+    :lang(zh) .hero__lede,
+    :lang(ja) .hero__lede,
+    :lang(ko) .hero__lede,
+    :lang(zh) .section__desc,
+    :lang(ja) .section__desc,
+    :lang(ko) .section__desc {
+      word-break: break-all;
+      hyphens: none;
+      line-height: 1.7;
+    }
+
+    /* ---------- MOBILE ---------- */
+    @media (max-width: 900px) {
+      :root { --wrap-pad: 20px; }
+      .hero { padding: 50px 0 70px; }
+      .hero__bottom { grid-template-columns: 1fr; gap: 36px; margin-top: 36px; }
+      .hero__actions { align-items: flex-start; }
+      .hero__action-main { font-size: 19px; }
+      .section { padding: 50px 0; }
+      .section__head { grid-template-columns: 1fr; gap: 16px; margin-bottom: 36px; }
+      .section__desc { justify-self: start; }
+      .datasets { grid-template-columns: 1fr; }
+      .dataset:nth-child(odd)  { border-right: none; padding-right: 0; }
+      .dataset:nth-child(even) { padding-left: 0; }
+      .dataset { grid-template-columns: 40px minmax(0, 1fr) auto; gap: 18px; padding: 22px 0; }
+      .dataset__title { font-size: 20px; }
+      .info__row { grid-template-columns: 1fr 1fr; }
+      .info__cell { padding: 14px 16px; }
+      .info__cell:nth-child(2), .info__cell:nth-child(4) { border-right: none; }
+      .info__cell:nth-child(1), .info__cell:nth-child(2) { border-bottom: 1px solid var(--border); }
+      .footer__inner { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (max-width: 480px) {
+      .header__nav { gap: 16px; font-size: 13px; }
+      .lang__menu { right: -8px; min-width: 150px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap">
+      <div class="header__main">
+        <a href="/" class="logo">BenchLMirror</a>
+
+        <div class="lang">
+          <button class="lang__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Choose language">
+            <span class="lang__code">RU</span>
+            <span class="lang__icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+          <div class="lang__menu" role="menu" hidden>
+            <button data-lang="ru" class="active" role="menuitem">Русский</button>
+            <button data-lang="en" role="menuitem">English</button>
+            <button data-lang="zh" role="menuitem">中文</button>
+            <button data-lang="fr" role="menuitem">Français</button>
+            <button data-lang="de" role="menuitem">Deutsch</button>
+            <button data-lang="es" role="menuitem">Español</button>
+            <button data-lang="ja" role="menuitem">日本語</button>
+            <button data-lang="ko" role="menuitem">한국어</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="wrap">
+        <h1 class="hero__title">
+          <em data-i18n="hero_title_em">Открытое</em>
+          <span data-i18n="hero_title_l1">зеркало</span><br>
+          <span data-i18n="hero_title_l2">ИИ-бенчмарков.</span>
+        </h1>
+
+        <div class="hero__bottom">
+          <p class="hero__lede" data-i18n="hero_lede">
+            Небольшое, постоянно обновляемое зеркало данных BenchLM — шесть JSON-датасетов: модели, цены, скорость и сравнения. Обновляются каждые 24 часа.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#data" class="hero__action">
+              <span class="hero__action-main">
+                <span data-i18n="action_explore">Открыть данные</span>
+                <span class="arrow" aria-hidden="true">↓</span>
+              </span>
+            </a>
+            <a href="https://github.com/seregannj/benchlmirror" class="hero__action" target="_blank" rel="noopener">
+              <span class="hero__action-main">
+                <span data-i18n="action_github">Код на GitHub</span>
+                <span class="arrow" aria-hidden="true">↗</span>
+              </span>
+              <span class="sub">seregannj / benchlmirror</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="data">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <span class="section__num" data-i18n="section1_num">— 01 / Датасеты</span>
+            <h2 class="section__title">
+              <span data-i18n="section1_t1">Шесть наборов,</span>
+              <em data-i18n="section1_tem">обновляемых</em>
+              <span data-i18n="section1_t2">ежедневно.</span>
+            </h2>
+          </div>
+          <p class="section__desc" data-i18n="section1_desc">
+            Открытые JSON-датасеты, синхронизируемые с BenchLM автоматически — в формате, удобном и людям, и машинам.
+          </p>
+        </div>
+
+        <div class="datasets">
+          <a href="/models/" class="dataset">
+            <span class="dataset__num">01</span>
+            <div class="dataset__body">
+              <h3 class="dataset__title" data-i18n="ds_01_t">Модели</h3>
+              <p class="dataset__desc" data-i18n="ds_01_d">ИИ-модели, провайдеры, длина контекста, возможности и даты релизов.</p>
+            </div>
+            <span class="dataset__go" aria-hidden="true">↘</span>
+          </a>
+
+          <a href="/leaderboard/" class="dataset">
+            <span class="dataset__num">02</span>
+            <div class="dataset__body">
+              <h3 class="dataset__title" data-i18n="ds_02_t">Лидерборд</h3>
+              <p class="dataset__desc" data-i18n="ds_02_d">Рейтинги и результаты бенчмарков во всех категориях.</p>
+            </div>
+            <span class="dataset__go" aria-hidden="true">↘</span>
+          </a>
+
+          <a href="/benchmarks/" class="dataset">
+            <span class="dataset__num">03</span>
+            <div class="dataset__body">
+              <h3 class="dataset__title" data-i18n="ds_03_t">Бенчмарки</h3>
+              <p class="dataset__desc" data-i18n="ds_03_d">Подробные оценки каждой модели в каждом тесте.</p>
+            </div>
+            <span class="dataset__go" aria-hidden="true">↘</span>
+          </a>
+
+          <a href="/pricing/" class="dataset">
+            <span class="dataset__num">04</span>
+            <div class="dataset__body">
+              <h3 class="dataset__title" data-i18n="ds_04_t">Цены</h3>
+              <p class="dataset__desc" data-i18n="ds_04_d">Стоимость токенов и сравнение тарифов у разных провайдеров.</p>
+            </div>
+            <span class="dataset__go" aria-hidden="true">↘</span>
+          </a>
+
+          <a href="/speed/" class="dataset">
+            <span class="dataset__num">05</span>
+            <div class="dataset__body">
+              <h3 class="dataset__title" data-i18n="ds_05_t">Скорость</h3>
+              <p class="dataset__desc" data-i18n="ds_05_d">Токены в секунду, задержка и другие метрики производительности.</p>
+            </div>
+            <span class="dataset__go" aria-hidden="true">↘</span>
+          </a>
+
+          <a href="/comparisons/" class="dataset">
+            <span class="dataset__num">06</span>
+            <div class="dataset__body">
+              <h3 class="dataset__title" data-i18n="ds_06_t">Сравнения</h3>
+              <p class="dataset__desc" data-i18n="ds_06_d">Сопоставление моделей по цене, скорости и результатам бенчмарков.</p>
+            </div>
+            <span class="dataset__go" aria-hidden="true">↘</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <span class="section__num" data-i18n="section2_num">— 02 / О проекте</span>
+            <h2 class="section__title">
+              <span data-i18n="section2_t1">Всё</span>
+              <em data-i18n="section2_tem">синхронизируется</em>
+              <span data-i18n="section2_t2">автоматически.</span>
+            </h2>
+          </div>
+          <p class="section__desc" data-i18n="section2_desc">
+            Прозрачная инфраструктура: ничего проприетарного, ничего скрытого, ничего устаревшего.
+          </p>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="info__row">
+          <div class="info__cell">
+            <div class="info__label" data-i18n="info_label_source">Источник</div>
+            <div class="info__value" data-i18n="info_value_source">BenchLM</div>
+            <div class="info__meta" data-i18n="info_meta_source">benchlm.ai</div>
+          </div>
+          <div class="info__cell">
+            <div class="info__label" data-i18n="info_label_datasets">Датасеты</div>
+            <div class="info__value" data-i18n="info_value_datasets">Шесть</div>
+            <div class="info__meta" data-i18n="info_meta_datasets">JSON-файлов</div>
+          </div>
+          <div class="info__cell">
+            <div class="info__label" data-i18n="info_label_update">Обновление</div>
+            <div class="info__value" data-i18n="info_value_update">Ежедневно</div>
+            <div class="info__meta" data-i18n="info_meta_update">автоматический cron</div>
+          </div>
+          <div class="info__cell">
+            <div class="info__label" data-i18n="info_label_license">Лицензия</div>
+            <div class="info__value" data-i18n="info_value_license">Открытая</div>
+            <div class="info__meta" data-i18n="info_meta_license">публичное зеркало</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__credit">
+          BenchLMirror<span class="footer__separator"> · </span><em data-i18n="footer_em">создано ради прозрачности</em>
+        </div>
+        <div class="footer__links">
+          <a href="https://benchlm.ai/" target="_blank" rel="noopener" data-i18n="footer_benchlm">BenchLM</a>
+          <a href="https://github.com/seregannj/benchlmirror" target="_blank" rel="noopener" data-i18n="footer_github">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const SUPPORTED = ['ru', 'en', 'zh', 'fr', 'de', 'es', 'ja', 'ko'];
+
+    const I18N = {
+      ru: {
+        nav_datasets:        'Датасеты',
+        nav_about:           'О проекте',
+        nav_github:          'GitHub',
+        hero_title_em:       'Открытое',
+        hero_title_l1:       'зеркало',
+        hero_title_l2:       'ИИ-бенчмарков.',
+        hero_lede:           'Небольшое, постоянно обновляемое зеркало данных BenchLM — шесть JSON-датасетов: модели, цены, скорость и сравнения. Обновляются каждые 24 часа.',
+        action_explore:      'Открыть данные',
+        action_github:       'Код на GitHub',
+        section1_num:        '— 01 / Датасеты',
+        section1_t1:         'Шесть наборов,',
+        section1_tem:        'обновляемых',
+        section1_t2:         'ежедневно.',
+        section1_desc:       'Открытые JSON-датасеты, синхронизируемые с BenchLM автоматически — в формате, удобном и людям, и машинам.',
+        ds_01_t:             'Модели',
+        ds_01_d:             'ИИ-модели, провайдеры, длина контекста, возможности и даты релизов.',
+        ds_02_t:             'Лидерборд',
+        ds_02_d:             'Рейтинги и результаты бенчмарков во всех категориях.',
+        ds_03_t:             'Бенчмарки',
+        ds_03_d:             'Подробные оценки каждой модели в каждом тесте.',
+        ds_04_t:             'Цены',
+        ds_04_d:             'Стоимость токенов и сравнение тарифов у разных провайдеров.',
+        ds_05_t:             'Скорость',
+        ds_05_d:             'Токены в секунду, задержка и другие метрики производительности.',
+        ds_06_t:             'Сравнения',
+        ds_06_d:             'Сопоставление моделей по цене, скорости и результатам бенчмарков.',
+        section2_num:        '— 02 / О проекте',
+        section2_t1:         'Всё',
+        section2_tem:        'синхронизируется',
+        section2_t2:         'автоматически.',
+        section2_desc:       'Прозрачная инфраструктура: ничего проприетарного, ничего скрытого, ничего устаревшего.',
+        info_label_source:   'Источник',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: 'Датасеты',
+        info_value_datasets: 'Шесть',
+        info_meta_datasets:  'JSON-файлов',
+        info_label_update:   'Обновление',
+        info_value_update:   'Ежедневно',
+        info_meta_update:    'автоматический cron',
+        info_label_license:  'Лицензия',
+        info_value_license:  'Открытая',
+        info_meta_license:   'публичное зеркало',
+        footer_em:           'создано ради прозрачности',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      en: {
+        nav_datasets:        'Datasets',
+        nav_about:           'About',
+        nav_github:          'GitHub',
+        hero_title_em:       'Open',
+        hero_title_l1:       'mirror',
+        hero_title_l2:       'of AI benchmarks.',
+        hero_lede:           'A small, continuously updated mirror of BenchLM data — six JSON datasets covering models, pricing, speed and comparisons, refreshed every 24 hours.',
+        action_explore:      'Explore data',
+        action_github:       'Code on GitHub',
+        section1_num:        '— 01 / Datasets',
+        section1_t1:         'Six collections,',
+        section1_tem:        'refreshed',
+        section1_t2:         'daily.',
+        section1_desc:       'Public JSON datasets synced automatically from BenchLM, in a format designed for both humans and machines.',
+        ds_01_t:             'Models',
+        ds_01_d:             'AI models, providers, context length, capabilities and release dates.',
+        ds_02_t:             'Leaderboard',
+        ds_02_d:             'Rankings and benchmark scores across every category.',
+        ds_03_t:             'Benchmarks',
+        ds_03_d:             'Detailed scores for each model on each test.',
+        ds_04_t:             'Pricing',
+        ds_04_d:             'Token costs and pricing comparisons across providers.',
+        ds_05_t:             'Speed',
+        ds_05_d:             'Tokens per second, latency and other performance metrics.',
+        ds_06_t:             'Comparisons',
+        ds_06_d:             'Side-by-side comparisons across price, speed and benchmark scores.',
+        section2_num:        '— 02 / About',
+        section2_t1:         'Everything',
+        section2_tem:        'syncs',
+        section2_t2:         'automatically.',
+        section2_desc:       'A transparent piece of infrastructure: nothing proprietary, nothing hidden, nothing stale.',
+        info_label_source:   'Source',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: 'Datasets',
+        info_value_datasets: 'Six',
+        info_meta_datasets:  'JSON files',
+        info_label_update:   'Update',
+        info_value_update:   'Daily',
+        info_meta_update:    'automated cron',
+        info_label_license:  'License',
+        info_value_license:  'Open',
+        info_meta_license:   'public mirror',
+        footer_em:           'made for transparency',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      zh: {
+        nav_datasets:        '数据集',
+        nav_about:           '关于',
+        nav_github:          'GitHub',
+        hero_title_em:       '开放',
+        hero_title_l1:       '镜像',
+        hero_title_l2:       'AI 基准。',
+        hero_lede:           'BenchLM 数据的小型持续更新镜像 — 涵盖模型、价格、速度和比较的六个 JSON 数据集,每 24 小时刷新一次。',
+        action_explore:      '浏览数据',
+        action_github:       'GitHub 代码',
+        section1_num:        '— 01 / 数据集',
+        section1_t1:         '六个集合,',
+        section1_tem:        '每日更新',
+        section1_t2:         '。',
+        section1_desc:       '从 BenchLM 自动同步的公开 JSON 数据集,采用人和机器皆友好的格式。',
+        ds_01_t:             '模型',
+        ds_01_d:             'AI 模型、供应商、上下文长度、功能和发布日期。',
+        ds_02_t:             '排行榜',
+        ds_02_d:             '各类别的排名和基准测试分数。',
+        ds_03_t:             '基准测试',
+        ds_03_d:             '每个模型在每个测试中的详细分数。',
+        ds_04_t:             '价格',
+        ds_04_d:             '各供应商的代币成本和价格比较。',
+        ds_05_t:             '速度',
+        ds_05_d:             '每秒代币数、延迟和其他性能指标。',
+        ds_06_t:             '比较',
+        ds_06_d:             '按价格、速度和基准分数并排比较模型。',
+        section2_num:        '— 02 / 关于',
+        section2_t1:         '一切',
+        section2_tem:        '自动同步',
+        section2_t2:         '。',
+        section2_desc:       '透明的基础设施:无专有、无隐藏、无过时。',
+        info_label_source:   '来源',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: '数据集',
+        info_value_datasets: '六',
+        info_meta_datasets:  'JSON 文件',
+        info_label_update:   '更新',
+        info_value_update:   '每日',
+        info_meta_update:    '自动 cron',
+        info_label_license:  '许可证',
+        info_value_license:  '开放',
+        info_meta_license:   '公开镜像',
+        footer_em:           '为透明而生',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      fr: {
+        nav_datasets:        'Jeux de données',
+        nav_about:           'À propos',
+        nav_github:          'GitHub',
+        hero_title_em:       'Miroir',
+        hero_title_l1:       'ouvert',
+        hero_title_l2:       'des benchmarks IA.',
+        hero_lede:           'Un petit miroir de BenchLM mis à jour en continu — six jeux de données JSON couvrant les modèles, les tarifs, la vitesse et les comparaisons, actualisés toutes les 24 heures.',
+        action_explore:      'Explorer les données',
+        action_github:       'Code sur GitHub',
+        section1_num:        '— 01 / Jeux de données',
+        section1_t1:         'Six collections,',
+        section1_tem:        'actualisées',
+        section1_t2:         'chaque jour.',
+        section1_desc:       'Jeux de données JSON publics synchronisés automatiquement depuis BenchLM, dans un format pensé pour les humains comme pour les machines.',
+        ds_01_t:             'Modèles',
+        ds_01_d:             'Modèles d’IA, fournisseurs, longueur de contexte, capacités et dates de sortie.',
+        ds_02_t:             'Classement',
+        ds_02_d:             'Classements et scores de benchmarks dans toutes les catégories.',
+        ds_03_t:             'Benchmarks',
+        ds_03_d:             'Scores détaillés pour chaque modèle sur chaque test.',
+        ds_04_t:             'Tarifs',
+        ds_04_d:             'Coûts des tokens et comparaisons de tarifs entre fournisseurs.',
+        ds_05_t:             'Vitesse',
+        ds_05_d:             'Tokens par seconde, latence et autres métriques de performance.',
+        ds_06_t:             'Comparaisons',
+        ds_06_d:             'Comparaisons côte à côte des prix, de la vitesse et des scores.',
+        section2_num:        '— 02 / À propos',
+        section2_t1:         'Tout',
+        section2_tem:        'se synchronise',
+        section2_t2:         'automatiquement.',
+        section2_desc:       'Une infrastructure transparente : rien de propriétaire, rien de caché, rien d’obsolète.',
+        info_label_source:   'Source',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: 'Jeux de données',
+        info_value_datasets: 'Six',
+        info_meta_datasets:  'fichiers JSON',
+        info_label_update:   'Mise à jour',
+        info_value_update:   'Quotidienne',
+        info_meta_update:    'cron automatisé',
+        info_label_license:  'Licence',
+        info_value_license:  'Ouverte',
+        info_meta_license:   'miroir public',
+        footer_em:           'créé pour la transparence',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      de: {
+        nav_datasets:        'Datensätze',
+        nav_about:           'Über',
+        nav_github:          'GitHub',
+        hero_title_em:       'Offener',
+        hero_title_l1:       'Spiegel',
+        hero_title_l2:       'der KI-Benchmarks.',
+        hero_lede:           'Ein kleiner, kontinuierlich aktualisierter Spiegel der BenchLM-Daten — sechs JSON-Sammlungen zu Modellen, Preisen, Geschwindigkeit und Vergleichen, täglich aktualisiert.',
+        action_explore:      'Daten erkunden',
+        action_github:       'Code auf GitHub',
+        section1_num:        '— 01 / Datensätze',
+        section1_t1:         'Sechs Sammlungen,',
+        section1_tem:        'täglich',
+        section1_t2:         'aktualisiert.',
+        section1_desc:       'Öffentliche JSON-Sammlungen, automatisch von BenchLM synchronisiert — in einem Format für Menschen und Maschinen.',
+        ds_01_t:             'Modelle',
+        ds_01_d:             'KI-Modelle, Anbieter, Kontextlänge, Fähigkeiten und Veröffentlichungsdaten.',
+        ds_02_t:             'Bestenliste',
+        ds_02_d:             'Ranglisten und Benchmark-Ergebnisse in jeder Kategorie.',
+        ds_03_t:             'Benchmarks',
+        ds_03_d:             'Detaillierte Ergebnisse für jedes Modell in jedem Test.',
+        ds_04_t:             'Preise',
+        ds_04_d:             'Token-Kosten und Preisvergleiche zwischen Anbietern.',
+        ds_05_t:             'Geschwindigkeit',
+        ds_05_d:             'Tokens pro Sekunde, Latenz und weitere Leistungsmetriken.',
+        ds_06_t:             'Vergleiche',
+        ds_06_d:             'Direkte Vergleiche von Preis, Geschwindigkeit und Benchmark-Ergebnissen.',
+        section2_num:        '— 02 / Über',
+        section2_t1:         'Alles',
+        section2_tem:        'synchronisiert sich',
+        section2_t2:         'automatisch.',
+        section2_desc:       'Eine transparente Infrastruktur: nichts Proprietäres, nichts Verborgenes, nichts Veraltetes.',
+        info_label_source:   'Quelle',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: 'Datensätze',
+        info_value_datasets: 'Sechs',
+        info_meta_datasets:  'JSON-Dateien',
+        info_label_update:   'Aktualisierung',
+        info_value_update:   'Täglich',
+        info_meta_update:    'automatisierter Cron',
+        info_label_license:  'Lizenz',
+        info_value_license:  'Offen',
+        info_meta_license:   'öffentlicher Spiegel',
+        footer_em:           'für Transparenz gemacht',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      es: {
+        nav_datasets:        'Conjuntos de datos',
+        nav_about:           'Acerca de',
+        nav_github:          'GitHub',
+        hero_title_em:       'Espejo',
+        hero_title_l1:       'abierto',
+        hero_title_l2:       'de benchmarks de IA.',
+        hero_lede:           'Un pequeño espejo de los datos de BenchLM, actualizado continuamente — seis conjuntos de datos JSON sobre modelos, precios, velocidad y comparaciones, actualizados cada 24 horas.',
+        action_explore:      'Explorar datos',
+        action_github:       'Código en GitHub',
+        section1_num:        '— 01 / Conjuntos de datos',
+        section1_t1:         'Seis colecciones,',
+        section1_tem:        'actualizadas',
+        section1_t2:         'diariamente.',
+        section1_desc:       'Conjuntos de datos JSON públicos sincronizados automáticamente desde BenchLM, en un formato pensado para personas y máquinas.',
+        ds_01_t:             'Modelos',
+        ds_01_d:             'Modelos de IA, proveedores, longitud de contexto, capacidades y fechas de lanzamiento.',
+        ds_02_t:             'Clasificación',
+        ds_02_d:             'Clasificaciones y puntuaciones de benchmarks en todas las categorías.',
+        ds_03_t:             'Benchmarks',
+        ds_03_d:             'Puntuaciones detalladas de cada modelo en cada prueba.',
+        ds_04_t:             'Precios',
+        ds_04_d:             'Costes de tokens y comparaciones de precios entre proveedores.',
+        ds_05_t:             'Velocidad',
+        ds_05_d:             'Tokens por segundo, latencia y otras métricas de rendimiento.',
+        ds_06_t:             'Comparaciones',
+        ds_06_d:             'Comparaciones lado a lado de precios, velocidad y puntuaciones.',
+        section2_num:        '— 02 / Acerca de',
+        section2_t1:         'Todo',
+        section2_tem:        'se sincroniza',
+        section2_t2:         'automáticamente.',
+        section2_desc:       'Una infraestructura transparente: nada propietario, nada oculto, nada obsoleto.',
+        info_label_source:   'Fuente',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: 'Conjuntos de datos',
+        info_value_datasets: 'Seis',
+        info_meta_datasets:  'archivos JSON',
+        info_label_update:   'Actualización',
+        info_value_update:   'Diaria',
+        info_meta_update:    'cron automatizado',
+        info_label_license:  'Licencia',
+        info_value_license:  'Abierta',
+        info_meta_license:   'espejo público',
+        footer_em:           'hecho para la transparencia',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      ja: {
+        nav_datasets:        'データセット',
+        nav_about:           '概要',
+        nav_github:          'GitHub',
+        hero_title_em:       'オープン',
+        hero_title_l1:       'ミラー',
+        hero_title_l2:       'AI ベンチマーク。',
+        hero_lede:           'BenchLM データの小さく継続的に更新されるミラー — モデル、価格、速度、比較をカバーする 6 つの JSON データセット、24 時間ごとに更新。',
+        action_explore:      'データを見る',
+        action_github:       'GitHub のコード',
+        section1_num:        '— 01 / データセット',
+        section1_t1:         '6 つのコレクション,',
+        section1_tem:        '毎日更新',
+        section1_t2:         '。',
+        section1_desc:       'BenchLM から自動同期される公開 JSON データセット、人とマシンの両方に優しいフォーマット。',
+        ds_01_t:             'モデル',
+        ds_01_d:             'AI モデル、プロバイダー、コンテキスト長、機能、リリース日。',
+        ds_02_t:             'リーダーボード',
+        ds_02_d:             '全カテゴリのランキングとベンチマークスコア。',
+        ds_03_t:             'ベンチマーク',
+        ds_03_d:             '各テストにおける各モデルの詳細スコア。',
+        ds_04_t:             '価格',
+        ds_04_d:             'プロバイダー間のトークンコストと価格比較。',
+        ds_05_t:             '速度',
+        ds_05_d:             '1 秒あたりのトークン数、レイテンシ、その他のパフォーマンス指標。',
+        ds_06_t:             '比較',
+        ds_06_d:             '価格、速度、ベンチマークスコアの並列比較。',
+        section2_num:        '— 02 / 概要',
+        section2_t1:         'すべて',
+        section2_tem:        '自動的に同期',
+        section2_t2:         '。',
+        section2_desc:       '透明なインフラ:proprietary なものなし、隠されたものなし、古いものなし。',
+        info_label_source:   'ソース',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: 'データセット',
+        info_value_datasets: '6',
+        info_meta_datasets:  'JSON ファイル',
+        info_label_update:   '更新',
+        info_value_update:   '毎日',
+        info_meta_update:    '自動 cron',
+        info_label_license:  'ライセンス',
+        info_value_license:  'オープン',
+        info_meta_license:   '公開ミラー',
+        footer_em:           '透明性のために',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      },
+
+      ko: {
+        nav_datasets:        '데이터셋',
+        nav_about:           '정보',
+        nav_github:          'GitHub',
+        hero_title_em:       '공개',
+        hero_title_l1:       '미러',
+        hero_title_l2:       'AI 벤치마크.',
+        hero_lede:           'BenchLM 데이터의 작고 지속적으로 업데이트되는 미러 — 모델, 가격, 속도, 비교를 다루는 6개의 JSON 데이터셋, 24시간마다 새로 고침.',
+        action_explore:      '데이터 탐색',
+        action_github:       'GitHub 코드',
+        section1_num:        '— 01 / 데이터셋',
+        section1_t1:         '6개의 컬렉션,',
+        section1_tem:        '매일 업데이트',
+        section1_t2:         '.',
+        section1_desc:       'BenchLM에서 자동으로 동기화되는 공개 JSON 데이터셋, 사람과 기계를 모두 위한 형식.',
+        ds_01_t:             '모델',
+        ds_01_d:             'AI 모델, 제공자, 컨텍스트 길이, 기능 및 출시일.',
+        ds_02_t:             '리더보드',
+        ds_02_d:             '모든 카테고리의 순위 및 벤치마크 점수.',
+        ds_03_t:             '벤치마크',
+        ds_03_d:             '각 테스트에서 각 모델의 상세 점수.',
+        ds_04_t:             '가격',
+        ds_04_d:             '제공사 간 토큰 비용 및 가격 비교.',
+        ds_05_t:             '속도',
+        ds_05_d:             '초당 토큰 수, 지연 시간 및 기타 성능 지표.',
+        ds_06_t:             '비교',
+        ds_06_d:             '가격, 속도, 벤치마크 점수의 나란한 비교.',
+        section2_num:        '— 02 / 정보',
+        section2_t1:         '모든 것',
+        section2_tem:        '자동으로 동기화',
+        section2_t2:         '됩니다.',
+        section2_desc:       '투명한 인프라: 독점적인 것도 없고, 숨겨진 것도 없고, 오래된 것도 없습니다.',
+        info_label_source:   '출처',
+        info_value_source:   'BenchLM',
+        info_meta_source:    'benchlm.ai',
+        info_label_datasets: '데이터셋',
+        info_value_datasets: '6',
+        info_meta_datasets:  'JSON 파일',
+        info_label_update:   '업데이트',
+        info_value_update:   '매일',
+        info_meta_update:    '자동 cron',
+        info_label_license:  '라이선스',
+        info_value_license:  '오픈',
+        info_meta_license:   '공개 미러',
+        footer_em:           '투명성을 위해 만들어졌습니다',
+        footer_benchlm:      'BenchLM',
+        footer_github:       'GitHub'
+      }
+    };
+
+    function detectLang() {
+      const stored = localStorage.getItem('blm_lang');
+      if (stored && SUPPORTED.includes(stored)) return stored;
+      const browser = ((navigator.languages && navigator.languages[0]) || navigator.language || 'ru').toLowerCase().slice(0, 2);
+      return SUPPORTED.includes(browser) ? browser : 'ru';
+    }
+
+    function setLang(lang) {
+      if (!I18N[lang]) return;
+      const dict = I18N[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) el.textContent = dict[key];
+      });
+      localStorage.setItem('blm_lang', lang);
+      document.documentElement.lang = lang;
+      const code = document.querySelector('.lang__code');
+      if (code) code.textContent = lang.toUpperCase();
+      document.querySelectorAll('.lang__menu button').forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+      });
+    }
+
+    const langBtn  = document.querySelector('.lang__btn');
+    const langMenu = document.querySelector('.lang__menu');
+
+    if (langBtn && langMenu) {
+      langBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        const opening = langMenu.hidden;
+        langMenu.hidden = !opening;
+        langBtn.setAttribute('aria-expanded', String(opening));
+      });
+
+      document.addEventListener('click', e => {
+        if (!e.target.closest('.lang')) {
+          langMenu.hidden = true;
+          langBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      document.querySelectorAll('.lang__menu button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          setLang(btn.getAttribute('data-lang'));
+          langMenu.hidden = true;
+          langBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    setLang(detectLang());
+  </script>
+
+</body>
+</html>

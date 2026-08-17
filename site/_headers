@@ -1,0 +1,30 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/models/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/leaderboard/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/benchmarks/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/pricing/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/speed/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/comparisons/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/_headers
+  Cache-Control: public, max-age=3600

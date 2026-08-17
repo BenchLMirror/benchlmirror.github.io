@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0d0c09"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#vignette)"/>
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ebe4d2" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0d0c09" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="80" y="280" font-family="Georgia, serif" font-style="italic" font-size="120" fill="#ebe4d2">BenchLMirror</text>
+  <text x="80" y="380" font-family="Georgia, serif" font-size="42" fill="#8a8472">Зеркало данных BenchLM</text>
+  <text x="80" y="540" font-family="-apple-system, sans-serif" font-size="22" fill="#46433b" letter-spacing="2">benchlm.ai · обновляется ежедневно</text>
+</svg>

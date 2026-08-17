@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BenchLMirror — 404</title>
+  <meta name="description" content="Страница не найдена.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
+
+  <meta name="theme-color" content="#0d0c09">
+  <meta name="color-scheme" content="dark">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex">
+
+  <link rel="canonical" href="https://benchlmirror.pages.dev/">
+
+  <meta property="og:title" content="BenchLMirror — 404">
+  <meta property="og:description" content="Запрашиваемая страница не найдена. Вернитесь на главную или откройте каталог моделей.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://benchlmirror.pages.dev/">
+  <meta property="og:image" content="https://benchlmirror.pages.dev/og-image.svg">
+  <meta property="og:image:alt" content="BenchLMirror — 404">
+  <meta property="og:site_name" content="BenchLMirror">
+  <meta property="og:locale" content="ru_RU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BenchLMirror — страница не найдена">
+  <meta name="twitter:description" content="Запрашиваемая страница не найдена.">
+  <meta name="twitter:image" content="https://benchlmirror.pages.dev/og-image.svg">
+  <meta name="twitter:image:alt" content="BenchLMirror — 404">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300..700;1,300..700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0c09;
+      --border: rgba(232, 226, 210, 0.07);
+      --border-strong: rgba(232, 226, 210, 0.16);
+      --text: #ebe4d2;
+      --text-bright: #f7f2e3;
+      --text-dim: #8a8472;
+      --text-muted: #46433b;
+
+      --serif: 'Fraunces', 'Songti SC', 'Yu Mincho', 'Hiragino Mincho ProN', Georgia, 'Times New Roman', serif;
+      --sans: 'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans', 'Microsoft YaHei', sans-serif;
+
+      --wrap-max: 1240px;
+      --wrap-pad: 32px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-feature-settings: 'kern', 'liga';
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse 1200px 700px at 50% -10%, rgba(245, 230, 195, 0.025), transparent 70%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; color: inherit; cursor: pointer; }
+
+    ::selection { background: rgba(232, 226, 210, 0.18); color: var(--text-bright); }
+
+    .wrap {
+      max-width: var(--wrap-max);
+      margin: 0 auto;
+      padding-left: var(--wrap-pad);
+      padding-right: var(--wrap-pad);
+    }
+
+    header { padding: 24px 0 18px; }
+
+    .header__main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px 32px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: var(--serif);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 21px;
+      letter-spacing: -0.02em;
+      color: var(--text-bright);
+      flex-shrink: 0;
+    }
+
+    .lang { position: relative; flex-shrink: 0; }
+
+    .lang__btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 4px 0;
+      background: transparent;
+      border: 0;
+      color: var(--text-dim);
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      transition: color 0.2s ease;
+    }
+    .lang__btn:hover { color: var(--text-bright); }
+    .lang__code { line-height: 1; }
+
+    .lang__icon {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 22px;
+      height: 13px;
+      flex-shrink: 0;
+    }
+
+    .lang__icon span {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: currentColor;
+      transform-origin: center;
+      transition: transform 0.25s ease, opacity 0.2s ease;
+    }
+
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(2) { opacity: 0; }
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+    .lang__menu {
+      position: absolute;
+      top: calc(100% + 14px);
+      right: 0;
+      min-width: 160px;
+      max-width: calc(100vw - 32px);
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+      padding: 6px;
+      background: #13110c;
+      border: 1px solid var(--border-strong);
+      border-radius: 10px;
+      box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.5);
+      z-index: 50;
+    }
+    .lang__menu[hidden] { display: none; }
+
+    .lang__menu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 8px 12px;
+      font-size: 13.5px;
+      font-family: var(--sans);
+      color: var(--text-dim);
+      background: transparent;
+      border: 0;
+      border-radius: 6px;
+      transition: color 0.15s ease, background 0.15s ease;
+    }
+    .lang__menu button:hover { color: var(--text-bright); background: rgba(245, 240, 220, 0.04); }
+    .lang__menu button.active { color: var(--text-bright); }
+
+    /* ---------- 404 HERO ---------- */
+    .notfound {
+      min-height: calc(100vh - 200px);
+      display: flex;
+      align-items: center;
+      padding: 80px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .notfound__inner {
+      max-width: 720px;
+    }
+
+    .notfound__code {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(120px, 22vw, 240px);
+      line-height: 0.9;
+      letter-spacing: -0.06em;
+      color: var(--text-bright);
+      margin-bottom: 20px;
+    }
+
+    .notfound__code em {
+      font-style: italic;
+      font-weight: 300;
+      color: var(--text-dim);
+    }
+
+    .notfound__title {
+      font-family: var(--serif);
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      color: var(--text-bright);
+      margin-bottom: 16px;
+    }
+
+    .notfound__title em {
+      font-style: italic;
+      color: var(--text-dim);
+    }
+
+    .notfound__lede {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text-dim);
+      max-width: 520px;
+      margin-bottom: 32px;
+    }
+
+    .notfound__meta {
+      display: block;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .notfound__actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .notfound__action {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 10px;
+      font-family: var(--serif);
+      font-size: 18px;
+      color: var(--text);
+      padding: 6px 0;
+      border-bottom: 1px solid transparent;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .notfound__action:hover {
+      color: var(--text-bright);
+      border-bottom-color: var(--border-strong);
+    }
+
+    .notfound__action .arrow {
+      font-family: var(--sans);
+      font-size: 16px;
+      transition: transform 0.25s ease;
+      display: inline-block;
+    }
+
+    .notfound__action:hover .arrow {
+      transform: translate(4px, 1px);
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer { padding: 50px 0 60px; }
+
+    .footer__inner {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer__credit em { font-family: var(--serif); font-style: italic; color: var(--text-dim); }
+    .footer__separator { color: var(--text-muted); opacity: 0.7; margin: 0 2px; }
+
+    .footer__links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer__links a { color: var(--text-dim); transition: color 0.2s ease; }
+    .footer__links a:hover { color: var(--text-bright); }
+    .footer__links a::after { content: ' ↗'; font-size: 11px; opacity: 0.7; }
+
+    /* ---------- LANG ---------- */
+    :lang(zh) .notfound__code,
+    :lang(ja) .notfound__code,
+    :lang(ko) .notfound__code {
+      word-break: break-all;
+    }
+
+    :lang(de) .notfound__code { hyphens: auto; }
+
+    @media (max-width: 900px) {
+      :root { --wrap-pad: 20px; }
+      .notfound { padding: 60px 0; min-height: calc(100vh - 180px); }
+    }
+
+    @media (max-width: 480px) {
+      .lang__menu { right: -8px; min-width: 150px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap">
+      <div class="header__main">
+        <a href="/" class="logo">BenchLMirror</a>
+
+        <div class="lang">
+          <button class="lang__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Choose language">
+            <span class="lang__code">RU</span>
+            <span class="lang__icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+          <div class="lang__menu" role="menu" hidden>
+            <button data-lang="ru" class="active" role="menuitem">Русский</button>
+            <button data-lang="en" role="menuitem">English</button>
+            <button data-lang="zh" role="menuitem">中文</button>
+            <button data-lang="fr" role="menuitem">Français</button>
+            <button data-lang="de" role="menuitem">Deutsch</button>
+            <button data-lang="es" role="menuitem">Español</button>
+            <button data-lang="ja" role="menuitem">日本語</button>
+            <button data-lang="ko" role="menuitem">한국어</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="notfound">
+      <div class="wrap">
+        <div class="notfound__inner">
+          <div class="notfound__code">404</div>
+          <h1 class="notfound__title" data-i18n="title">
+            Страница <em>не найдена</em>
+          </h1>
+          <p class="notfound__meta" data-i18n="path">
+            benchlmirror.pages.dev
+          </p>
+          <p class="notfound__lede" data-i18n="lede">
+            По этому адресу ничего нет. Возможно, страница была переименована, удалена, или ссылка введена с ошибкой.
+          </p>
+          <div class="notfound__actions">
+            <a href="/" class="notfound__action">
+              <span data-i18n="action_home">На главную</span>
+              <span class="arrow" aria-hidden="true">↓</span>
+            </a>
+            <a href="https://github.com/seregannj/benchlmirror/issues" target="_blank" rel="noopener" class="notfound__action">
+              <span data-i18n="action_report">Сообщить о проблеме</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__credit">
+          BenchLMirror<span class="footer__separator"> · </span><em data-i18n="footer_em">создано ради прозрачности</em>
+        </div>
+        <div class="footer__links">
+          <a href="https://benchlm.ai/" target="_blank" rel="noopener" data-i18n="footer_benchlm">BenchLM</a>
+          <a href="https://github.com/seregannj/benchlmirror" target="_blank" rel="noopener" data-i18n="footer_github">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const SUPPORTED = ['ru', 'en', 'zh', 'fr', 'de', 'es', 'ja', 'ko'];
+
+    const I18N = {
+      ru: { title: 'Страница не найдена', path: 'benchlmirror.pages.dev', lede: 'По этому адресу ничего нет. Возможно, страница была переименована, удалена, или ссылка введена с ошибкой.', action_home: 'На главную', action_report: 'Сообщить о проблеме', footer_em: 'создано ради прозрачности', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      en: { title: 'Page not found', path: 'benchlmirror.pages.dev', lede: "There's nothing at this address. The page may have been renamed, deleted, or the link was mistyped.", action_home: 'Back to home', action_report: 'Report an issue', footer_em: 'made for transparency', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      zh: { title: '页面未找到', path: 'benchlmirror.pages.dev', lede: '该地址没有内容。页面可能已被重命名、删除，或链接输入有误。', action_home: '返回首页', action_report: '报告问题', footer_em: '为透明而生', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      fr: { title: 'Page introuvable', path: 'benchlmirror.pages.dev', lede: 'Cette adresse ne mène à rien. La page a peut-être été renommée, supprimée, ou le lien est mal saisi.', action_home: 'Retour à l’accueil', action_report: 'Signaler un problème', footer_em: 'créé pour la transparence', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      de: { title: 'Seite nicht gefunden', path: 'benchlmirror.pages.dev', lede: 'Unter dieser Adresse ist nichts. Die Seite wurde möglicherweise umbenannt, gelöscht oder der Link ist fehlerhaft.', action_home: 'Zur Startseite', action_report: 'Problem melden', footer_em: 'für Transparenz gemacht', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      es: { title: 'Página no encontrada', path: 'benchlmirror.pages.dev', lede: 'No hay nada en esta dirección. La página puede haber sido renombrada, eliminada o el enlace está mal escrito.', action_home: 'Volver al inicio', action_report: 'Reportar un problema', footer_em: 'hecho para la transparencia', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      ja: { title: 'ページが見つかりません', path: 'benchlmirror.pages.dev', lede: 'このアドレスには何もありません。ページが改名・削除されたか、リンクが誤っている可能性があります。', action_home: 'ホームへ戻る', action_report: '問題を報告', footer_em: '透明性のために', footer_benchlm: 'BenchLM', footer_github: 'GitHub' },
+      ko: { title: '페이지를 찾을 수 없습니다', path: 'benchlmirror.pages.dev', lede: '이 주소에는 아무것도 없습니다. 페이지가 이름이 바뀌었거나 삭제되었거나 링크가 잘못 입력되었을 수 있습니다.', action_home: '홈으로', action_report: '문제 신고', footer_em: '투명성을 위해 만들어졌습니다', footer_benchlm: 'BenchLM', footer_github: 'GitHub' }
+    };
+
+    function detectLang() {
+      const stored = localStorage.getItem('blm_lang');
+      if (stored && SUPPORTED.includes(stored)) return stored;
+      const browser = ((navigator.languages && navigator.languages[0]) || navigator.language || 'ru').slice(0, 2).toLowerCase();
+      return SUPPORTED.includes(browser) ? browser : 'ru';
+    }
+
+    function setLang(lang) {
+      if (!I18N[lang]) return;
+      const dict = I18N[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) el.innerHTML = dict[key];
+      });
+      document.documentElement.lang = lang;
+      document.title = 'BenchLMirror — ' + dict.title;
+      const code = document.querySelector('.lang__code');
+      if (code) code.textContent = lang.toUpperCase();
+      document.querySelectorAll('.lang__menu button').forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+      });
+    }
+
+    const langBtn  = document.querySelector('.lang__btn');
+    const langMenu = document.querySelector('.lang__menu');
+
+    if (langBtn && langMenu) {
+      langBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        const opening = langMenu.hidden;
+        langMenu.hidden = !opening;
+        langBtn.setAttribute('aria-expanded', String(opening));
+      });
+
+      document.addEventListener('click', e => {
+        if (!e.target.closest('.lang')) {
+          langMenu.hidden = true;
+          langBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      document.querySelectorAll('.lang__menu button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          setLang(btn.getAttribute('data-lang'));
+          langMenu.hidden = true;
+          langBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // show the actual broken URL
+    const pathEl = document.querySelector('[data-i18n="path"]');
+    if (pathEl) {
+      pathEl.textContent = location.host + location.pathname;
+    }
+
+    setLang(detectLang());
+  </script>
+
+</body>
+</html>
