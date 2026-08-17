@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://benchlmirror.pages.dev/</loc>
+    <loc>https://benchlmirror.github.io/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://benchlmirror.pages.dev/models/</loc>
+    <loc>https://benchlmirror.github.io/models/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://benchlmirror.pages.dev/leaderboard/</loc>
+    <loc>https://benchlmirror.github.io/leaderboard/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://benchlmirror.pages.dev/benchmarks/</loc>
+    <loc>https://benchlmirror.github.io/benchmarks/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://benchlmirror.pages.dev/pricing/</loc>
+    <loc>https://benchlmirror.github.io/pricing/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://benchlmirror.pages.dev/speed/</loc>
+    <loc>https://benchlmirror.github.io/speed/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://benchlmirror.pages.dev/comparisons/</loc>
+    <loc>https://benchlmirror.github.io/comparisons/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
