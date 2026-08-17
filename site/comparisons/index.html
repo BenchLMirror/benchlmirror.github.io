@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BenchLMirror — Сравнения</title>
+  <meta name="description" content="Кураторская подборка попарных сравнений моделей из BenchLM.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
+
+  <meta name="theme-color" content="#0d0c09">
+  <meta name="color-scheme" content="dark">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <link rel="canonical" href="https://benchlmirror.pages.dev/comparisons/">
+
+  <meta property="og:title" content="BenchLMirror — Сравнения моделей">
+  <meta property="og:description" content="Кураторская подборка попарных сравнений ИИ-моделей из BenchLM: скоры, победители и результаты категорий.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://benchlmirror.pages.dev/comparisons/">
+  <meta property="og:image" content="https://benchlmirror.pages.dev/og-image.svg">
+  <meta property="og:image:alt" content="BenchLMirror — сравнения ИИ-моделей">
+  <meta property="og:site_name" content="BenchLMirror">
+  <meta property="og:locale" content="ru_RU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BenchLMirror — Сравнения моделей">
+  <meta name="twitter:description" content="Попарные сравнения ИИ-моделей: скоры, победители и результаты бенчмарков.">
+  <meta name="twitter:image" content="https://benchlmirror.pages.dev/og-image.svg">
+  <meta name="twitter:image:alt" content="BenchLMirror — сравнения ИИ-моделей">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300..700;1,300..700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0c09;
+      --bg-elev: #13110c;
+      --border: rgba(232, 226, 210, 0.07);
+      --border-strong: rgba(232, 226, 210, 0.16);
+      --text: #ebe4d2;
+      --text-bright: #f7f2e3;
+      --text-dim: #8a8472;
+      --text-muted: #46433b;
+
+      --serif: 'Fraunces', 'Songti SC', 'Yu Mincho', 'Hiragino Mincho ProN', Georgia, 'Times New Roman', serif;
+      --sans: 'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans', 'Microsoft YaHei', sans-serif;
+
+      --wrap-max: 1240px;
+      --wrap-pad: 32px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-feature-settings: 'kern', 'liga', 'ss01';
+      font-optical-sizing: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse 1200px 700px at 50% -10%, rgba(245, 230, 195, 0.025), transparent 70%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; color: inherit; cursor: pointer; }
+    input { font: inherit; }
+
+    ::selection { background: rgba(232, 226, 210, 0.18); color: var(--text-bright); }
+
+    h1, h2, h3 { text-wrap: balance; font-weight: 400; }
+    p { text-wrap: pretty; }
+
+    .wrap {
+      max-width: var(--wrap-max);
+      margin: 0 auto;
+      padding-left: var(--wrap-pad);
+      padding-right: var(--wrap-pad);
+    }
+
+    /* ---------- HEADER ---------- */
+    header { padding: 24px 0 18px; }
+
+    .header__main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px 32px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: var(--serif);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 21px;
+      letter-spacing: -0.02em;
+      color: var(--text-bright);
+      flex-shrink: 0;
+    }
+
+    .lang { position: relative; flex-shrink: 0; }
+
+    .lang__btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 4px 0;
+      background: transparent;
+      border: 0;
+      color: var(--text-dim);
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      transition: color 0.2s ease;
+    }
+    .lang__btn:hover { color: var(--text-bright); }
+    .lang__code { line-height: 1; }
+
+    .lang__icon {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 22px;
+      height: 13px;
+      flex-shrink: 0;
+    }
+
+    .lang__icon span {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: currentColor;
+      transform-origin: center;
+      transition: transform 0.25s ease, opacity 0.2s ease;
+    }
+
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(2) { opacity: 0; }
+    .lang__btn[aria-expanded="true"] .lang__icon span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+    .lang__menu {
+      position: absolute;
+      top: calc(100% + 14px);
+      right: 0;
+      min-width: 160px;
+      max-width: calc(100vw - 32px);
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+      padding: 6px;
+      background: var(--bg-elev);
+      border: 1px solid var(--border-strong);
+      border-radius: 10px;
+      box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.5);
+      z-index: 50;
+    }
+    .lang__menu[hidden] { display: none; }
+
+    .lang__menu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 8px 12px;
+      font-size: 13.5px;
+      font-family: var(--sans);
+      color: var(--text-dim);
+      background: transparent;
+      border: 0;
+      border-radius: 6px;
+      transition: color 0.15s ease, background 0.15s ease;
+    }
+    .lang__menu button:hover { color: var(--text-bright); background: rgba(245, 240, 220, 0.04); }
+    .lang__menu button.active { color: var(--text-bright); }
+
+    .header__nav {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+      font-size: 13.5px;
+    }
+
+    .header__nav-link {
+      color: var(--text-dim);
+      transition: color 0.2s ease;
+    }
+    .header__nav-link:hover { color: var(--text-bright); }
+    .header__nav-link.is-active { color: var(--text-bright); }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      padding: 60px 0 50px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero__title {
+      font-family: var(--serif);
+      font-size: clamp(36px, 6vw, 64px);
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+      color: var(--text-bright);
+      max-width: 900px;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+
+    .hero__title em { font-style: italic; font-weight: 300; }
+
+    .hero__lede {
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text-dim);
+      max-width: 640px;
+    }
+
+    .hero__meta {
+      display: flex;
+      gap: 36px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+
+    .hero__meta > div { display: flex; flex-direction: column; gap: 4px; }
+
+    .hero__meta-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--text-muted);
+    }
+
+    .hero__meta-value {
+      font-family: var(--serif);
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--text-bright);
+      letter-spacing: -0.01em;
+    }
+
+    /* ---------- SECTION ---------- */
+    .section { padding: 50px 0 80px; border-bottom: 1px solid var(--border); }
+
+    /* ---------- CONTROLS ---------- */
+    .models__controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .models__count {
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    .models__count strong {
+      font-family: var(--serif);
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--text-bright);
+      margin-left: 4px;
+    }
+
+    .models__search {
+      background: transparent;
+      border: 1px solid var(--border-strong);
+      padding: 8px 14px;
+      border-radius: 8px;
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 13px;
+      width: 240px;
+      transition: border-color 0.2s ease;
+    }
+    .models__search::placeholder { color: var(--text-muted); }
+    .models__search:focus { outline: none; border-color: var(--text-dim); }
+
+    /* ---------- TABLE ---------- */
+    .models__table-wrap {
+      border: 1px solid var(--border);
+      overflow-x: auto;
+      border-radius: 4px;
+    }
+
+    .models__table {
+      width: 100%;
+      min-width: 920px;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .models__table thead th {
+      text-align: left;
+      font-weight: 500;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--text-muted);
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border-strong);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+      transition: color 0.15s ease;
+    }
+
+    .models__table thead th:hover { color: var(--text); }
+    .models__table thead th.numeric { text-align: right; }
+    .models__table thead th:last-child { cursor: default; width: 50px; }
+    .models__table thead th:last-child:hover { color: var(--text-muted); }
+
+    .models__table thead th .sort-arrow {
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 10px;
+      opacity: 0;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .models__table thead th:hover .sort-arrow { opacity: 0.4; }
+    .models__table thead th.sorted .sort-arrow { opacity: 1; }
+    .models__table thead th.sorted.desc .sort-arrow { transform: rotate(180deg); }
+
+    .models__table tbody td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: middle;
+    }
+
+    .models__table tbody tr:last-child td { border-bottom: none; }
+    .models__table tbody tr:hover td { background: rgba(245, 240, 220, 0.025); }
+
+    .models__table td.numeric {
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+
+    .models__table td.model-cell a {
+      display: block;
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 14.5px;
+      color: var(--text-bright);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease;
+      line-height: 1.2;
+    }
+    .models__table td.model-cell a:hover { border-bottom-color: var(--border-strong); }
+
+    .models__table td.model-cell .creator {
+      display: block;
+      margin-top: 4px;
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    .models__table td.model-cell.vs-divider {
+      position: relative;
+    }
+
+    .models__table td.score-cell {
+      font-family: var(--serif);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-bright);
+    }
+
+    .models__table td.winner-cell {
+      font-family: var(--serif);
+      font-size: 14.5px;
+      color: var(--text-bright);
+    }
+
+    .models__table td.winner-cell .winner-a {
+      color: var(--text-bright);
+    }
+
+    .models__table td.winner-cell .winner-b {
+      color: var(--text-bright);
+    }
+
+    .models__table td.winner-cell .winner-tie {
+      color: var(--text-dim);
+      font-style: italic;
+      font-family: var(--sans);
+      font-size: 13px;
+    }
+
+    .models__table td.winner-cell .arrow {
+      display: inline-block;
+      margin-right: 8px;
+      color: var(--text-muted);
+      font-family: var(--sans);
+    }
+
+    .models__table td.link-cell {
+      text-align: center;
+      padding: 14px 12px;
+    }
+
+    .models__table .link-arrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      color: var(--text-dim);
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+
+    .models__table .link-arrow:hover {
+      color: var(--text-bright);
+      border-color: var(--border-strong);
+      transform: translateX(2px);
+    }
+
+    .models__table td .empty {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .models__loading {
+      text-align: center;
+      padding: 60px 20px !important;
+      color: var(--text-dim);
+      font-style: italic;
+      font-family: var(--serif);
+    }
+
+    .models__error {
+      color: #d97757;
+      text-align: center;
+      padding: 40px 20px !important;
+      font-style: italic;
+      font-family: var(--serif);
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer { padding: 50px 0 60px; }
+
+    .footer__inner {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer__credit em { font-family: var(--serif); font-style: italic; color: var(--text-dim); }
+    .footer__separator { color: var(--text-muted); opacity: 0.7; margin: 0 2px; }
+
+    .footer__links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer__links a { color: var(--text-dim); transition: color 0.2s ease; }
+    .footer__links a:hover { color: var(--text-bright); }
+    .footer__links a::after { content: ' ↗'; font-size: 11px; opacity: 0.7; }
+
+    /* ---------- LANG OVERRIDES ---------- */
+    :lang(zh) .hero__title,
+    :lang(ja) .hero__title,
+    :lang(ko) .hero__title {
+      word-break: break-all;
+      hyphens: none;
+    }
+
+    :lang(de) .hero__title { hyphens: auto; }
+
+    /* ---------- MOBILE ---------- */
+    @media (max-width: 900px) {
+      :root { --wrap-pad: 20px; }
+      .hero { padding: 40px 0 40px; }
+      .hero__meta { gap: 24px; }
+      .section { padding: 40px 0 60px; }
+      .models__controls { flex-direction: column; align-items: stretch; }
+      .models__search { width: 100%; }
+      .footer__inner { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (max-width: 480px) {
+      .header__nav { gap: 14px; font-size: 12.5px; }
+      .lang__menu { right: -8px; min-width: 150px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap">
+      <div class="header__main">
+        <a href="/" class="logo">BenchLMirror</a>
+
+        <div class="lang">
+          <button class="lang__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Choose language">
+            <span class="lang__code">RU</span>
+            <span class="lang__icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+          <div class="lang__menu" role="menu" hidden>
+            <button data-lang="ru" class="active" role="menuitem">Русский</button>
+            <button data-lang="en" role="menuitem">English</button>
+            <button data-lang="zh" role="menuitem">中文</button>
+            <button data-lang="fr" role="menuitem">Français</button>
+            <button data-lang="de" role="menuitem">Deutsch</button>
+            <button data-lang="es" role="menuitem">Español</button>
+            <button data-lang="ja" role="menuitem">日本語</button>
+            <button data-lang="ko" role="menuitem">한국어</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="wrap">
+        <h1 class="hero__title">
+          <span data-i18n="hero_title_l1">Сравнения</span>
+          <em data-i18n="hero_title_em">моделей</em>
+        </h1>
+        <p class="hero__lede" data-i18n="hero_lede">
+          Кураторская подборка из 400 попарных сравнений моделей из BenchLM — всего в рейтинге 75,078 пар, здесь самые показательные. Клик по столбцу — сортировка.
+        </p>
+
+        <div class="hero__meta">
+          <div>
+            <span class="hero__meta-label" data-i18n="meta_source">Источник</span>
+            <span class="hero__meta-value">BenchLM</span>
+          </div>
+          <div>
+            <span class="hero__meta-label" data-i18n="meta_updated">Обновлено</span>
+            <span class="hero__meta-value" id="meta-updated">—</span>
+          </div>
+          <div>
+            <span class="hero__meta-label" data-i18n="meta_total">В подборке</span>
+            <span class="hero__meta-value" id="meta-total">—</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="models__controls">
+          <div class="models__count">
+            <span data-i18n="count_label">Найдено</span>:<strong id="count">—</strong>
+          </div>
+          <input
+            type="search"
+            class="models__search"
+            id="search"
+            data-i18n-placeholder="search_placeholder"
+            placeholder="Поиск…"
+            autocomplete="off"
+          >
+        </div>
+
+        <div class="models__table-wrap">
+          <table class="models__table">
+            <thead id="models-head"></thead>
+            <tbody id="models-body">
+              <tr><td colspan="6" class="models__loading" data-i18n="loading">Загрузка…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__credit">
+          BenchLMirror<span class="footer__separator"> · </span><em data-i18n="footer_em">создано ради прозрачности</em>
+        </div>
+        <div class="footer__links">
+          <a href="https://benchlm.ai/" target="_blank" rel="noopener" data-i18n="footer_benchlm">BenchLM</a>
+          <a href="https://github.com/seregannj/benchlmirror" target="_blank" rel="noopener" data-i18n="footer_github">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const SUPPORTED = ['ru', 'en', 'zh', 'fr', 'de', 'es', 'ja', 'ko'];
+
+    const I18N = {
+      ru: {
+        nav_main:            'Главная',
+        nav_models:           'Модели',
+        nav_leaderboard:      'Лидерборд',
+        nav_benchmarks:       'Бенчмарки',
+        nav_pricing:          'Цены',
+        nav_speed:            'Скорость',
+        nav_comparisons:      'Сравнения',
+        nav_github:           'GitHub',
+        page_title:           'Сравнения',
+        hero_title_l1:        'Сравнения',
+        hero_title_em:        'моделей',
+        hero_lede:            'Кураторская подборка из 400 попарных сравнений моделей из BenchLM — всего в рейтинге 75,078 пар, здесь самые показательные. Клик по столбцу — сортировка.',
+        meta_source:          'Источник',
+        meta_updated:         'Обновлено',
+        meta_total:           'В подборке',
+        count_label:          'Найдено',
+        search_placeholder:   'Поиск…',
+        loading:              'Загрузка…',
+        error:                'Не удалось загрузить данные',
+        col_model_a:          'Модель A',
+        col_score_a:          'Скор A',
+        col_model_b:          'Модель B',
+        col_score_b:          'Скор B',
+        col_winner:           'Лидер',
+        col_link:             '↗',
+        footer_em:            'создано ради прозрачности',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      en: {
+        nav_main:            'Home',
+        nav_models:           'Models',
+        nav_leaderboard:      'Leaderboard',
+        nav_benchmarks:       'Benchmarks',
+        nav_pricing:          'Pricing',
+        nav_speed:            'Speed',
+        nav_comparisons:      'Comparisons',
+        nav_github:           'GitHub',
+        page_title:           'Comparisons',
+        hero_title_l1:        'Model',
+        hero_title_em:        'comparisons',
+        hero_lede:            'Curated selection of 400 model comparisons from BenchLM — out of 75,078 total pairwise, the most informative ones. Click any column to sort.',
+        meta_source:          'Source',
+        meta_updated:         'Updated',
+        meta_total:           'In export',
+        count_label:          'Found',
+        search_placeholder:   'Search…',
+        loading:              'Loading…',
+        error:                'Failed to load data',
+        col_model_a:          'Model A',
+        col_score_a:          'Score A',
+        col_model_b:          'Model B',
+        col_score_b:          'Score B',
+        col_winner:           'Winner',
+        col_link:             '↗',
+        footer_em:            'made for transparency',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      zh: {
+        nav_main:            '首页',
+        nav_models:           '模型',
+        nav_leaderboard:      '排行榜',
+        nav_benchmarks:       '基准测试',
+        nav_pricing:          '价格',
+        nav_speed:            '速度',
+        nav_comparisons:      '比较',
+        nav_github:           'GitHub',
+        page_title:           '比较',
+        hero_title_l1:        '模型',
+        hero_title_em:        '比较',
+        hero_lede:            'BenchLM 精心挑选的 400 组模型对比 — 共 75,078 对,这里展示最具代表性的对比。点击列进行排序。',
+        meta_source:          '来源',
+        meta_updated:         '更新于',
+        meta_total:           '精选数',
+        count_label:          '找到',
+        search_placeholder:   '搜索…',
+        loading:              '加载中…',
+        error:                '加载失败',
+        col_model_a:          '模型 A',
+        col_score_a:          '分数 A',
+        col_model_b:          '模型 B',
+        col_score_b:          '分数 B',
+        col_winner:           '胜者',
+        col_link:             '↗',
+        footer_em:            '为透明而生',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      fr: {
+        nav_main:            'Accueil',
+        nav_models:           'Modèles',
+        nav_leaderboard:      'Classement',
+        nav_benchmarks:       'Benchmarks',
+        nav_pricing:          'Tarifs',
+        nav_speed:            'Vitesse',
+        nav_comparisons:      'Comparaisons',
+        nav_github:           'GitHub',
+        page_title:           'Comparaisons',
+        hero_title_l1:        'Comparaisons',
+        hero_title_em:        'de modèles',
+        hero_lede:            'Sélection curated de 400 comparaisons par paires de modèles issues de BenchLM — sur 75 078 au total, les plus informatives. Cliquez sur une colonne pour trier.',
+        meta_source:          'Source',
+        meta_updated:         'Mis à jour',
+        meta_total:           'Dans l’export',
+        count_label:          'Trouvés',
+        search_placeholder:   'Rechercher…',
+        loading:              'Chargement…',
+        error:                'Échec du chargement',
+        col_model_a:          'Modèle A',
+        col_score_a:          'Score A',
+        col_model_b:          'Modèle B',
+        col_score_b:          'Score B',
+        col_winner:           'Vainqueur',
+        col_link:             '↗',
+        footer_em:            'créé pour la transparence',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      de: {
+        nav_main:            'Start',
+        nav_models:           'Modelle',
+        nav_leaderboard:      'Bestenliste',
+        nav_benchmarks:       'Benchmarks',
+        nav_pricing:          'Preise',
+        nav_speed:            'Geschwindigkeit',
+        nav_comparisons:      'Vergleiche',
+        nav_github:           'GitHub',
+        page_title:           'Vergleiche',
+        hero_title_l1:        'Modell',
+        hero_title_em:        'vergleiche',
+        hero_lede:            'Kuratierten Auswahl von 400 Modell-Vergleichen aus BenchLM — von insgesamt 75.078, hier die informativsten. Spalte anklicken zum Sortieren.',
+        meta_source:          'Quelle',
+        meta_updated:         'Aktualisiert',
+        meta_total:           'Im Export',
+        count_label:          'Gefunden',
+        search_placeholder:   'Suchen…',
+        loading:              'Laden…',
+        error:                'Laden fehlgeschlagen',
+        col_model_a:          'Modell A',
+        col_score_a:          'Punktzahl A',
+        col_model_b:          'Modell B',
+        col_score_b:          'Punktzahl B',
+        col_winner:           'Sieger',
+        col_link:             '↗',
+        footer_em:            'für Transparenz gemacht',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      es: {
+        nav_main:            'Inicio',
+        nav_models:           'Modelos',
+        nav_leaderboard:      'Clasificación',
+        nav_benchmarks:       'Benchmarks',
+        nav_pricing:          'Precios',
+        nav_speed:            'Velocidad',
+        nav_comparisons:      'Comparaciones',
+        nav_github:           'GitHub',
+        page_title:           'Comparaciones',
+        hero_title_l1:        'Comparaciones',
+        hero_title_em:        'de modelos',
+        hero_lede:            'Selección curada de 400 comparaciones por pares de modelos de BenchLM — de 75.078 en total, las más informativas. Haz clic en cualquier columna para ordenar.',
+        meta_source:          'Fuente',
+        meta_updated:         'Actualizado',
+        meta_total:           'En export',
+        count_label:          'Encontrados',
+        search_placeholder:   'Buscar…',
+        loading:              'Cargando…',
+        error:                'Error al cargar',
+        col_model_a:          'Modelo A',
+        col_score_a:          'Puntuación A',
+        col_model_b:          'Modelo B',
+        col_score_b:          'Puntuación B',
+        col_winner:           'Ganador',
+        col_link:             '↗',
+        footer_em:            'hecho para la transparencia',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      ja: {
+        nav_main:            'ホーム',
+        nav_models:           'モデル',
+        nav_leaderboard:      'ランキング',
+        nav_benchmarks:       'ベンチマーク',
+        nav_pricing:          '価格',
+        nav_speed:            '速度',
+        nav_comparisons:      '比較',
+        nav_github:           'GitHub',
+        page_title:           '比較',
+        hero_title_l1:        'モデル',
+        hero_title_em:        '比較',
+        hero_lede:            'BenchLM から精选した 400 組のモデル比較 — 合計 75,078 ペアのうち、最も情報量の多いものを掲載。列をクリックでソート。',
+        meta_source:          'ソース',
+        meta_updated:         '更新日',
+        meta_total:           '精选数',
+        count_label:          '見つかった',
+        search_placeholder:   '検索…',
+        loading:              '読み込み中…',
+        error:                '読み込みに失敗しました',
+        col_model_a:          'モデル A',
+        col_score_a:          'スコア A',
+        col_model_b:          'モデル B',
+        col_score_b:          'スコア B',
+        col_winner:           '勝者',
+        col_link:             '↗',
+        footer_em:            '透明性のために',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      },
+
+      ko: {
+        nav_main:            '홈',
+        nav_models:           '모델',
+        nav_leaderboard:      '순위표',
+        nav_benchmarks:       '벤치마크',
+        nav_pricing:          '가격',
+        nav_speed:            '속도',
+        nav_comparisons:      '비교',
+        nav_github:           'GitHub',
+        page_title:           '비교',
+        hero_title_l1:        '모델',
+        hero_title_em:        '비교',
+        hero_lede:            'BenchLM에서 선별한 400개의 모델 비교 — 총 75,078개 페어 중 가장 유익한 비교. 열을 클릭하여 정렬하세요.',
+        meta_source:          '출처',
+        meta_updated:         '업데이트',
+        meta_total:           '선별 수',
+        count_label:          '찾은 결과',
+        search_placeholder:   '검색…',
+        loading:              '로딩 중…',
+        error:                '데이터 로드 실패',
+        col_model_a:          '모델 A',
+        col_score_a:          '점수 A',
+        col_model_b:          '모델 B',
+        col_score_b:          '점수 B',
+        col_winner:           '승자',
+        col_link:             '↗',
+        footer_em:            '투명성을 위해 만들어졌습니다',
+        footer_benchlm:       'BenchLM',
+        footer_github:        'GitHub'
+      }
+    };
+
+    // ---------- DATA ----------
+    const DATA_URL  = 'https://raw.githubusercontent.com/seregannj/benchlmirror/main/data/comparisons.json';
+    const CACHE_KEY = 'blm_comparisons_cache';
+    const CACHE_TTL = 60 * 60 * 1000;
+
+    let allItems = [];
+    let currentSort = { column: 'scoreA', direction: 'desc' };
+    let searchQuery = '';
+
+    async function fetchData() {
+      try {
+        const cached = localStorage.getItem(CACHE_KEY);
+        if (cached) {
+          const { data, timestamp } = JSON.parse(cached);
+          if (Date.now() - timestamp < CACHE_TTL) return data;
+        }
+      } catch (e) {}
+
+      const res = await fetch(DATA_URL);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+
+      try {
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ data, timestamp: Date.now() }));
+      } catch (e) {}
+
+      return data;
+    }
+
+    // ---------- HELPERS ----------
+    function getValue(item, column) {
+      switch (column) {
+        case 'modelA':    return item.modelA?.model ?? '';
+        case 'scoreA':    return item.scoreA ?? -1;
+        case 'modelB':    return item.modelB?.model ?? '';
+        case 'scoreB':    return item.scoreB ?? -1;
+        case 'scoreDiff': return item.scoreDiff ?? -1;
+      }
+      return '';
+    }
+
+    function sortItems(items, column, direction) {
+      return [...items].sort((a, b) => {
+        const va = getValue(a, column);
+        const vb = getValue(b, column);
+
+        if (va == null && vb == null) return 0;
+        if (va == null) return 1;
+        if (vb == null) return -1;
+
+        if (typeof va === 'string') {
+          const cmp = va.localeCompare(vb, undefined, { sensitivity: 'base' });
+          return direction === 'asc' ? cmp : -cmp;
+        }
+
+        return direction === 'asc' ? va - vb : vb - va;
+      });
+    }
+
+    function filterItems(items, query) {
+      if (!query) return items;
+      const q = query.toLowerCase();
+      return items.filter(item =>
+        (item.modelA?.model ?? '').toLowerCase().includes(q) ||
+        (item.modelB?.model ?? '').toLowerCase().includes(q) ||
+        (item.modelA?.creator ?? '').toLowerCase().includes(q) ||
+        (item.modelB?.creator ?? '').toLowerCase().includes(q)
+      );
+    }
+
+    function fmtScore(s) {
+      if (s == null || s < 0) return '<span class="empty">—</span>';
+      return s.toFixed(2);
+    }
+
+    function fmtDiff(d) {
+      if (d == null || d < 0 && d === undefined) return '<span class="empty">—</span>';
+      const v = Math.abs(d);
+      if (d === 0) return '0.00';
+      const sign = d > 0 ? '+' : '−';
+      return sign + v.toFixed(2);
+    }
+
+    function fmtWinner(item) {
+      if (!item.overallWinner) return '<span class="winner-tie">Tie</span>';
+      if (item.overallWinner === 'A') {
+        return '<span class="winner-a"><span class="arrow">←</span>' + escapeHtml(item.modelA?.model ?? '—') + '</span>';
+      }
+      if (item.overallWinner === 'B') {
+        return '<span class="winner-b">' + escapeHtml(item.modelB?.model ?? '—') + '<span class="arrow">→</span></span>';
+      }
+      return '<span class="winner-tie">—</span>';
+    }
+
+    function escapeHtml(s) {
+      if (s == null) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    // ---------- RENDER ----------
+    function renderHeader() {
+      const lang = document.documentElement.lang || 'ru';
+      const dict = I18N[lang] || I18N.ru;
+      const head = document.getElementById('models-head');
+      head.innerHTML = `
+        <tr>
+          <th data-sort="modelA">${dict.col_model_a}<span class="sort-arrow">↑</span></th>
+          <th data-sort="scoreA" class="numeric">${dict.col_score_a}<span class="sort-arrow">↑</span></th>
+          <th data-sort="modelB">${dict.col_model_b}<span class="sort-arrow">↑</span></th>
+          <th data-sort="scoreB" class="numeric">${dict.col_score_b}<span class="sort-arrow">↑</span></th>
+          <th data-sort="scoreDiff" class="numeric">${dict.col_winner}<span class="sort-arrow">↑</span></th>
+          <th></th>
+        </tr>
+      `;
+      head.querySelectorAll('th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => applySort(th.dataset.sort));
+      });
+      updateSortIndicators();
+    }
+
+    function renderBody(items) {
+      const tbody = document.getElementById('models-body');
+      if (!items.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="models__loading">—</td></tr>';
+        return;
+      }
+      tbody.innerHTML = items.map(item => {
+        const aUrl = item.modelA?.url ?? '#';
+        const bUrl = item.modelB?.url ?? '#';
+        const aName = item.modelA?.model ?? '—';
+        const bName = item.modelB?.model ?? '—';
+        const aCreator = item.modelA?.creator ?? '';
+        const bCreator = item.modelB?.creator ?? '';
+        return `
+        <tr>
+          <td class="model-cell">
+            <a href="${escapeHtml(aUrl)}" target="_blank" rel="noopener">${escapeHtml(aName)}</a>
+            <span class="creator">${escapeHtml(aCreator)}</span>
+          </td>
+          <td class="numeric score-cell">${fmtScore(item.scoreA)}</td>
+          <td class="model-cell">
+            <a href="${escapeHtml(bUrl)}" target="_blank" rel="noopener">${escapeHtml(bName)}</a>
+            <span class="creator">${escapeHtml(bCreator)}</span>
+          </td>
+          <td class="numeric score-cell">${fmtScore(item.scoreB)}</td>
+          <td class="winner-cell">${fmtWinner(item)}</td>
+          <td class="link-cell">
+            ${item.url
+              ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="link-arrow">↗</a>`
+              : ''}
+          </td>
+        </tr>
+      `;
+      }).join('');
+    }
+
+    function updateSortIndicators() {
+      document.querySelectorAll('.models__table thead th[data-sort]').forEach(th => {
+        const isActive = th.dataset.sort === currentSort.column;
+        th.classList.toggle('sorted', isActive);
+        th.classList.toggle('desc', isActive && currentSort.direction === 'desc');
+      });
+    }
+
+    function rerender() {
+      const filtered = filterItems(allItems, searchQuery);
+      const sorted   = sortItems(filtered, currentSort.column, currentSort.direction);
+      renderBody(sorted);
+      document.getElementById('count').textContent = sorted.length;
+    }
+
+    function applySort(column) {
+      if (currentSort.column === column) {
+        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+      } else {
+        currentSort.column = column;
+        currentSort.direction = 'asc';
+      }
+      updateSortIndicators();
+      rerender();
+    }
+
+    // ---------- I18N ----------
+    function detectLang() {
+      const stored = localStorage.getItem('blm_lang');
+      if (stored && SUPPORTED.includes(stored)) return stored;
+      const browser = ((navigator.languages && navigator.languages[0]) || navigator.language || 'ru').toLowerCase().slice(0, 2);
+      return SUPPORTED.includes(browser) ? browser : 'ru';
+    }
+
+    function setLang(lang) {
+      if (!I18N[lang]) return;
+      const dict = I18N[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) el.textContent = dict[key];
+      });
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (dict[key] !== undefined) el.placeholder = dict[key];
+      });
+      localStorage.setItem('blm_lang', lang);
+      document.documentElement.lang = lang;
+      document.title = 'BenchLMirror — ' + dict.page_title;
+      const code = document.querySelector('.lang__code');
+      if (code) code.textContent = lang.toUpperCase();
+      document.querySelectorAll('.lang__menu button').forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+      });
+      renderHeader();
+    }
+
+    // ---------- LANG PICKER ----------
+    const langBtn  = document.querySelector('.lang__btn');
+    const langMenu = document.querySelector('.lang__menu');
+
+    if (langBtn && langMenu) {
+      langBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        const opening = langMenu.hidden;
+        langMenu.hidden = !opening;
+        langBtn.setAttribute('aria-expanded', String(opening));
+      });
+
+      document.addEventListener('click', e => {
+        if (!e.target.closest('.lang')) {
+          langMenu.hidden = true;
+          langBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      document.querySelectorAll('.lang__menu button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          setLang(btn.getAttribute('data-lang'));
+          langMenu.hidden = true;
+          langBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // ---------- SEARCH ----------
+    document.getElementById('search').addEventListener('input', e => {
+      searchQuery = e.target.value;
+      rerender();
+    });
+
+    // ---------- INIT ----------
+    (async function init() {
+      setLang(detectLang());
+
+      try {
+        const data = await fetchData();
+        allItems = data.items || [];
+
+        if (data.sourceLastUpdated) {
+          document.getElementById('meta-updated').textContent = data.sourceLastUpdated;
+        }
+        if (data.counts && data.counts.exportedComparisons != null) {
+          document.getElementById('meta-total').textContent = data.counts.exportedComparisons;
+        }
+
+        rerender();
+      } catch (e) {
+        const lang = document.documentElement.lang || 'ru';
+        const dict = I18N[lang] || I18N.ru;
+        document.getElementById('models-body').innerHTML =
+          `<tr><td colspan="6" class="models__error">${escapeHtml(dict.error)}</td></tr>`;
+        document.getElementById('count').textContent = '0';
+      }
+    })();
+  </script>
+
+</body>
+</html>
