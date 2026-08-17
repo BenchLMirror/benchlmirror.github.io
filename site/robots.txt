@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://benchlmirror.pages.dev/sitemap.xml
+Sitemap: https://benchlmirror.github.io/sitemap.xml
