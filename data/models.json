@@ -3,8 +3,8 @@
   "name": "BenchLM models",
   "description": "Stable model metadata, rankings, benchmark scores, and coverage fields for BenchLM model pages.",
   "canonicalUrl": "https://benchlm.ai/data/models.json",
-  "generatedAt": "2026-08-15T17:36:41.687Z",
-  "sourceLastUpdated": "August 15, 2026",
+  "generatedAt": "2026-08-17T17:55:07.834Z",
+  "sourceLastUpdated": "August 17, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -190,7 +190,7 @@
         "rawOverallScore": 85,
         "verifiedDisplayScore": 85,
         "displayCategoryScores": {
-          "agentic": 85.1,
+          "agentic": 85.2,
           "coding": 82.7,
           "reasoning": 90.8,
           "multimodalGrounded": 88.6,
@@ -298,7 +298,7 @@
           "officeQa": 78.1,
           "officeQaPro": 66.9,
           "aaMmmuPro": 84.7,
-          "designArenaWebsite": 1336
+          "designArenaWebsite": 1327
         },
         "knowledge": {
           "hle": 64.7,
@@ -384,7 +384,7 @@
         "verifiedDisplayScore": 82,
         "displayCategoryScores": {
           "agentic": 94.9,
-          "coding": 64.1,
+          "coding": 64,
           "reasoning": null,
           "multimodalGrounded": 87.9,
           "knowledge": 84.8,
@@ -491,7 +491,7 @@
           "omniDocBench": 91.1,
           "perceptionBench": 58.5,
           "aaMmmuPro": 80.5,
-          "designArenaWebsite": 1378
+          "designArenaWebsite": 1369
         },
         "knowledge": {
           "gpqa": 93.5,
@@ -747,7 +747,7 @@
           "coding": 82.7,
           "reasoning": null,
           "multimodalGrounded": 63.5,
-          "knowledge": 69.6,
+          "knowledge": 69.5,
           "multilingual": null,
           "instructionFollowing": null,
           "math": null
@@ -798,7 +798,7 @@
           "gdpvalAa": 1747,
           "aaAgenticIndex": 56.59,
           "tau2Bench": 98.5,
-          "gdpvalAaNormalized": 62,
+          "gdpvalAaNormalized": 61.9,
           "aaBriefcaseElo": 1574,
           "aaAutomationBench": 48.6,
           "aaEnterpriseOpsGym": 51.1,
@@ -829,7 +829,7 @@
         "multimodalGrounded": {
           "blueprintBench2": 38.6,
           "officeQaPro": 57.9,
-          "designArenaWebsite": 1323
+          "designArenaWebsite": 1314
         },
         "knowledge": {
           "artificialAnalysis": 62.07,
@@ -996,7 +996,7 @@
           "mmvu": 82.4,
           "mlvuAvg": 90.8,
           "lvBench": 81.8,
-          "designArenaWebsite": 1310
+          "designArenaWebsite": 1301
         },
         "knowledge": {
           "gpqa": 92.6,
@@ -1080,8 +1080,8 @@
         "verifiedRankingEligible": true,
         "overallRank": 16,
         "categoryRanks": {
-          "agentic": 102,
-          "coding": 53,
+          "agentic": 103,
+          "coding": 52,
           "knowledge": 22,
           "multilingual": 1,
           "instructionFollowing": 10
@@ -1138,7 +1138,7 @@
           "lcr": 74.7
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1293
+          "designArenaWebsite": 1285
         },
         "knowledge": {
           "gpqa": 92.4,
@@ -1245,7 +1245,7 @@
         "categoryRanks": {
           "agentic": 19,
           "coding": 13,
-          "multimodalGrounded": 9,
+          "multimodalGrounded": 10,
           "knowledge": 10
         },
         "categoryRankingEligible": {
@@ -1442,7 +1442,7 @@
           "gertLabs": 72.97,
           "aaAgenticIndex": 49.37,
           "tau2Bench": 94.4,
-          "gdpvalAaNormalized": 54.3,
+          "gdpvalAaNormalized": 54.2,
           "researchClawBench": 21.1,
           "osWorld2": 20.6,
           "aaAutomationBench": 48.5,
@@ -1478,7 +1478,7 @@
           "screenSpotPro": 87.9,
           "charxiv": 89.9,
           "charxivNoTools": 80.5,
-          "designArenaWebsite": 1269
+          "designArenaWebsite": 1262
         },
         "knowledge": {
           "gpqa": 93.6,
@@ -1635,7 +1635,7 @@
           "charxiv": 88.3,
           "charxivNoTools": 77,
           "aaMmmuPro": 77.3,
-          "designArenaWebsite": 1295
+          "designArenaWebsite": 1286
         },
         "knowledge": {
           "hle": 57.4,
@@ -1722,9 +1722,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 30,
         "categoryRanks": {
-          "agentic": 105,
-          "coding": 40,
-          "multimodalGrounded": 11,
+          "agentic": 106,
+          "coding": 39,
+          "multimodalGrounded": 12,
           "knowledge": 37,
           "multilingual": 3,
           "instructionFollowing": 9
@@ -1799,7 +1799,7 @@
           "videoMmmu": 85.4,
           "mlvuAvg": 87.4,
           "aaMmmuPro": 80.5,
-          "designArenaWebsite": 1290
+          "designArenaWebsite": 1282
         },
         "knowledge": {
           "gpqa": 90.3,
@@ -1962,7 +1962,7 @@
         "multimodalGrounded": {
           "charxiv": 88.4,
           "babyVision": 76.3,
-          "designArenaWebsite": 1292
+          "designArenaWebsite": 1284
         },
         "knowledge": {
           "hle": 62.1,
@@ -2050,7 +2050,7 @@
         "categoryRanks": {
           "agentic": 8,
           "coding": 8,
-          "multimodalGrounded": 13,
+          "multimodalGrounded": 14,
           "knowledge": 13
         },
         "categoryRankingEligible": {
@@ -2083,7 +2083,7 @@
           "aaAgenticIndex": 47.41,
           "apexAgentsAa": 37.7,
           "gdpvalAaNormalized": 49.5,
-          "gdpvalAa": 1491,
+          "gdpvalAa": 1490,
           "gertLabs": 72.93,
           "researchClawBench": 17,
           "osWorld2": 13,
@@ -2122,7 +2122,7 @@
           "mmmuProPython": 83.2,
           "officeQaPro": 54.1,
           "aaMmmuPro": 79.9,
-          "designArenaWebsite": 1277
+          "designArenaWebsite": 1268
         },
         "knowledge": {
           "gpqa": 93.6,
@@ -2167,7 +2167,7 @@
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
       "displayScore": 61.67,
-      "provisionalDisplayScore": 71,
+      "provisionalDisplayScore": 70,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
@@ -2196,7 +2196,7 @@
         "supersedesModelKey": "muse-spark-1-1"
       },
       "scores": {
-        "displayScore": 71,
+        "displayScore": 70,
         "overallScore": 0,
         "rawOverallScore": 0,
         "verifiedDisplayScore": null,
@@ -2269,7 +2269,7 @@
           "critpt": 17.7
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1338
+          "designArenaWebsite": 1329
         },
         "knowledge": {
           "artificialAnalysis": 56.76,
@@ -2413,7 +2413,7 @@
           "lcr": 76.7
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1329
+          "designArenaWebsite": 1319
         },
         "knowledge": {
           "gpqa": 91.2,
@@ -2481,11 +2481,11 @@
         "rawOverallScore": 71,
         "verifiedDisplayScore": 70,
         "displayCategoryScores": {
-          "agentic": 74.5,
+          "agentic": 74.7,
           "coding": 60.2,
           "reasoning": 76.6,
           "multimodalGrounded": 80.6,
-          "knowledge": 68.7,
+          "knowledge": 69,
           "multilingual": null,
           "instructionFollowing": null,
           "math": 55
@@ -2506,10 +2506,10 @@
         "verifiedRankingEligible": false,
         "overallRank": 92,
         "categoryRanks": {
-          "agentic": 114,
-          "coding": 80,
+          "agentic": 115,
+          "coding": 79,
           "multimodalGrounded": 7,
-          "knowledge": 30
+          "knowledge": 31
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -2537,7 +2537,7 @@
           "aaAgenticIndex": 23.05,
           "apexAgentsAa": 32,
           "gdpvalAaNormalized": 23.2,
-          "gdpvalAa": 964,
+          "gdpvalAa": 965,
           "gertLabs": 56.87,
           "researchClawBench": 13.3,
           "aaAutomationBench": 37.5
@@ -2566,7 +2566,7 @@
           "zeroBench": 29,
           "medXpertQaMm": 81.3,
           "aaMmmuPro": 82.4,
-          "designArenaWebsite": 1271
+          "designArenaWebsite": 1266
         },
         "knowledge": {
           "gpqaDiamond": 94.3,
@@ -2663,7 +2663,7 @@
         "categoryRanks": {
           "agentic": 43,
           "coding": 6,
-          "multimodalGrounded": 17,
+          "multimodalGrounded": 18,
           "knowledge": 12
         },
         "categoryRankingEligible": {
@@ -2817,7 +2817,7 @@
         "overallRank": 38,
         "categoryRanks": {
           "agentic": 76,
-          "coding": 30,
+          "coding": 29,
           "reasoning": 2,
           "multimodalGrounded": 6,
           "knowledge": 38,
@@ -2881,7 +2881,7 @@
           "mmmuPro": 83.6,
           "blueprintBench2": 33.6,
           "aaMmmuPro": 84.3,
-          "designArenaWebsite": 1281
+          "designArenaWebsite": 1273
         },
         "knowledge": {
           "artificialAnalysis": 50.2,
@@ -2977,7 +2977,7 @@
         "categoryRanks": {
           "agentic": 11,
           "coding": 14,
-          "multimodalGrounded": 26,
+          "multimodalGrounded": 27,
           "knowledge": 7
         },
         "categoryRankingEligible": {
@@ -3032,7 +3032,7 @@
           "charxiv": 91,
           "charxivNoTools": 82.1,
           "aaMmmuPro": 78.8,
-          "designArenaWebsite": 1314
+          "designArenaWebsite": 1307
         },
         "knowledge": {
           "gpqa": 94.2,
@@ -3177,7 +3177,7 @@
           "screenSpotPro": 83.1,
           "medXpertQaMm": 64.8,
           "aaMmmuPro": 72.5,
-          "designArenaWebsite": 1312
+          "designArenaWebsite": 1304
         },
         "knowledge": {
           "gpqa": 91.3,
@@ -3441,8 +3441,8 @@
         "overallRank": 12,
         "categoryRanks": {
           "agentic": 26,
-          "coding": 33,
-          "multimodalGrounded": 14,
+          "coding": 32,
+          "multimodalGrounded": 15,
           "knowledge": 16
         },
         "categoryRankingEligible": {
@@ -3509,7 +3509,7 @@
           "zeroBench": 41,
           "medXpertQaMm": 77.1,
           "aaMmmuPro": 78.4,
-          "designArenaWebsite": 1240
+          "designArenaWebsite": 1231
         },
         "knowledge": {
           "gpqa": 92.8,
@@ -3607,7 +3607,7 @@
         "categoryRanks": {
           "agentic": 96,
           "coding": 68,
-          "multimodalGrounded": 15,
+          "multimodalGrounded": 16,
           "knowledge": 47,
           "math": 1
         },
@@ -3671,7 +3671,7 @@
           "mathVision": 87.4,
           "vStar": 96.9,
           "aaMmmuPro": 79.4,
-          "designArenaWebsite": 1293
+          "designArenaWebsite": 1284
         },
         "knowledge": {
           "gpqa": 90.5,
@@ -3884,7 +3884,7 @@
         "rawOverallScore": 62,
         "verifiedDisplayScore": 62,
         "displayCategoryScores": {
-          "agentic": 55.4,
+          "agentic": 55.5,
           "coding": 63.4,
           "reasoning": null,
           "multimodalGrounded": 55.2,
@@ -3910,7 +3910,7 @@
         "overallRank": 39,
         "categoryRanks": {
           "agentic": 49,
-          "coding": 35,
+          "coding": 34,
           "knowledge": 18
         },
         "categoryRankingEligible": {
@@ -3960,7 +3960,7 @@
         "multimodalGrounded": {
           "charxiv": 77.4,
           "aaMmmuPro": 70.6,
-          "designArenaWebsite": 1305
+          "designArenaWebsite": 1297
         },
         "knowledge": {
           "gpqa": 89.9,
@@ -4051,9 +4051,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 35,
         "categoryRanks": {
-          "agentic": 111,
-          "coding": 63,
-          "multimodalGrounded": 16,
+          "agentic": 112,
+          "coding": 62,
+          "multimodalGrounded": 17,
           "knowledge": 43,
           "multilingual": 4,
           "instructionFollowing": 18,
@@ -4121,7 +4121,7 @@
           "charxiv": 81.5,
           "vStar": 96.9,
           "aaMmmuPro": 78,
-          "designArenaWebsite": 1260
+          "designArenaWebsite": 1252
         },
         "knowledge": {
           "gpqa": 90.4,
@@ -4226,7 +4226,7 @@
         "overallRank": 32,
         "categoryRanks": {
           "agentic": 35,
-          "coding": 32,
+          "coding": 31,
           "knowledge": 14,
           "multilingual": 6,
           "instructionFollowing": 16,
@@ -4282,7 +4282,7 @@
           "critpt": 2
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1268
+          "designArenaWebsite": 1261
         },
         "knowledge": {
           "gpqa": 86,
@@ -4362,9 +4362,9 @@
         "verifiedDisplayScore": 61,
         "displayCategoryScores": {
           "agentic": 60,
-          "coding": 48.4,
+          "coding": 48.3,
           "reasoning": null,
-          "multimodalGrounded": 51.1,
+          "multimodalGrounded": 51.2,
           "knowledge": 69.1,
           "multilingual": null,
           "instructionFollowing": 91.1,
@@ -4386,10 +4386,10 @@
         "verifiedRankingEligible": true,
         "overallRank": 24,
         "categoryRanks": {
-          "agentic": 100,
-          "coding": 109,
+          "agentic": 101,
+          "coding": 111,
           "multimodalGrounded": 24,
-          "knowledge": 29,
+          "knowledge": 30,
           "instructionFollowing": 11
         },
         "categoryRankingEligible": {
@@ -4440,7 +4440,7 @@
           "charxiv": 82,
           "charxivNoTools": 78.1,
           "aaMmmuPro": 73.5,
-          "designArenaWebsite": 1235
+          "designArenaWebsite": 1223
         },
         "knowledge": {
           "gpqa": 87.9,
@@ -4511,8 +4511,8 @@
           "agentic": 64.4,
           "coding": 54.2,
           "reasoning": null,
-          "multimodalGrounded": 47.5,
-          "knowledge": 65.9,
+          "multimodalGrounded": 47.6,
+          "knowledge": 65.8,
           "multilingual": null,
           "instructionFollowing": null,
           "math": null
@@ -4533,9 +4533,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 19,
         "categoryRanks": {
-          "agentic": 103,
-          "coding": 91,
-          "multimodalGrounded": 27,
+          "agentic": 104,
+          "coding": 90,
+          "multimodalGrounded": 28,
           "knowledge": 33
         },
         "categoryRankingEligible": {
@@ -4599,7 +4599,7 @@
           "mmmuPro": 78.1,
           "videoMmmu": 84.6,
           "videoMmeWithSub": 85.4,
-          "designArenaWebsite": 1280,
+          "designArenaWebsite": 1272,
           "aaMmmuPro": 78.6
         },
         "knowledge": {
@@ -4690,7 +4690,7 @@
         "categoryRanks": {
           "agentic": 29,
           "coding": 23,
-          "multimodalGrounded": 23,
+          "multimodalGrounded": 25,
           "instructionFollowing": 3
         },
         "categoryRankingEligible": {
@@ -4831,8 +4831,8 @@
         "overallRank": 83,
         "categoryRanks": {
           "agentic": 71,
-          "coding": 49,
-          "multimodalGrounded": 18,
+          "coding": 48,
+          "multimodalGrounded": 19,
           "knowledge": 45,
           "multilingual": 5,
           "instructionFollowing": 17
@@ -4975,7 +4975,7 @@
         "verifiedDisplayScore": 58,
         "displayCategoryScores": {
           "agentic": 56.2,
-          "coding": 53.4,
+          "coding": 53.3,
           "reasoning": null,
           "multimodalGrounded": 58.7,
           "knowledge": 60.2,
@@ -4999,7 +4999,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 87,
         "categoryRanks": {
-          "agentic": 109,
+          "agentic": 110,
           "coding": 98,
           "knowledge": 42
         },
@@ -5112,7 +5112,7 @@
         "verifiedDisplayScore": 58,
         "displayCategoryScores": {
           "agentic": 48.8,
-          "coding": 53.7,
+          "coding": 53.6,
           "reasoning": 86.6,
           "multimodalGrounded": 28.9,
           "knowledge": 60.7,
@@ -5136,9 +5136,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 42,
         "categoryRanks": {
-          "agentic": 112,
+          "agentic": 113,
           "coding": 24,
-          "multimodalGrounded": 29,
+          "multimodalGrounded": 30,
           "knowledge": 41,
           "multilingual": 2,
           "instructionFollowing": 31,
@@ -5203,7 +5203,7 @@
           "screenSpotPro": 45.7,
           "vStar": 67,
           "aaMmmuPro": 71.2,
-          "designArenaWebsite": 1267
+          "designArenaWebsite": 1259
         },
         "knowledge": {
           "gpqa": 87,
@@ -5307,8 +5307,8 @@
         "overallRank": 112,
         "categoryRanks": {
           "agentic": 50,
-          "coding": 59,
-          "multimodalGrounded": 25,
+          "coding": 58,
+          "multimodalGrounded": 26,
           "instructionFollowing": 21
         },
         "categoryRankingEligible": {
@@ -5446,8 +5446,8 @@
         "verifiedRankingEligible": true,
         "overallRank": 75,
         "categoryRanks": {
-          "agentic": 106,
-          "coding": 39,
+          "agentic": 107,
+          "coding": 38,
           "knowledge": 44,
           "multilingual": 8,
           "instructionFollowing": 12,
@@ -5516,7 +5516,7 @@
           "mmvu": 80.4,
           "videoMmmu": 86.6,
           "aaMmmuPro": 75.4,
-          "designArenaWebsite": 1269
+          "designArenaWebsite": 1261
         },
         "knowledge": {
           "gpqa": 87.6,
@@ -5623,7 +5623,7 @@
         "overallRank": 103,
         "categoryRanks": {
           "agentic": 61,
-          "coding": 48,
+          "coding": 47,
           "instructionFollowing": 23
         },
         "categoryRankingEligible": {
@@ -5900,8 +5900,8 @@
         "overallRank": 65,
         "categoryRanks": {
           "agentic": 63,
-          "coding": 43,
-          "multimodalGrounded": 31,
+          "coding": 42,
+          "multimodalGrounded": 32,
           "knowledge": 19,
           "multilingual": 10,
           "instructionFollowing": 7
@@ -6036,7 +6036,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 151,
         "categoryRanks": {
-          "agentic": 116,
+          "agentic": 117,
           "coding": 104,
           "knowledge": 49,
           "multilingual": 7,
@@ -6071,7 +6071,7 @@
           "aaAgenticIndex": 27.5,
           "tau2Bench": 83.3,
           "gdpvalAa": 1163,
-          "aaBriefcaseElo": 874,
+          "aaBriefcaseElo": 873,
           "aaEnterpriseOpsGym": 28.9,
           "aaHarveyLab": 81.7,
           "terminalBenchHard": 36.4,
@@ -6092,7 +6092,7 @@
           "longBenchV2": 61.9
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1137
+          "designArenaWebsite": 1131
         },
         "knowledge": {
           "gpqa": 87,
@@ -6185,7 +6185,7 @@
         "overallRank": 118,
         "categoryRanks": {
           "agentic": 55,
-          "coding": 62,
+          "coding": 61,
           "knowledge": 27,
           "instructionFollowing": 2
         },
@@ -6307,9 +6307,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 104,
         "categoryRanks": {
-          "agentic": 120,
+          "agentic": 121,
           "coding": 93,
-          "multimodalGrounded": 21,
+          "multimodalGrounded": 22,
           "knowledge": 50
         },
         "categoryRankingEligible": {
@@ -6472,8 +6472,8 @@
         "overallRank": 79,
         "categoryRanks": {
           "agentic": 85,
-          "coding": 42,
-          "multimodalGrounded": 12,
+          "coding": 41,
+          "multimodalGrounded": 13,
           "knowledge": 11
         },
         "categoryRankingEligible": {
@@ -6518,7 +6518,7 @@
           "mathVision": 83,
           "charxiv": 82.1,
           "vStar": 75.9,
-          "designArenaWebsite": 1213
+          "designArenaWebsite": 1206
         },
         "knowledge": {
           "gpqa": 92.4,
@@ -6585,10 +6585,10 @@
         "verifiedDisplayScore": 52,
         "displayCategoryScores": {
           "agentic": null,
-          "coding": 60.7,
+          "coding": 60.6,
           "reasoning": 27.5,
           "multimodalGrounded": 72.8,
-          "knowledge": 71.2,
+          "knowledge": 71.3,
           "multilingual": null,
           "instructionFollowing": null,
           "math": 56.2
@@ -6611,8 +6611,8 @@
         "categoryRanks": {
           "agentic": 21,
           "coding": 25,
-          "multimodalGrounded": 10,
-          "knowledge": 24
+          "multimodalGrounded": 11,
+          "knowledge": 23
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -6747,8 +6747,8 @@
         "overallRank": 91,
         "categoryRanks": {
           "agentic": 78,
-          "coding": 79,
-          "multimodalGrounded": 32,
+          "coding": 78,
+          "multimodalGrounded": 33,
           "knowledge": 20,
           "multilingual": 11,
           "instructionFollowing": 20
@@ -6887,8 +6887,8 @@
         "overallRank": 114,
         "categoryRanks": {
           "agentic": 84,
-          "coding": 69,
-          "multimodalGrounded": 22,
+          "coding": 67,
+          "multimodalGrounded": 23,
           "knowledge": 51
         },
         "categoryRankingEligible": {
@@ -7051,7 +7051,7 @@
         "overallRank": 58,
         "categoryRanks": {
           "agentic": 52,
-          "coding": 64
+          "coding": 63
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -7095,7 +7095,7 @@
           "critpt": 1.7
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1246
+          "designArenaWebsite": 1239
         },
         "knowledge": {
           "gpqa": 85.7,
@@ -7952,11 +7952,11 @@
         "rawOverallScore": 0,
         "verifiedDisplayScore": 71,
         "displayCategoryScores": {
-          "agentic": 86.9,
-          "coding": 63.2,
+          "agentic": 87,
+          "coding": 63.1,
           "reasoning": null,
           "multimodalGrounded": null,
-          "knowledge": 70.6,
+          "knowledge": 70.5,
           "multilingual": null,
           "instructionFollowing": null,
           "math": null
@@ -8034,7 +8034,7 @@
         },
         "multimodalGrounded": {
           "officeQaPro": 63.2,
-          "designArenaWebsite": 1325
+          "designArenaWebsite": 1316
         },
         "knowledge": {
           "artificialAnalysis": 60.92,
@@ -8074,6 +8074,150 @@
           "maskRectifiedDishonesty": 3.8,
           "sycophancyCompliance": 0.04
         }
+      }
+    },
+    {
+      "slug": "gemini-3-7-flash",
+      "canonicalModelKey": "gemini-3-7-flash",
+      "model": "Gemini 3.7 Flash",
+      "creator": "Google",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": 61.36,
+      "provisionalDisplayScore": 71,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 49.85,
+        "upper": 72.88
+      },
+      "rankingEligible": true,
+      "overallRank": 50,
+      "url": "https://benchlm.ai/models/gemini-3-7-flash",
+      "markdownUrl": "https://benchlm.ai/md/models/gemini-3-7-flash.md",
+      "id": 390,
+      "releaseDate": "2026-08-13",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "gemini-3-7-flash",
+        "familyName": "Gemini 3.7 Flash",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "gemini-3-7-flash",
+        "relatedModelKeys": [
+          "gemini-3-6-flash",
+          "gemini-3-5-flash",
+          "gemini-3-flash"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": "gemini-3-6-flash"
+      },
+      "scores": {
+        "displayScore": 71,
+        "overallScore": 70,
+        "rawOverallScore": 70,
+        "verifiedDisplayScore": 71,
+        "displayCategoryScores": {
+          "agentic": 85.7,
+          "coding": 59.7,
+          "reasoning": null,
+          "multimodalGrounded": 76.9,
+          "knowledge": 69.2,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": 78.1,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 50,
+        "categoryRanks": {
+          "agentic": 25,
+          "coding": 12,
+          "multimodalGrounded": 8,
+          "knowledge": 29
+        },
+        "categoryRankingEligible": {
+          "agentic": true,
+          "coding": true,
+          "reasoning": false,
+          "multimodalGrounded": true,
+          "knowledge": true,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 8,
+        "verifiedBenchmarkCount": 8,
+        "rankableBenchmarkCount": 8,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 2
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench21": 85.8,
+          "frontierBench": 14.9,
+          "automationBench": 30.4,
+          "gdpvalAa": 1525,
+          "osWorld2": 47.9,
+          "agentsLastExam": 26.3,
+          "aaAgenticIndex": 45.1,
+          "gdpvalAaNormalized": 51.3,
+          "aaBriefcaseElo": 1132,
+          "aaAutomationBench": 62.7,
+          "aaHarveyLab": 90.7,
+          "aaTau3Banking": 32.8,
+          "aaTerminalBench21": 85.8
+        },
+        "coding": {
+          "frontierCode": 43.6,
+          "deepSwe": 65.3,
+          "terminalBench21": 85.8,
+          "aaCodingIndex": 76.12,
+          "aaSciCode": 56.8
+        },
+        "reasoning": {
+          "mrcrv2_128kAverage": 97,
+          "lcr": 80,
+          "critpt": 14.3
+        },
+        "multimodalGrounded": {
+          "gdpPdf": 34,
+          "charxivNoTools": 84.5,
+          "charxiv": 88.7,
+          "lvBench": 85.4,
+          "aaMmmuPro": 85.5,
+          "designArenaWebsite": 1319
+        },
+        "knowledge": {
+          "bioMysteryBenchHumanSolvable": 87.1,
+          "bioMysteryBenchHumanDifficult": 43.5,
+          "artificialAnalysis": 56.03,
+          "aaGpqaDiamond": 94.5,
+          "aaHle": 47.9,
+          "aaOmniscienceIndex": 26.5,
+          "omniscienceAccuracy": 55.3,
+          "omniscienceHallucinationRate": 64.5
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
       }
     },
     {
@@ -8354,7 +8498,7 @@
           "coding": 60.9,
           "reasoning": null,
           "multimodalGrounded": null,
-          "knowledge": 71.3,
+          "knowledge": 71.2,
           "multilingual": null,
           "instructionFollowing": null,
           "math": null
@@ -8375,9 +8519,9 @@
         "verifiedRankingEligible": false,
         "overallRank": 9,
         "categoryRanks": {
-          "agentic": 107,
+          "agentic": 108,
           "coding": 15,
-          "knowledge": 23
+          "knowledge": 24
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -8418,7 +8562,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 83.2,
-          "designArenaWebsite": 1323
+          "designArenaWebsite": 1317
         },
         "knowledge": {
           "artificialAnalysis": 51.58,
@@ -8427,148 +8571,6 @@
           "aaOmniscienceIndex": 22.1,
           "omniscienceAccuracy": 50,
           "omniscienceHallucinationRate": 55.6
-        },
-        "multilingual": {},
-        "instructionFollowing": {},
-        "math": {}
-      }
-    },
-    {
-      "slug": "gemini-3-7-flash",
-      "canonicalModelKey": "gemini-3-7-flash",
-      "model": "Gemini 3.7 Flash",
-      "creator": "Google",
-      "sourceType": "Proprietary",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1M",
-      "contextWindowTokens": 1000000,
-      "displayScore": 61.36,
-      "provisionalDisplayScore": 70,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 49.85,
-        "upper": 72.88
-      },
-      "rankingEligible": true,
-      "overallRank": 50,
-      "url": "https://benchlm.ai/models/gemini-3-7-flash",
-      "markdownUrl": "https://benchlm.ai/md/models/gemini-3-7-flash.md",
-      "id": 390,
-      "releaseDate": "2026-08-13",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "gemini-3-7-flash",
-        "familyName": "Gemini 3.7 Flash",
-        "variantType": "base",
-        "snapshotLabel": null,
-        "baseFamilyModelKey": "gemini-3-7-flash",
-        "relatedModelKeys": [
-          "gemini-3-6-flash",
-          "gemini-3-5-flash",
-          "gemini-3-flash"
-        ],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": "gemini-3-6-flash"
-      },
-      "scores": {
-        "displayScore": 70,
-        "overallScore": 70,
-        "rawOverallScore": 70,
-        "verifiedDisplayScore": 71,
-        "displayCategoryScores": {
-          "agentic": 85.5,
-          "coding": null,
-          "reasoning": null,
-          "multimodalGrounded": 76.9,
-          "knowledge": 67.4,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": null,
-          "coding": null,
-          "reasoning": null,
-          "multimodalGrounded": 78.1,
-          "knowledge": null,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 50,
-        "categoryRanks": {
-          "agentic": 25,
-          "coding": 12,
-          "knowledge": 31
-        },
-        "categoryRankingEligible": {
-          "agentic": true,
-          "coding": false,
-          "reasoning": false,
-          "multimodalGrounded": false,
-          "knowledge": true,
-          "multilingual": false,
-          "instructionFollowing": false,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 8,
-        "verifiedBenchmarkCount": 8,
-        "rankableBenchmarkCount": 8,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 2
-      },
-      "benchmarks": {
-        "agentic": {
-          "terminalBench21": 85.8,
-          "frontierBench": 14.9,
-          "automationBench": 30.4,
-          "gdpvalAa": 1525,
-          "osWorld2": 47.9,
-          "agentsLastExam": 26.3,
-          "aaAgenticIndex": 45.1,
-          "gdpvalAaNormalized": 51.3,
-          "aaBriefcaseElo": 1132,
-          "aaAutomationBench": 62.7,
-          "aaHarveyLab": 90.7,
-          "aaTau3Banking": 32.8,
-          "aaTerminalBench21": 85.8
-        },
-        "coding": {
-          "frontierCode": 43.6,
-          "deepSwe": 65.3,
-          "terminalBench21": 85.8,
-          "aaCodingIndex": 76.12,
-          "aaSciCode": 56.8
-        },
-        "reasoning": {
-          "mrcrv2_128kAverage": 97,
-          "lcr": 80,
-          "critpt": 14.3
-        },
-        "multimodalGrounded": {
-          "gdpPdf": 34,
-          "charxivNoTools": 84.5,
-          "charxiv": 88.7,
-          "lvBench": 85.4,
-          "aaMmmuPro": 85.5
-        },
-        "knowledge": {
-          "bioMysteryBenchHumanSolvable": 87.1,
-          "bioMysteryBenchHumanDifficult": 43.5,
-          "artificialAnalysis": 56.03,
-          "aaGpqaDiamond": 94.5,
-          "aaHle": 47.9,
-          "aaOmniscienceIndex": 26.5,
-          "omniscienceAccuracy": 55.3,
-          "omniscienceHallucinationRate": 64.5
         },
         "multilingual": {},
         "instructionFollowing": {},
@@ -8756,7 +8758,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 39,
-          "coding": 41
+          "coding": 40
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -9194,7 +9196,7 @@
         "rawOverallScore": 62,
         "verifiedDisplayScore": 62,
         "displayCategoryScores": {
-          "agentic": 70.3,
+          "agentic": 70.4,
           "coding": 63.3,
           "reasoning": null,
           "multimodalGrounded": null,
@@ -9260,7 +9262,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 76.4,
-          "designArenaWebsite": 1314
+          "designArenaWebsite": 1307
         },
         "knowledge": {
           "artificialAnalysis": 43.86,
@@ -9351,7 +9353,7 @@
         "overallRank": 10,
         "categoryRanks": {
           "agentic": 13,
-          "coding": 38,
+          "coding": 36,
           "knowledge": 25
         },
         "categoryRankingEligible": {
@@ -9408,7 +9410,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 80.4,
-          "designArenaWebsite": 1312
+          "designArenaWebsite": 1299
         },
         "knowledge": {
           "artificialAnalysis": 55.76,
@@ -9615,7 +9617,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 97,
         "categoryRanks": {
-          "coding": 71
+          "coding": 70
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -9652,7 +9654,7 @@
           "critpt": 0.9
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1194
+          "designArenaWebsite": 1186
         },
         "knowledge": {
           "artificialAnalysis": 25.13,
@@ -9780,7 +9782,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 78.5,
-          "designArenaWebsite": 1182
+          "designArenaWebsite": 1174
         },
         "knowledge": {
           "artificialAnalysis": 45.51,
@@ -9866,7 +9868,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 138,
         "categoryRanks": {
-          "coding": 72,
+          "coding": 71,
           "instructionFollowing": 19
         },
         "categoryRankingEligible": {
@@ -9987,7 +9989,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 45,
-          "coding": 50
+          "coding": 49
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -10087,7 +10089,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 48,
-          "coding": 54
+          "coding": 53
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -10190,7 +10192,7 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "coding": 60,
+          "coding": 59,
           "instructionFollowing": 25
         },
         "categoryRankingEligible": {
@@ -10335,14 +10337,13 @@
           "tau3Bench": 91.4,
           "aaAgenticIndex": 19.21,
           "tau2Bench": 94.2,
-          "gdpvalAaNormalized": 21.6,
+          "gdpvalAaNormalized": 21.7,
           "gdpvalAa": 933,
           "gertLabs": 39.1,
           "aaEnterpriseOpsGym": 33.7,
           "aaHarveyLab": 69.1,
           "terminalBenchHard": 33.3,
-          "aaBriefcaseElo": 517,
-          "aaTerminalBench21": 50.6
+          "aaBriefcaseElo": 517
         },
         "coding": {
           "sweVerified": 77.6,
@@ -10549,7 +10550,7 @@
         "overallRank": 63,
         "categoryRanks": {
           "agentic": 27,
-          "coding": 34
+          "coding": 33
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -10674,7 +10675,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 42,
-          "coding": 46
+          "coding": 45
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -10783,7 +10784,7 @@
         "overallRank": 18,
         "categoryRanks": {
           "agentic": 89,
-          "coding": 29
+          "coding": 44
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -10826,7 +10827,7 @@
           "critpt": 4
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1295
+          "designArenaWebsite": 1286
         },
         "knowledge": {
           "hle": 48,
@@ -10911,7 +10912,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 199,
         "categoryRanks": {
-          "agentic": 104,
+          "agentic": 105,
           "instructionFollowing": 37
         },
         "categoryRankingEligible": {
@@ -10957,135 +10958,6 @@
           "imoAnswerBench": 59.3,
           "apex": 32.2
         }
-      }
-    },
-    {
-      "slug": "gemini-3-5-flash-lite",
-      "canonicalModelKey": "gemini-3-5-flash-lite",
-      "model": "Gemini 3.5 Flash-Lite",
-      "creator": "Google",
-      "sourceType": "Proprietary",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1M",
-      "contextWindowTokens": 1000000,
-      "displayScore": 65.29,
-      "provisionalDisplayScore": 58,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "supported",
-      "scoreInterval90": {
-        "lower": 53.87,
-        "upper": 76.72
-      },
-      "rankingEligible": true,
-      "overallRank": 34,
-      "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
-      "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md",
-      "id": 286,
-      "releaseDate": "2026-07-21",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "gemini-3-5-flash-lite",
-        "familyName": "Gemini 3.5 Flash-Lite",
-        "variantType": "base",
-        "snapshotLabel": null,
-        "baseFamilyModelKey": "gemini-3-5-flash-lite",
-        "relatedModelKeys": [
-          "gemini-3-1-flash-lite"
-        ],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": "gemini-3-1-flash-lite"
-      },
-      "scores": {
-        "displayScore": 58,
-        "overallScore": 52,
-        "rawOverallScore": 52,
-        "verifiedDisplayScore": 52,
-        "displayCategoryScores": {
-          "agentic": 51.9,
-          "coding": 35.5,
-          "reasoning": 62.1,
-          "multimodalGrounded": 62.3,
-          "knowledge": 62.3,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": 51.9,
-          "coding": 33.5,
-          "reasoning": 62.1,
-          "multimodalGrounded": null,
-          "knowledge": null,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 34,
-        "categoryRanks": {
-          "agentic": 122,
-          "coding": 56,
-          "multimodalGrounded": 20,
-          "knowledge": 39
-        },
-        "categoryRankingEligible": {
-          "agentic": true,
-          "coding": true,
-          "reasoning": false,
-          "multimodalGrounded": true,
-          "knowledge": true,
-          "multilingual": false,
-          "instructionFollowing": false,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 5,
-        "verifiedBenchmarkCount": 5,
-        "rankableBenchmarkCount": 5,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 1
-      },
-      "benchmarks": {
-        "agentic": {
-          "terminalBench2": 54,
-          "osWorldVerified": 74,
-          "gdpvalAa": 1139,
-          "aaAgenticIndex": 27.16,
-          "gdpvalAaNormalized": 32,
-          "aaBriefcaseElo": 635,
-          "aaTau3Banking": 17.5,
-          "aaTerminalBench21": 53.6
-        },
-        "coding": {
-          "terminalBench2": 54,
-          "swePro": 54.2,
-          "aaCodingIndex": 49.32,
-          "aaSciCode": 40.9
-        },
-        "reasoning": {
-          "mrcrv2": 72.2,
-          "lcr": 74.7,
-          "critpt": 0
-        },
-        "multimodalGrounded": {
-          "aaMmmuPro": 79
-        },
-        "knowledge": {
-          "artificialAnalysis": 37.44,
-          "aaGpqaDiamond": 83.8,
-          "aaHle": 18.8,
-          "aaOmniscienceIndex": 5.2,
-          "omniscienceAccuracy": 29.5,
-          "omniscienceHallucinationRate": 34.4
-        },
-        "multilingual": {},
-        "instructionFollowing": {},
-        "math": {}
       }
     },
     {
@@ -11213,7 +11085,7 @@
           "critpt": 16.6
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1227
+          "designArenaWebsite": 1219
         },
         "knowledge": {
           "mmluPro": 86.2,
@@ -11280,7 +11152,7 @@
         "rawOverallScore": 62,
         "verifiedDisplayScore": 62,
         "displayCategoryScores": {
-          "agentic": 49.4,
+          "agentic": 50.4,
           "coding": 56.3,
           "reasoning": null,
           "multimodalGrounded": 64.9,
@@ -11305,8 +11177,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 41,
         "categoryRanks": {
-          "agentic": 130,
-          "coding": 120,
+          "agentic": 131,
+          "coding": 121,
           "knowledge": 46,
           "instructionFollowing": 5
         },
@@ -11351,7 +11223,7 @@
         },
         "multimodalGrounded": {
           "mmmuPro": 78.1,
-          "designArenaWebsite": 1212,
+          "designArenaWebsite": 1204,
           "aaMmmuPro": 78.1
         },
         "knowledge": {
@@ -11369,6 +11241,135 @@
           "ifBench": 81.3,
           "aaIfBench": 81.3
         },
+        "math": {}
+      }
+    },
+    {
+      "slug": "gemini-3-5-flash-lite",
+      "canonicalModelKey": "gemini-3-5-flash-lite",
+      "model": "Gemini 3.5 Flash-Lite",
+      "creator": "Google",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": 65.29,
+      "provisionalDisplayScore": 58,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "supported",
+      "scoreInterval90": {
+        "lower": 53.87,
+        "upper": 76.72
+      },
+      "rankingEligible": true,
+      "overallRank": 34,
+      "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
+      "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md",
+      "id": 286,
+      "releaseDate": "2026-07-21",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "gemini-3-5-flash-lite",
+        "familyName": "Gemini 3.5 Flash-Lite",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "gemini-3-5-flash-lite",
+        "relatedModelKeys": [
+          "gemini-3-1-flash-lite"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": "gemini-3-1-flash-lite"
+      },
+      "scores": {
+        "displayScore": 58,
+        "overallScore": 52,
+        "rawOverallScore": 52,
+        "verifiedDisplayScore": 52,
+        "displayCategoryScores": {
+          "agentic": 51.9,
+          "coding": 35.5,
+          "reasoning": 62.1,
+          "multimodalGrounded": 62.3,
+          "knowledge": 62.3,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 51.9,
+          "coding": 33.5,
+          "reasoning": 62.1,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 34,
+        "categoryRanks": {
+          "agentic": 123,
+          "coding": 55,
+          "multimodalGrounded": 21,
+          "knowledge": 39
+        },
+        "categoryRankingEligible": {
+          "agentic": true,
+          "coding": true,
+          "reasoning": false,
+          "multimodalGrounded": true,
+          "knowledge": true,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 5,
+        "verifiedBenchmarkCount": 5,
+        "rankableBenchmarkCount": 5,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench2": 54,
+          "osWorldVerified": 74,
+          "gdpvalAa": 1139,
+          "aaAgenticIndex": 27.16,
+          "gdpvalAaNormalized": 32,
+          "aaBriefcaseElo": 635,
+          "aaTau3Banking": 17.5,
+          "aaTerminalBench21": 53.6
+        },
+        "coding": {
+          "terminalBench2": 54,
+          "swePro": 54.2,
+          "aaCodingIndex": 49.32,
+          "aaSciCode": 40.9
+        },
+        "reasoning": {
+          "mrcrv2": 72.2,
+          "lcr": 74.7,
+          "critpt": 0
+        },
+        "multimodalGrounded": {
+          "aaMmmuPro": 79
+        },
+        "knowledge": {
+          "artificialAnalysis": 37.44,
+          "aaGpqaDiamond": 83.8,
+          "aaHle": 18.8,
+          "aaOmniscienceIndex": 5.2,
+          "omniscienceAccuracy": 29.5,
+          "omniscienceHallucinationRate": 34.4
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
         "math": {}
       }
     },
@@ -11441,7 +11442,7 @@
         "overallRank": 66,
         "categoryRanks": {
           "agentic": 57,
-          "coding": 44
+          "coding": 43
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -11485,7 +11486,7 @@
         "multimodalGrounded": {
           "mmmuPro": 78.5,
           "aaMmmuPro": 75.4,
-          "designArenaWebsite": 1269
+          "designArenaWebsite": 1261
         },
         "knowledge": {
           "gpqa": 87.6,
@@ -11604,7 +11605,7 @@
         },
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1196
+          "designArenaWebsite": 1188
         },
         "knowledge": {
           "artificialAnalysis": 28.84
@@ -11680,7 +11681,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 67,
         "categoryRanks": {
-          "agentic": 126,
+          "agentic": 127,
           "coding": 101
         },
         "categoryRankingEligible": {
@@ -11719,7 +11720,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 78.6,
-          "designArenaWebsite": 1216
+          "designArenaWebsite": 1207
         },
         "knowledge": {
           "artificialAnalysis": 27.94,
@@ -11806,7 +11807,7 @@
         "overallRank": 105,
         "categoryRanks": {
           "agentic": 66,
-          "coding": 52
+          "coding": 51
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -11845,7 +11846,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 75.5,
-          "designArenaWebsite": 1207
+          "designArenaWebsite": 1198
         },
         "knowledge": {
           "artificialAnalysis": 37.47,
@@ -11935,7 +11936,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 107,
         "categoryRanks": {
-          "coding": 47
+          "coding": 46
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -12060,8 +12061,8 @@
         "overallRank": 73,
         "categoryRanks": {
           "agentic": 38,
-          "coding": 45,
-          "multimodalGrounded": 19
+          "coding": 80,
+          "multimodalGrounded": 20
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -12098,7 +12099,7 @@
           "videoMmeWithSub": 87.7,
           "charxiv": 81,
           "mmmuPro": 77.9,
-          "designArenaWebsite": 1288
+          "designArenaWebsite": 1280
         },
         "knowledge": {},
         "multilingual": {},
@@ -12209,7 +12210,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 62.4,
-          "designArenaWebsite": 1165
+          "designArenaWebsite": 1157
         },
         "knowledge": {
           "artificialAnalysis": 25.99,
@@ -12293,7 +12294,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 46,
-          "coding": 57
+          "coding": 56
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -12404,7 +12405,7 @@
         "categoryRanks": {
           "agentic": 10,
           "coding": 21,
-          "multimodalGrounded": 8
+          "multimodalGrounded": 9
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -12790,7 +12791,7 @@
         "overallRank": 86,
         "categoryRanks": {
           "agentic": 53,
-          "coding": 90
+          "coding": 91
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -12821,7 +12822,7 @@
         },
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1142
+          "designArenaWebsite": 1133
         },
         "knowledge": {},
         "multilingual": {},
@@ -13105,7 +13106,7 @@
         "overallRank": 119,
         "categoryRanks": {
           "agentic": 80,
-          "coding": 66
+          "coding": 65
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -13154,7 +13155,7 @@
           "simpleVqa": 79.2,
           "vStar": 95.3,
           "aaMmmuPro": 75.3,
-          "designArenaWebsite": 1210
+          "designArenaWebsite": 1202
         },
         "knowledge": {
           "artificialAnalysis": 30.9,
@@ -13569,7 +13570,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 45,
         "categoryRanks": {
-          "agentic": 117,
+          "agentic": 118,
           "coding": 103
         },
         "categoryRankingEligible": {
@@ -13622,7 +13623,7 @@
           "critpt": 0.6
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1266
+          "designArenaWebsite": 1258
         },
         "knowledge": {
           "gpqaDiamond": 87,
@@ -13953,7 +13954,7 @@
           "critpt": 0
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1070
+          "designArenaWebsite": 1061
         },
         "knowledge": {
           "artificialAnalysis": 19.65,
@@ -14395,7 +14396,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 70.1,
-          "designArenaWebsite": 1056
+          "designArenaWebsite": 1047
         },
         "knowledge": {
           "artificialAnalysis": 31.1,
@@ -14741,7 +14742,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 173,
         "categoryRanks": {
-          "agentic": 99,
+          "agentic": 100,
           "coding": 107,
           "instructionFollowing": 29
         },
@@ -14780,7 +14781,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 40.1,
-          "designArenaWebsite": 992
+          "designArenaWebsite": 984
         },
         "knowledge": {
           "mmlu": 80.1,
@@ -14870,7 +14871,7 @@
         "overallRank": 102,
         "categoryRanks": {
           "agentic": 75,
-          "coding": 61
+          "coding": 60
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -14905,7 +14906,7 @@
           "arcAgi2": 13.6
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1209
+          "designArenaWebsite": 1201
         },
         "knowledge": {
           "gpqa": 83.4
@@ -14984,7 +14985,7 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "coding": 75
+          "coding": 73
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -15095,7 +15096,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 120,
         "categoryRanks": {
-          "coding": 78,
+          "coding": 77,
           "instructionFollowing": 28
         },
         "categoryRankingEligible": {
@@ -15131,7 +15132,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 61.2,
-          "designArenaWebsite": 1058
+          "designArenaWebsite": 1050
         },
         "knowledge": {
           "mmlu": 90.2,
@@ -15225,7 +15226,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 62,
         "categoryRanks": {
-          "agentic": 125,
+          "agentic": 126,
           "coding": 88
         },
         "categoryRankingEligible": {
@@ -15756,7 +15757,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 58.7,
-          "designArenaWebsite": 1017
+          "designArenaWebsite": 1009
         },
         "knowledge": {
           "mmlu": 87.5,
@@ -15876,7 +15877,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 65.5,
-          "designArenaWebsite": 1135
+          "designArenaWebsite": 1127
         },
         "knowledge": {
           "artificialAnalysis": 14.19,
@@ -15964,7 +15965,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 147,
         "categoryRanks": {
-          "coding": 110
+          "coding": 109
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -16066,7 +16067,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 98,
         "categoryRanks": {
-          "coding": 70
+          "coding": 69
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -16183,7 +16184,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 59,
-          "coding": 76
+          "coding": 75
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -16291,7 +16292,7 @@
         "categoryRanks": {
           "agentic": 54,
           "coding": 94,
-          "multimodalGrounded": 28
+          "multimodalGrounded": 29
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -16333,7 +16334,7 @@
           "erqa": 54.1,
           "simpleVqa": 57.4,
           "medXpertQaMm": 65.8,
-          "designArenaWebsite": 1248
+          "designArenaWebsite": 1239
         },
         "knowledge": {
           "gpqaDiamond": 88.5,
@@ -16620,8 +16621,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 164,
         "categoryRanks": {
-          "agentic": 108,
-          "coding": 111
+          "agentic": 109,
+          "coding": 110
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -16659,7 +16660,7 @@
           "critpt": 0
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1140
+          "designArenaWebsite": 1131
         },
         "knowledge": {
           "gpqa": 59.1,
@@ -16881,7 +16882,7 @@
           "critpt": 0
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 851
+          "designArenaWebsite": 842
         },
         "knowledge": {
           "artificialAnalysis": 11.11,
@@ -16967,7 +16968,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 190,
         "categoryRanks": {
-          "agentic": 115,
+          "agentic": 116,
           "coding": 122
         },
         "categoryRankingEligible": {
@@ -17005,7 +17006,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 52.9,
-          "designArenaWebsite": 770
+          "designArenaWebsite": 761
         },
         "knowledge": {
           "artificialAnalysis": 10.26,
@@ -17090,7 +17091,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 204,
         "categoryRanks": {
-          "agentic": 127,
+          "agentic": 128,
           "coding": 132
         },
         "categoryRankingEligible": {
@@ -17116,7 +17117,7 @@
           "aaAgenticIndex": 1.24,
           "tau2Bench": 17.8,
           "gdpvalAaNormalized": 0,
-          "gdpvalAa": 4
+          "gdpvalAa": 3
         },
         "coding": {
           "aaCodingIndex": 16.28,
@@ -17128,7 +17129,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 62.1,
-          "designArenaWebsite": 891
+          "designArenaWebsite": 882
         },
         "knowledge": {
           "artificialAnalysis": 14.48,
@@ -17254,7 +17255,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 74.9,
-          "designArenaWebsite": 1187
+          "designArenaWebsite": 1178
         },
         "knowledge": {
           "gpqa": 83,
@@ -17465,7 +17466,7 @@
         "overallRank": null,
         "categoryRanks": {
           "agentic": 64,
-          "coding": 73
+          "coding": 72
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -17675,7 +17676,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 214,
         "categoryRanks": {
-          "agentic": 124,
+          "agentic": 125,
           "instructionFollowing": 39
         },
         "categoryRankingEligible": {
@@ -17793,7 +17794,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 200,
         "categoryRanks": {
-          "agentic": 119,
+          "agentic": 120,
           "coding": 123,
           "instructionFollowing": 26
         },
@@ -18138,7 +18139,7 @@
         "categoryRanks": {
           "agentic": 87,
           "coding": 84,
-          "multimodalGrounded": 30
+          "multimodalGrounded": 31
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -18266,7 +18267,7 @@
         "overallRank": 37,
         "categoryRanks": {
           "agentic": 28,
-          "coding": 31
+          "coding": 30
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -18301,7 +18302,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 75.4,
-          "designArenaWebsite": 1312
+          "designArenaWebsite": 1304
         },
         "knowledge": {
           "artificialAnalysis": 44.93,
@@ -18521,7 +18522,7 @@
           "critpt": 4.9
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1203
+          "designArenaWebsite": 1194
         },
         "knowledge": {
           "artificialAnalysis": 42.21,
@@ -18629,7 +18630,7 @@
         },
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1268
+          "designArenaWebsite": 1261
         },
         "knowledge": {},
         "multilingual": {},
@@ -18737,7 +18738,7 @@
           "critpt": 0.3
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1288
+          "designArenaWebsite": 1281
         },
         "knowledge": {
           "artificialAnalysis": 39.05,
@@ -19396,7 +19397,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 74.2,
-          "designArenaWebsite": 1204
+          "designArenaWebsite": 1195
         },
         "knowledge": {
           "artificialAnalysis": 35.31,
@@ -19521,7 +19522,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 72.8,
-          "designArenaWebsite": 1250
+          "designArenaWebsite": 1243
         },
         "knowledge": {
           "artificialAnalysis": 35.35,
@@ -19606,7 +19607,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 68,
         "categoryRanks": {
-          "coding": 67
+          "coding": 66
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -19842,7 +19843,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 77,
         "categoryRanks": {
-          "coding": 65
+          "coding": 64
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -19869,7 +19870,7 @@
         },
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1194
+          "designArenaWebsite": 1186
         },
         "knowledge": {},
         "multilingual": {},
@@ -20089,7 +20090,7 @@
           "critpt": 2
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1142
+          "designArenaWebsite": 1134
         },
         "knowledge": {
           "artificialAnalysis": 20.97,
@@ -20204,7 +20205,7 @@
           "critpt": 0
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1142
+          "designArenaWebsite": 1134
         },
         "knowledge": {
           "artificialAnalysis": 21.37,
@@ -20430,7 +20431,7 @@
         "coding": {},
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1189
+          "designArenaWebsite": 1181
         },
         "knowledge": {},
         "multilingual": {},
@@ -20926,7 +20927,7 @@
         "overallRank": 76,
         "categoryRanks": {
           "agentic": 88,
-          "coding": 58
+          "coding": 57
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -21154,7 +21155,8 @@
         "agentic": {
           "tau2Bench": 90.1,
           "gdpvalAaNormalized": 3.1,
-          "gdpvalAa": 562
+          "gdpvalAa": 563,
+          "aaAgenticIndex": 3.72
         },
         "coding": {
           "aaSciCode": 36.1,
@@ -21165,13 +21167,13 @@
           "critpt": 0.9
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1156
+          "designArenaWebsite": 1148
         },
         "knowledge": {
           "mmlu": 87.2,
           "mmluProArcee": 75.2,
           "gpqaDiamond": 63.3,
-          "artificialAnalysis": 18.37,
+          "artificialAnalysis": 18.66,
           "aaGpqaDiamond": 75.2,
           "aaHle": 15.8,
           "aaOmniscienceIndex": -44.1,
@@ -21283,7 +21285,7 @@
           "critpt": 0
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1166
+          "designArenaWebsite": 1158
         },
         "knowledge": {
           "artificialAnalysis": 16.66,
@@ -21309,13 +21311,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "512K",
       "contextWindowTokens": 512000,
-      "displayScore": 47.71,
+      "displayScore": 47.88,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 30.71,
-        "upper": 64.71
+        "lower": 31.08,
+        "upper": 64.69
       },
       "rankingEligible": true,
       "overallRank": 141,
@@ -21366,6 +21368,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 141,
         "categoryRanks": {
+          "agentic": 99,
           "coding": 128
         },
         "categoryRankingEligible": {
@@ -21391,7 +21394,8 @@
           "tau2Bench": 90.1,
           "gertLabs": 32.55,
           "gdpvalAaNormalized": 3.1,
-          "gdpvalAa": 562
+          "gdpvalAa": 563,
+          "aaAgenticIndex": 3.72
         },
         "coding": {
           "sweVerifiedArcee": 63.2,
@@ -21403,12 +21407,12 @@
           "critpt": 0.9
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1156
+          "designArenaWebsite": 1148
         },
         "knowledge": {
           "gpqaDiamond": 76.3,
           "mmluProArcee": 83.4,
-          "artificialAnalysis": 18.37,
+          "artificialAnalysis": 18.66,
           "aaGpqaDiamond": 75.2,
           "aaHle": 15.8,
           "aaOmniscienceIndex": -44.1,
@@ -21585,7 +21589,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 179,
         "categoryRanks": {
-          "agentic": 113,
+          "agentic": 114,
           "coding": 119
         },
         "categoryRankingEligible": {
@@ -21805,7 +21809,7 @@
         "verifiedDisplayScore": null,
         "displayCategoryScores": {
           "agentic": null,
-          "coding": 57.4,
+          "coding": 57.3,
           "reasoning": null,
           "multimodalGrounded": null,
           "knowledge": 64,
@@ -21857,7 +21861,7 @@
           "apexAgentsAa": 3.1,
           "tau2Bench": 65.8,
           "gdpvalAaNormalized": 15,
-          "gdpvalAa": 799,
+          "gdpvalAa": 800,
           "gertLabs": 29.61,
           "aaItbench": 5.6,
           "aaEnterpriseOpsGym": 25.5,
@@ -21876,7 +21880,7 @@
           "critpt": 1.1
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 987
+          "designArenaWebsite": 979
         },
         "knowledge": {
           "artificialAnalysis": 24.13,
@@ -22248,7 +22252,7 @@
         "verifiedDisplayScore": null,
         "displayCategoryScores": {
           "agentic": null,
-          "coding": 59.5,
+          "coding": 59.4,
           "reasoning": null,
           "multimodalGrounded": null,
           "knowledge": null,
@@ -22273,7 +22277,7 @@
         "overallRank": 80,
         "categoryRanks": {
           "agentic": 41,
-          "coding": 36
+          "coding": 35
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -22395,7 +22399,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 101,
         "categoryRanks": {
-          "coding": 55
+          "coding": 54
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -22428,7 +22432,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 74.3,
-          "designArenaWebsite": 1204
+          "designArenaWebsite": 1195
         },
         "knowledge": {
           "artificialAnalysis": 34.57,
@@ -22734,7 +22738,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 174,
         "categoryRanks": {
-          "agentic": 110,
+          "agentic": 111,
           "coding": 116
         },
         "categoryRankingEligible": {
@@ -22760,8 +22764,8 @@
           "aaAgenticIndex": 3.1,
           "apexAgentsAa": 0.7,
           "tau2Bench": 60.2,
-          "gdpvalAaNormalized": 3.2,
-          "gdpvalAa": 565
+          "gdpvalAaNormalized": 3.3,
+          "gdpvalAa": 566
         },
         "coding": {
           "reactNativeEvals": 71,
@@ -22773,7 +22777,7 @@
           "critpt": 1.4
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 872
+          "designArenaWebsite": 864
         },
         "knowledge": {
           "artificialAnalysis": 15.23,
@@ -22858,7 +22862,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 194,
         "categoryRanks": {
-          "agentic": 118,
+          "agentic": 119,
           "coding": 124
         },
         "categoryRankingEligible": {
@@ -22883,7 +22887,7 @@
         "agentic": {
           "aaAgenticIndex": 0.96,
           "gdpvalAaNormalized": 0,
-          "gdpvalAa": 238
+          "gdpvalAa": 237
         },
         "coding": {
           "aaSciCode": 22.9,
@@ -23889,7 +23893,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 196,
         "categoryRanks": {
-          "coding": 121
+          "coding": 120
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -24698,7 +24702,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 198,
         "categoryRanks": {
-          "agentic": 121,
+          "agentic": 122,
           "coding": 126
         },
         "categoryRankingEligible": {
@@ -26524,7 +26528,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 208,
         "categoryRanks": {
-          "agentic": 128,
+          "agentic": 129,
           "coding": 133
         },
         "categoryRankingEligible": {
@@ -27198,7 +27202,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 211,
         "categoryRanks": {
-          "agentic": 129,
+          "agentic": 130,
           "coding": 134
         },
         "categoryRankingEligible": {
@@ -27804,8 +27808,8 @@
         "rawOverallScore": 0,
         "verifiedDisplayScore": null,
         "displayCategoryScores": {
-          "agentic": 62.3,
-          "coding": 61,
+          "agentic": 62.5,
+          "coding": 60.9,
           "reasoning": null,
           "multimodalGrounded": null,
           "knowledge": null,
@@ -27829,8 +27833,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 99,
         "categoryRanks": {
-          "agentic": 101,
-          "coding": 51
+          "agentic": 102,
+          "coding": 50
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -27874,7 +27878,7 @@
           "critpt": 10
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1292
+          "designArenaWebsite": 1284
         },
         "knowledge": {
           "artificialAnalysis": 43.02,
@@ -27960,7 +27964,7 @@
         "overallRank": 109,
         "categoryRanks": {
           "agentic": 51,
-          "coding": 77
+          "coding": 76
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -27996,7 +28000,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 72.5,
-          "designArenaWebsite": 1180
+          "designArenaWebsite": 1173
         },
         "knowledge": {
           "artificialAnalysis": 35.6,
@@ -28512,7 +28516,7 @@
           "critpt": 0
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1138
+          "designArenaWebsite": 1130
         },
         "knowledge": {
           "artificialAnalysis": 24.45,
@@ -28829,7 +28833,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 74,
-          "designArenaWebsite": 1267
+          "designArenaWebsite": 1259
         },
         "knowledge": {
           "artificialAnalysis": 41.87,
@@ -28939,7 +28943,7 @@
         },
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1142
+          "designArenaWebsite": 1133
         },
         "knowledge": {},
         "multilingual": {},
@@ -29037,7 +29041,7 @@
         },
         "reasoning": {},
         "multimodalGrounded": {
-          "designArenaWebsite": 1209
+          "designArenaWebsite": 1201
         },
         "knowledge": {},
         "multilingual": {},
@@ -30386,7 +30390,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 82.3,
-          "designArenaWebsite": 1310
+          "designArenaWebsite": 1301
         },
         "knowledge": {
           "artificialAnalysis": 58.08,
@@ -31837,7 +31841,7 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "agentic": 123,
+          "agentic": 124,
           "coding": 112
         },
         "categoryRankingEligible": {
@@ -33755,7 +33759,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 53,
-          "designArenaWebsite": 1099
+          "designArenaWebsite": 1090
         },
         "knowledge": {
           "artificialAnalysis": 12.47,

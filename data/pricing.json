@@ -3,8 +3,8 @@
   "name": "BenchLM pricing",
   "description": "Model API pricing with linked BenchLM score and value fields when available.",
   "canonicalUrl": "https://benchlm.ai/data/pricing.json",
-  "generatedAt": "2026-08-15T17:36:41.687Z",
-  "sourceLastUpdated": "August 15, 2026",
+  "generatedAt": "2026-08-17T17:55:07.834Z",
+  "sourceLastUpdated": "August 17, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
     "src/data/pricingSupplemental.js"
@@ -6539,9 +6539,9 @@
       "note": "Arcee's public pricing page lists Trinity-Large-Thinking at $0.25 input / $0.90 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 47.71,
+      "displayScore": 47.88,
       "overallRank": 141,
-      "scorePerOutputDollar": 53.011,
+      "scorePerOutputDollar": 53.2,
       "url": "https://benchlm.ai/models/trinity-large-thinking",
       "markdownUrl": "https://benchlm.ai/md/models/trinity-large-thinking.md"
     },

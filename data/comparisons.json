@@ -3,8 +3,8 @@
   "name": "BenchLM curated comparisons",
   "description": "Curated and high-value model comparisons. BenchLM supports more pairwise comparison pages than this export includes.",
   "canonicalUrl": "https://benchlm.ai/data/comparisons.json",
-  "generatedAt": "2026-08-15T17:36:41.687Z",
-  "sourceLastUpdated": "August 15, 2026",
+  "generatedAt": "2026-08-17T17:55:07.834Z",
+  "sourceLastUpdated": "August 17, 2026",
   "sourceFiles": [
     "src/data/featuredComparisons.js",
     "src/lib/prebuiltComparisons.js"
@@ -874,7 +874,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.36,
-        "provisionalDisplayScore": 70,
+        "provisionalDisplayScore": 71,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -9163,7 +9163,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.36,
-        "provisionalDisplayScore": 70,
+        "provisionalDisplayScore": 71,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -9304,7 +9304,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.36,
-        "provisionalDisplayScore": 70,
+        "provisionalDisplayScore": 71,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -9354,7 +9354,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.36,
-        "provisionalDisplayScore": 70,
+        "provisionalDisplayScore": 71,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -9445,7 +9445,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.36,
-        "provisionalDisplayScore": 70,
+        "provisionalDisplayScore": 71,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -9586,7 +9586,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.36,
-        "provisionalDisplayScore": 70,
+        "provisionalDisplayScore": 71,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -13222,7 +13222,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -13363,7 +13363,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -13504,7 +13504,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -13645,7 +13645,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -13786,7 +13786,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -22226,7 +22226,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -23777,7 +23777,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -25469,7 +25469,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -27020,7 +27020,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -28430,7 +28430,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -29276,7 +29276,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -30404,7 +30404,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -31391,7 +31391,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -32801,7 +32801,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -33061,7 +33061,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -33202,7 +33202,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -33252,7 +33252,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -33343,7 +33343,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -33484,7 +33484,7 @@
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
         "displayScore": 61.67,
-        "provisionalDisplayScore": 71,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
@@ -41325,147 +41325,6 @@
       }
     },
     {
-      "slug": "claude-mythos-5-vs-gemini-3-5-flash-lite",
-      "url": "https://benchlm.ai/compare/claude-mythos-5-vs-gemini-3-5-flash-lite",
-      "markdownUrl": "https://benchlm.ai/md/compare/claude-mythos-5-vs-gemini-3-5-flash-lite.md",
-      "modelA": {
-        "slug": "claude-mythos-5",
-        "canonicalModelKey": "claude-mythos-5",
-        "model": "Claude Mythos 5",
-        "creator": "Anthropic",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M+",
-        "contextWindowTokens": 1000000,
-        "displayScore": 83.21,
-        "provisionalDisplayScore": 87,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 79.56,
-          "upper": 86.86
-        },
-        "rankingEligible": true,
-        "overallRank": 1,
-        "url": "https://benchlm.ai/models/claude-mythos-5",
-        "markdownUrl": "https://benchlm.ai/md/models/claude-mythos-5.md"
-      },
-      "modelB": {
-        "slug": "gemini-3-5-flash-lite",
-        "canonicalModelKey": "gemini-3-5-flash-lite",
-        "model": "Gemini 3.5 Flash-Lite",
-        "creator": "Google",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 65.29,
-        "provisionalDisplayScore": 58,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 53.87,
-          "upper": 76.72
-        },
-        "rankingEligible": true,
-        "overallRank": 34,
-        "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
-        "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md"
-      },
-      "rankingMode": "bench-align-v5",
-      "scoreA": 83.21,
-      "scoreB": 65.29,
-      "evidenceStatusA": "supported",
-      "evidenceStatusB": "supported",
-      "overallWinner": "A",
-      "winner": {
-        "slug": "claude-mythos-5",
-        "canonicalModelKey": "claude-mythos-5",
-        "model": "Claude Mythos 5",
-        "creator": "Anthropic",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M+",
-        "contextWindowTokens": 1000000,
-        "displayScore": 83.21,
-        "provisionalDisplayScore": 87,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 79.56,
-          "upper": 86.86
-        },
-        "rankingEligible": true,
-        "overallRank": 1,
-        "url": "https://benchlm.ai/models/claude-mythos-5",
-        "markdownUrl": "https://benchlm.ai/md/models/claude-mythos-5.md"
-      },
-      "scoreDiff": 17.919999999999987,
-      "winsA": 0,
-      "winsB": 0,
-      "comparableCategoryCount": 0,
-      "benchmarkCountA": 15,
-      "benchmarkCountB": 5,
-      "categoryResults": {
-        "agentic": {
-          "categoryLabel": "Agentic",
-          "avgA": 87,
-          "avgB": 63.4,
-          "winner": null,
-          "benchmarkCount": 4
-        },
-        "coding": {
-          "categoryLabel": "Coding",
-          "avgA": 89.7,
-          "avgB": 54.2,
-          "winner": null,
-          "benchmarkCount": 3
-        },
-        "multimodalGrounded": {
-          "categoryLabel": "Multimodal & Grounded",
-          "avgA": 93.5,
-          "avgB": null,
-          "winner": null,
-          "benchmarkCount": 3
-        },
-        "reasoning": {
-          "categoryLabel": "Reasoning",
-          "avgA": null,
-          "avgB": 72.2,
-          "winner": null,
-          "benchmarkCount": 1
-        },
-        "knowledge": {
-          "categoryLabel": "Knowledge",
-          "avgA": 68.5,
-          "avgB": null,
-          "winner": null,
-          "benchmarkCount": 3
-        },
-        "instructionFollowing": {
-          "categoryLabel": "Instruction Following",
-          "avgA": null,
-          "avgB": null,
-          "winner": null,
-          "benchmarkCount": 0
-        },
-        "multilingual": {
-          "categoryLabel": "Multilingual",
-          "avgA": null,
-          "avgB": null,
-          "winner": null,
-          "benchmarkCount": 1
-        },
-        "math": {
-          "categoryLabel": "Mathematics",
-          "avgA": 97.6,
-          "avgB": null,
-          "winner": null,
-          "benchmarkCount": 1
-        }
-      }
-    },
-    {
       "slug": "claude-mythos-5-vs-deepseek-v4-flash-0731",
       "url": "https://benchlm.ai/compare/claude-mythos-5-vs-deepseek-v4-flash-0731",
       "markdownUrl": "https://benchlm.ai/md/compare/claude-mythos-5-vs-deepseek-v4-flash-0731.md",
@@ -41713,6 +41572,147 @@
           "avgB": null,
           "winner": null,
           "benchmarkCount": 0
+        },
+        "knowledge": {
+          "categoryLabel": "Knowledge",
+          "avgA": 68.5,
+          "avgB": null,
+          "winner": null,
+          "benchmarkCount": 3
+        },
+        "instructionFollowing": {
+          "categoryLabel": "Instruction Following",
+          "avgA": null,
+          "avgB": null,
+          "winner": null,
+          "benchmarkCount": 0
+        },
+        "multilingual": {
+          "categoryLabel": "Multilingual",
+          "avgA": null,
+          "avgB": null,
+          "winner": null,
+          "benchmarkCount": 1
+        },
+        "math": {
+          "categoryLabel": "Mathematics",
+          "avgA": 97.6,
+          "avgB": null,
+          "winner": null,
+          "benchmarkCount": 1
+        }
+      }
+    },
+    {
+      "slug": "claude-mythos-5-vs-gemini-3-5-flash-lite",
+      "url": "https://benchlm.ai/compare/claude-mythos-5-vs-gemini-3-5-flash-lite",
+      "markdownUrl": "https://benchlm.ai/md/compare/claude-mythos-5-vs-gemini-3-5-flash-lite.md",
+      "modelA": {
+        "slug": "claude-mythos-5",
+        "canonicalModelKey": "claude-mythos-5",
+        "model": "Claude Mythos 5",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1M+",
+        "contextWindowTokens": 1000000,
+        "displayScore": 83.21,
+        "provisionalDisplayScore": 87,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 79.56,
+          "upper": 86.86
+        },
+        "rankingEligible": true,
+        "overallRank": 1,
+        "url": "https://benchlm.ai/models/claude-mythos-5",
+        "markdownUrl": "https://benchlm.ai/md/models/claude-mythos-5.md"
+      },
+      "modelB": {
+        "slug": "gemini-3-5-flash-lite",
+        "canonicalModelKey": "gemini-3-5-flash-lite",
+        "model": "Gemini 3.5 Flash-Lite",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 65.29,
+        "provisionalDisplayScore": 58,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 53.87,
+          "upper": 76.72
+        },
+        "rankingEligible": true,
+        "overallRank": 34,
+        "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
+        "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md"
+      },
+      "rankingMode": "bench-align-v5",
+      "scoreA": 83.21,
+      "scoreB": 65.29,
+      "evidenceStatusA": "supported",
+      "evidenceStatusB": "supported",
+      "overallWinner": "A",
+      "winner": {
+        "slug": "claude-mythos-5",
+        "canonicalModelKey": "claude-mythos-5",
+        "model": "Claude Mythos 5",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1M+",
+        "contextWindowTokens": 1000000,
+        "displayScore": 83.21,
+        "provisionalDisplayScore": 87,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 79.56,
+          "upper": 86.86
+        },
+        "rankingEligible": true,
+        "overallRank": 1,
+        "url": "https://benchlm.ai/models/claude-mythos-5",
+        "markdownUrl": "https://benchlm.ai/md/models/claude-mythos-5.md"
+      },
+      "scoreDiff": 17.919999999999987,
+      "winsA": 0,
+      "winsB": 0,
+      "comparableCategoryCount": 0,
+      "benchmarkCountA": 15,
+      "benchmarkCountB": 5,
+      "categoryResults": {
+        "agentic": {
+          "categoryLabel": "Agentic",
+          "avgA": 87,
+          "avgB": 63.4,
+          "winner": null,
+          "benchmarkCount": 4
+        },
+        "coding": {
+          "categoryLabel": "Coding",
+          "avgA": 89.7,
+          "avgB": 54.2,
+          "winner": null,
+          "benchmarkCount": 3
+        },
+        "multimodalGrounded": {
+          "categoryLabel": "Multimodal & Grounded",
+          "avgA": 93.5,
+          "avgB": null,
+          "winner": null,
+          "benchmarkCount": 3
+        },
+        "reasoning": {
+          "categoryLabel": "Reasoning",
+          "avgA": null,
+          "avgB": 72.2,
+          "winner": null,
+          "benchmarkCount": 1
         },
         "knowledge": {
           "categoryLabel": "Knowledge",
@@ -53728,13 +53728,13 @@
         "reasoningType": "Reasoning",
         "contextWindow": "512K",
         "contextWindowTokens": 512000,
-        "displayScore": 47.71,
+        "displayScore": 47.88,
         "provisionalDisplayScore": 0,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 30.71,
-          "upper": 64.71
+          "lower": 31.08,
+          "upper": 64.69
         },
         "rankingEligible": true,
         "overallRank": 141,
@@ -53743,7 +53743,7 @@
       },
       "rankingMode": "bench-align-v5",
       "scoreA": 83.21,
-      "scoreB": 47.71,
+      "scoreB": 47.88,
       "evidenceStatusA": "supported",
       "evidenceStatusB": "supported",
       "overallWinner": "A",
@@ -53769,7 +53769,7 @@
         "url": "https://benchlm.ai/models/claude-mythos-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-mythos-5.md"
       },
-      "scoreDiff": 35.49999999999999,
+      "scoreDiff": 35.32999999999999,
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
