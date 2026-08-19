@@ -3,7 +3,7 @@
   "name": "BenchLM speed metrics",
   "description": "Runtime throughput and first-token latency metrics joined to BenchLM model records where possible.",
   "canonicalUrl": "https://benchlm.ai/data/speed.json",
-  "generatedAt": "2026-08-17T17:55:07.834Z",
+  "generatedAt": "2026-08-18T20:53:46.510Z",
   "sourceLastUpdated": "2026-08-17",
   "sourceFiles": [
     "src/data/modelOperationalMetrics.js"
