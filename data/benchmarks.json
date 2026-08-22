@@ -3,8 +3,8 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-08-20T22:25:06.267Z",
-  "sourceLastUpdated": "August 20, 2026",
+  "generatedAt": "2026-08-21T18:03:40.928Z",
+  "sourceLastUpdated": "August 21, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
@@ -2474,7 +2474,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/gsm8k",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gsm8k.md"
     },
@@ -3024,7 +3024,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/drop",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/drop.md"
     },
@@ -3552,7 +3552,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.35,
-      "displayableScoreCount": 25,
+      "displayableScoreCount": 26,
       "url": "https://benchlm.ai/benchmarks/ifeval",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifeval.md"
     },
