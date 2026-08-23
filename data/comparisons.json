@@ -3,8 +3,8 @@
   "name": "BenchLM curated comparisons",
   "description": "Curated and high-value model comparisons. BenchLM supports more pairwise comparison pages than this export includes.",
   "canonicalUrl": "https://benchlm.ai/data/comparisons.json",
-  "generatedAt": "2026-08-21T18:03:40.928Z",
-  "sourceLastUpdated": "August 21, 2026",
+  "generatedAt": "2026-08-22T06:29:18.167Z",
+  "sourceLastUpdated": "August 22, 2026",
   "sourceFiles": [
     "src/data/featuredComparisons.js",
     "src/lib/prebuiltComparisons.js"
