@@ -3,15 +3,15 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-08-22T06:29:18.167Z",
-  "sourceLastUpdated": "August 22, 2026",
+  "generatedAt": "2026-08-24T23:24:07.730Z",
+  "sourceLastUpdated": "August 24, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 402
+    "benchmarks": 404
   },
   "items": [
     {
@@ -120,7 +120,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/biomysterybenchhumandifficult",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/biomysterybenchhumandifficult.md"
     },
@@ -472,7 +472,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.45,
-      "displayableScoreCount": 49,
+      "displayableScoreCount": 50,
       "url": "https://benchlm.ai/benchmarks/hle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hle.md"
     },
@@ -516,7 +516,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 161,
+      "displayableScoreCount": 162,
       "url": "https://benchlm.ai/benchmarks/artificialanalysis",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificialanalysis.md"
     },
@@ -538,7 +538,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 158,
+      "displayableScoreCount": 159,
       "url": "https://benchlm.ai/benchmarks/aagpqadiamond",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aagpqadiamond.md"
     },
@@ -560,7 +560,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 157,
+      "displayableScoreCount": 158,
       "url": "https://benchlm.ai/benchmarks/aahle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aahle.md"
     },
@@ -604,7 +604,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 147,
+      "displayableScoreCount": 148,
       "url": "https://benchlm.ai/benchmarks/omniscienceaccuracy",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omniscienceaccuracy.md"
     },
@@ -626,7 +626,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 147,
+      "displayableScoreCount": 148,
       "url": "https://benchlm.ai/benchmarks/omnisciencehallucinationrate",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omnisciencehallucinationrate.md"
     },
@@ -780,7 +780,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/frontierscienceresearch",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontierscienceresearch.md"
     },
@@ -1110,7 +1110,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 13,
+      "displayableScoreCount": 14,
       "url": "https://benchlm.ai/benchmarks/terminalbench21",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminalbench21.md"
     },
@@ -1220,7 +1220,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.16,
-      "displayableScoreCount": 63,
+      "displayableScoreCount": 64,
       "url": "https://benchlm.ai/benchmarks/swe-bench-verified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-verified.md"
     },
@@ -1440,9 +1440,53 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 13,
       "url": "https://benchlm.ai/benchmarks/vulcanbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/vulcanbench.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "openHarmonyBench",
+      "name": "OpenHarmony Bench",
+      "fullName": "OpenHarmony Bench v1.0",
+      "description": "An app-level coding benchmark that asks DevEco Code configurations to implement observable behavior in buildable OpenHarmony ArkTS applications.",
+      "paperUrl": "https://arxiv.org/abs/2608.16022",
+      "paperTitle": "OpenHarmony Bench: Evaluating LLMs and Coding Agents on OpenHarmony App Development",
+      "authors": "OpenHarmony Bench authors",
+      "year": "2026",
+      "tasks": "153 app-development and bug-fix tasks",
+      "format": "Task completion through DevEco Code",
+      "difficulty": "End-to-end OpenHarmony application development",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 10,
+      "url": "https://benchlm.ai/benchmarks/openharmonybench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/openharmonybench.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "vulcanCiiV1",
+      "name": "VulcanBench CII v1",
+      "fullName": "VulcanBench Coding Intelligence Index v1",
+      "description": "A post-cutoff software-engineering benchmark with hidden functional tests and regression guards, reported for vendor coding-agent harnesses.",
+      "paperUrl": "https://github.com/morganlinton/VulcanBench/blob/main/docs/results/cii-v1-2026-08/README.md",
+      "paperTitle": "CII v1 frontier results",
+      "authors": "VulcanBench contributors",
+      "year": "2026",
+      "tasks": "38 validated post-cutoff repository tasks",
+      "format": "Pass@1 with vendor coding-agent harnesses",
+      "difficulty": "Mid-band frontier software engineering",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 2,
+      "url": "https://benchlm.ai/benchmarks/vulcanciiv1",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/vulcanciiv1.md"
     },
     {
       "category": "coding",
@@ -2056,7 +2100,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 94,
+      "displayableScoreCount": 95,
       "url": "https://benchlm.ai/benchmarks/aacodingindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aacodingindex.md"
     },
@@ -2100,7 +2144,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 157,
+      "displayableScoreCount": 158,
       "url": "https://benchlm.ai/benchmarks/aascicode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aascicode.md"
     },
@@ -2254,7 +2298,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/imo2026",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/imo2026.md"
     },
@@ -3464,7 +3508,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 149,
+      "displayableScoreCount": 150,
       "url": "https://benchlm.ai/benchmarks/lcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/lcr.md"
     },
@@ -3486,7 +3530,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 151,
+      "displayableScoreCount": 152,
       "url": "https://benchlm.ai/benchmarks/critpt",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/critpt.md"
     },
@@ -4388,7 +4432,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 12,
+      "displayableScoreCount": 13,
       "url": "https://benchlm.ai/benchmarks/terminalbench21",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminalbench21.md"
     },
@@ -4432,7 +4476,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 14,
+      "displayableScoreCount": 15,
       "url": "https://benchlm.ai/benchmarks/hlewithtools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlewithtools.md"
     },
@@ -4454,7 +4498,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 89,
+      "displayableScoreCount": 90,
       "url": "https://benchlm.ai/benchmarks/gdpvalaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaa.md"
     },
@@ -4476,7 +4520,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 89,
+      "displayableScoreCount": 90,
       "url": "https://benchlm.ai/benchmarks/gdpvalaanormalized",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaanormalized.md"
     },
@@ -4498,7 +4542,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 81,
+      "displayableScoreCount": 82,
       "url": "https://benchlm.ai/benchmarks/aaagenticindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaagenticindex.md"
     },
@@ -4960,7 +5004,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/apexagents",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/apexagents.md"
     },
@@ -5070,7 +5114,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 14,
+      "displayableScoreCount": 15,
       "url": "https://benchlm.ai/benchmarks/deepsearchqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/deepsearchqa.md"
     },
