@@ -3,8 +3,8 @@
   "name": "BenchLM models",
   "description": "Stable model metadata, rankings, benchmark scores, and coverage fields for BenchLM model pages.",
   "canonicalUrl": "https://benchlm.ai/data/models.json",
-  "generatedAt": "2026-08-24T23:24:07.730Z",
-  "sourceLastUpdated": "August 24, 2026",
+  "generatedAt": "2026-08-25T17:55:46.709Z",
+  "sourceLastUpdated": "August 25, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",

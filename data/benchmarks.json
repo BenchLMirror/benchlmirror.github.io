@@ -3,15 +3,15 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-08-24T23:24:07.730Z",
-  "sourceLastUpdated": "August 24, 2026",
+  "generatedAt": "2026-08-25T17:55:46.709Z",
+  "sourceLastUpdated": "August 25, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 404
+    "benchmarks": 406
   },
   "items": [
     {
@@ -5205,6 +5205,50 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/sweatlasrefactoring",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/sweatlasrefactoring.md"
+    },
+    {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "sweRefactorBench",
+      "name": "SWE Refactor Bench",
+      "fullName": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "description": "Tests whether coding agents can complete long-horizon, whole-repository stack migrations while preserving the original program's behavior.",
+      "paperUrl": "https://arxiv.org/abs/2608.23564",
+      "paperTitle": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "authors": "Deyao Hong, Yizhe Chi, Wenyi Li, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na",
+      "year": "2026",
+      "tasks": "20 whole-repository stack migrations",
+      "format": "Migration audit, frozen behavioral checks, and agentic verification",
+      "difficulty": "6- to 30-hour autonomous repository migrations",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/swe-refactor-bench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-refactor-bench.md"
+    },
+    {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "ai4aiBench",
+      "name": "AI4AI-Bench",
+      "fullName": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "description": "Tests whether coding agents can improve the training algorithm inside an existing AI research codebase, then survive a sealed training run and held-out evaluation.",
+      "paperUrl": "https://arxiv.org/abs/2608.20318",
+      "paperTitle": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "authors": "Yizhe Chi, Wenyi Li, Deyao Hong, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na",
+      "year": "2026",
+      "tasks": "10 AI training-algorithm design tasks",
+      "format": "Four-hour code rewrite followed by sealed training and held-out evaluation",
+      "difficulty": "End-to-end AI research and algorithm design",
+      "decimals": 3,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/ai4ai-bench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/ai4ai-bench.md"
     },
     {
       "category": "agentic",
