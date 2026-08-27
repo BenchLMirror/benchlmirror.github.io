@@ -3,7 +3,7 @@
   "name": "BenchLM speed metrics",
   "description": "Runtime throughput and first-token latency metrics joined to BenchLM model records where possible.",
   "canonicalUrl": "https://benchlm.ai/data/speed.json",
-  "generatedAt": "2026-08-25T17:55:46.709Z",
+  "generatedAt": "2026-08-27T06:26:54.461Z",
   "sourceLastUpdated": "2026-08-24",
   "sourceFiles": [
     "src/data/modelOperationalMetrics.js"
@@ -30,7 +30,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 64,
+      "displayScore": 63,
       "overallRank": null,
       "url": "https://benchlm.ai/models/celeris-1",
       "markdownUrl": "https://benchlm.ai/md/models/celeris-1.md"
@@ -60,8 +60,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 54,
-      "overallRank": 107,
+      "displayScore": 50,
+      "overallRank": 108,
       "url": "https://benchlm.ai/models/ling-3-0-flash",
       "markdownUrl": "https://benchlm.ai/md/models/ling-3-0-flash.md"
     },
@@ -76,7 +76,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 58,
-      "overallRank": 36,
+      "overallRank": 37,
       "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md"
     },
@@ -91,7 +91,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 73,
-      "overallRank": 55,
+      "overallRank": 56,
       "url": "https://benchlm.ai/models/gemini-3-7-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-7-flash.md"
     },
@@ -105,8 +105,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 46,
-      "overallRank": 184,
+      "displayScore": 49,
+      "overallRank": 185,
       "url": "https://benchlm.ai/models/lfm2-5-8b-a1b",
       "markdownUrl": "https://benchlm.ai/md/models/lfm2-5-8b-a1b.md"
     },
@@ -120,8 +120,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 54,
-      "overallRank": 126,
+      "displayScore": 45,
+      "overallRank": 127,
       "url": "https://benchlm.ai/models/gemini-3-1-flash-lite",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-flash-lite.md"
     },
@@ -135,8 +135,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 53,
-      "overallRank": 168,
+      "displayScore": 48,
+      "overallRank": 169,
       "url": "https://benchlm.ai/models/nemotron-3-nano-omni-30b-a3b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-nano-omni-30b-a3b.md"
     },
@@ -166,7 +166,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 110,
+      "overallRank": 111,
       "url": "https://benchlm.ai/models/nemotron-3-nano-30b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-nano-30b.md"
     },
@@ -180,8 +180,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 32,
-      "overallRank": 147,
+      "displayScore": 30,
+      "overallRank": 150,
       "url": "https://benchlm.ai/models/command-a-plus",
       "markdownUrl": "https://benchlm.ai/md/models/command-a-plus.md"
     },
@@ -210,7 +210,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 45,
+      "displayScore": 43,
       "overallRank": 149,
       "url": "https://benchlm.ai/models/gemini-2-5-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-2-5-flash.md"
@@ -225,7 +225,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 74,
+      "displayScore": 70,
       "overallRank": 7,
       "url": "https://benchlm.ai/models/muse-spark-1-1",
       "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-1.md"
@@ -241,7 +241,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 218,
+      "overallRank": 219,
       "url": "https://benchlm.ai/models/ministral-3-3b",
       "markdownUrl": "https://benchlm.ai/md/models/ministral-3-3b.md"
     },
@@ -270,8 +270,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 69,
-      "overallRank": 40,
+      "displayScore": 67,
+      "overallRank": 42,
       "url": "https://benchlm.ai/models/gemini-3-5-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash.md"
     },
@@ -285,7 +285,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 78,
+      "displayScore": 76,
       "overallRank": 17,
       "url": "https://benchlm.ai/models/qwen3-7-max",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-max.md"
@@ -300,8 +300,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 58,
-      "overallRank": 91,
+      "displayScore": 55,
+      "overallRank": 92,
       "url": "https://benchlm.ai/models/gpt-5-4-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-mini.md"
     },
@@ -315,8 +315,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 56,
-      "overallRank": 71,
+      "displayScore": 55,
+      "overallRank": 72,
       "url": "https://benchlm.ai/models/gemini-3-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-flash.md"
     },
@@ -330,8 +330,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 37,
-      "overallRank": 31,
+      "displayScore": 35,
+      "overallRank": 32,
       "url": "https://benchlm.ai/models/gpt-5-4-nano",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-nano.md"
     },
@@ -346,7 +346,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 146,
+      "overallRank": 147,
       "url": "https://benchlm.ai/models/trinity-large-thinking",
       "markdownUrl": "https://benchlm.ai/md/models/trinity-large-thinking.md"
     },
@@ -361,7 +361,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 137,
+      "overallRank": 138,
       "url": "https://benchlm.ai/models/gpt-oss-120b",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-oss-120b.md"
     },
@@ -376,7 +376,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 48,
-      "overallRank": 179,
+      "overallRank": 181,
       "url": "https://benchlm.ai/models/gpt-4-1-nano",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1-nano.md"
     },
@@ -391,7 +391,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 157,
+      "overallRank": 158,
       "url": "https://benchlm.ai/models/mistral-small-4",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-small-4.md"
     },
@@ -405,8 +405,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 53,
-      "overallRank": 130,
+      "displayScore": 51,
+      "overallRank": 132,
       "url": "https://benchlm.ai/models/o4-mini-high",
       "markdownUrl": "https://benchlm.ai/md/models/o4-mini-high.md"
     },
@@ -420,8 +420,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 43,
-      "overallRank": 187,
+      "displayScore": 42,
+      "overallRank": 188,
       "url": "https://benchlm.ai/models/gpt-4o",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4o.md"
     },
@@ -436,7 +436,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 199,
+      "overallRank": 200,
       "url": "https://benchlm.ai/models/grok-code-fast-1",
       "markdownUrl": "https://benchlm.ai/md/models/grok-code-fast-1.md"
     },
@@ -450,7 +450,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 46,
+      "displayScore": 44,
       "overallRank": 123,
       "url": "https://benchlm.ai/models/gpt-4-1",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1.md"
@@ -465,8 +465,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 50,
-      "overallRank": 154,
+      "displayScore": 48,
+      "overallRank": 155,
       "url": "https://benchlm.ai/models/o3",
       "markdownUrl": "https://benchlm.ai/md/models/o3.md"
     },
@@ -480,8 +480,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 51,
-      "overallRank": 155,
+      "displayScore": 50,
+      "overallRank": 156,
       "url": "https://benchlm.ai/models/o3-mini",
       "markdownUrl": "https://benchlm.ai/md/models/o3-mini.md"
     },
@@ -495,8 +495,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 48,
-      "overallRank": 95,
+      "displayScore": 39,
+      "overallRank": 96,
       "url": "https://benchlm.ai/models/qwen3-5-35b-a3b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-35b-a3b.md"
     },
@@ -510,8 +510,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 58,
-      "overallRank": 43,
+      "displayScore": 57,
+      "overallRank": 44,
       "url": "https://benchlm.ai/models/grok-4-3",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-3.md"
     },
@@ -541,7 +541,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 118,
+      "overallRank": 119,
       "url": "https://benchlm.ai/models/nemotron-3-super-120b-a12b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-super-120b-a12b.md"
     },
@@ -556,7 +556,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 214,
+      "overallRank": 215,
       "url": "https://benchlm.ai/models/claude-3-haiku",
       "markdownUrl": "https://benchlm.ai/md/models/claude-3-haiku.md"
     },
@@ -570,8 +570,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 64,
-      "overallRank": 33,
+      "displayScore": 62,
+      "overallRank": 34,
       "url": "https://benchlm.ai/models/gpt-5-3-codex",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-3-codex.md"
     },
@@ -586,7 +586,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 127,
+      "overallRank": 128,
       "url": "https://benchlm.ai/models/grok-4-1-fast",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-1-fast.md"
     },
@@ -600,8 +600,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 43,
-      "overallRank": 92,
+      "displayScore": 40,
+      "overallRank": 93,
       "url": "https://benchlm.ai/models/gemini-2-5-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-2-5-pro.md"
     },
@@ -616,7 +616,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 156,
+      "overallRank": 157,
       "url": "https://benchlm.ai/models/gpt-5-nano",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-nano.md"
     },
@@ -630,8 +630,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 43,
-      "overallRank": 196,
+      "displayScore": 42,
+      "overallRank": 197,
       "url": "https://benchlm.ai/models/llama-4-scout",
       "markdownUrl": "https://benchlm.ai/md/models/llama-4-scout.md"
     },
@@ -645,8 +645,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 53,
-      "overallRank": 122,
+      "displayScore": 50,
+      "overallRank": 124,
       "url": "https://benchlm.ai/models/step-3-7-flash",
       "markdownUrl": "https://benchlm.ai/md/models/step-3-7-flash.md"
     },
@@ -660,8 +660,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 59,
-      "overallRank": 111,
+      "displayScore": 54,
+      "overallRank": 112,
       "url": "https://benchlm.ai/models/mimo-v2-flash",
       "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-flash.md"
     },
@@ -675,7 +675,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 54,
+      "displayScore": 46,
       "overallRank": 74,
       "url": "https://benchlm.ai/models/qwen3-5-122b-a10b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-122b-a10b.md"
@@ -690,8 +690,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 66,
-      "overallRank": 12,
+      "displayScore": 64,
+      "overallRank": 11,
       "url": "https://benchlm.ai/models/gpt-5-4",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md"
     },
@@ -705,8 +705,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 70,
-      "overallRank": 96,
+      "displayScore": 67,
+      "overallRank": 97,
       "url": "https://benchlm.ai/models/gemini-3-1-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-pro.md"
     },
@@ -721,7 +721,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 215,
+      "overallRank": 216,
       "url": "https://benchlm.ai/models/ministral-3-8b",
       "markdownUrl": "https://benchlm.ai/md/models/ministral-3-8b.md"
     },
@@ -736,7 +736,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 85,
+      "overallRank": 86,
       "url": "https://benchlm.ai/models/gpt-5-2-codex",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2-codex.md"
     },
@@ -750,7 +750,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 59,
+      "displayScore": 55,
       "overallRank": null,
       "url": "https://benchlm.ai/models/deepseek-v4-flash-0731",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-flash-0731.md"
@@ -765,8 +765,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 44,
-      "overallRank": 119,
+      "displayScore": 41,
+      "overallRank": 120,
       "url": "https://benchlm.ai/models/qwen3-6-35b-a3b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-35b-a3b.md"
     },
@@ -780,8 +780,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 71,
-      "overallRank": 47,
+      "displayScore": 69,
+      "overallRank": 48,
       "url": "https://benchlm.ai/models/glm-5-2",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5-2.md"
     },
@@ -795,8 +795,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 56,
-      "overallRank": 109,
+      "displayScore": 54,
+      "overallRank": 110,
       "url": "https://benchlm.ai/models/gpt-5-1",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-1.md"
     },
@@ -811,7 +811,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 216,
+      "overallRank": 217,
       "url": "https://benchlm.ai/models/nova-pro",
       "markdownUrl": "https://benchlm.ai/md/models/nova-pro.md"
     },
@@ -826,7 +826,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 52,
-      "overallRank": 25,
+      "overallRank": 26,
       "url": "https://benchlm.ai/models/gemini-3-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-pro.md"
     },
@@ -841,7 +841,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 42,
-      "overallRank": 171,
+      "overallRank": 172,
       "url": "https://benchlm.ai/models/ling-2-6-flash",
       "markdownUrl": "https://benchlm.ai/md/models/ling-2-6-flash.md"
     },
@@ -855,8 +855,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 45,
-      "overallRank": 98,
+      "displayScore": 43,
+      "overallRank": 99,
       "url": "https://benchlm.ai/models/grok-4-20-beta",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-20-beta.md"
     },
@@ -870,8 +870,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 60,
-      "overallRank": 21,
+      "displayScore": 57,
+      "overallRank": 20,
       "url": "https://benchlm.ai/models/minimax-m3",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m3.md"
     },
@@ -886,7 +886,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 81,
+      "overallRank": 82,
       "url": "https://benchlm.ai/models/minimax-m2-5",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-5.md"
     },
@@ -901,7 +901,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 78,
+      "overallRank": 79,
       "url": "https://benchlm.ai/models/gpt-5-high",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-high.md"
     },
@@ -915,8 +915,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 43,
-      "overallRank": 211,
+      "displayScore": 42,
+      "overallRank": 212,
       "url": "https://benchlm.ai/models/llama-4-maverick",
       "markdownUrl": "https://benchlm.ai/md/models/llama-4-maverick.md"
     },
@@ -931,7 +931,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 205,
+      "overallRank": 206,
       "url": "https://benchlm.ai/models/ministral-3-14b",
       "markdownUrl": "https://benchlm.ai/md/models/ministral-3-14b.md"
     },
@@ -946,7 +946,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 61,
-      "overallRank": 145,
+      "overallRank": 146,
       "url": "https://benchlm.ai/models/o1",
       "markdownUrl": "https://benchlm.ai/md/models/o1.md"
     },
@@ -960,8 +960,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 39,
-      "overallRank": 62,
+      "displayScore": 36,
+      "overallRank": 63,
       "url": "https://benchlm.ai/models/glm-4-7",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md"
     },
@@ -991,7 +991,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 74,
-      "overallRank": 49,
+      "overallRank": 50,
       "url": "https://benchlm.ai/models/glm-5-3",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5-3.md"
     },
@@ -1006,7 +1006,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 217,
+      "overallRank": 218,
       "url": "https://benchlm.ai/models/lfm2-24b-a2b",
       "markdownUrl": "https://benchlm.ai/md/models/lfm2-24b-a2b.md"
     },
@@ -1020,8 +1020,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 72,
-      "overallRank": 11,
+      "displayScore": 70,
+      "overallRank": 12,
       "url": "https://benchlm.ai/models/gpt-5-5",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-5.md"
     },
@@ -1036,7 +1036,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 176,
+      "overallRank": 177,
       "url": "https://benchlm.ai/models/gpt-5-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-mini.md"
     },
@@ -1051,7 +1051,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 105,
+      "overallRank": 106,
       "url": "https://benchlm.ai/models/gpt-5-medium",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-medium.md"
     },
@@ -1065,8 +1065,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 63,
-      "overallRank": 28,
+      "displayScore": 60,
+      "overallRank": 30,
       "url": "https://benchlm.ai/models/glm-5-1",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5-1.md"
     },
@@ -1080,7 +1080,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 52,
+      "displayScore": 51,
       "overallRank": 84,
       "url": "https://benchlm.ai/models/gpt-5-2",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2.md"
@@ -1095,8 +1095,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 77,
-      "overallRank": 38,
+      "displayScore": 73,
+      "overallRank": 39,
       "url": "https://benchlm.ai/models/claude-sonnet-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-5.md"
     },
@@ -1110,8 +1110,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 45,
-      "overallRank": 170,
+      "displayScore": 44,
+      "overallRank": 171,
       "url": "https://benchlm.ai/models/gpt-4-1-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1-mini.md"
     },
@@ -1125,8 +1125,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 58,
-      "overallRank": 86,
+      "displayScore": 53,
+      "overallRank": 87,
       "url": "https://benchlm.ai/models/qwen3-5-397b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-397b.md"
     },
@@ -1141,7 +1141,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 23,
+      "overallRank": 24,
       "url": "https://benchlm.ai/models/hy3",
       "markdownUrl": "https://benchlm.ai/md/models/hy3.md"
     },
@@ -1170,8 +1170,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 54,
-      "overallRank": 70,
+      "displayScore": 47,
+      "overallRank": 71,
       "url": "https://benchlm.ai/models/qwen3-5-27b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-27b.md"
     },
@@ -1185,8 +1185,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 63,
-      "overallRank": 35,
+      "displayScore": 56,
+      "overallRank": 36,
       "url": "https://benchlm.ai/models/glm-5",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5.md"
     },
@@ -1200,8 +1200,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 79,
-      "overallRank": 54,
+      "displayScore": 77,
+      "overallRank": 55,
       "url": "https://benchlm.ai/models/gpt-5-4-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md"
     },
@@ -1215,7 +1215,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 83,
+      "displayScore": 80,
       "overallRank": 4,
       "url": "https://benchlm.ai/models/gpt-5-6-sol",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-sol.md"
@@ -1230,7 +1230,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 79,
+      "displayScore": 78,
       "overallRank": 2,
       "url": "https://benchlm.ai/models/claude-fable",
       "markdownUrl": "https://benchlm.ai/md/models/claude-fable.md"
@@ -1245,8 +1245,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 67,
-      "overallRank": 61,
+      "displayScore": 64,
+      "overallRank": 57,
       "url": "https://benchlm.ai/models/deepseek-v4-pro-0813",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-pro-0813.md"
     },
@@ -1260,7 +1260,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 80,
+      "displayScore": 78,
       "overallRank": 6,
       "url": "https://benchlm.ai/models/qwen3-8-max",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-max.md"
@@ -1275,8 +1275,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 56,
-      "overallRank": 77,
+      "displayScore": 53,
+      "overallRank": 78,
       "url": "https://benchlm.ai/models/mimo-v2-5",
       "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5.md"
     },
@@ -1290,7 +1290,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 67,
+      "displayScore": 66,
       "overallRank": 9,
       "url": "https://benchlm.ai/models/grok-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-5.md"
@@ -1305,8 +1305,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 44,
-      "overallRank": 102,
+      "displayScore": 43,
+      "overallRank": 103,
       "url": "https://benchlm.ai/models/glm-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-6.md"
     },
@@ -1321,7 +1321,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 75,
-      "overallRank": 46,
+      "overallRank": 47,
       "url": "https://benchlm.ai/models/grok-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-6.md"
     },
@@ -1335,8 +1335,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 51,
-      "overallRank": 48,
+      "displayScore": 49,
+      "overallRank": 49,
       "url": "https://benchlm.ai/models/minimax-m2-7",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-7.md"
     },
@@ -1350,7 +1350,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 79,
+      "displayScore": 76,
       "overallRank": 8,
       "url": "https://benchlm.ai/models/claude-opus-4-8",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-8.md"
@@ -1365,8 +1365,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 56,
-      "overallRank": 79,
+      "displayScore": 48,
+      "overallRank": 80,
       "url": "https://benchlm.ai/models/kimi-k2-5",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k2-5.md"
     },
@@ -1381,7 +1381,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 178,
+      "overallRank": 179,
       "url": "https://benchlm.ai/models/deepseek-r1-distill-qwen-32b",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-r1-distill-qwen-32b.md"
     },
@@ -1395,7 +1395,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 85,
+      "displayScore": 84,
       "overallRank": 3,
       "url": "https://benchlm.ai/models/claude-opus-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-5.md"
@@ -1411,7 +1411,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 142,
+      "overallRank": 143,
       "url": "https://benchlm.ai/models/qwen3-max",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-max.md"
     },
@@ -1425,8 +1425,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 53,
-      "overallRank": 108,
+      "displayScore": 49,
+      "overallRank": 109,
       "url": "https://benchlm.ai/models/qwen3-6-27b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-27b.md"
     },
@@ -1440,8 +1440,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 74,
-      "overallRank": 34,
+      "displayScore": 71,
+      "overallRank": 35,
       "url": "https://benchlm.ai/models/qwen3-7-plus",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-plus.md"
     },
@@ -1456,7 +1456,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 173,
+      "overallRank": 174,
       "url": "https://benchlm.ai/models/mistral-medium-3",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-medium-3.md"
     },
@@ -1470,8 +1470,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 63,
-      "overallRank": 39,
+      "displayScore": 57,
+      "overallRank": 40,
       "url": "https://benchlm.ai/models/qwen3-6-plus",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-plus.md"
     },
@@ -1485,7 +1485,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 50,
+      "displayScore": 48,
       "overallRank": 75,
       "url": "https://benchlm.ai/models/grok-4",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4.md"
@@ -1515,7 +1515,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 68,
+      "displayScore": 65,
       "overallRank": 14,
       "url": "https://benchlm.ai/models/qwen3-8-27b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-27b.md"
@@ -1531,7 +1531,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 83,
+      "overallRank": 85,
       "url": "https://benchlm.ai/models/glm-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-5.md"
     },
@@ -1545,8 +1545,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 61,
-      "overallRank": 30,
+      "displayScore": 57,
+      "overallRank": 31,
       "url": "https://benchlm.ai/models/inkling",
       "markdownUrl": "https://benchlm.ai/md/models/inkling.md"
     },
@@ -1560,7 +1560,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 59,
+      "displayScore": 54,
       "overallRank": 45,
       "url": "https://benchlm.ai/models/claude-opus-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-5.md"
@@ -1576,7 +1576,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 106,
+      "overallRank": 107,
       "url": "https://benchlm.ai/models/kimi-k2-7-code",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k2-7-code.md"
     },
@@ -1590,7 +1590,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 63,
+      "displayScore": 60,
       "overallRank": 41,
       "url": "https://benchlm.ai/models/claude-sonnet-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-4-6.md"
@@ -1605,8 +1605,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 64,
-      "overallRank": 65,
+      "displayScore": 61,
+      "overallRank": 69,
       "url": "https://benchlm.ai/models/kimi-2-6",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-2-6.md"
     },
@@ -1621,7 +1621,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 136,
+      "overallRank": 137,
       "url": "https://benchlm.ai/models/mistral-large-3",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-large-3.md"
     },
@@ -1636,7 +1636,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 153,
+      "overallRank": 154,
       "url": "https://benchlm.ai/models/glm-4-5-air",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-5-air.md"
     },
@@ -1665,8 +1665,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 68,
-      "overallRank": 24,
+      "displayScore": 65,
+      "overallRank": 23,
       "url": "https://benchlm.ai/models/claude-opus-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6.md"
     },
@@ -1681,7 +1681,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 212,
+      "overallRank": 213,
       "url": "https://benchlm.ai/models/phi-4",
       "markdownUrl": "https://benchlm.ai/md/models/phi-4.md"
     },
@@ -1695,8 +1695,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 51,
-      "overallRank": 208,
+      "displayScore": 49,
+      "overallRank": 209,
       "url": "https://benchlm.ai/models/kimi-k2",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k2.md"
     },
@@ -1710,7 +1710,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 58,
+      "displayScore": 53,
       "overallRank": 183,
       "url": "https://benchlm.ai/models/claude-4-sonnet",
       "markdownUrl": "https://benchlm.ai/md/models/claude-4-sonnet.md"
@@ -1726,7 +1726,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 182,
+      "overallRank": 184,
       "url": "https://benchlm.ai/models/mistral-large-2",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-large-2.md"
     },
@@ -1740,8 +1740,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 64,
-      "overallRank": 101,
+      "displayScore": 62,
+      "overallRank": 102,
       "url": "https://benchlm.ai/models/deepseek-v3-2",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3-2.md"
     },
@@ -1755,7 +1755,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 46,
+      "displayScore": 42,
       "overallRank": 67,
       "url": "https://benchlm.ai/models/gemma-4-31b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-4-31b.md"
@@ -1770,7 +1770,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 83,
+      "displayScore": 81,
       "overallRank": 5,
       "url": "https://benchlm.ai/models/kimi-k3",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md"
@@ -1786,7 +1786,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 200,
+      "overallRank": 201,
       "url": "https://benchlm.ai/models/gpt-4o-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4o-mini.md"
     },
@@ -1801,7 +1801,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 207,
+      "overallRank": 208,
       "url": "https://benchlm.ai/models/gpt-4-turbo",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-turbo.md"
     },
@@ -1816,7 +1816,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 185,
+      "overallRank": 186,
       "url": "https://benchlm.ai/models/gemma-3-27b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-3-27b.md"
     },
@@ -1830,8 +1830,8 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
-      "displayScore": 60,
-      "overallRank": 166,
+      "displayScore": 55,
+      "overallRank": 165,
       "url": "https://benchlm.ai/models/claude-4-1-opus",
       "markdownUrl": "https://benchlm.ai/md/models/claude-4-1-opus.md"
     },
@@ -1846,7 +1846,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 202,
+      "overallRank": 203,
       "url": "https://benchlm.ai/models/claude-4-1-opus-thinking",
       "markdownUrl": "https://benchlm.ai/md/models/claude-4-1-opus-thinking.md"
     },
@@ -1861,7 +1861,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 117,
+      "overallRank": 118,
       "url": "https://benchlm.ai/models/llama-3-1-405b",
       "markdownUrl": "https://benchlm.ai/md/models/llama-3-1-405b.md"
     },
@@ -1876,7 +1876,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-08-24",
       "displayScore": 0,
-      "overallRank": 151,
+      "overallRank": 152,
       "url": "https://benchlm.ai/models/o3-pro",
       "markdownUrl": "https://benchlm.ai/md/models/o3-pro.md"
     },
