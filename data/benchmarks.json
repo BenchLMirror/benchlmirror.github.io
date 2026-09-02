@@ -3,8 +3,8 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-01T01:07:19.846Z",
-  "sourceLastUpdated": "August 31, 2026",
+  "generatedAt": "2026-09-02T00:50:21.010Z",
+  "sourceLastUpdated": "September 1, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
@@ -472,7 +472,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.45,
-      "displayableScoreCount": 52,
+      "displayableScoreCount": 53,
       "url": "https://benchlm.ai/benchmarks/hle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hle.md"
     },
@@ -516,7 +516,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 167,
+      "displayableScoreCount": 169,
       "url": "https://benchlm.ai/benchmarks/artificialanalysis",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificialanalysis.md"
     },
@@ -538,7 +538,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 164,
+      "displayableScoreCount": 166,
       "url": "https://benchlm.ai/benchmarks/aagpqadiamond",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aagpqadiamond.md"
     },
@@ -560,7 +560,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 163,
+      "displayableScoreCount": 165,
       "url": "https://benchlm.ai/benchmarks/aahle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aahle.md"
     },
@@ -582,7 +582,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 153,
+      "displayableScoreCount": 155,
       "url": "https://benchlm.ai/benchmarks/aaomniscienceindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaomniscienceindex.md"
     },
@@ -604,7 +604,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 152,
+      "displayableScoreCount": 154,
       "url": "https://benchlm.ai/benchmarks/omniscienceaccuracy",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omniscienceaccuracy.md"
     },
@@ -626,7 +626,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 152,
+      "displayableScoreCount": 154,
       "url": "https://benchlm.ai/benchmarks/omnisciencehallucinationrate",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omnisciencehallucinationrate.md"
     },
@@ -824,7 +824,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 35,
+      "displayableScoreCount": 36,
       "url": "https://benchlm.ai/benchmarks/hlenotools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlenotools.md"
     },
@@ -1396,7 +1396,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.1,
-      "displayableScoreCount": 62,
+      "displayableScoreCount": 63,
       "url": "https://benchlm.ai/benchmarks/swe-bench-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-pro.md"
     },
@@ -1594,7 +1594,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 35,
+      "displayableScoreCount": 36,
       "url": "https://benchlm.ai/benchmarks/swe-bench-multilingual",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-multilingual.md"
     },
@@ -1616,7 +1616,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 4,
       "url": "https://benchlm.ai/benchmarks/swe-bench-multimodal",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-multimodal.md"
     },
@@ -1726,7 +1726,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/programbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/programbench.md"
     },
@@ -2100,7 +2100,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 99,
+      "displayableScoreCount": 101,
       "url": "https://benchlm.ai/benchmarks/aacodingindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aacodingindex.md"
     },
@@ -2144,7 +2144,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 163,
+      "displayableScoreCount": 165,
       "url": "https://benchlm.ai/benchmarks/aascicode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aascicode.md"
     },
@@ -3002,7 +3002,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/arcagi1",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arcagi1.md"
     },
@@ -3398,7 +3398,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.31,
-      "displayableScoreCount": 20,
+      "displayableScoreCount": 21,
       "url": "https://benchlm.ai/benchmarks/arc-agi-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arc-agi-2.md"
     },
@@ -3508,7 +3508,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 155,
+      "displayableScoreCount": 157,
       "url": "https://benchlm.ai/benchmarks/lcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/lcr.md"
     },
@@ -3530,7 +3530,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 158,
+      "displayableScoreCount": 160,
       "url": "https://benchlm.ai/benchmarks/critpt",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/critpt.md"
     },
@@ -3640,7 +3640,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 126,
+      "displayableScoreCount": 127,
       "url": "https://benchlm.ai/benchmarks/aaifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaifbench.md"
     },
@@ -4124,7 +4124,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/toolathlonverifiedpass3",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/toolathlonverifiedpass3.md"
     },
@@ -4146,7 +4146,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/toolathlonverifiedpass3all",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/toolathlonverifiedpass3all.md"
     },
@@ -4168,7 +4168,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/toolathlonverifiedavgturns",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/toolathlonverifiedavgturns.md"
     },
@@ -4212,7 +4212,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/terminal-bench-4",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench-4.md"
     },
@@ -4234,7 +4234,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 1,
       "url": "https://benchlm.ai/benchmarks/terminal-bench-science",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench-science.md"
     },
@@ -4388,7 +4388,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 13,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/aaharveylab",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaharveylab.md"
     },
@@ -4432,7 +4432,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 17,
+      "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/aatau3banking",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aatau3banking.md"
     },
@@ -4542,7 +4542,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 96,
+      "displayableScoreCount": 98,
       "url": "https://benchlm.ai/benchmarks/gdpvalaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaa.md"
     },
@@ -4564,7 +4564,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 94,
+      "displayableScoreCount": 96,
       "url": "https://benchlm.ai/benchmarks/gdpvalaanormalized",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaanormalized.md"
     },
@@ -4586,7 +4586,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 86,
+      "displayableScoreCount": 88,
       "url": "https://benchlm.ai/benchmarks/aaagenticindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaagenticindex.md"
     },
@@ -4674,7 +4674,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 15,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/osworld2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/osworld2.md"
     },
@@ -4982,7 +4982,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 15,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/toolathlonverified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/toolathlonverified.md"
     },
@@ -5004,7 +5004,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 8,
+      "displayableScoreCount": 9,
       "url": "https://benchlm.ai/benchmarks/automationbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/automationbench.md"
     },
@@ -5136,7 +5136,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 125,
+      "displayableScoreCount": 126,
       "url": "https://benchlm.ai/benchmarks/tau2-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/tau2-bench.md"
     },
