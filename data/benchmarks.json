@@ -3,15 +3,15 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-03T23:37:49.543Z",
-  "sourceLastUpdated": "September 3, 2026",
+  "generatedAt": "2026-09-04T18:04:16.680Z",
+  "sourceLastUpdated": "September 4, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 417
+    "benchmarks": 422
   },
   "items": [
     {
@@ -296,7 +296,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 10,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/aaopennessindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaopennessindex.md"
     },
@@ -427,7 +427,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.3,
+      "weight": 0.2,
       "displayableScoreCount": 39,
       "url": "https://benchlm.ai/benchmarks/mmlu-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmlu-pro.md"
@@ -471,7 +471,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.45,
+      "weight": 0.35,
       "displayableScoreCount": 53,
       "url": "https://benchlm.ai/benchmarks/hle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hle.md"
@@ -647,7 +647,7 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.06,
       "displayableScoreCount": 158,
       "url": "https://benchlm.ai/benchmarks/omniscienceaccuracy",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omniscienceaccuracy.md"
@@ -691,7 +691,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.11,
+      "weight": 0.05,
       "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/simpleqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/simpleqa.md"
@@ -867,7 +867,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.1,
       "displayableScoreCount": 36,
       "url": "https://benchlm.ai/benchmarks/hlenotools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlenotools.md"
@@ -1071,6 +1071,50 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/financearena.md"
     },
     {
+      "category": "knowledge",
+      "categoryLabel": "Knowledge",
+      "benchmarkKey": "valsGpqaDiamond",
+      "name": "GPQA Diamond (Vals)",
+      "fullName": "GPQA Diamond, Vals AI run",
+      "description": "Vals AI’s independent run of the GPQA Diamond graduate-level science questions.",
+      "paperUrl": "https://www.vals.ai/benchmarks/gpqa",
+      "paperTitle": "Vals AI GPQA Diamond, Vals AI run leaderboard",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "Graduate-level science questions",
+      "format": "Accuracy",
+      "difficulty": "Expert reasoning",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 50,
+      "url": "https://benchlm.ai/benchmarks/valsgpqadiamond",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valsgpqadiamond.md"
+    },
+    {
+      "category": "knowledge",
+      "categoryLabel": "Knowledge",
+      "benchmarkKey": "valsMmluPro",
+      "name": "MMLU-Pro (Vals)",
+      "fullName": "MMLU-Pro, Vals AI run",
+      "description": "Vals AI’s independent run of MMLU-Pro across fourteen academic subjects.",
+      "paperUrl": "https://www.vals.ai/benchmarks/mmlu_pro",
+      "paperTitle": "Vals AI MMLU-Pro, Vals AI run leaderboard",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "Academic multiple-choice questions",
+      "format": "Accuracy",
+      "difficulty": "Broad academic knowledge",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": 0.1,
+      "displayableScoreCount": 51,
+      "url": "https://benchlm.ai/benchmarks/valsmmlupro",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valsmmlupro.md"
+    },
+    {
       "category": "coding",
       "categoryLabel": "Coding",
       "benchmarkKey": "programBenchEpisode1",
@@ -1263,7 +1307,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.16,
+      "weight": 0.1,
       "displayableScoreCount": 65,
       "url": "https://benchlm.ai/benchmarks/swe-bench-verified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-verified.md"
@@ -1285,7 +1329,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.2,
+      "weight": 0.1,
       "displayableScoreCount": 13,
       "url": "https://benchlm.ai/benchmarks/swe-rebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-rebench.md"
@@ -1307,7 +1351,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.38,
+      "weight": 0.15,
       "displayableScoreCount": 6,
       "url": "https://benchlm.ai/benchmarks/livecodebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/livecodebench.md"
@@ -1439,7 +1483,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.1,
+      "weight": 0.25,
       "displayableScoreCount": 63,
       "url": "https://benchlm.ai/benchmarks/swe-bench-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-pro.md"
@@ -1550,7 +1594,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 11,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/frontiercode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontiercode.md"
     },
@@ -1572,7 +1616,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 5,
+      "displayableScoreCount": 6,
       "url": "https://benchlm.ai/benchmarks/frontiercode11extended",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontiercode11extended.md"
     },
@@ -1637,7 +1681,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.05,
       "displayableScoreCount": 36,
       "url": "https://benchlm.ai/benchmarks/swe-bench-multilingual",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-multilingual.md"
@@ -2187,7 +2231,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.16,
+      "weight": 0.1,
       "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/scicode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode.md"
@@ -2389,6 +2433,50 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/edgebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/edgebench.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "valsLiveCodeBench",
+      "name": "LiveCodeBench (Vals)",
+      "fullName": "LiveCodeBench, Vals AI run",
+      "description": "Vals AI’s independent implementation of the LiveCodeBench code-generation benchmark, run under one fixed harness across the models it tracks.",
+      "paperUrl": "https://www.vals.ai/benchmarks/lcb",
+      "paperTitle": "Vals AI LiveCodeBench, Vals AI run leaderboard",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "Competitive programming problems (easy, medium, hard)",
+      "format": "Pass@1 accuracy",
+      "difficulty": "Frontier coding",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": 0.15,
+      "displayableScoreCount": 48,
+      "url": "https://benchlm.ai/benchmarks/valslivecodebench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valslivecodebench.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "valsSweBench",
+      "name": "SWE-bench (Vals)",
+      "fullName": "SWE-bench, Vals AI run",
+      "description": "Vals AI’s independent run of the public SWE-bench issue set, reported by human time-to-fix bucket. Vals removed SWE-bench Verified from its index as saturated on 2026-05-04; this board is the standalone SWE-bench run.",
+      "paperUrl": "https://www.vals.ai/benchmarks/swebench",
+      "paperTitle": "Vals AI SWE-bench, Vals AI run leaderboard",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "Real repository issues by human time bucket",
+      "format": "Resolved rate",
+      "difficulty": "Frontier coding agents",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 50,
+      "url": "https://benchlm.ai/benchmarks/valsswebench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valsswebench.md"
     },
     {
       "category": "math",
@@ -3112,7 +3200,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/arcagi1",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arcagi1.md"
     },
@@ -3331,7 +3419,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.38,
+      "weight": 0.25,
       "displayableScoreCount": 11,
       "url": "https://benchlm.ai/benchmarks/longbench-v2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/longbench-v2.md"
@@ -3353,7 +3441,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.31,
+      "weight": 0.2,
       "displayableScoreCount": 9,
       "url": "https://benchlm.ai/benchmarks/mrcrv2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mrcrv2.md"
@@ -3551,7 +3639,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.31,
+      "weight": 0.25,
       "displayableScoreCount": 22,
       "url": "https://benchlm.ai/benchmarks/arc-agi-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arc-agi-2.md"
@@ -3573,7 +3661,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.15,
       "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/arcagi3",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arcagi3.md"
@@ -3596,7 +3684,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/genebenchpro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/genebenchpro.md"
     },
@@ -3661,8 +3749,8 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
-      "displayableScoreCount": 161,
+      "weight": 0.15,
+      "displayableScoreCount": 160,
       "url": "https://benchlm.ai/benchmarks/lcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/lcr.md"
     },
@@ -3749,7 +3837,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.35,
+      "weight": null,
       "displayableScoreCount": 26,
       "url": "https://benchlm.ai/benchmarks/ifeval",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifeval.md"
@@ -3771,7 +3859,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.65,
+      "weight": 0.7,
       "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/ifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifbench.md"
@@ -3793,7 +3881,7 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.3,
       "displayableScoreCount": 127,
       "url": "https://benchlm.ai/benchmarks/aaifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaifbench.md"
@@ -4476,7 +4564,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 14,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/aabriefcaseelo",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aabriefcaseelo.md"
     },
@@ -4607,7 +4695,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": "https://benchlm.ai/benchmarks/terminal-bench-4",
-      "weight": 0.38,
+      "weight": 0.3,
       "displayableScoreCount": 65,
       "url": "https://benchlm.ai/benchmarks/terminal-bench-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench-2.md"
@@ -4651,8 +4739,8 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.28,
-      "displayableScoreCount": 38,
+      "weight": 0.25,
+      "displayableScoreCount": 39,
       "url": "https://benchlm.ai/benchmarks/browsecomp",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/browsecomp.md"
     },
@@ -4674,7 +4762,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 17,
+      "displayableScoreCount": 18,
       "url": "https://benchlm.ai/benchmarks/hlewithtools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlewithtools.md"
     },
@@ -4805,7 +4893,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.34,
+      "weight": 0.25,
       "displayableScoreCount": 30,
       "url": "https://benchlm.ai/benchmarks/osworld-verified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/osworld-verified.md"
@@ -4827,7 +4915,7 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.1,
       "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/osworld2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/osworld2.md"
@@ -5179,8 +5267,8 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
-      "displayableScoreCount": 11,
+      "weight": 0.1,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/automationbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/automationbench.md"
     },
@@ -6021,6 +6109,28 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/bankertoolbench.md"
     },
     {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "valsTerminalBench21",
+      "name": "Terminal-Bench 2.1 (Vals)",
+      "fullName": "Terminal-Bench 2.1, Vals AI run",
+      "description": "Vals AI’s independent run of the Terminal-Bench 2.1 terminal-task suite with published easy, medium, and hard splits.",
+      "paperUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
+      "paperTitle": "Vals AI Terminal-Bench 2.1, Vals AI run leaderboard",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "Difficult terminal tasks",
+      "format": "Task success rate",
+      "difficulty": "Frontier agentic",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 53,
+      "url": "https://benchlm.ai/benchmarks/valsterminalbench21",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valsterminalbench21.md"
+    },
+    {
       "category": "multimodalGrounded",
       "categoryLabel": "Multimodal & Grounded",
       "benchmarkKey": "chartography",
@@ -6104,7 +6214,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/benchcadvision2codewithtools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/benchcadvision2codewithtools.md"
     },
@@ -6213,7 +6323,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.45,
+      "weight": 0.4,
       "displayableScoreCount": 38,
       "url": "https://benchlm.ai/benchmarks/mmmu-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmmu-pro.md"
@@ -6235,7 +6345,7 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
+      "weight": 0.15,
       "displayableScoreCount": 93,
       "url": "https://benchlm.ai/benchmarks/aammmupro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aammmupro.md"
@@ -6324,7 +6434,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 88,
+      "displayableScoreCount": 89,
       "url": "https://benchlm.ai/benchmarks/designarenawebsite",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/designarenawebsite.md"
     },
@@ -6345,7 +6455,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.3,
+      "weight": 0.25,
       "displayableScoreCount": 10,
       "url": "https://benchlm.ai/benchmarks/officeqapro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/officeqapro.md"
@@ -7357,7 +7467,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.25,
+      "weight": 0.2,
       "displayableScoreCount": 36,
       "url": "https://benchlm.ai/benchmarks/charxiv",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/charxiv.md"
@@ -8216,7 +8326,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/secbenchpro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/secbenchpro.md"
     },
