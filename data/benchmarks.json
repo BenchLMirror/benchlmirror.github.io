@@ -3,7 +3,7 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-04T18:04:16.680Z",
+  "generatedAt": "2026-09-05T13:18:54.260Z",
   "sourceLastUpdated": "September 4, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
@@ -6324,7 +6324,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.4,
-      "displayableScoreCount": 38,
+      "displayableScoreCount": 37,
       "url": "https://benchlm.ai/benchmarks/mmmu-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmmu-pro.md"
     },

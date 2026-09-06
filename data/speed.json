@@ -3,7 +3,7 @@
   "name": "BenchLM speed metrics",
   "description": "Runtime throughput and first-token latency metrics joined to BenchLM model records where possible.",
   "canonicalUrl": "https://benchlm.ai/data/speed.json",
-  "generatedAt": "2026-09-04T18:04:16.680Z",
+  "generatedAt": "2026-09-05T13:18:54.260Z",
   "sourceLastUpdated": "2026-09-04",
   "sourceFiles": [
     "src/data/modelOperationalMetrics.js"
@@ -315,7 +315,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-09-04",
-      "displayScore": 65,
+      "displayScore": 66,
       "overallRank": 20,
       "url": "https://benchlm.ai/models/gemini-3-5-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash.md"
@@ -585,7 +585,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-09-04",
-      "displayScore": 56,
+      "displayScore": 55,
       "overallRank": null,
       "url": "https://benchlm.ai/models/deepseek-v4-flash-0731",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-flash-0731.md"
@@ -915,7 +915,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-09-04",
-      "displayScore": 44,
+      "displayScore": 43,
       "overallRank": 74,
       "url": "https://benchlm.ai/models/glm-4-7",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md"
@@ -1305,7 +1305,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-09-04",
-      "displayScore": 74,
+      "displayScore": 72,
       "overallRank": 60,
       "url": "https://benchlm.ai/models/gpt-5-4-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md"
@@ -1815,7 +1815,7 @@
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-09-04",
-      "displayScore": 77,
+      "displayScore": 78,
       "overallRank": 9,
       "url": "https://benchlm.ai/models/qwen3-8-max",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-max.md"
