@@ -3,7 +3,7 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-05T13:18:54.260Z",
+  "generatedAt": "2026-09-08T01:34:04.736Z",
   "sourceLastUpdated": "September 4, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
