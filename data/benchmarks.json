@@ -3,15 +3,15 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-08T01:34:04.736Z",
-  "sourceLastUpdated": "September 4, 2026",
+  "generatedAt": "2026-09-08T21:26:54.466Z",
+  "sourceLastUpdated": "September 8, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 422
+    "benchmarks": 427
   },
   "items": [
     {
@@ -384,7 +384,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 53,
+      "displayableScoreCount": 54,
       "url": "https://benchlm.ai/benchmarks/gpqa-diamond",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gpqa-diamond.md"
     },
@@ -560,7 +560,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 173,
+      "displayableScoreCount": 172,
       "url": "https://benchlm.ai/benchmarks/artificialanalysis",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificialanalysis.md"
     },
@@ -604,7 +604,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 169,
+      "displayableScoreCount": 168,
       "url": "https://benchlm.ai/benchmarks/aahle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aahle.md"
     },
@@ -626,7 +626,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 159,
+      "displayableScoreCount": 158,
       "url": "https://benchlm.ai/benchmarks/aaomniscienceindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaomniscienceindex.md"
     },
@@ -1528,7 +1528,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 13,
+      "displayableScoreCount": 14,
       "url": "https://benchlm.ai/benchmarks/vulcanbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/vulcanbench.md"
     },
@@ -1550,7 +1550,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 10,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/openharmonybench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/openharmonybench.md"
     },
@@ -1572,7 +1572,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/vulcanciiv1",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/vulcanciiv1.md"
     },
@@ -2232,7 +2232,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.1,
-      "displayableScoreCount": 19,
+      "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/scicode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode.md"
     },
@@ -2254,7 +2254,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 105,
+      "displayableScoreCount": 102,
       "url": "https://benchlm.ai/benchmarks/aacodingindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aacodingindex.md"
     },
@@ -2298,7 +2298,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 168,
+      "displayableScoreCount": 77,
       "url": "https://benchlm.ai/benchmarks/aascicode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aascicode.md"
     },
@@ -2477,6 +2477,50 @@
       "displayableScoreCount": 50,
       "url": "https://benchlm.ai/benchmarks/valsswebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/valsswebench.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "eeBench",
+      "name": "EEBench",
+      "fullName": "EEBench V1 core corpus",
+      "description": "An electrical-engineering agent benchmark maintained by atopile.",
+      "paperUrl": "https://www.eebench.org/",
+      "paperTitle": "EEBench leaderboard",
+      "authors": "atopile",
+      "year": "2026",
+      "tasks": "Electrical-engineering design tasks",
+      "format": "Agent task score",
+      "difficulty": "Professional electrical engineering",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/eebench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/eebench.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "cadGenBenchGeneration",
+      "name": "CADGenBench Generation",
+      "fullName": "CADGenBench Generation",
+      "description": "Hugging Face's open benchmark for generating valid and geometrically correct 3D mechanical parts.",
+      "paperUrl": "https://github.com/huggingface/cadgenbench",
+      "paperTitle": "CADGenBench",
+      "authors": "Hugging Face and benchmark contributors",
+      "year": "2026",
+      "tasks": "49 CAD generation samples",
+      "format": "Validity-gated CAD score",
+      "difficulty": "Professional mechanical CAD",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/cadgenbenchgeneration",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/cadgenbenchgeneration.md"
     },
     {
       "category": "math",
@@ -3750,7 +3794,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.15,
-      "displayableScoreCount": 160,
+      "displayableScoreCount": 157,
       "url": "https://benchlm.ai/benchmarks/lcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/lcr.md"
     },
@@ -3772,7 +3816,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 163,
+      "displayableScoreCount": 162,
       "url": "https://benchlm.ai/benchmarks/critpt",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/critpt.md"
     },
@@ -3860,7 +3904,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.7,
-      "displayableScoreCount": 27,
+      "displayableScoreCount": 28,
       "url": "https://benchlm.ai/benchmarks/ifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifbench.md"
     },
@@ -3882,7 +3926,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.3,
-      "displayableScoreCount": 127,
+      "displayableScoreCount": 126,
       "url": "https://benchlm.ai/benchmarks/aaifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaifbench.md"
     },
@@ -4564,7 +4608,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 12,
+      "displayableScoreCount": 14,
       "url": "https://benchlm.ai/benchmarks/aabriefcaseelo",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aabriefcaseelo.md"
     },
@@ -4586,7 +4630,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 15,
+      "displayableScoreCount": 14,
       "url": "https://benchlm.ai/benchmarks/aaautomationbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaautomationbench.md"
     },
@@ -4784,7 +4828,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 102,
+      "displayableScoreCount": 99,
       "url": "https://benchlm.ai/benchmarks/gdpvalaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaa.md"
     },
@@ -4806,7 +4850,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 100,
+      "displayableScoreCount": 97,
       "url": "https://benchlm.ai/benchmarks/gdpvalaanormalized",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaanormalized.md"
     },
@@ -4828,7 +4872,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 92,
+      "displayableScoreCount": 72,
       "url": "https://benchlm.ai/benchmarks/aaagenticindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaagenticindex.md"
     },
@@ -4850,7 +4894,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 28,
+      "displayableScoreCount": 26,
       "url": "https://benchlm.ai/benchmarks/apexagentsaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/apexagentsaa.md"
     },
@@ -5400,7 +5444,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 126,
+      "displayableScoreCount": 125,
       "url": "https://benchlm.ai/benchmarks/tau2-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/tau2-bench.md"
     },
@@ -5422,7 +5466,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 16,
+      "displayableScoreCount": 17,
       "url": "https://benchlm.ai/benchmarks/deepsearchqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/deepsearchqa.md"
     },
@@ -5774,7 +5818,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 14,
+      "displayableScoreCount": 15,
       "url": "https://benchlm.ai/benchmarks/tau3-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/tau3-bench.md"
     },
@@ -6434,7 +6478,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 89,
+      "displayableScoreCount": 84,
       "url": "https://benchlm.ai/benchmarks/designarenawebsite",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/designarenawebsite.md"
     },
@@ -8927,6 +8971,28 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "valsTaxAgentBench",
+      "name": "Tax Agent Bench",
+      "fullName": "Vals Tax Agent Bench",
+      "description": "Agent evaluation on research-grade US tax questions using the Tax Agent Bench harness.",
+      "paperUrl": "https://www.vals.ai/benchmarks/tax_agent_bench",
+      "paperTitle": "Tax Agent Bench",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "US tax research, calculations, forms, filings, and precedent analysis",
+      "format": "Overall score; all-pass score shown separately",
+      "difficulty": "Research-grade US tax questions",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/valstaxagentbench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valstaxagentbench.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "taxEvalV2",
       "name": "TaxEval v2",
       "fullName": "Vals TaxEval v2",
@@ -9297,6 +9363,50 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/publicbenefitsbenchv1",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/publicbenefitsbenchv1.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "digBench",
+      "name": "DiG-bench",
+      "fullName": "DiG-bench: Discovery in Games",
+      "description": "Tests scientific discovery by asking agents to infer undisclosed rules across 70 interactive text-based games.",
+      "paperUrl": "https://digbench.ai/",
+      "paperTitle": "DiG-bench: Discovery in Games",
+      "authors": "Battleday et al.",
+      "year": "2026",
+      "tasks": "70 interactive games across seven difficulty tiers",
+      "format": "Expected composite score with confidence interval",
+      "difficulty": "Unknown-rule discovery and interactive reasoning",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/digbench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/digbench.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "vendingBench2",
+      "name": "Vending-Bench 2",
+      "fullName": "Vending-Bench 2",
+      "description": "Tests long-horizon coherence by asking agents to operate a simulated vending-machine business for one year.",
+      "paperUrl": "https://andonlabs.com/evals/vending-bench-2",
+      "paperTitle": "Vending-Bench 2",
+      "authors": "Andon Labs",
+      "year": "2026",
+      "tasks": "One year of simulated autonomous business operation per run",
+      "format": "Arithmetic mean final bank balance in USD",
+      "difficulty": "Long-horizon agent coherence and business operation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/vendingbench2",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/vendingbench2.md"
     }
   ]
 }
