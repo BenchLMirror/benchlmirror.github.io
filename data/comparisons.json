@@ -3,7 +3,7 @@
   "name": "BenchLM curated comparisons",
   "description": "Curated and high-value model comparisons. BenchLM supports more pairwise comparison pages than this export includes.",
   "canonicalUrl": "https://benchlm.ai/data/comparisons.json",
-  "generatedAt": "2026-09-11T01:27:27.633Z",
+  "generatedAt": "2026-09-11T20:36:02.305Z",
   "sourceLastUpdated": "September 10, 2026",
   "sourceFiles": [
     "src/data/featuredComparisons.js",
@@ -94,8 +94,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 25,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -106,7 +106,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #5/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -267,8 +267,8 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 35,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -279,7 +279,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #6/152",
           "winner": "tie",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -440,8 +440,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 73,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -452,7 +452,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #2/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -613,8 +613,8 @@
       "winsA": 1,
       "winsB": 2,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 73,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -625,7 +625,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #2/152",
           "winner": "B",
-          "benchmarkCount": 23
+          "benchmarkCount": 24
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -786,8 +786,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 18,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -798,7 +798,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #3/152",
           "winner": "A",
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -959,8 +959,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 19,
-      "benchmarkCountB": 25,
+      "benchmarkCountA": 20,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -971,7 +971,7 @@
           "basisA": "Supported · #10/152",
           "basisB": "Supported · #5/152",
           "winner": "B",
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -1132,8 +1132,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 19,
-      "benchmarkCountB": 22,
+      "benchmarkCountA": 20,
+      "benchmarkCountB": 23,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -1144,7 +1144,7 @@
           "basisA": "Supported · #10/152",
           "basisB": "Supported · #12/152",
           "winner": "A",
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -1305,8 +1305,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 13,
-      "benchmarkCountB": 35,
+      "benchmarkCountA": 14,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -1317,7 +1317,7 @@
           "basisA": "Supported · #7/152",
           "basisB": "Supported · #6/152",
           "winner": "B",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -1819,7 +1819,7 @@
       "winsB": 3,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 24,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -1830,7 +1830,7 @@
           "basisA": "Supported · #8/152",
           "basisB": "Supported · #4/152",
           "winner": "B",
-          "benchmarkCount": 17
+          "benchmarkCount": 18
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -1991,8 +1991,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 35,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -2003,7 +2003,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #6/152",
           "winner": "A",
-          "benchmarkCount": 23
+          "benchmarkCount": 24
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -2164,8 +2164,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 36,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -2176,7 +2176,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -2337,8 +2337,8 @@
       "winsA": 1,
       "winsB": 2,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
-      "benchmarkCountB": 35,
+      "benchmarkCountA": 44,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -2349,7 +2349,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #6/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -2510,7 +2510,7 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -2522,7 +2522,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -2683,7 +2683,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 27,
       "categoryResults": {
         "agentic": {
@@ -2695,7 +2695,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #43/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -2856,7 +2856,7 @@
       "winsA": 2,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 28,
+      "benchmarkCountA": 29,
       "benchmarkCountB": 27,
       "categoryResults": {
         "agentic": {
@@ -2868,7 +2868,7 @@
           "basisA": "Supported · #32/152",
           "basisB": "Supported · #43/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -3029,7 +3029,7 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 2,
-      "benchmarkCountA": 22,
+      "benchmarkCountA": 23,
       "benchmarkCountB": 8,
       "categoryResults": {
         "agentic": {
@@ -3041,7 +3041,7 @@
           "basisA": "Supported · #12/152",
           "basisB": "Estimated · #41/152",
           "winner": null,
-          "benchmarkCount": 7
+          "benchmarkCount": 8
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -3548,7 +3548,7 @@
       "winsA": 1,
       "winsB": 2,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -3560,7 +3560,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -3722,7 +3722,7 @@
       "winsB": 3,
       "comparableCategoryCount": 4,
       "benchmarkCountA": 38,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -3733,7 +3733,7 @@
           "basisA": "Supported · #14/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -4068,7 +4068,7 @@
       "winsB": 3,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 27,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -4079,7 +4079,7 @@
           "basisA": "Supported · #43/152",
           "basisB": "Supported · #17/152",
           "winner": "B",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -4241,7 +4241,7 @@
       "winsB": 2,
       "comparableCategoryCount": 2,
       "benchmarkCountA": 27,
-      "benchmarkCountB": 13,
+      "benchmarkCountB": 14,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -4252,7 +4252,7 @@
           "basisA": "Supported · #43/152",
           "basisB": "Supported · #36/152",
           "winner": "B",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -4586,8 +4586,8 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 2,
-      "benchmarkCountA": 38,
-      "benchmarkCountB": 13,
+      "benchmarkCountA": 39,
+      "benchmarkCountB": 14,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -4598,7 +4598,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #36/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -4759,7 +4759,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 21,
       "categoryResults": {
         "agentic": {
@@ -4771,7 +4771,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #31/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -4932,8 +4932,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 38,
-      "benchmarkCountB": 18,
+      "benchmarkCountA": 39,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -4944,7 +4944,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #3/152",
           "winner": "B",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -5099,7 +5099,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -5111,7 +5111,7 @@
           "basisA": "Supported · #17/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -5272,7 +5272,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -5284,7 +5284,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -5445,7 +5445,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 8,
       "categoryResults": {
         "agentic": {
@@ -5457,7 +5457,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Estimated · #101/152",
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -5618,7 +5618,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -5630,7 +5630,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -5791,7 +5791,7 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 2,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -5803,7 +5803,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Estimated · #37/152",
           "winner": null,
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -5964,7 +5964,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 8,
       "categoryResults": {
         "agentic": {
@@ -5976,7 +5976,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Estimated · #72/152",
           "winner": null,
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -6138,7 +6138,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 6,
-      "benchmarkCountB": 13,
+      "benchmarkCountB": 14,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -6149,7 +6149,7 @@
           "basisA": "Estimated · #29/152",
           "basisB": "Supported · #36/152",
           "winner": null,
-          "benchmarkCount": 5
+          "benchmarkCount": 6
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -6310,7 +6310,7 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 2,
-      "benchmarkCountA": 13,
+      "benchmarkCountA": 14,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -6322,7 +6322,7 @@
           "basisA": "Supported · #36/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 7
+          "benchmarkCount": 8
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -6484,7 +6484,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 1,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -6495,7 +6495,7 @@
           "basisA": null,
           "basisB": "Supported · #17/152",
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -7176,7 +7176,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -7187,7 +7187,7 @@
           "basisA": "Estimated · #109/152",
           "basisB": "Supported · #17/152",
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -7522,7 +7522,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 13,
+      "benchmarkCountB": 14,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -7533,7 +7533,7 @@
           "basisA": "Estimated · #109/152",
           "basisB": "Supported · #36/152",
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -8375,7 +8375,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 15,
-      "benchmarkCountB": 13,
+      "benchmarkCountB": 14,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -8386,7 +8386,7 @@
           "basisA": null,
           "basisB": "Supported · #36/152",
           "winner": null,
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -8547,7 +8547,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -8559,7 +8559,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -9412,7 +9412,7 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 2,
-      "benchmarkCountA": 13,
+      "benchmarkCountA": 14,
       "benchmarkCountB": 23,
       "categoryResults": {
         "agentic": {
@@ -9424,7 +9424,7 @@
           "basisA": "Supported · #36/152",
           "basisB": "Supported · #145/152",
           "winner": "A",
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -9931,7 +9931,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 13,
+      "benchmarkCountA": 14,
       "benchmarkCountB": 1,
       "categoryResults": {
         "agentic": {
@@ -9943,7 +9943,7 @@
           "basisA": "Supported · #36/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -10450,7 +10450,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 13,
+      "benchmarkCountA": 14,
       "benchmarkCountB": 1,
       "categoryResults": {
         "agentic": {
@@ -10462,7 +10462,7 @@
           "basisA": "Supported · #36/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -10785,7 +10785,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 21,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -10796,7 +10796,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 25
+          "benchmarkCount": 26
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -10955,7 +10955,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 21,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -10966,7 +10966,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -11289,7 +11289,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -11300,7 +11300,7 @@
           "basisA": null,
           "basisB": "Supported · #4/152",
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -11459,7 +11459,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -11470,7 +11470,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -11629,7 +11629,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -11640,7 +11640,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -11799,7 +11799,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -11810,7 +11810,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -12139,7 +12139,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -12150,7 +12150,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -12309,7 +12309,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -12320,7 +12320,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -12479,7 +12479,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -12490,7 +12490,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -12649,7 +12649,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -12660,7 +12660,7 @@
           "basisA": null,
           "basisB": "Supported · #4/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -12819,7 +12819,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -12830,7 +12830,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -12989,7 +12989,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -13000,7 +13000,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -13159,7 +13159,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -13170,7 +13170,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -13329,7 +13329,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -13340,7 +13340,7 @@
           "basisA": null,
           "basisB": "Supported · #4/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -13499,7 +13499,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 35,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -13510,7 +13510,7 @@
           "basisA": null,
           "basisB": "Supported · #6/152",
           "winner": null,
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -14000,7 +14000,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -14011,7 +14011,7 @@
           "basisA": "Estimated · #92/152",
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 20
+          "benchmarkCount": 21
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -14170,7 +14170,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -14181,7 +14181,7 @@
           "basisA": "Estimated · #92/152",
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -14340,7 +14340,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 5,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -14351,7 +14351,7 @@
           "basisA": "Estimated · #92/152",
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -14674,7 +14674,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 19,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -14685,7 +14685,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -14844,7 +14844,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 19,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -14855,7 +14855,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -15014,7 +15014,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 19,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -15025,7 +15025,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -15184,7 +15184,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 19,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -15195,7 +15195,7 @@
           "basisA": null,
           "basisB": "Supported · #4/152",
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -15685,7 +15685,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -15696,7 +15696,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -15855,7 +15855,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -15866,7 +15866,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -16025,7 +16025,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -16036,7 +16036,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -16195,7 +16195,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -16206,7 +16206,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -16365,7 +16365,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -16376,7 +16376,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -16535,7 +16535,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -16546,7 +16546,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 4
+          "benchmarkCount": 5
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -16705,7 +16705,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -16716,7 +16716,7 @@
           "basisA": null,
           "basisB": "Supported · #4/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -16875,7 +16875,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 0,
-      "benchmarkCountB": 35,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -16886,7 +16886,7 @@
           "basisA": null,
           "basisB": "Supported · #6/152",
           "winner": null,
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -17047,7 +17047,7 @@
       "winsA": 2,
       "winsB": 0,
       "comparableCategoryCount": 2,
-      "benchmarkCountA": 19,
+      "benchmarkCountA": 20,
       "benchmarkCountB": 8,
       "categoryResults": {
         "agentic": {
@@ -17059,7 +17059,7 @@
           "basisA": "Supported · #10/152",
           "basisB": "Estimated · #41/152",
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -17220,7 +17220,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 19,
+      "benchmarkCountA": 20,
       "benchmarkCountB": 27,
       "categoryResults": {
         "agentic": {
@@ -17232,7 +17232,7 @@
           "basisA": "Supported · #10/152",
           "basisB": "Supported · #43/152",
           "winner": "A",
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -17393,7 +17393,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 19,
+      "benchmarkCountA": 20,
       "benchmarkCountB": 11,
       "categoryResults": {
         "agentic": {
@@ -17405,7 +17405,7 @@
           "basisA": "Supported · #10/152",
           "basisB": "Supported · #134/152",
           "winner": "A",
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -17563,7 +17563,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 10,
+      "benchmarkCountA": 11,
       "benchmarkCountB": 8,
       "categoryResults": {
         "agentic": {
@@ -17575,7 +17575,7 @@
           "basisA": null,
           "basisB": "Supported · #16/152",
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -17733,7 +17733,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 10,
+      "benchmarkCountA": 11,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -17745,7 +17745,7 @@
           "basisA": null,
           "basisB": "Supported · #23/152",
           "winner": null,
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -17900,7 +17900,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 10,
+      "benchmarkCountA": 11,
       "benchmarkCountB": 24,
       "categoryResults": {
         "agentic": {
@@ -17912,7 +17912,7 @@
           "basisA": null,
           "basisB": "Supported · #34/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -18070,8 +18070,8 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 10,
-      "benchmarkCountB": 73,
+      "benchmarkCountA": 11,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -18082,7 +18082,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -18240,8 +18240,8 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 10,
-      "benchmarkCountB": 25,
+      "benchmarkCountA": 11,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -18252,7 +18252,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -18411,7 +18411,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 73,
+      "benchmarkCountB": 74,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -18422,7 +18422,7 @@
           "basisA": null,
           "basisB": "Supported · #2/152",
           "winner": null,
-          "benchmarkCount": 20
+          "benchmarkCount": 21
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -18581,7 +18581,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 25,
+      "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -18592,7 +18592,7 @@
           "basisA": null,
           "basisB": "Supported · #5/152",
           "winner": null,
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -18751,7 +18751,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 18,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -18762,7 +18762,7 @@
           "basisA": null,
           "basisB": "Supported · #3/152",
           "winner": null,
-          "benchmarkCount": 5
+          "benchmarkCount": 6
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -18921,7 +18921,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 43,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -18932,7 +18932,7 @@
           "basisA": null,
           "basisB": "Supported · #4/152",
           "winner": null,
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -19091,7 +19091,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 2,
-      "benchmarkCountB": 35,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -19102,7 +19102,7 @@
           "basisA": null,
           "basisB": "Supported · #6/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -19263,8 +19263,8 @@
       "winsA": 1,
       "winsB": 2,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 18,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -19275,7 +19275,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #3/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -19436,8 +19436,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 43,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -19448,7 +19448,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #4/152",
           "winner": "A",
-          "benchmarkCount": 24
+          "benchmarkCount": 25
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -19609,7 +19609,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 60,
       "categoryResults": {
         "agentic": {
@@ -19621,7 +19621,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #9/152",
           "winner": "A",
-          "benchmarkCount": 29
+          "benchmarkCount": 30
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -19782,8 +19782,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 31,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -19794,7 +19794,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 23
+          "benchmarkCount": 24
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -19955,7 +19955,7 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -19967,7 +19967,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 25
+          "benchmarkCount": 26
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -20128,8 +20128,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -20140,7 +20140,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -20301,7 +20301,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -20313,7 +20313,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 29
+          "benchmarkCount": 30
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -20474,7 +20474,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -20486,7 +20486,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 26
+          "benchmarkCount": 27
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -20647,7 +20647,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -20659,7 +20659,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -20820,8 +20820,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -20832,7 +20832,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 28
+          "benchmarkCount": 29
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -20993,7 +20993,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -21005,7 +21005,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 22
+          "benchmarkCount": 23
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -21166,7 +21166,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -21178,7 +21178,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 27
+          "benchmarkCount": 28
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -21339,7 +21339,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -21351,7 +21351,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 23
+          "benchmarkCount": 24
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -21512,8 +21512,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 73,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 74,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -21524,7 +21524,7 @@
           "basisA": "Supported · #2/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 23
+          "benchmarkCount": 24
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -21685,8 +21685,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 18,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 19,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -21697,7 +21697,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #3/152",
           "winner": "B",
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -21858,8 +21858,8 @@
       "winsA": 2,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 43,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -21870,7 +21870,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #4/152",
           "winner": "B",
-          "benchmarkCount": 17
+          "benchmarkCount": 18
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -22031,7 +22031,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 60,
       "categoryResults": {
         "agentic": {
@@ -22043,7 +22043,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #9/152",
           "winner": "A",
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -22204,8 +22204,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 31,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -22216,7 +22216,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -22377,7 +22377,7 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -22389,7 +22389,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -22550,8 +22550,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -22562,7 +22562,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -22723,7 +22723,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -22735,7 +22735,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 20
+          "benchmarkCount": 21
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -22896,7 +22896,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -22908,7 +22908,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 17
+          "benchmarkCount": 18
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -23069,7 +23069,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -23081,7 +23081,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -23242,8 +23242,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -23254,7 +23254,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -23415,7 +23415,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -23427,7 +23427,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -23588,7 +23588,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -23600,7 +23600,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -23761,7 +23761,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -23773,7 +23773,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -23934,8 +23934,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 25,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 26,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -23946,7 +23946,7 @@
           "basisA": "Supported · #5/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -24107,8 +24107,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
-      "benchmarkCountB": 43,
+      "benchmarkCountA": 19,
+      "benchmarkCountB": 44,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -24119,7 +24119,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #4/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -24280,8 +24280,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
-      "benchmarkCountB": 35,
+      "benchmarkCountA": 19,
+      "benchmarkCountB": 36,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -24292,7 +24292,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #6/152",
           "winner": "A",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -24453,7 +24453,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 60,
       "categoryResults": {
         "agentic": {
@@ -24465,7 +24465,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #9/152",
           "winner": "A",
-          "benchmarkCount": 17
+          "benchmarkCount": 18
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -24626,8 +24626,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
-      "benchmarkCountB": 31,
+      "benchmarkCountA": 19,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -24638,7 +24638,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -24799,8 +24799,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 19,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -24811,7 +24811,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -24972,7 +24972,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -24984,7 +24984,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -25145,7 +25145,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -25157,7 +25157,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -25318,7 +25318,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -25330,7 +25330,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -25491,7 +25491,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -25503,7 +25503,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 7
+          "benchmarkCount": 8
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -25664,7 +25664,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -25676,7 +25676,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -25837,7 +25837,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -25849,7 +25849,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -26010,8 +26010,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 18,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 19,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -26022,7 +26022,7 @@
           "basisA": "Supported · #3/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -26183,7 +26183,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 60,
       "categoryResults": {
         "agentic": {
@@ -26195,7 +26195,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #9/152",
           "winner": "A",
-          "benchmarkCount": 22
+          "benchmarkCount": 23
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -26356,8 +26356,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 44,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -26368,7 +26368,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #1/152",
           "winner": "B",
-          "benchmarkCount": 17
+          "benchmarkCount": 18
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -26529,8 +26529,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
-      "benchmarkCountB": 31,
+      "benchmarkCountA": 44,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -26541,7 +26541,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -26702,7 +26702,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -26714,7 +26714,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -26875,8 +26875,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 44,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -26887,7 +26887,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -27048,7 +27048,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -27060,7 +27060,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 20
+          "benchmarkCount": 21
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -27221,7 +27221,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -27233,7 +27233,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -27394,7 +27394,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -27406,7 +27406,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -27567,8 +27567,8 @@
       "winsA": 1,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 44,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -27579,7 +27579,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -27740,7 +27740,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -27752,7 +27752,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -27913,7 +27913,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -27925,7 +27925,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -28086,7 +28086,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -28098,7 +28098,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -28259,8 +28259,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 43,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 44,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -28271,7 +28271,7 @@
           "basisA": "Supported · #4/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -28432,7 +28432,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 60,
       "categoryResults": {
         "agentic": {
@@ -28444,7 +28444,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #9/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -28605,8 +28605,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 36,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -28617,7 +28617,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #1/152",
           "winner": "B",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -28778,8 +28778,8 @@
       "winsA": 5,
       "winsB": 0,
       "comparableCategoryCount": 5,
-      "benchmarkCountA": 35,
-      "benchmarkCountB": 31,
+      "benchmarkCountA": 36,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -28790,7 +28790,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -28951,7 +28951,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -28963,7 +28963,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -29124,7 +29124,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -29136,7 +29136,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -29297,7 +29297,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -29309,7 +29309,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -29470,8 +29470,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 35,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 36,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -29482,7 +29482,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -29643,7 +29643,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -29655,7 +29655,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -29816,7 +29816,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -29828,7 +29828,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -29989,7 +29989,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -30001,7 +30001,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -30162,8 +30162,8 @@
       "winsA": 5,
       "winsB": 0,
       "comparableCategoryCount": 5,
-      "benchmarkCountA": 35,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 36,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -30174,7 +30174,7 @@
           "basisA": "Supported · #6/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -30336,7 +30336,7 @@
       "winsB": 3,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 60,
-      "benchmarkCountB": 24,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -30347,7 +30347,7 @@
           "basisA": "Supported · #9/152",
           "basisB": "Supported · #1/152",
           "winner": "B",
-          "benchmarkCount": 20
+          "benchmarkCount": 21
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -30509,7 +30509,7 @@
       "winsB": 1,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 60,
-      "benchmarkCountB": 31,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -30520,7 +30520,7 @@
           "basisA": "Supported · #9/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -30855,7 +30855,7 @@
       "winsB": 1,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 60,
-      "benchmarkCountB": 24,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -30866,7 +30866,7 @@
           "basisA": "Supported · #9/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -31547,7 +31547,7 @@
       "winsB": 2,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 60,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -31558,7 +31558,7 @@
           "basisA": "Supported · #9/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 24
+          "benchmarkCount": 25
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -32239,7 +32239,7 @@
       "winsB": 1,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 60,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -32250,7 +32250,7 @@
           "basisA": "Supported · #9/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -32411,8 +32411,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 31,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 32,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -32423,7 +32423,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #20/152",
           "winner": "A",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -32584,7 +32584,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -32596,7 +32596,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #14/152",
           "winner": "A",
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -32757,8 +32757,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -32769,7 +32769,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #11/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -32930,7 +32930,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -32942,7 +32942,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 21
+          "benchmarkCount": 22
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -33103,7 +33103,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -33115,7 +33115,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -33276,7 +33276,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -33288,7 +33288,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -33449,8 +33449,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -33461,7 +33461,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 20
+          "benchmarkCount": 21
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -33622,7 +33622,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -33634,7 +33634,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -33795,7 +33795,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -33807,7 +33807,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -33968,7 +33968,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -33980,7 +33980,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -34141,8 +34141,8 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -34153,7 +34153,7 @@
           "basisA": "Supported · #1/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -34314,7 +34314,7 @@
       "winsA": 2,
       "winsB": 2,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 38,
       "categoryResults": {
         "agentic": {
@@ -34326,7 +34326,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #14/152",
           "winner": "B",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -34487,8 +34487,8 @@
       "winsA": 2,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 31,
-      "benchmarkCountB": 24,
+      "benchmarkCountA": 32,
+      "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -34499,7 +34499,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #11/152",
           "winner": "B",
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -34660,7 +34660,7 @@
       "winsA": 2,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -34672,7 +34672,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -34833,7 +34833,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -34845,7 +34845,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -35006,7 +35006,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -35018,7 +35018,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -35179,8 +35179,8 @@
       "winsA": 0,
       "winsB": 3,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 31,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 32,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -35191,7 +35191,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #17/152",
           "winner": "B",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -35352,7 +35352,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -35364,7 +35364,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -35525,7 +35525,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -35537,7 +35537,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -35698,7 +35698,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -35710,7 +35710,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -35871,8 +35871,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 5,
-      "benchmarkCountA": 31,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 32,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -35883,7 +35883,7 @@
           "basisA": "Supported · #20/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -37083,7 +37083,7 @@
       "winsB": 0,
       "comparableCategoryCount": 4,
       "benchmarkCountA": 38,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -37094,7 +37094,7 @@
           "basisA": "Supported · #14/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -37255,7 +37255,7 @@
       "winsA": 2,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 26,
       "categoryResults": {
         "agentic": {
@@ -37267,7 +37267,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #23/152",
           "winner": "A",
-          "benchmarkCount": 17
+          "benchmarkCount": 18
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -37428,7 +37428,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 41,
       "categoryResults": {
         "agentic": {
@@ -37440,7 +37440,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #110/152",
           "winner": "A",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -37601,7 +37601,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 3,
       "categoryResults": {
         "agentic": {
@@ -37613,7 +37613,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Estimated · #47/152",
           "winner": null,
-          "benchmarkCount": 8
+          "benchmarkCount": 9
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -37774,8 +37774,8 @@
       "winsA": 1,
       "winsB": 2,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 38,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -37786,7 +37786,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #17/152",
           "winner": "A",
-          "benchmarkCount": 15
+          "benchmarkCount": 16
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -37947,7 +37947,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 25,
       "categoryResults": {
         "agentic": {
@@ -37959,7 +37959,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #28/152",
           "winner": "A",
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -38120,7 +38120,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -38132,7 +38132,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -38293,7 +38293,7 @@
       "winsA": 3,
       "winsB": 0,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 28,
       "categoryResults": {
         "agentic": {
@@ -38305,7 +38305,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #121/152",
           "winner": "A",
-          "benchmarkCount": 11
+          "benchmarkCount": 12
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -38466,8 +38466,8 @@
       "winsA": 2,
       "winsB": 1,
       "comparableCategoryCount": 3,
-      "benchmarkCountA": 24,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 25,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -38478,7 +38478,7 @@
           "basisA": "Supported · #11/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -38986,7 +38986,7 @@
       "winsB": 3,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 26,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -38997,7 +38997,7 @@
           "basisA": "Supported · #23/152",
           "basisB": "Supported · #17/152",
           "winner": "B",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -39678,7 +39678,7 @@
       "winsB": 1,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 26,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -39689,7 +39689,7 @@
           "basisA": "Supported · #23/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -40024,7 +40024,7 @@
       "winsB": 3,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 41,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -40035,7 +40035,7 @@
           "basisA": "Supported · #110/152",
           "basisB": "Supported · #17/152",
           "winner": "B",
-          "benchmarkCount": 18
+          "benchmarkCount": 19
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -40716,7 +40716,7 @@
       "winsB": 3,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 41,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -40727,7 +40727,7 @@
           "basisA": "Supported · #110/152",
           "basisB": "Supported · #32/152",
           "winner": "B",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -40889,7 +40889,7 @@
       "winsB": 1,
       "comparableCategoryCount": 1,
       "benchmarkCountA": 3,
-      "benchmarkCountB": 38,
+      "benchmarkCountB": 39,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -40900,7 +40900,7 @@
           "basisA": "Estimated · #47/152",
           "basisB": "Supported · #17/152",
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -41581,7 +41581,7 @@
       "winsB": 1,
       "comparableCategoryCount": 1,
       "benchmarkCountA": 3,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -41592,7 +41592,7 @@
           "basisA": "Estimated · #47/152",
           "basisB": "Supported · #32/152",
           "winner": null,
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -41753,7 +41753,7 @@
       "winsA": 1,
       "winsB": 0,
       "comparableCategoryCount": 1,
-      "benchmarkCountA": 38,
+      "benchmarkCountA": 39,
       "benchmarkCountB": 52,
       "categoryResults": {
         "agentic": {
@@ -41765,7 +41765,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #126/152",
           "winner": "A",
-          "benchmarkCount": 19
+          "benchmarkCount": 20
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -41926,8 +41926,8 @@
       "winsA": 4,
       "winsB": 0,
       "comparableCategoryCount": 4,
-      "benchmarkCountA": 38,
-      "benchmarkCountB": 28,
+      "benchmarkCountA": 39,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -41938,7 +41938,7 @@
           "basisA": "Supported · #17/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 14
+          "benchmarkCount": 15
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -42446,7 +42446,7 @@
       "winsB": 2,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 25,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -42457,7 +42457,7 @@
           "basisA": "Supported · #28/152",
           "basisB": "Supported · #32/152",
           "winner": "A",
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -42792,7 +42792,7 @@
       "winsB": 1,
       "comparableCategoryCount": 1,
       "benchmarkCountA": 52,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -42803,7 +42803,7 @@
           "basisA": "Supported · #126/152",
           "basisB": "Supported · #32/152",
           "winner": "B",
-          "benchmarkCount": 16
+          "benchmarkCount": 17
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -42965,7 +42965,7 @@
       "winsB": 2,
       "comparableCategoryCount": 3,
       "benchmarkCountA": 28,
-      "benchmarkCountB": 28,
+      "benchmarkCountB": 29,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -42976,7 +42976,7 @@
           "basisA": "Supported · #121/152",
           "basisB": "Supported · #32/152",
           "winner": "B",
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -43131,7 +43131,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 73,
+      "benchmarkCountA": 74,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -43143,7 +43143,7 @@
           "basisA": "Supported · #2/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 22
+          "benchmarkCount": 23
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -43298,7 +43298,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -43310,7 +43310,7 @@
           "basisA": "Supported · #5/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 12
+          "benchmarkCount": 13
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -43465,7 +43465,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 18,
+      "benchmarkCountA": 19,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -43477,7 +43477,7 @@
           "basisA": "Supported · #3/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 6
+          "benchmarkCount": 7
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -43632,7 +43632,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 43,
+      "benchmarkCountA": 44,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -43644,7 +43644,7 @@
           "basisA": "Supported · #4/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -43799,7 +43799,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 35,
+      "benchmarkCountA": 36,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -43811,7 +43811,7 @@
           "basisA": "Supported · #6/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -44133,7 +44133,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -44145,7 +44145,7 @@
           "basisA": "Supported · #1/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -44300,7 +44300,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 31,
+      "benchmarkCountA": 32,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -44312,7 +44312,7 @@
           "basisA": "Supported · #20/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -44634,7 +44634,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 24,
+      "benchmarkCountA": 25,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -44646,7 +44646,7 @@
           "basisA": "Supported · #11/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 7
+          "benchmarkCount": 8
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -45803,7 +45803,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 28,
+      "benchmarkCountA": 29,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -45815,7 +45815,7 @@
           "basisA": "Supported · #32/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -46304,7 +46304,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 37,
+      "benchmarkCountA": 38,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -46316,7 +46316,7 @@
           "basisA": "Supported · #40/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 13
+          "benchmarkCount": 14
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -46471,7 +46471,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 33,
+      "benchmarkCountA": 34,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -46483,7 +46483,7 @@
           "basisA": "Supported · #56/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -47974,7 +47974,7 @@
       "winsA": 0,
       "winsB": 0,
       "comparableCategoryCount": 0,
-      "benchmarkCountA": 25,
+      "benchmarkCountA": 26,
       "benchmarkCountB": 15,
       "categoryResults": {
         "agentic": {
@@ -47986,7 +47986,7 @@
           "basisA": "Supported · #93/152",
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -52481,7 +52481,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 15,
-      "benchmarkCountB": 19,
+      "benchmarkCountB": 20,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -52492,7 +52492,7 @@
           "basisA": null,
           "basisB": "Supported · #10/152",
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -52648,7 +52648,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 15,
-      "benchmarkCountB": 22,
+      "benchmarkCountB": 23,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -52659,7 +52659,7 @@
           "basisA": null,
           "basisB": "Supported · #12/152",
           "winner": null,
-          "benchmarkCount": 10
+          "benchmarkCount": 11
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -53149,7 +53149,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 15,
-      "benchmarkCountB": 13,
+      "benchmarkCountB": 14,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -53160,7 +53160,7 @@
           "basisA": null,
           "basisB": "Supported · #7/152",
           "winner": null,
-          "benchmarkCount": 7
+          "benchmarkCount": 8
         },
         "coding": {
           "categoryLabel": "Coding",
@@ -53644,7 +53644,7 @@
       "winsB": 0,
       "comparableCategoryCount": 0,
       "benchmarkCountA": 15,
-      "benchmarkCountB": 10,
+      "benchmarkCountB": 11,
       "categoryResults": {
         "agentic": {
           "categoryLabel": "Agentic",
@@ -53655,7 +53655,7 @@
           "basisA": null,
           "basisB": null,
           "winner": null,
-          "benchmarkCount": 9
+          "benchmarkCount": 10
         },
         "coding": {
           "categoryLabel": "Coding",

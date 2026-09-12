@@ -3,7 +3,7 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-11T01:27:27.633Z",
+  "generatedAt": "2026-09-11T20:36:02.305Z",
   "sourceLastUpdated": "September 10, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
@@ -11,7 +11,7 @@
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 434
+    "benchmarks": 435
   },
   "items": [
     {
@@ -6327,6 +6327,28 @@
       "displayableScoreCount": 53,
       "url": "https://benchlm.ai/benchmarks/valsterminalbench21",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/valsterminalbench21.md"
+    },
+    {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "apprenticeBench",
+      "name": "ApprenticeBench",
+      "fullName": "ApprenticeBench: end-to-end computer use, continual learning, and long-horizon agency on a real accounts-payable job",
+      "description": "Tests whether a computer-use agent can learn a real accounts-payable job on the job, processing 100 vendor bills in a company ERP system with only the handbook, historical records, and mentor feedback a new hire would get.",
+      "paperUrl": "https://neocognition.io/blog/apprentice-bench/",
+      "paperTitle": "ApprenticeBench: a step change in AI's job readiness",
+      "authors": "NeoCognition",
+      "year": "2026",
+      "tasks": "100 vendor bills processed in sequence inside a simulated construction company",
+      "format": "Cumulative success rate over 100 bills",
+      "difficulty": "Long-horizon computer use with offline and online continual learning",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 18,
+      "url": "https://benchlm.ai/benchmarks/apprenticebench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/apprenticebench.md"
     },
     {
       "category": "multimodalGrounded",

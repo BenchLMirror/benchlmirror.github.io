@@ -3,7 +3,7 @@
   "name": "BenchLM models",
   "description": "Stable model metadata, rankings, benchmark scores, and coverage fields for BenchLM model pages.",
   "canonicalUrl": "https://benchlm.ai/data/models.json",
-  "generatedAt": "2026-09-11T01:27:27.633Z",
+  "generatedAt": "2026-09-11T20:36:02.305Z",
   "sourceLastUpdated": "September 10, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
@@ -142,7 +142,8 @@
           "aaAgenticIndex": 56.22,
           "aaTerminalBench4": 49,
           "aaGdpPdf": 21.6,
-          "aaAnalystAgent": 53.8
+          "aaAnalystAgent": 53.8,
+          "apprenticeBench": 36
         },
         "coding": {
           "bug-hunt-bench": 27,
@@ -335,7 +336,8 @@
           "aaAgenticIndex": 51.46,
           "aaTerminalBench4": 59.1,
           "aaGdpPdf": 31,
-          "aaAnalystAgent": 51.2
+          "aaAnalystAgent": 51.2,
+          "apprenticeBench": 68
         },
         "coding": {
           "deepSwe": 74.1,
@@ -504,7 +506,8 @@
           "aaAgenticIndex": 50.96,
           "aaTerminalBench4": 42.4,
           "aaGdpPdf": 24,
-          "aaAnalystAgent": 48.8
+          "aaAnalystAgent": 48.8,
+          "apprenticeBench": 34
         },
         "coding": {
           "sweVerified": 95,
@@ -667,7 +670,8 @@
           "aaAgenticIndex": 50.65,
           "aaTerminalBench4": 12.6,
           "aaGdpPdf": 22,
-          "aaAnalystAgent": 38.8
+          "aaAnalystAgent": 38.8,
+          "apprenticeBench": 18
         },
         "coding": {
           "deepSwe": 67.5,
@@ -852,7 +856,8 @@
           "aaAgenticIndex": 50.5,
           "aaTerminalBench4": 39.9,
           "aaGdpPdf": 27.2,
-          "aaAnalystAgent": 47.5
+          "aaAnalystAgent": 47.5,
+          "apprenticeBench": 26
         },
         "coding": {
           "bug-hunt-bench": 42,
@@ -1207,7 +1212,8 @@
           "aaAgenticIndex": 57.97,
           "aaTerminalBench4": 52,
           "aaGdpPdf": 26.2,
-          "aaAnalystAgent": 57.5
+          "aaAnalystAgent": 57.5,
+          "apprenticeBench": 72
         },
         "coding": {
           "bug-hunt-bench": 43,
@@ -1367,7 +1373,8 @@
           "valsTerminalBench21": 77.5,
           "aaAgenticIndex": 43.73,
           "aaTerminalBench4": 35.4,
-          "aaGdpPdf": 24
+          "aaGdpPdf": 24,
+          "apprenticeBench": 16
         },
         "coding": {
           "swePro": 63.4,
@@ -1696,7 +1703,8 @@
           "gdpvalAaNormalized": 50,
           "valsTerminalBench21": 74.5,
           "aaAgenticIndex": 44.28,
-          "aaAnalystAgent": 46.3
+          "aaAnalystAgent": 46.3,
+          "apprenticeBench": 16
         },
         "coding": {
           "sweVerified": 85.2,
@@ -2295,7 +2303,8 @@
           "valsTerminalBench21": 76.4,
           "aaAgenticIndex": 37.32,
           "gdpvalAa": 1396,
-          "aaAnalystAgent": 50
+          "aaAnalystAgent": 50,
+          "apprenticeBench": 20
         },
         "coding": {
           "swePro": 58.6,
@@ -2962,7 +2971,8 @@
           "valsTerminalBench21": 79,
           "aaAgenticIndex": 42.66,
           "aaTerminalBench4": 11.6,
-          "aaGdpPdf": 24
+          "aaGdpPdf": 24,
+          "apprenticeBench": 7
         },
         "coding": {
           "swePro": 62.7,
@@ -3461,7 +3471,8 @@
           "researchClawBench": 15.3,
           "jobBench": 38.9,
           "exploitGym": 6,
-          "gdpvalAa": 1307
+          "gdpvalAa": 1307,
+          "apprenticeBench": 11
         },
         "coding": {
           "liveCodeBenchPro": 87.5,
@@ -3616,7 +3627,8 @@
           "cyberGym": 66.6,
           "gertLabs": 61.85,
           "researchClawBench": 19.9,
-          "jobBench": 36.7
+          "jobBench": 36.7,
+          "apprenticeBench": 5
         },
         "coding": {
           "sweVerified": 80.84,
@@ -4963,7 +4975,8 @@
           "gertLabs": 62.92,
           "osWorld2": 8.3,
           "jobBench": 36.9,
-          "valsTerminalBench21": 57.3
+          "valsTerminalBench21": 57.3,
+          "apprenticeBench": 2
         },
         "coding": {
           "sweVerified": 79.6,
@@ -9050,7 +9063,8 @@
           "valsTerminalBench21": 81.3,
           "aaAgenticIndex": 41.1,
           "aaTerminalBench4": 19.7,
-          "aaGdpPdf": 21
+          "aaGdpPdf": 21,
+          "apprenticeBench": 24
         },
         "coding": {
           "deepSwe": 73.8,
@@ -9197,7 +9211,8 @@
           "aaHarveyLab": 90.7,
           "valsTerminalBench21": 77.5,
           "aaAgenticIndex": 36.41,
-          "aaAnalystAgent": 60
+          "aaAnalystAgent": 60,
+          "apprenticeBench": 16
         },
         "coding": {
           "frontierCode": 43.6,
@@ -9706,7 +9721,8 @@
           "aaAgenticIndex": 53.36,
           "aaTerminalBench4": 21.2,
           "aaGdpPdf": 17,
-          "aaAnalystAgent": 41.3
+          "aaAnalystAgent": 41.3,
+          "apprenticeBench": 13
         },
         "coding": {
           "bug-hunt-bench": 27,
@@ -10073,7 +10089,8 @@
           "aaAutomationBench": 57.9,
           "aaAgenticIndex": 55.71,
           "aaTerminalBench4": 33.3,
-          "aaGdpPdf": 26.6
+          "aaGdpPdf": 26.6,
+          "apprenticeBench": 19
         },
         "coding": {
           "terminalBench21": 88.8,
@@ -14371,7 +14388,8 @@
           "gertLabs": 65.59,
           "researchClawBench": 20.7,
           "osWorld2": 13.9,
-          "valsTerminalBench21": 68.5
+          "valsTerminalBench21": 68.5,
+          "apprenticeBench": 7
         },
         "coding": {
           "vibeCodeBench": 71.003,
