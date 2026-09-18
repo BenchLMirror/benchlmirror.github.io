@@ -3,15 +3,15 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-16T19:04:32.786Z",
-  "sourceLastUpdated": "September 15, 2026",
+  "generatedAt": "2026-09-18T02:03:36.619Z",
+  "sourceLastUpdated": "September 17, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 439
+    "benchmarks": 443
   },
   "items": [
     {
@@ -362,7 +362,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.07,
-      "displayableScoreCount": 82,
+      "displayableScoreCount": 83,
       "url": "https://benchlm.ai/benchmarks/gpqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gpqa.md"
     },
@@ -384,7 +384,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 62,
+      "displayableScoreCount": 63,
       "url": "https://benchlm.ai/benchmarks/gpqa-diamond",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gpqa-diamond.md"
     },
@@ -868,7 +868,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.1,
-      "displayableScoreCount": 37,
+      "displayableScoreCount": 38,
       "url": "https://benchlm.ai/benchmarks/hlenotools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlenotools.md"
     },
@@ -912,7 +912,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 10,
+      "displayableScoreCount": 11,
       "url": "https://benchlm.ai/benchmarks/mmluredux",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmluredux.md"
     },
@@ -1198,7 +1198,7 @@
       "successorKey": null,
       "successorUrl": "https://benchlm.ai/benchmarks/terminal-bench-4",
       "weight": null,
-      "displayableScoreCount": 32,
+      "displayableScoreCount": 33,
       "url": "https://benchlm.ai/benchmarks/terminalbench21",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminalbench21.md"
     },
@@ -1242,7 +1242,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 1,
       "url": "https://benchlm.ai/benchmarks/bigcodebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/bigcodebench.md"
     },
@@ -1308,7 +1308,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.1,
-      "displayableScoreCount": 74,
+      "displayableScoreCount": 75,
       "url": "https://benchlm.ai/benchmarks/swe-bench-verified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-verified.md"
     },
@@ -1374,7 +1374,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 29,
+      "displayableScoreCount": 30,
       "url": "https://benchlm.ai/benchmarks/livecodebench-v6",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/livecodebench-v6.md"
     },
@@ -2540,7 +2540,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 26,
+      "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/deepswe",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/deepswe.md"
     },
@@ -2760,7 +2760,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 15,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/aime2025",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aime2025.md"
     },
@@ -2782,7 +2782,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/gsm8k",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gsm8k.md"
     },
@@ -2958,7 +2958,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/math-500",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/math-500.md"
     },
@@ -2980,7 +2980,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.25,
-      "displayableScoreCount": 27,
+      "displayableScoreCount": 28,
       "url": "https://benchlm.ai/benchmarks/aime2026",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aime2026.md"
     },
@@ -3816,7 +3816,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.15,
-      "displayableScoreCount": 171,
+      "displayableScoreCount": 172,
       "url": "https://benchlm.ai/benchmarks/lcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/lcr.md"
     },
@@ -3926,7 +3926,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 32,
+      "displayableScoreCount": 33,
       "url": "https://benchlm.ai/benchmarks/ifeval",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifeval.md"
     },
@@ -3948,7 +3948,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.7,
-      "displayableScoreCount": 40,
+      "displayableScoreCount": 41,
       "url": "https://benchlm.ai/benchmarks/ifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifbench.md"
     },
@@ -4586,7 +4586,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/terminal-bench-4",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench-4.md"
     },
@@ -4850,7 +4850,7 @@
       "successorKey": null,
       "successorUrl": "https://benchlm.ai/benchmarks/terminal-bench-4",
       "weight": null,
-      "displayableScoreCount": 31,
+      "displayableScoreCount": 32,
       "url": "https://benchlm.ai/benchmarks/terminalbench21",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminalbench21.md"
     },
@@ -5598,7 +5598,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 132,
+      "displayableScoreCount": 133,
       "url": "https://benchlm.ai/benchmarks/tau2-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/tau2-bench.md"
     },
@@ -6351,6 +6351,28 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/apprenticebench.md"
     },
     {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "bfclV3",
+      "name": "BFCL v3",
+      "fullName": "Berkeley Function Calling Leaderboard v3",
+      "description": "A function-calling benchmark for tool selection, schema adherence, and argument correctness, covering single-turn, parallel, irrelevance and multi-turn subsets.",
+      "paperUrl": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+      "paperTitle": "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models",
+      "authors": "Shishir G. Patil et al.",
+      "year": "2025",
+      "tasks": "Function-calling tasks",
+      "format": "Tool invocation and schema evaluation",
+      "difficulty": "Advanced tool use",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 1,
+      "url": "https://benchlm.ai/benchmarks/bfclv3",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/bfclv3.md"
+    },
+    {
       "category": "multimodalGrounded",
       "categoryLabel": "Multimodal & Grounded",
       "benchmarkKey": "chartography",
@@ -6544,7 +6566,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": 0.4,
-      "displayableScoreCount": 40,
+      "displayableScoreCount": 41,
       "url": "https://benchlm.ai/benchmarks/mmmu-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmmu-pro.md"
     },
@@ -6588,7 +6610,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 4,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/ocrbenchv2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ocrbenchv2.md"
     },
@@ -6940,7 +6962,7 @@
       "successorKey": null,
       "successorUrl": null,
       "weight": null,
-      "displayableScoreCount": 10,
+      "displayableScoreCount": 11,
       "url": "https://benchlm.ai/benchmarks/realworldqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/realworldqa.md"
     },
@@ -7779,6 +7801,72 @@
       "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/blueprintbench2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/blueprintbench2.md"
+    },
+    {
+      "category": "multimodalGrounded",
+      "categoryLabel": "Multimodal & Grounded",
+      "benchmarkKey": "charxivOverall",
+      "name": "CharXiv (overall)",
+      "fullName": "CharXiv Descriptive and Reasoning Combined",
+      "description": "A scientific chart understanding benchmark scored across both the descriptive and reasoning splits rather than the reasoning split alone.",
+      "paperUrl": "https://charxiv.github.io/",
+      "paperTitle": "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs",
+      "authors": "CharXiv authors",
+      "year": "2024",
+      "tasks": "Scientific chart description and reasoning",
+      "format": "Chart understanding and reasoning",
+      "difficulty": "Scientific visualization reasoning",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 1,
+      "url": "https://benchlm.ai/benchmarks/charxivoverall",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/charxivoverall.md"
+    },
+    {
+      "category": "multimodalGrounded",
+      "categoryLabel": "Multimodal & Grounded",
+      "benchmarkKey": "aokvqa",
+      "name": "A-OKVQA",
+      "fullName": "A Benchmark for Visual Question Answering using World Knowledge",
+      "description": "A visual question answering benchmark whose questions cannot be answered from the image alone and require commonsense or world knowledge.",
+      "paperUrl": "https://arxiv.org/abs/2206.01718",
+      "paperTitle": "A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge",
+      "authors": "Dustin Schwenk, Apoorv Khandelwal, Christopher Clark, Kenneth Marino, Roozbeh Mottaghi",
+      "year": "2022",
+      "tasks": "Knowledge-grounded visual question answering",
+      "format": "Multiple choice and direct answer",
+      "difficulty": "Commonsense and world knowledge about images",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 1,
+      "url": "https://benchlm.ai/benchmarks/aokvqa",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/aokvqa.md"
+    },
+    {
+      "category": "multimodalGrounded",
+      "categoryLabel": "Multimodal & Grounded",
+      "benchmarkKey": "omniDocBench16",
+      "name": "OmniDocBench 1.6",
+      "fullName": "OmniDocBench v1.6",
+      "description": "A document parsing benchmark whose overall score composites edit distance, CDM and TEDS sub-scores across diverse PDF layouts.",
+      "paperUrl": "https://arxiv.org/abs/2412.07626",
+      "paperTitle": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
+      "authors": "Linke Ouyang et al.",
+      "year": "2024",
+      "tasks": "Document parsing and extraction",
+      "format": "Composite of edit distance, CDM and TEDS",
+      "difficulty": "Grounded document reasoning",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "displayableScoreCount": 1,
+      "url": "https://benchlm.ai/benchmarks/omnidocbench16",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/omnidocbench16.md"
     },
     {
       "category": "korean",
