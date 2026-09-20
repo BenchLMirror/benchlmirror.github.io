@@ -3,7 +3,7 @@
   "name": "BenchLM pricing",
   "description": "Model API pricing with linked BenchLM score and value fields when available.",
   "canonicalUrl": "https://benchlm.ai/data/pricing.json",
-  "generatedAt": "2026-09-19T03:08:55.408Z",
+  "generatedAt": "2026-09-19T16:54:19.066Z",
   "sourceLastUpdated": "September 18, 2026",
   "sourceFiles": [
     "src/data/pricing.json",

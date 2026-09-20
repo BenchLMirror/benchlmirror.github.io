@@ -3,7 +3,7 @@
   "name": "BenchLM leaderboards",
   "description": "Overall and category leaderboards derived from the public BenchLM ranking logic.",
   "canonicalUrl": "https://benchlm.ai/data/leaderboard.json",
-  "generatedAt": "2026-09-19T03:08:55.408Z",
+  "generatedAt": "2026-09-19T16:54:19.066Z",
   "sourceLastUpdated": "September 18, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
