@@ -3,15 +3,15 @@
   "name": "BenchLM benchmark definitions",
   "description": "Benchmark metadata, scoring weights, and model-score coverage counts.",
   "canonicalUrl": "https://benchlm.ai/data/benchmarks.json",
-  "generatedAt": "2026-09-23T03:42:56.599Z",
-  "sourceLastUpdated": "September 22, 2026",
+  "generatedAt": "2026-09-23T18:43:03.308Z",
+  "sourceLastUpdated": "September 23, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scoring.js"
   ],
   "counts": {
     "categories": 10,
-    "benchmarks": 454
+    "benchmarks": 455
   },
   "items": [
     {
@@ -7450,7 +7450,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 88,
+      "displayableScoreCount": 89,
       "url": "https://benchlm.ai/benchmarks/designarenawebsite",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/designarenawebsite.md"
     },
@@ -8941,6 +8941,30 @@
       "displayableScoreCount": 1,
       "url": "https://benchlm.ai/benchmarks/hrm8k",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hrm8k.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "bridgeBench",
+      "name": "BridgeBench",
+      "fullName": "BridgeBench",
+      "description": "BridgeBench rates 25 models across nine software-building axes, including reasoning, front end, back end, security, speed, and cost. Its overall rating is the equal-weight mean of those axes.",
+      "paperUrl": null,
+      "paperTitle": null,
+      "authors": "BridgeMind",
+      "year": "2026",
+      "tasks": "No public task count",
+      "format": "Editorial Elo-style rating",
+      "difficulty": "Software-building assessments",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/bridgebench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/bridgebench.md"
     },
     {
       "category": "external",

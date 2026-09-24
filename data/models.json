@@ -3,16 +3,16 @@
   "name": "BenchLM models",
   "description": "Stable model metadata, rankings, benchmark scores, and coverage fields for BenchLM model pages.",
   "canonicalUrl": "https://benchlm.ai/data/models.json",
-  "generatedAt": "2026-09-23T03:42:56.599Z",
-  "sourceLastUpdated": "September 22, 2026",
+  "generatedAt": "2026-09-23T18:43:03.308Z",
+  "sourceLastUpdated": "September 23, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
     "src/data/modelReleaseMetadata.js"
   ],
   "counts": {
-    "totalModels": 505,
-    "canonicalModels": 379,
+    "totalModels": 507,
+    "canonicalModels": 380,
     "rankingEligibleModels": 192
   },
   "items": [
@@ -89,7 +89,7 @@
         "categoryRanks": {
           "agentic": 3,
           "coding": 5,
-          "reasoning": 9,
+          "reasoning": 10,
           "multimodalGrounded": 2,
           "knowledge": 5
         },
@@ -528,7 +528,7 @@
         "multimodalGrounded": {
           "blueprintBench2": 38.6,
           "officeQaPro": 57.9,
-          "designArenaWebsite": 1306
+          "designArenaWebsite": 1307
         },
         "knowledge": {
           "artificialAnalysis": 49.63,
@@ -565,7 +565,7 @@
         "upper": 75.41
       },
       "rankingEligible": true,
-      "overallRank": 12,
+      "overallRank": 11,
       "url": "https://benchlm.ai/models/kimi-k3",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
       "id": 282,
@@ -615,7 +615,7 @@
       "ranking": {
         "rankingEligible": true,
         "verifiedRankingEligible": true,
-        "overallRank": 12,
+        "overallRank": 11,
         "categoryRanks": {
           "agentic": 6,
           "coding": 13,
@@ -705,7 +705,7 @@
           "omniDocBench": 91.1,
           "perceptionBench": 58.5,
           "aaMmmuPro": 80.5,
-          "designArenaWebsite": 1350
+          "designArenaWebsite": 1351
         },
         "knowledge": {
           "gpqa": 93.5,
@@ -803,7 +803,7 @@
         "overallRank": 13,
         "categoryRanks": {
           "agentic": 10,
-          "coding": 27,
+          "coding": 26,
           "multimodalGrounded": 6,
           "knowledge": 19,
           "instructionFollowing": 16
@@ -1131,7 +1131,7 @@
         "categoryRanks": {
           "agentic": 7,
           "coding": 6,
-          "reasoning": 10,
+          "reasoning": 11,
           "multimodalGrounded": 5,
           "knowledge": 6,
           "instructionFollowing": 28
@@ -1317,7 +1317,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 34,
         "categoryRanks": {
-          "agentic": 45,
+          "agentic": 46,
           "coding": 46,
           "knowledge": 34,
           "multilingual": 1,
@@ -1490,7 +1490,7 @@
         "categoryRanks": {
           "agentic": 13,
           "coding": 12,
-          "reasoning": 15,
+          "reasoning": 16,
           "multimodalGrounded": 4,
           "knowledge": 11,
           "instructionFollowing": 60,
@@ -1805,7 +1805,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 76,
         "categoryRanks": {
-          "agentic": 57,
+          "agentic": 58,
           "coding": 42,
           "knowledge": 51,
           "instructionFollowing": 3
@@ -1879,7 +1879,7 @@
         "upper": 76.88
       },
       "rankingEligible": true,
-      "overallRank": 10,
+      "overallRank": 9,
       "url": "https://benchlm.ai/models/gpt-5-6-terra",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
       "id": 264,
@@ -1928,11 +1928,11 @@
       "ranking": {
         "rankingEligible": true,
         "verifiedRankingEligible": true,
-        "overallRank": 10,
+        "overallRank": 9,
         "categoryRanks": {
-          "agentic": 17,
+          "agentic": 18,
           "coding": 8,
-          "reasoning": 12,
+          "reasoning": 13,
           "multimodalGrounded": 16,
           "knowledge": 9,
           "instructionFollowing": 35
@@ -2092,8 +2092,8 @@
         "verifiedRankingEligible": true,
         "overallRank": 37,
         "categoryRanks": {
-          "agentic": 29,
-          "coding": 24,
+          "agentic": 30,
+          "coding": 23,
           "knowledge": 25,
           "instructionFollowing": 14
         },
@@ -2137,7 +2137,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 78.5,
-          "designArenaWebsite": 1174
+          "designArenaWebsite": 1173
         },
         "knowledge": {
           "artificialAnalysis": 32.5,
@@ -2224,8 +2224,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 22,
         "categoryRanks": {
-          "agentic": 23,
-          "coding": 25,
+          "agentic": 22,
+          "coding": 24,
           "knowledge": 15
         },
         "categoryRankingEligible": {
@@ -2370,9 +2370,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 15,
         "categoryRanks": {
-          "agentic": 15,
+          "agentic": 16,
           "coding": 10,
-          "reasoning": 11,
+          "reasoning": 12,
           "multimodalGrounded": 20,
           "knowledge": 10,
           "instructionFollowing": 7
@@ -2547,7 +2547,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 53,
         "categoryRanks": {
-          "agentic": 55,
+          "agentic": 57,
           "coding": 51,
           "multimodalGrounded": 19,
           "knowledge": 53,
@@ -2727,7 +2727,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 29,
         "categoryRanks": {
-          "agentic": 46,
+          "agentic": 47,
           "coding": 53,
           "multimodalGrounded": 13,
           "knowledge": 23
@@ -2885,7 +2885,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 33,
         "categoryRanks": {
-          "agentic": 28,
+          "agentic": 29,
           "coding": 39,
           "knowledge": 27
         },
@@ -3052,9 +3052,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 32,
         "categoryRanks": {
-          "agentic": 33,
+          "agentic": 35,
           "coding": 33,
-          "reasoning": 13,
+          "reasoning": 14,
           "multimodalGrounded": 7,
           "knowledge": 24,
           "instructionFollowing": 43
@@ -3118,7 +3118,7 @@
           "mmmuPro": 83.6,
           "blueprintBench2": 33.6,
           "aaMmmuPro": 84.3,
-          "designArenaWebsite": 1274
+          "designArenaWebsite": 1275
         },
         "knowledge": {
           "artificialAnalysis": 50.2,
@@ -3162,7 +3162,7 @@
         "upper": 72.88
       },
       "rankingEligible": true,
-      "overallRank": 18,
+      "overallRank": 17,
       "url": "https://benchlm.ai/models/gpt-5-4",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
       "id": 11,
@@ -3212,11 +3212,11 @@
       "ranking": {
         "rankingEligible": true,
         "verifiedRankingEligible": true,
-        "overallRank": 18,
+        "overallRank": 17,
         "categoryRanks": {
-          "agentic": 34,
+          "agentic": 36,
           "coding": 38,
-          "reasoning": 14,
+          "reasoning": 15,
           "multimodalGrounded": 21,
           "knowledge": 17,
           "instructionFollowing": 19
@@ -3380,9 +3380,9 @@
         "verifiedRankingEligible": true,
         "overallRank": 30,
         "categoryRanks": {
-          "agentic": 27,
+          "agentic": 28,
           "coding": 9,
-          "reasoning": 16,
+          "reasoning": 17,
           "multimodalGrounded": 22,
           "knowledge": 22
         },
@@ -3547,7 +3547,7 @@
         "overallRank": 35,
         "categoryRanks": {
           "agentic": 25,
-          "coding": 22,
+          "coding": 21,
           "knowledge": 41,
           "instructionFollowing": 23
         },
@@ -3638,16 +3638,16 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 69.42,
+      "displayScore": 68.83,
       "provisionalDisplayScore": 63,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 57.91,
-        "upper": 80.94
+        "lower": 57.31,
+        "upper": 80.34
       },
       "rankingEligible": true,
-      "overallRank": 16,
+      "overallRank": 18,
       "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
       "id": 33,
@@ -3697,10 +3697,10 @@
       "ranking": {
         "rankingEligible": true,
         "verifiedRankingEligible": true,
-        "overallRank": 16,
+        "overallRank": 18,
         "categoryRanks": {
           "agentic": 19,
-          "coding": 23,
+          "coding": 22,
           "multimodalGrounded": 38,
           "knowledge": 28
         },
@@ -3843,7 +3843,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 31,
         "categoryRanks": {
-          "agentic": 38,
+          "agentic": 40,
           "coding": 37,
           "multimodalGrounded": 30,
           "knowledge": 36,
@@ -4001,7 +4001,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 48,
         "categoryRanks": {
-          "agentic": 42,
+          "agentic": 43,
           "coding": 36,
           "knowledge": 54,
           "instructionFollowing": 4,
@@ -4153,7 +4153,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 43,
         "categoryRanks": {
-          "agentic": 40,
+          "agentic": 42,
           "coding": 44,
           "multimodalGrounded": 27,
           "knowledge": 38,
@@ -4318,7 +4318,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 63,
         "categoryRanks": {
-          "agentic": 50,
+          "agentic": 51,
           "coding": 71,
           "multimodalGrounded": 41,
           "knowledge": 47,
@@ -4605,7 +4605,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 75,
         "categoryRanks": {
-          "agentic": 49,
+          "agentic": 50,
           "coding": 49,
           "knowledge": 45,
           "instructionFollowing": 59
@@ -4742,7 +4742,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 54,
         "categoryRanks": {
-          "agentic": 58,
+          "agentic": 59,
           "coding": 66,
           "multimodalGrounded": 33,
           "knowledge": 56,
@@ -4885,7 +4885,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 61,
         "categoryRanks": {
-          "agentic": 59,
+          "agentic": 60,
           "coding": 52,
           "multimodalGrounded": 24,
           "knowledge": 55,
@@ -5062,7 +5062,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 60,
         "categoryRanks": {
-          "agentic": 44,
+          "agentic": 45,
           "coding": 63,
           "multimodalGrounded": 36,
           "knowledge": 62,
@@ -5220,7 +5220,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 49,
         "categoryRanks": {
-          "agentic": 43,
+          "agentic": 44,
           "coding": 41,
           "multimodalGrounded": 35,
           "knowledge": 52,
@@ -5371,8 +5371,8 @@
         "verifiedRankingEligible": true,
         "overallRank": 38,
         "categoryRanks": {
-          "agentic": 35,
-          "coding": 32,
+          "agentic": 32,
+          "coding": 31,
           "multimodalGrounded": 14,
           "knowledge": 33,
           "instructionFollowing": 8
@@ -5521,7 +5521,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 51,
         "categoryRanks": {
-          "agentic": 52,
+          "agentic": 53,
           "coding": 59,
           "multimodalGrounded": 40,
           "knowledge": 43,
@@ -5666,7 +5666,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 84,
         "categoryRanks": {
-          "agentic": 76,
+          "agentic": 77,
           "coding": 73,
           "knowledge": 75,
           "instructionFollowing": 10
@@ -5815,7 +5815,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 59,
         "categoryRanks": {
-          "agentic": 48,
+          "agentic": 49,
           "coding": 54,
           "knowledge": 67,
           "multilingual": 6,
@@ -5976,7 +5976,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 91,
         "categoryRanks": {
-          "agentic": 68,
+          "agentic": 69,
           "coding": 67,
           "multimodalGrounded": 37,
           "knowledge": 72,
@@ -6139,7 +6139,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 112,
         "categoryRanks": {
-          "agentic": 73,
+          "agentic": 74,
           "coding": 64,
           "multimodalGrounded": 42,
           "knowledge": 78,
@@ -6277,7 +6277,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 52,
         "categoryRanks": {
-          "agentic": 63,
+          "agentic": 64,
           "coding": 48,
           "multimodalGrounded": 48,
           "knowledge": 57,
@@ -6579,7 +6579,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 96,
         "categoryRanks": {
-          "agentic": 60,
+          "agentic": 61,
           "coding": 80,
           "knowledge": 81,
           "instructionFollowing": 63
@@ -6865,7 +6865,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 99,
         "categoryRanks": {
-          "agentic": 80,
+          "agentic": 81,
           "coding": 74,
           "multimodalGrounded": 32,
           "knowledge": 94,
@@ -7151,7 +7151,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 116,
         "categoryRanks": {
-          "agentic": 81,
+          "agentic": 82,
           "coding": 72,
           "multimodalGrounded": 34,
           "knowledge": 87,
@@ -7291,7 +7291,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 102,
         "categoryRanks": {
-          "agentic": 61,
+          "agentic": 62,
           "coding": 79,
           "knowledge": 82,
           "multilingual": 10,
@@ -7428,7 +7428,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 65,
         "categoryRanks": {
-          "agentic": 53,
+          "agentic": 54,
           "coding": 58,
           "multimodalGrounded": 25,
           "knowledge": 68,
@@ -7604,7 +7604,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 70,
         "categoryRanks": {
-          "agentic": 62,
+          "agentic": 63,
           "coding": 87,
           "multimodalGrounded": 47,
           "knowledge": 92,
@@ -7749,7 +7749,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 107,
         "categoryRanks": {
-          "agentic": 66,
+          "agentic": 67,
           "coding": 65,
           "multimodalGrounded": 39,
           "knowledge": 84,
@@ -7914,7 +7914,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 113,
         "categoryRanks": {
-          "agentic": 79,
+          "agentic": 80,
           "coding": 117,
           "knowledge": 80,
           "multilingual": 7,
@@ -8345,7 +8345,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 78,
         "categoryRanks": {
-          "agentic": 69,
+          "agentic": 70,
           "coding": 57,
           "knowledge": 91,
           "instructionFollowing": 51
@@ -8392,7 +8392,7 @@
           "critpt": 1.7
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1237
+          "designArenaWebsite": 1236
         },
         "knowledge": {
           "gpqa": 85.7,
@@ -8486,7 +8486,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 89,
         "categoryRanks": {
-          "agentic": 67,
+          "agentic": 68,
           "coding": 90,
           "knowledge": 95,
           "multilingual": 11,
@@ -8870,7 +8870,7 @@
         "upper": 77.44
       },
       "rankingEligible": true,
-      "overallRank": 11,
+      "overallRank": 10,
       "url": "https://benchlm.ai/models/gemini-3-8-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
       "id": 419,
@@ -8921,11 +8921,11 @@
       "ranking": {
         "rankingEligible": false,
         "verifiedRankingEligible": false,
-        "overallRank": 11,
+        "overallRank": 10,
         "categoryRanks": {
           "agentic": 11,
           "coding": 11,
-          "reasoning": 7,
+          "reasoning": 8,
           "multimodalGrounded": 9,
           "knowledge": 8
         },
@@ -9047,8 +9047,8 @@
         "rawOverallScore": 0,
         "verifiedDisplayScore": 71,
         "displayCategoryScores": {
-          "agentic": 73.5,
-          "coding": 77.5,
+          "agentic": 74.2,
+          "coding": 75.4,
           "reasoning": 78.5,
           "multimodalGrounded": 82.8,
           "knowledge": 80.8,
@@ -9072,13 +9072,13 @@
         "verifiedRankingEligible": false,
         "overallRank": 4,
         "categoryRanks": {
-          "agentic": 16,
+          "agentic": 15,
           "coding": 7,
           "reasoning": 5,
           "knowledge": 7
         },
         "categoryRankingEligible": {
-          "agentic": false,
+          "agentic": true,
           "coding": true,
           "reasoning": true,
           "multimodalGrounded": false,
@@ -9319,7 +9319,7 @@
         "overallRank": 26,
         "categoryRanks": {
           "agentic": 20,
-          "coding": 18,
+          "coding": 17,
           "multimodalGrounded": 10,
           "knowledge": 12
         },
@@ -9406,13 +9406,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 75.08,
+      "displayScore": 73.04,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 63.57,
-        "upper": 86.6
+        "lower": 61.53,
+        "upper": 84.56
       },
       "rankingEligible": true,
       "overallRank": 8,
@@ -9574,8 +9574,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 28,
         "categoryRanks": {
-          "agentic": 37,
-          "coding": 31,
+          "agentic": 38,
+          "coding": 30,
           "knowledge": 26
         },
         "categoryRankingEligible": {
@@ -9618,7 +9618,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 83.2,
-          "designArenaWebsite": 1309
+          "designArenaWebsite": 1310
         },
         "knowledge": {
           "artificialAnalysis": 33.98,
@@ -9776,16 +9776,16 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 74.27,
+      "displayScore": 72.44,
       "provisionalDisplayScore": 72,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 62.76,
-        "upper": 85.78
+        "lower": 60.92,
+        "upper": 83.95
       },
       "rankingEligible": true,
-      "overallRank": 9,
+      "overallRank": 12,
       "url": "https://benchlm.ai/models/gpt-5-4-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md",
       "id": 40,
@@ -9835,7 +9835,7 @@
       "ranking": {
         "rankingEligible": false,
         "verifiedRankingEligible": false,
-        "overallRank": 9,
+        "overallRank": 12,
         "categoryRanks": {},
         "categoryRankingEligible": {
           "agentic": false,
@@ -9899,7 +9899,7 @@
         "upper": 72.11
       },
       "rankingEligible": true,
-      "overallRank": 17,
+      "overallRank": 16,
       "url": "https://benchlm.ai/models/grok-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-6.md",
       "id": 389,
@@ -9949,7 +9949,7 @@
       "ranking": {
         "rankingEligible": false,
         "verifiedRankingEligible": false,
-        "overallRank": 17,
+        "overallRank": 16,
         "categoryRanks": {
           "agentic": 8,
           "coding": 14,
@@ -10006,7 +10006,7 @@
           "critpt": 17.1
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1301
+          "designArenaWebsite": 1302
         },
         "knowledge": {
           "artificialAnalysis": 44.31,
@@ -10230,7 +10230,9 @@
           "lcr": 86.3,
           "critpt": 26.6
         },
-        "multimodalGrounded": {},
+        "multimodalGrounded": {
+          "designArenaWebsite": 1331
+        },
         "knowledge": {
           "artificialAnalysis": 46.32,
           "aaHle": 49.4,
@@ -10314,7 +10316,7 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "reasoning": 6
+          "reasoning": 7
         },
         "categoryRankingEligible": {
           "agentic": true,
@@ -10366,7 +10368,7 @@
           "aaMlcr": 43.3
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1364
+          "designArenaWebsite": 1365
         },
         "knowledge": {
           "artificialAnalysis": 48.09,
@@ -10580,7 +10582,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 44,
         "categoryRanks": {
-          "agentic": 32,
+          "agentic": 34,
           "coding": 16,
           "knowledge": 32
         },
@@ -10832,8 +10834,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 27,
         "categoryRanks": {
-          "agentic": 18,
-          "coding": 26,
+          "agentic": 17,
+          "coding": 25,
           "knowledge": 20
         },
         "categoryRankingEligible": {
@@ -11097,8 +11099,8 @@
         "rawOverallScore": 0,
         "verifiedDisplayScore": 68,
         "displayCategoryScores": {
-          "agentic": null,
-          "coding": null,
+          "agentic": 73.2,
+          "coding": 62.5,
           "reasoning": 78.3,
           "multimodalGrounded": 71.3,
           "knowledge": 69.6,
@@ -11122,13 +11124,15 @@
         "verifiedRankingEligible": false,
         "overallRank": 21,
         "categoryRanks": {
-          "coding": 17,
+          "agentic": 26,
+          "coding": 32,
+          "reasoning": 6,
           "knowledge": 18
         },
         "categoryRankingEligible": {
-          "agentic": false,
-          "coding": false,
-          "reasoning": false,
+          "agentic": true,
+          "coding": true,
+          "reasoning": true,
           "multimodalGrounded": false,
           "knowledge": false,
           "multilingual": false,
@@ -11141,7 +11145,7 @@
         "verifiedBenchmarkCount": 14,
         "rankableBenchmarkCount": 14,
         "generatedBenchmarkCount": 0,
-        "scoreConfidence": 2
+        "scoreConfidence": 3
       },
       "benchmarks": {
         "agentic": {
@@ -11223,7 +11227,7 @@
         "verifiedDisplayScore": 68,
         "displayCategoryScores": {
           "agentic": 75.5,
-          "coding": 67.4,
+          "coding": 61.1,
           "reasoning": 73.7,
           "multimodalGrounded": null,
           "knowledge": 73.3,
@@ -11614,7 +11618,7 @@
         "overallRank": 39,
         "categoryRanks": {
           "agentic": 24,
-          "coding": 30,
+          "coding": 29,
           "knowledge": 29
         },
         "categoryRankingEligible": {
@@ -12217,7 +12221,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 40,
         "categoryRanks": {
-          "agentic": 26,
+          "agentic": 27,
           "instructionFollowing": 37
         },
         "categoryRankingEligible": {
@@ -12358,8 +12362,8 @@
         "overallRank": 25,
         "categoryRanks": {
           "agentic": 21,
-          "coding": 20,
-          "reasoning": 17,
+          "coding": 19,
+          "reasoning": 18,
           "knowledge": 16
         },
         "categoryRankingEligible": {
@@ -12409,7 +12413,7 @@
         },
         "multimodalGrounded": {
           "aaMmmuPro": 80.4,
-          "designArenaWebsite": 1293
+          "designArenaWebsite": 1294
         },
         "knowledge": {
           "artificialAnalysis": 38.81,
@@ -12495,7 +12499,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 64,
         "categoryRanks": {
-          "agentic": 47,
+          "agentic": 48,
           "coding": 47,
           "knowledge": 59,
           "instructionFollowing": 6
@@ -12544,7 +12548,7 @@
           "critpt": 4
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1282
+          "designArenaWebsite": 1281
         },
         "knowledge": {
           "hle": 48,
@@ -12631,7 +12635,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 56,
         "categoryRanks": {
-          "agentic": 64,
+          "agentic": 65,
           "coding": 75,
           "knowledge": 46,
           "instructionFollowing": 70
@@ -12881,8 +12885,8 @@
         "overallRank": 24,
         "categoryRanks": {
           "agentic": 9,
-          "coding": 21,
-          "reasoning": 8,
+          "coding": 20,
+          "reasoning": 9,
           "knowledge": 31
         },
         "categoryRankingEligible": {
@@ -12945,7 +12949,7 @@
           "aaMlcr": 48.3
         },
         "multimodalGrounded": {
-          "designArenaWebsite": 1311
+          "designArenaWebsite": 1312
         },
         "knowledge": {
           "artificialAnalysis": 44.78,
@@ -13033,7 +13037,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 71,
         "categoryRanks": {
-          "agentic": 54,
+          "agentic": 55,
           "coding": 34,
           "knowledge": 64
         },
@@ -13160,7 +13164,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 47,
         "categoryRanks": {
-          "agentic": 30,
+          "agentic": 31,
           "coding": 35,
           "multimodalGrounded": 11,
           "knowledge": 39
@@ -13214,7 +13218,7 @@
           "chartographyWithTools": 78,
           "babyVision": 53.4,
           "mmvu": 80.5,
-          "designArenaWebsite": 1281
+          "designArenaWebsite": 1282
         },
         "knowledge": {
           "valsGpqaDiamond": 86.4,
@@ -14932,8 +14936,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 42,
         "categoryRanks": {
-          "agentic": 22,
-          "coding": 28,
+          "agentic": 23,
+          "coding": 27,
           "multimodalGrounded": 8,
           "knowledge": 40,
           "instructionFollowing": 33
@@ -15331,8 +15335,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 23,
         "categoryRanks": {
-          "agentic": 31,
-          "coding": 19,
+          "agentic": 33,
+          "coding": 18,
           "knowledge": 30
         },
         "categoryRankingEligible": {
@@ -15464,7 +15468,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 72,
         "categoryRanks": {
-          "agentic": 65,
+          "agentic": 66,
           "coding": 61,
           "multimodalGrounded": 17,
           "knowledge": 65
@@ -16025,7 +16029,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 130,
         "categoryRanks": {
-          "agentic": 85,
+          "agentic": 86,
           "coding": 94,
           "knowledge": 110,
           "instructionFollowing": 49
@@ -16670,7 +16674,7 @@
           "simpleVqa": 79.2,
           "vStar": 95.3,
           "aaMmmuPro": 75.3,
-          "designArenaWebsite": 1205
+          "designArenaWebsite": 1206
         },
         "knowledge": {
           "artificialAnalysis": 19.48,
@@ -17134,7 +17138,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 57,
         "categoryRanks": {
-          "agentic": 51,
+          "agentic": 52,
           "coding": 60,
           "multimodalGrounded": 31,
           "knowledge": 60
@@ -17256,7 +17260,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 123,
         "categoryRanks": {
-          "agentic": 87,
+          "agentic": 88,
           "coding": 89,
           "knowledge": 101,
           "instructionFollowing": 46
@@ -18415,8 +18419,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 86,
         "categoryRanks": {
-          "agentic": 72,
-          "coding": 98,
+          "agentic": 73,
+          "coding": 99,
           "knowledge": 73
         },
         "categoryRankingEligible": {
@@ -18760,7 +18764,7 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "agentic": 99,
+          "agentic": 100,
           "coding": 127,
           "instructionFollowing": 56
         },
@@ -19087,7 +19091,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 136,
         "categoryRanks": {
-          "agentic": 91,
+          "agentic": 92,
           "coding": 119,
           "knowledge": 106,
           "instructionFollowing": 68
@@ -19892,7 +19896,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 135,
         "categoryRanks": {
-          "agentic": 90,
+          "agentic": 91,
           "coding": 95,
           "knowledge": 111,
           "instructionFollowing": 77
@@ -20132,7 +20136,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 74,
         "categoryRanks": {
-          "agentic": 77,
+          "agentic": 79,
           "coding": 107,
           "knowledge": 74,
           "instructionFollowing": 76
@@ -20264,7 +20268,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 177,
         "categoryRanks": {
-          "agentic": 100,
+          "agentic": 101,
           "coding": 116,
           "knowledge": 126,
           "instructionFollowing": 82
@@ -20493,7 +20497,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 139,
         "categoryRanks": {
-          "agentic": 93,
+          "agentic": 94,
           "coding": 105,
           "knowledge": 116,
           "instructionFollowing": 54
@@ -21657,7 +21661,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 153,
         "categoryRanks": {
-          "agentic": 83,
+          "agentic": 84,
           "coding": 103,
           "knowledge": 120
         },
@@ -21882,7 +21886,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 137,
         "categoryRanks": {
-          "agentic": 92,
+          "agentic": 93,
           "coding": 129,
           "knowledge": 113,
           "instructionFollowing": 101
@@ -22374,7 +22378,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 156,
         "categoryRanks": {
-          "agentic": 95,
+          "agentic": 96,
           "coding": 112,
           "knowledge": 136,
           "instructionFollowing": 47
@@ -22507,7 +22511,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 129,
         "categoryRanks": {
-          "agentic": 88,
+          "agentic": 89,
           "coding": 91,
           "multimodalGrounded": 49,
           "knowledge": 134,
@@ -22735,7 +22739,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 85,
         "categoryRanks": {
-          "agentic": 74
+          "agentic": 75
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -22853,7 +22857,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 146,
         "categoryRanks": {
-          "agentic": 101,
+          "agentic": 102,
           "coding": 114,
           "knowledge": 128,
           "instructionFollowing": 103
@@ -24323,7 +24327,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 160,
         "categoryRanks": {
-          "agentic": 102,
+          "agentic": 103,
           "coding": 128,
           "knowledge": 143,
           "instructionFollowing": 91
@@ -24578,7 +24582,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 108,
         "categoryRanks": {
-          "agentic": 84,
+          "agentic": 85,
           "coding": 130,
           "knowledge": 125
         },
@@ -24695,7 +24699,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 45,
         "categoryRanks": {
-          "agentic": 82,
+          "agentic": 83,
           "coding": 120,
           "multimodalGrounded": 45,
           "knowledge": 76
@@ -25351,7 +25355,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 138,
         "categoryRanks": {
-          "coding": 99,
+          "coding": 98,
           "knowledge": 121,
           "instructionFollowing": 107
         },
@@ -25804,7 +25808,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 181,
         "categoryRanks": {
-          "agentic": 103,
+          "agentic": 104,
           "coding": 132,
           "knowledge": 151,
           "instructionFollowing": 67
@@ -26163,7 +26167,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 142,
         "categoryRanks": {
-          "agentic": 86,
+          "agentic": 87,
           "coding": 113,
           "knowledge": 139,
           "instructionFollowing": 104
@@ -26877,7 +26881,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 162,
         "categoryRanks": {
-          "agentic": 104,
+          "agentic": 105,
           "coding": 131,
           "knowledge": 149,
           "instructionFollowing": 110
@@ -27904,7 +27908,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 172,
         "categoryRanks": {
-          "agentic": 94,
+          "agentic": 95,
           "knowledge": 142
         },
         "categoryRankingEligible": {
@@ -28239,8 +28243,8 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "agentic": 36,
-          "coding": 29
+          "agentic": 37,
+          "coding": 28
         },
         "categoryRankingEligible": {
           "agentic": false,
@@ -29358,7 +29362,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 79,
         "categoryRanks": {
-          "agentic": 75,
+          "agentic": 76,
           "coding": 68
         },
         "categoryRankingEligible": {
@@ -29999,7 +30003,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 126,
         "categoryRanks": {
-          "agentic": 89,
+          "agentic": 90,
           "coding": 125
         },
         "categoryRankingEligible": {
@@ -31578,7 +31582,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 101,
         "categoryRanks": {
-          "agentic": 70,
+          "agentic": 71,
           "coding": 86
         },
         "categoryRankingEligible": {
@@ -31782,7 +31786,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 173,
         "categoryRanks": {
-          "agentic": 96,
+          "agentic": 97,
           "coding": 111
         },
         "categoryRankingEligible": {
@@ -33128,7 +33132,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 183,
         "categoryRanks": {
-          "agentic": 97,
+          "agentic": 98,
           "coding": 118
         },
         "categoryRankingEligible": {
@@ -33793,7 +33797,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 186,
         "categoryRanks": {
-          "agentic": 98,
+          "agentic": 99,
           "coding": 121
         },
         "categoryRankingEligible": {
@@ -38246,6 +38250,195 @@
         "multimodalGrounded": {
           "screenSpotPro": 58.9
         },
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
+      "slug": "gemini-3-8-flash-tts",
+      "canonicalModelKey": "gemini-3-8-flash-tts",
+      "model": "Gemini 3.8 Flash TTS",
+      "creator": "Google",
+      "sourceType": "Proprietary",
+      "reasoningType": "Non-Reasoning",
+      "contextWindow": "8K",
+      "contextWindowTokens": 8000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/gemini-3-8-flash-tts",
+      "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash-tts.md",
+      "id": 518,
+      "releaseDate": "2026-09-23",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "gemini-3-8-tts",
+        "familyName": "Gemini 3.8 TTS",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "gemini-3-8-flash-tts",
+        "relatedModelKeys": [
+          "gemini-3-8-flash-lite-tts"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
+      "slug": "gemini-3-8-flash-lite-tts",
+      "canonicalModelKey": "gemini-3-8-flash-lite-tts",
+      "model": "Gemini 3.8 Flash-Lite TTS",
+      "creator": "Google",
+      "sourceType": "Proprietary",
+      "reasoningType": "Non-Reasoning",
+      "contextWindow": "8K",
+      "contextWindowTokens": 8000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/gemini-3-8-flash-lite-tts",
+      "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash-lite-tts.md",
+      "id": 519,
+      "releaseDate": "2026-09-23",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "gemini-3-8-tts",
+        "familyName": "Gemini 3.8 TTS",
+        "variantType": "flash-lite",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "gemini-3-8-flash-tts",
+        "relatedModelKeys": [
+          "gemini-3-8-flash-tts",
+          "gemini-3-1-flash-tts-preview"
+        ],
+        "isCanonicalFamilyEntry": false,
+        "supersedesModelKey": "gemini-3-1-flash-tts-preview"
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
         "knowledge": {},
         "multilingual": {},
         "instructionFollowing": {},
@@ -44259,7 +44452,7 @@
         "verifiedRankingEligible": false,
         "overallRank": null,
         "categoryRanks": {
-          "agentic": 71,
+          "agentic": 72,
           "coding": 100
         },
         "categoryRankingEligible": {

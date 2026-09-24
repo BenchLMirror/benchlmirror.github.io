@@ -3,8 +3,8 @@
   "name": "BenchLM leaderboards",
   "description": "Overall and category leaderboards derived from the public BenchLM ranking logic.",
   "canonicalUrl": "https://benchlm.ai/data/leaderboard.json",
-  "generatedAt": "2026-09-23T03:42:56.599Z",
-  "sourceLastUpdated": "September 22, 2026",
+  "generatedAt": "2026-09-23T18:43:03.308Z",
+  "sourceLastUpdated": "September 23, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -14,9 +14,9 @@
   "counts": {
     "overall": 192,
     "categories": {
-      "agentic": 104,
+      "agentic": 105,
       "coding": 134,
-      "reasoning": 17,
+      "reasoning": 18,
       "multimodalGrounded": 50,
       "knowledge": 156,
       "multilingual": 12,
@@ -239,19 +239,19 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 75.08,
+      "displayScore": 73.04,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 63.57,
-        "upper": 86.6
+        "lower": 61.53,
+        "upper": 84.56
       },
       "rankingEligible": true,
       "overallRank": 8,
       "url": "https://benchlm.ai/models/gpt-5-5-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-5-pro.md",
-      "score": 75.08,
+      "score": 73.04,
       "rankingMode": "bench-align-v5",
       "category": null,
       "categoryLabel": null,
@@ -260,35 +260,6 @@
     },
     {
       "rank": 9,
-      "slug": "gpt-5-4-pro",
-      "canonicalModelKey": "gpt-5-4-pro",
-      "model": "GPT-5.4 Pro",
-      "creator": "OpenAI",
-      "sourceType": "Proprietary",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1.05M",
-      "contextWindowTokens": 1050000,
-      "displayScore": 74.27,
-      "provisionalDisplayScore": 72,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 62.76,
-        "upper": 85.78
-      },
-      "rankingEligible": true,
-      "overallRank": 9,
-      "url": "https://benchlm.ai/models/gpt-5-4-pro",
-      "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md",
-      "score": 74.27,
-      "rankingMode": "bench-align-v5",
-      "category": null,
-      "categoryLabel": null,
-      "trustedBenchmarkCount": 11,
-      "scoreConfidence": 2
-    },
-    {
-      "rank": 10,
       "slug": "gpt-5-6-terra",
       "canonicalModelKey": "gpt-5-6-terra",
       "model": "GPT-5.6 Terra",
@@ -306,7 +277,7 @@
         "upper": 76.88
       },
       "rankingEligible": true,
-      "overallRank": 10,
+      "overallRank": 9,
       "url": "https://benchlm.ai/models/gpt-5-6-terra",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
       "score": 72.76,
@@ -317,7 +288,7 @@
       "scoreConfidence": 4
     },
     {
-      "rank": 11,
+      "rank": 10,
       "slug": "gemini-3-8-flash",
       "canonicalModelKey": "gemini-3-8-flash",
       "model": "Gemini 3.8 Flash",
@@ -335,7 +306,7 @@
         "upper": 77.44
       },
       "rankingEligible": true,
-      "overallRank": 11,
+      "overallRank": 10,
       "url": "https://benchlm.ai/models/gemini-3-8-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
       "score": 72.74,
@@ -346,7 +317,7 @@
       "scoreConfidence": 3
     },
     {
-      "rank": 12,
+      "rank": 11,
       "slug": "kimi-k3",
       "canonicalModelKey": "kimi-3",
       "model": "Kimi K3",
@@ -364,7 +335,7 @@
         "upper": 75.41
       },
       "rankingEligible": true,
-      "overallRank": 12,
+      "overallRank": 11,
       "url": "https://benchlm.ai/models/kimi-k3",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
       "score": 72.53,
@@ -373,6 +344,35 @@
       "categoryLabel": null,
       "trustedBenchmarkCount": 51,
       "scoreConfidence": 3
+    },
+    {
+      "rank": 12,
+      "slug": "gpt-5-4-pro",
+      "canonicalModelKey": "gpt-5-4-pro",
+      "model": "GPT-5.4 Pro",
+      "creator": "OpenAI",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1.05M",
+      "contextWindowTokens": 1050000,
+      "displayScore": 72.44,
+      "provisionalDisplayScore": 72,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 60.92,
+        "upper": 83.95
+      },
+      "rankingEligible": true,
+      "overallRank": 12,
+      "url": "https://benchlm.ai/models/gpt-5-4-pro",
+      "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md",
+      "score": 72.44,
+      "rankingMode": "bench-align-v5",
+      "category": null,
+      "categoryLabel": null,
+      "trustedBenchmarkCount": 11,
+      "scoreConfidence": 2
     },
     {
       "rank": 13,
@@ -463,35 +463,6 @@
     },
     {
       "rank": 16,
-      "slug": "claude-opus-4-7-adaptive",
-      "canonicalModelKey": "claude-opus-4-7-max",
-      "model": "Claude Opus 4.7 (Adaptive)",
-      "creator": "Anthropic",
-      "sourceType": "Proprietary",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1M",
-      "contextWindowTokens": 1000000,
-      "displayScore": 69.42,
-      "provisionalDisplayScore": 63,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 57.91,
-        "upper": 80.94
-      },
-      "rankingEligible": true,
-      "overallRank": 16,
-      "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
-      "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
-      "score": 69.42,
-      "rankingMode": "bench-align-v5",
-      "category": null,
-      "categoryLabel": null,
-      "trustedBenchmarkCount": 20,
-      "scoreConfidence": 3
-    },
-    {
-      "rank": 17,
       "slug": "grok-4-6",
       "canonicalModelKey": "grok-4-6",
       "model": "Grok 4.6",
@@ -509,7 +480,7 @@
         "upper": 72.11
       },
       "rankingEligible": true,
-      "overallRank": 17,
+      "overallRank": 16,
       "url": "https://benchlm.ai/models/grok-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-6.md",
       "score": 69.23,
@@ -520,7 +491,7 @@
       "scoreConfidence": 2
     },
     {
-      "rank": 18,
+      "rank": 17,
       "slug": "gpt-5-4",
       "canonicalModelKey": "gpt-5-4",
       "model": "GPT-5.4",
@@ -538,7 +509,7 @@
         "upper": 72.88
       },
       "rankingEligible": true,
-      "overallRank": 18,
+      "overallRank": 17,
       "url": "https://benchlm.ai/models/gpt-5-4",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
       "score": 69.23,
@@ -547,6 +518,35 @@
       "categoryLabel": null,
       "trustedBenchmarkCount": 40,
       "scoreConfidence": 4
+    },
+    {
+      "rank": 18,
+      "slug": "claude-opus-4-7-adaptive",
+      "canonicalModelKey": "claude-opus-4-7-max",
+      "model": "Claude Opus 4.7 (Adaptive)",
+      "creator": "Anthropic",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": 68.83,
+      "provisionalDisplayScore": 63,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 57.31,
+        "upper": 80.34
+      },
+      "rankingEligible": true,
+      "overallRank": 18,
+      "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
+      "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
+      "score": 68.83,
+      "rankingMode": "bench-align-v5",
+      "category": null,
+      "categoryLabel": null,
+      "trustedBenchmarkCount": 20,
+      "scoreConfidence": 3
     },
     {
       "rank": 19,
@@ -633,7 +633,7 @@
       "category": null,
       "categoryLabel": null,
       "trustedBenchmarkCount": 14,
-      "scoreConfidence": 2
+      "scoreConfidence": 3
     },
     {
       "rank": 22,
@@ -5612,14 +5612,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 81.83,
-          "upper": 95.49
+          "lower": 81.94,
+          "upper": 95.58
         },
         "rankingEligible": true,
         "overallRank": 2,
         "url": "https://benchlm.ai/models/claude-opus-5-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-5-5.md",
-        "score": 88.66,
+        "score": 88.76,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5641,14 +5641,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 73.17,
-          "upper": 84.59
+          "lower": 73.18,
+          "upper": 84.62
         },
         "rankingEligible": true,
         "overallRank": 3,
         "url": "https://benchlm.ai/models/claude-fable-5-1",
         "markdownUrl": "https://benchlm.ai/md/models/claude-fable-5-1.md",
-        "score": 78.88,
+        "score": 78.9,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5670,14 +5670,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 73.01,
-          "upper": 82.03
+          "lower": 72.97,
+          "upper": 81.94
         },
         "rankingEligible": true,
         "overallRank": 6,
         "url": "https://benchlm.ai/models/claude-opus-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-5.md",
-        "score": 77.52,
+        "score": 77.46,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5699,14 +5699,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 69.1,
-          "upper": 78.57
+          "lower": 69.06,
+          "upper": 78.54
         },
         "rankingEligible": true,
         "overallRank": 7,
         "url": "https://benchlm.ai/models/claude-fable",
         "markdownUrl": "https://benchlm.ai/md/models/claude-fable.md",
-        "score": 73.84,
+        "score": 73.8,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5729,13 +5729,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 62.52,
-          "upper": 78.73
+          "upper": 78.69
         },
         "rankingEligible": true,
         "overallRank": 1,
         "url": "https://benchlm.ai/models/gpt-6-astra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-6-astra.md",
-        "score": 70.63,
+        "score": 70.61,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5757,14 +5757,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 65.13,
-          "upper": 75.07
+          "lower": 65.22,
+          "upper": 75.15
         },
         "rankingEligible": true,
-        "overallRank": 12,
+        "overallRank": 11,
         "url": "https://benchlm.ai/models/kimi-k3",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
-        "score": 70.1,
+        "score": 70.19,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5786,14 +5786,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 61.31,
-          "upper": 75.73
+          "lower": 63.13,
+          "upper": 76.98
         },
         "rankingEligible": true,
         "overallRank": 5,
         "url": "https://benchlm.ai/models/gpt-5-6-sol",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-sol.md",
-        "score": 68.52,
+        "score": 70.06,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5815,14 +5815,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 58.42,
-          "upper": 77.32
+          "lower": 58.57,
+          "upper": 77.6
         },
         "rankingEligible": true,
-        "overallRank": 17,
+        "overallRank": 16,
         "url": "https://benchlm.ai/models/grok-4-6",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-6.md",
-        "score": 67.87,
+        "score": 68.08,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5844,14 +5844,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 59.46,
-          "upper": 74.79
+          "lower": 59.6,
+          "upper": 74.84
         },
         "rankingEligible": true,
         "overallRank": 24,
         "url": "https://benchlm.ai/models/glm-5-3",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-3.md",
-        "score": 67.13,
+        "score": 67.22,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5873,14 +5873,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 57.89,
-          "upper": 73.22
+          "lower": 58,
+          "upper": 73.3
         },
         "rankingEligible": true,
         "overallRank": 13,
         "url": "https://benchlm.ai/models/qwen3-8-max",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-max.md",
-        "score": 65.55,
+        "score": 65.65,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5902,14 +5902,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 55.83,
-          "upper": 74.84
+          "lower": 55.56,
+          "upper": 74.41
         },
         "rankingEligible": true,
-        "overallRank": 11,
+        "overallRank": 10,
         "url": "https://benchlm.ai/models/gemini-3-8-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
-        "score": 65.33,
+        "score": 64.98,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5960,14 +5960,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 53,
-          "upper": 70.31
+          "lower": 52.81,
+          "upper": 70.33
         },
         "rankingEligible": true,
         "overallRank": 14,
         "url": "https://benchlm.ai/models/claude-opus-4-8",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-8.md",
-        "score": 61.66,
+        "score": 61.57,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -5989,14 +5989,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 53.56,
-          "upper": 68.28
+          "lower": 53.82,
+          "upper": 68.34
         },
         "rankingEligible": true,
         "overallRank": 55,
         "url": "https://benchlm.ai/models/qwen3-8-27b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-27b.md",
-        "score": 60.92,
+        "score": 61.08,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6005,35 +6005,6 @@
       },
       {
         "rank": 15,
-        "slug": "gpt-5-5",
-        "canonicalModelKey": "gpt-5-5",
-        "model": "GPT-5.5",
-        "creator": "OpenAI",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 69.48,
-        "provisionalDisplayScore": 70,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 54.79,
-          "upper": 66.43
-        },
-        "rankingEligible": true,
-        "overallRank": 15,
-        "url": "https://benchlm.ai/models/gpt-5-5",
-        "markdownUrl": "https://benchlm.ai/md/models/gpt-5-5.md",
-        "score": 60.61,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 43,
-        "scoreConfidence": 4
-      },
-      {
-        "rank": 16,
         "slug": "gpt-6-sol",
         "canonicalModelKey": "gpt-6-sol",
         "model": "GPT-6 Sol",
@@ -6047,14 +6018,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 51.16,
-          "upper": 69.35
+          "lower": 51.21,
+          "upper": 69.39
         },
         "rankingEligible": true,
         "overallRank": 4,
         "url": "https://benchlm.ai/models/gpt-6-sol",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-6-sol.md",
-        "score": 60.26,
+        "score": 60.3,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6062,36 +6033,36 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 17,
-        "slug": "gpt-5-6-terra",
-        "canonicalModelKey": "gpt-5-6-terra",
-        "model": "GPT-5.6 Terra",
+        "rank": 16,
+        "slug": "gpt-5-5",
+        "canonicalModelKey": "gpt-5-5",
+        "model": "GPT-5.5",
         "creator": "OpenAI",
         "sourceType": "Proprietary",
         "reasoningType": "Reasoning",
-        "contextWindow": "1.05M",
-        "contextWindowTokens": 1050000,
-        "displayScore": 72.76,
-        "provisionalDisplayScore": 71,
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 69.48,
+        "provisionalDisplayScore": 70,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 52.71,
-          "upper": 66.65
+          "lower": 54.38,
+          "upper": 66.04
         },
         "rankingEligible": true,
-        "overallRank": 10,
-        "url": "https://benchlm.ai/models/gpt-5-6-terra",
-        "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
-        "score": 59.68,
+        "overallRank": 15,
+        "url": "https://benchlm.ai/models/gpt-5-5",
+        "markdownUrl": "https://benchlm.ai/md/models/gpt-5-5.md",
+        "score": 60.21,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 39,
+        "trustedBenchmarkCount": 43,
         "scoreConfidence": 4
       },
       {
-        "rank": 18,
+        "rank": 17,
         "slug": "muse-spark-1-2",
         "canonicalModelKey": "muse-spark-1-2",
         "model": "Muse Spark 1.2",
@@ -6105,19 +6076,48 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 45.31,
-          "upper": 73.35
+          "lower": 45.35,
+          "upper": 74
         },
         "rankingEligible": true,
         "overallRank": 27,
         "url": "https://benchlm.ai/models/muse-spark-1-2",
         "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-2.md",
-        "score": 59.33,
+        "score": 59.68,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
         "trustedBenchmarkCount": 15,
         "scoreConfidence": 2
+      },
+      {
+        "rank": 18,
+        "slug": "gpt-5-6-terra",
+        "canonicalModelKey": "gpt-5-6-terra",
+        "model": "GPT-5.6 Terra",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1.05M",
+        "contextWindowTokens": 1050000,
+        "displayScore": 72.76,
+        "provisionalDisplayScore": 71,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 52.66,
+          "upper": 66.54
+        },
+        "rankingEligible": true,
+        "overallRank": 9,
+        "url": "https://benchlm.ai/models/gpt-5-6-terra",
+        "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
+        "score": 59.6,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 39,
+        "scoreConfidence": 4
       },
       {
         "rank": 19,
@@ -6129,19 +6129,19 @@
         "reasoningType": "Reasoning",
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
-        "displayScore": 69.42,
+        "displayScore": 68.83,
         "provisionalDisplayScore": 63,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 49.44,
-          "upper": 67.37
+          "lower": 49.66,
+          "upper": 67.58
         },
         "rankingEligible": true,
-        "overallRank": 16,
+        "overallRank": 18,
         "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
-        "score": 58.4,
+        "score": 58.62,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6163,14 +6163,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 47.79,
-          "upper": 68.33
+          "lower": 47.81,
+          "upper": 68.4
         },
         "rankingEligible": true,
         "overallRank": 26,
         "url": "https://benchlm.ai/models/gemini-3-7-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-7-flash.md",
-        "score": 58.06,
+        "score": 58.11,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6192,14 +6192,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 52.02,
-          "upper": 63.65
+          "lower": 52.13,
+          "upper": 63.81
         },
         "rankingEligible": true,
         "overallRank": 25,
         "url": "https://benchlm.ai/models/grok-4-5",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-5.md",
-        "score": 57.84,
+        "score": 57.97,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6208,35 +6208,6 @@
       },
       {
         "rank": 22,
-        "slug": "qwen3-8-flash-next",
-        "canonicalModelKey": "qwen3-8-flash-next",
-        "model": "Qwen3.8-Flash-Next",
-        "creator": "Alibaba",
-        "sourceType": "Open Weight",
-        "reasoningType": "Reasoning",
-        "contextWindow": "262K",
-        "contextWindowTokens": 262000,
-        "displayScore": 60.67,
-        "provisionalDisplayScore": 60,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "estimated",
-        "scoreInterval90": {
-          "lower": 45.52,
-          "upper": 68.55
-        },
-        "rankingEligible": true,
-        "overallRank": 42,
-        "url": "https://benchlm.ai/models/qwen3-8-flash-next",
-        "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-flash-next.md",
-        "score": 57.04,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 29,
-        "scoreConfidence": 3
-      },
-      {
-        "rank": 23,
         "slug": "muse-spark-1-1",
         "canonicalModelKey": "muse-spark-1-1",
         "model": "Muse Spark 1.1",
@@ -6250,18 +6221,47 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 45.53,
-          "upper": 68.53
+          "lower": 45.85,
+          "upper": 69.69
         },
         "rankingEligible": true,
         "overallRank": 22,
         "url": "https://benchlm.ai/models/muse-spark-1-1",
         "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-1.md",
-        "score": 57.03,
+        "score": 57.77,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
         "trustedBenchmarkCount": 32,
+        "scoreConfidence": 3
+      },
+      {
+        "rank": 23,
+        "slug": "qwen3-8-flash-next",
+        "canonicalModelKey": "qwen3-8-flash-next",
+        "model": "Qwen3.8-Flash-Next",
+        "creator": "Alibaba",
+        "sourceType": "Open Weight",
+        "reasoningType": "Reasoning",
+        "contextWindow": "262K",
+        "contextWindowTokens": 262000,
+        "displayScore": 60.67,
+        "provisionalDisplayScore": 60,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "estimated",
+        "scoreInterval90": {
+          "lower": 45.6,
+          "upper": 68.63
+        },
+        "rankingEligible": true,
+        "overallRank": 42,
+        "url": "https://benchlm.ai/models/qwen3-8-flash-next",
+        "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-flash-next.md",
+        "score": 57.11,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 29,
         "scoreConfidence": 3
       },
       {
@@ -6279,14 +6279,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 39.51,
-          "upper": 72.98
+          "lower": 39.57,
+          "upper": 73.04
         },
         "rankingEligible": true,
         "overallRank": 39,
         "url": "https://benchlm.ai/models/ornith-1-5-397b",
         "markdownUrl": "https://benchlm.ai/md/models/ornith-1-5-397b.md",
-        "score": 56.25,
+        "score": 56.3,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6308,14 +6308,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 49.42,
-          "upper": 62.98
+          "lower": 49.01,
+          "upper": 61.95
         },
         "rankingEligible": true,
         "overallRank": 35,
         "url": "https://benchlm.ai/models/glm-5-2",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-2.md",
-        "score": 56.2,
+        "score": 55.48,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6324,6 +6324,35 @@
       },
       {
         "rank": 26,
+        "slug": "gpt-6-luna",
+        "canonicalModelKey": "gpt-6-luna",
+        "model": "GPT-6 Luna",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1.05M",
+        "contextWindowTokens": 1050000,
+        "displayScore": 66.52,
+        "provisionalDisplayScore": 69,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "estimated",
+        "scoreInterval90": {
+          "lower": 43.89,
+          "upper": 66.92
+        },
+        "rankingEligible": true,
+        "overallRank": 21,
+        "url": "https://benchlm.ai/models/gpt-6-luna",
+        "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md",
+        "score": 55.41,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 14,
+        "scoreConfidence": 3
+      },
+      {
+        "rank": 27,
         "slug": "dots3-note-preview",
         "canonicalModelKey": "dots3-note-preview",
         "model": "dots3-note Preview",
@@ -6337,14 +6366,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 38.33,
-          "upper": 72.31
+          "lower": 38.38,
+          "upper": 72.36
         },
         "rankingEligible": true,
         "overallRank": 40,
         "url": "https://benchlm.ai/models/dots3-note-preview",
         "markdownUrl": "https://benchlm.ai/md/models/dots3-note-preview.md",
-        "score": 55.32,
+        "score": 55.37,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6352,7 +6381,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 27,
+        "rank": 28,
         "slug": "gpt-5-6-luna",
         "canonicalModelKey": "gpt-5-6-luna",
         "model": "GPT-5.6 Luna",
@@ -6366,14 +6395,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 45.86,
-          "upper": 64.61
+          "lower": 45.82,
+          "upper": 64.5
         },
         "rankingEligible": true,
         "overallRank": 30,
         "url": "https://benchlm.ai/models/gpt-5-6-luna",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-luna.md",
-        "score": 55.23,
+        "score": 55.16,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6381,7 +6410,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 28,
+        "rank": 29,
         "slug": "deepseek-v4-pro-0813",
         "canonicalModelKey": "deepseek-v4-pro-max",
         "model": "DeepSeek V4 Pro 0813",
@@ -6395,14 +6424,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 48.32,
-          "upper": 61.37
+          "lower": 48.41,
+          "upper": 61.41
         },
         "rankingEligible": true,
         "overallRank": 33,
         "url": "https://benchlm.ai/models/deepseek-v4-pro-0813",
         "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-pro-0813.md",
-        "score": 54.84,
+        "score": 54.91,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6410,7 +6439,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 29,
+        "rank": 30,
         "slug": "gpt-5-3-codex",
         "canonicalModelKey": "gpt-5-3-codex",
         "model": "GPT-5.3 Codex",
@@ -6424,14 +6453,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 40.02,
-          "upper": 69.45
+          "lower": 40.07,
+          "upper": 69.51
         },
         "rankingEligible": true,
         "overallRank": 37,
         "url": "https://benchlm.ai/models/gpt-5-3-codex",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-3-codex.md",
-        "score": 54.74,
+        "score": 54.79,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6439,7 +6468,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 30,
+        "rank": 31,
         "slug": "glm-5-3-flash",
         "canonicalModelKey": "glm-5-3-flash",
         "model": "GLM-5.3-Flash",
@@ -6453,14 +6482,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 47.47,
-          "upper": 61.39
+          "lower": 47.53,
+          "upper": 61.47
         },
         "rankingEligible": true,
         "overallRank": 47,
         "url": "https://benchlm.ai/models/glm-5-3-flash",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-3-flash.md",
-        "score": 54.43,
+        "score": 54.5,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6468,123 +6497,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 31,
-        "slug": "claude-opus-4-7",
-        "canonicalModelKey": "claude-opus-4-7",
-        "model": "Claude Opus 4.7",
-        "creator": "Anthropic",
-        "sourceType": "Proprietary",
-        "reasoningType": "Non-Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 66.35,
-        "provisionalDisplayScore": 60,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 41.48,
-          "upper": 64.3
-        },
-        "rankingEligible": true,
-        "overallRank": 23,
-        "url": "https://benchlm.ai/models/claude-opus-4-7",
-        "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7.md",
-        "score": 52.89,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 11,
-        "scoreConfidence": 2
-      },
-      {
         "rank": 32,
-        "slug": "hy4-preview",
-        "canonicalModelKey": "hy4-preview",
-        "model": "Hy4 preview",
-        "creator": "Tencent",
-        "sourceType": "Open Weight",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 59.67,
-        "provisionalDisplayScore": 69,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "estimated",
-        "scoreInterval90": {
-          "lower": 41.02,
-          "upper": 64.04
-        },
-        "rankingEligible": true,
-        "overallRank": 44,
-        "url": "https://benchlm.ai/models/hy4-preview",
-        "markdownUrl": "https://benchlm.ai/md/models/hy4-preview.md",
-        "score": 52.53,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 25,
-        "scoreConfidence": 2
-      },
-      {
-        "rank": 33,
-        "slug": "gemini-3-5-flash",
-        "canonicalModelKey": "gemini-3-5-flash",
-        "model": "Gemini 3.5 Flash",
-        "creator": "Google",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 63.93,
-        "provisionalDisplayScore": 65,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 41.39,
-          "upper": 59.3
-        },
-        "rankingEligible": true,
-        "overallRank": 32,
-        "url": "https://benchlm.ai/models/gemini-3-5-flash",
-        "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash.md",
-        "score": 50.35,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 38,
-        "scoreConfidence": 4
-      },
-      {
-        "rank": 34,
-        "slug": "gpt-5-4",
-        "canonicalModelKey": "gpt-5-4",
-        "model": "GPT-5.4",
-        "creator": "OpenAI",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1.05M",
-        "contextWindowTokens": 1050000,
-        "displayScore": 69.23,
-        "provisionalDisplayScore": 64,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 44.24,
-          "upper": 55.93
-        },
-        "rankingEligible": true,
-        "overallRank": 18,
-        "url": "https://benchlm.ai/models/gpt-5-4",
-        "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
-        "score": 50.09,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 40,
-        "scoreConfidence": 4
-      },
-      {
-        "rank": 35,
         "slug": "muse-spark",
         "canonicalModelKey": "muse-spark",
         "model": "Muse Spark",
@@ -6598,14 +6511,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 38.5,
-          "upper": 61.55
+          "lower": 41.85,
+          "upper": 64.79
         },
         "rankingEligible": true,
         "overallRank": 38,
         "url": "https://benchlm.ai/models/muse-spark",
         "markdownUrl": "https://benchlm.ai/md/models/muse-spark.md",
-        "score": 50.03,
+        "score": 53.32,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6613,7 +6526,123 @@
         "scoreConfidence": 4
       },
       {
+        "rank": 33,
+        "slug": "claude-opus-4-7",
+        "canonicalModelKey": "claude-opus-4-7",
+        "model": "Claude Opus 4.7",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "reasoningType": "Non-Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 66.35,
+        "provisionalDisplayScore": 60,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 41.5,
+          "upper": 64.36
+        },
+        "rankingEligible": true,
+        "overallRank": 23,
+        "url": "https://benchlm.ai/models/claude-opus-4-7",
+        "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7.md",
+        "score": 52.93,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 11,
+        "scoreConfidence": 2
+      },
+      {
+        "rank": 34,
+        "slug": "hy4-preview",
+        "canonicalModelKey": "hy4-preview",
+        "model": "Hy4 preview",
+        "creator": "Tencent",
+        "sourceType": "Open Weight",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 59.67,
+        "provisionalDisplayScore": 69,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "estimated",
+        "scoreInterval90": {
+          "lower": 41.18,
+          "upper": 64.21
+        },
+        "rankingEligible": true,
+        "overallRank": 44,
+        "url": "https://benchlm.ai/models/hy4-preview",
+        "markdownUrl": "https://benchlm.ai/md/models/hy4-preview.md",
+        "score": 52.7,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 25,
+        "scoreConfidence": 2
+      },
+      {
+        "rank": 35,
+        "slug": "gemini-3-5-flash",
+        "canonicalModelKey": "gemini-3-5-flash",
+        "model": "Gemini 3.5 Flash",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 63.93,
+        "provisionalDisplayScore": 65,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 41.14,
+          "upper": 58.93
+        },
+        "rankingEligible": true,
+        "overallRank": 32,
+        "url": "https://benchlm.ai/models/gemini-3-5-flash",
+        "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash.md",
+        "score": 50.04,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 38,
+        "scoreConfidence": 4
+      },
+      {
         "rank": 36,
+        "slug": "gpt-5-4",
+        "canonicalModelKey": "gpt-5-4",
+        "model": "GPT-5.4",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1.05M",
+        "contextWindowTokens": 1050000,
+        "displayScore": 69.23,
+        "provisionalDisplayScore": 64,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 43.46,
+          "upper": 55.47
+        },
+        "rankingEligible": true,
+        "overallRank": 17,
+        "url": "https://benchlm.ai/models/gpt-5-4",
+        "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
+        "score": 49.46,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 40,
+        "scoreConfidence": 4
+      },
+      {
+        "rank": 37,
         "slug": "claude-opus-4-6-thinking",
         "canonicalModelKey": "claude-opus-4-6-thinking",
         "model": "Claude Opus 4.6 (Adaptive)",
@@ -6627,14 +6656,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 33.79,
-          "upper": 59.61
+          "lower": 32.94,
+          "upper": 58.73
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/claude-opus-4-6-thinking",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6-thinking.md",
-        "score": 46.7,
+        "score": 45.84,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6642,7 +6671,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 37,
+        "rank": 38,
         "slug": "gemini-3-6-flash",
         "canonicalModelKey": "gemini-3-6-flash",
         "model": "Gemini 3.6 Flash",
@@ -6656,48 +6685,19 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 31.65,
-          "upper": 57.83
+          "lower": 31.63,
+          "upper": 57.75
         },
         "rankingEligible": true,
         "overallRank": 28,
         "url": "https://benchlm.ai/models/gemini-3-6-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-6-flash.md",
-        "score": 44.74,
+        "score": 44.69,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
         "trustedBenchmarkCount": 16,
         "scoreConfidence": 3
-      },
-      {
-        "rank": 38,
-        "slug": "claude-opus-4-6",
-        "canonicalModelKey": "claude-opus-4-6",
-        "model": "Claude Opus 4.6",
-        "creator": "Anthropic",
-        "sourceType": "Proprietary",
-        "reasoningType": "Non-Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 64.33,
-        "provisionalDisplayScore": 63,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 35.4,
-          "upper": 52.93
-        },
-        "rankingEligible": true,
-        "overallRank": 31,
-        "url": "https://benchlm.ai/models/claude-opus-4-6",
-        "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6.md",
-        "score": 44.17,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 37,
-        "scoreConfidence": 4
       },
       {
         "rank": 39,
@@ -6714,14 +6714,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 30.99,
-          "upper": 57.31
+          "lower": 31.02,
+          "upper": 57.34
         },
         "rankingEligible": true,
         "overallRank": 81,
         "url": "https://benchlm.ai/models/apodex-1-1",
         "markdownUrl": "https://benchlm.ai/md/models/apodex-1-1.md",
-        "score": 44.15,
+        "score": 44.18,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6730,32 +6730,32 @@
       },
       {
         "rank": 40,
-        "slug": "kimi-2-6",
-        "canonicalModelKey": "kimi-2-6",
-        "model": "Kimi K2.6",
-        "creator": "Moonshot AI",
-        "sourceType": "Open Weight",
-        "reasoningType": "Reasoning",
-        "contextWindow": "256K",
-        "contextWindowTokens": 256000,
-        "displayScore": 59.85,
-        "provisionalDisplayScore": 61,
+        "slug": "claude-opus-4-6",
+        "canonicalModelKey": "claude-opus-4-6",
+        "model": "Claude Opus 4.6",
+        "creator": "Anthropic",
+        "sourceType": "Proprietary",
+        "reasoningType": "Non-Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 64.33,
+        "provisionalDisplayScore": 63,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 34.42,
-          "upper": 51.23
+          "lower": 35.41,
+          "upper": 52.95
         },
         "rankingEligible": true,
-        "overallRank": 43,
-        "url": "https://benchlm.ai/models/kimi-2-6",
-        "markdownUrl": "https://benchlm.ai/md/models/kimi-2-6.md",
-        "score": 42.83,
+        "overallRank": 31,
+        "url": "https://benchlm.ai/models/claude-opus-4-6",
+        "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6.md",
+        "score": 44.18,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 34,
-        "scoreConfidence": 3
+        "trustedBenchmarkCount": 37,
+        "scoreConfidence": 4
       },
       {
         "rank": 41,
@@ -6772,14 +6772,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 33.52,
-          "upper": 51.95
+          "lower": 33.53,
+          "upper": 51.97
         },
         "rankingEligible": true,
         "overallRank": 36,
         "url": "https://benchlm.ai/models/gpt-5-2",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2.md",
-        "score": 42.74,
+        "score": 42.75,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6788,6 +6788,35 @@
       },
       {
         "rank": 42,
+        "slug": "kimi-2-6",
+        "canonicalModelKey": "kimi-2-6",
+        "model": "Kimi K2.6",
+        "creator": "Moonshot AI",
+        "sourceType": "Open Weight",
+        "reasoningType": "Reasoning",
+        "contextWindow": "256K",
+        "contextWindowTokens": 256000,
+        "displayScore": 59.85,
+        "provisionalDisplayScore": 61,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 34.38,
+          "upper": 51.09
+        },
+        "rankingEligible": true,
+        "overallRank": 43,
+        "url": "https://benchlm.ai/models/kimi-2-6",
+        "markdownUrl": "https://benchlm.ai/md/models/kimi-2-6.md",
+        "score": 42.73,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 34,
+        "scoreConfidence": 3
+      },
+      {
+        "rank": 43,
         "slug": "glm-5-1",
         "canonicalModelKey": "glm-5-1",
         "model": "GLM-5.1",
@@ -6801,14 +6830,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 30.53,
-          "upper": 53.55
+          "lower": 30.57,
+          "upper": 53.6
         },
         "rankingEligible": true,
         "overallRank": 48,
         "url": "https://benchlm.ai/models/glm-5-1",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-1.md",
-        "score": 42.04,
+        "score": 42.08,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6816,7 +6845,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 43,
+        "rank": 44,
         "slug": "claude-sonnet-4-6",
         "canonicalModelKey": "claude-sonnet-4-6",
         "model": "Claude Sonnet 4.6",
@@ -6830,8 +6859,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 31.89,
-          "upper": 50.15
+          "lower": 31.88,
+          "upper": 50.16
         },
         "rankingEligible": true,
         "overallRank": 49,
@@ -6845,7 +6874,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 44,
+        "rank": 45,
         "slug": "minimax-m3",
         "canonicalModelKey": "minimax-m3",
         "model": "MiniMax M3",
@@ -6860,13 +6889,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 30.23,
-          "upper": 49.34
+          "upper": 49.36
         },
         "rankingEligible": true,
         "overallRank": 60,
         "url": "https://benchlm.ai/models/minimax-m3",
         "markdownUrl": "https://benchlm.ai/md/models/minimax-m3.md",
-        "score": 39.78,
+        "score": 39.79,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6874,7 +6903,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 45,
+        "rank": 46,
         "slug": "qwen3-7-max",
         "canonicalModelKey": "qwen3-7-max",
         "model": "Qwen3.7 Max",
@@ -6888,14 +6917,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 31.18,
-          "upper": 48.34
+          "lower": 31.16,
+          "upper": 48.25
         },
         "rankingEligible": true,
         "overallRank": 34,
         "url": "https://benchlm.ai/models/qwen3-7-max",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-max.md",
-        "score": 39.76,
+        "score": 39.7,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6903,7 +6932,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 46,
+        "rank": 47,
         "slug": "gemini-3-1-pro",
         "canonicalModelKey": "gemini-3-1-pro",
         "model": "Gemini 3.1 Pro",
@@ -6917,14 +6946,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 29.75,
-          "upper": 47.14
+          "lower": 30.05,
+          "upper": 47.79
         },
         "rankingEligible": true,
         "overallRank": 29,
         "url": "https://benchlm.ai/models/gemini-3-1-pro",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-pro.md",
-        "score": 38.44,
+        "score": 38.92,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6932,7 +6961,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 47,
+        "rank": 48,
         "slug": "mimo-v2-5-pro",
         "canonicalModelKey": "mimo-v2-5-pro",
         "model": "MiMo-V2.5-Pro",
@@ -6946,14 +6975,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 29.13,
-          "upper": 46.27
+          "lower": 29.12,
+          "upper": 46.18
         },
         "rankingEligible": true,
         "overallRank": 64,
         "url": "https://benchlm.ai/models/mimo-v2-5-pro",
         "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5-pro.md",
-        "score": 37.7,
+        "score": 37.65,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6961,7 +6990,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 48,
+        "rank": 49,
         "slug": "glm-5",
         "canonicalModelKey": "glm-5",
         "model": "GLM-5",
@@ -6975,14 +7004,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 22.41,
-          "upper": 52.55
+          "lower": 22.44,
+          "upper": 52.58
         },
         "rankingEligible": true,
         "overallRank": 59,
         "url": "https://benchlm.ai/models/glm-5",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5.md",
-        "score": 37.48,
+        "score": 37.51,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -6990,7 +7019,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 49,
+        "rank": 50,
         "slug": "kimi-k2-7-code",
         "canonicalModelKey": "kimi-k2-7-code",
         "model": "Kimi K2.7 Code",
@@ -7005,7 +7034,7 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 28.45,
-          "upper": 45.93
+          "upper": 45.94
         },
         "rankingEligible": true,
         "overallRank": 75,
@@ -7019,7 +7048,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 50,
+        "rank": 51,
         "slug": "inkling",
         "canonicalModelKey": "inkling",
         "model": "Inkling",
@@ -7048,7 +7077,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 51,
+        "rank": 52,
         "slug": "mimo-v2-5",
         "canonicalModelKey": "mimo-v2-5",
         "model": "MiMo-V2.5",
@@ -7062,14 +7091,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 24.57,
-          "upper": 47.6
+          "lower": 24.56,
+          "upper": 47.59
         },
         "rankingEligible": true,
         "overallRank": 57,
         "url": "https://benchlm.ai/models/mimo-v2-5",
         "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5.md",
-        "score": 36.08,
+        "score": 36.07,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7077,7 +7106,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 52,
+        "rank": 53,
         "slug": "inkling-small",
         "canonicalModelKey": "inkling-small",
         "model": "Inkling-Small",
@@ -7091,14 +7120,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 25.37,
-          "upper": 45.84
+          "lower": 25.36,
+          "upper": 45.83
         },
         "rankingEligible": true,
         "overallRank": 51,
         "url": "https://benchlm.ai/models/inkling-small",
         "markdownUrl": "https://benchlm.ai/md/models/inkling-small.md",
-        "score": 35.61,
+        "score": 35.6,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7106,7 +7135,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 53,
+        "rank": 54,
         "slug": "kimi-k2-5",
         "canonicalModelKey": "kimi-k2-5",
         "model": "Kimi K2.5",
@@ -7120,14 +7149,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 22.27,
-          "upper": 48.59
+          "lower": 22.29,
+          "upper": 48.61
         },
         "rankingEligible": true,
         "overallRank": 65,
         "url": "https://benchlm.ai/models/kimi-k2-5",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k2-5.md",
-        "score": 35.43,
+        "score": 35.45,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7135,7 +7164,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 54,
+        "rank": 55,
         "slug": "hy3",
         "canonicalModelKey": "hy3",
         "model": "Hy3",
@@ -7149,48 +7178,19 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 23.97,
-          "upper": 46.55
+          "lower": 23.98,
+          "upper": 46.56
         },
         "rankingEligible": true,
         "overallRank": 71,
         "url": "https://benchlm.ai/models/hy3",
         "markdownUrl": "https://benchlm.ai/md/models/hy3.md",
-        "score": 35.26,
+        "score": 35.27,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
         "trustedBenchmarkCount": 7,
         "scoreConfidence": 1
-      },
-      {
-        "rank": 55,
-        "slug": "qwen3-7-plus",
-        "canonicalModelKey": "qwen3-7-plus",
-        "model": "Qwen3.7 Plus",
-        "creator": "Alibaba",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 55.76,
-        "provisionalDisplayScore": 68,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 26.92,
-          "upper": 43.35
-        },
-        "rankingEligible": true,
-        "overallRank": 53,
-        "url": "https://benchlm.ai/models/qwen3-7-plus",
-        "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-plus.md",
-        "score": 35.14,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 61,
-        "scoreConfidence": 4
       },
       {
         "rank": 56,
@@ -7207,14 +7207,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 21.96,
-          "upper": 48.28
+          "lower": 21.98,
+          "upper": 48.3
         },
         "rankingEligible": true,
         "overallRank": 109,
         "url": "https://benchlm.ai/models/step-3-7-flash",
         "markdownUrl": "https://benchlm.ai/md/models/step-3-7-flash.md",
-        "score": 35.12,
+        "score": 35.14,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7223,6 +7223,35 @@
       },
       {
         "rank": 57,
+        "slug": "qwen3-7-plus",
+        "canonicalModelKey": "qwen3-7-plus",
+        "model": "Qwen3.7 Plus",
+        "creator": "Alibaba",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 55.76,
+        "provisionalDisplayScore": 68,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 26.87,
+          "upper": 43.24
+        },
+        "rankingEligible": true,
+        "overallRank": 53,
+        "url": "https://benchlm.ai/models/qwen3-7-plus",
+        "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-plus.md",
+        "score": 35.05,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 61,
+        "scoreConfidence": 4
+      },
+      {
+        "rank": 58,
         "slug": "gpt-5-2-codex",
         "canonicalModelKey": "gpt-5-2-codex",
         "model": "GPT-5.2-Codex",
@@ -7236,14 +7265,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 22.91,
-          "upper": 45.94
+          "lower": 22.95,
+          "upper": 45.97
         },
         "rankingEligible": true,
         "overallRank": 76,
         "url": "https://benchlm.ai/models/gpt-5-2-codex",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2-codex.md",
-        "score": 34.42,
+        "score": 34.46,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7251,7 +7280,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 58,
+        "rank": 59,
         "slug": "gpt-5-4-mini",
         "canonicalModelKey": "gpt-5-4-mini",
         "model": "GPT-5.4 mini",
@@ -7265,14 +7294,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 25.36,
-          "upper": 43.47
+          "lower": 25.31,
+          "upper": 43.36
         },
         "rankingEligible": true,
         "overallRank": 54,
         "url": "https://benchlm.ai/models/gpt-5-4-mini",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-mini.md",
-        "score": 34.42,
+        "score": 34.33,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7280,7 +7309,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 59,
+        "rank": 60,
         "slug": "qwen3-6-plus",
         "canonicalModelKey": "qwen3-6-plus",
         "model": "Qwen3.6 Plus",
@@ -7294,14 +7323,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 23.88,
-          "upper": 42.13
+          "lower": 23.85,
+          "upper": 42.08
         },
         "rankingEligible": true,
         "overallRank": 61,
         "url": "https://benchlm.ai/models/qwen3-6-plus",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-plus.md",
-        "score": 33,
+        "score": 32.97,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7309,7 +7338,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 60,
+        "rank": 61,
         "slug": "ling-3-0-flash",
         "canonicalModelKey": "ling-3-0-flash",
         "model": "Ling 3.0 Flash",
@@ -7323,8 +7352,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 22.84,
-          "upper": 43.07
+          "lower": 22.81,
+          "upper": 43.09
         },
         "rankingEligible": true,
         "overallRank": 96,
@@ -7338,7 +7367,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 61,
+        "rank": 62,
         "slug": "qwen3-5-27b",
         "canonicalModelKey": "qwen3-5-27b",
         "model": "Qwen3.5-27B",
@@ -7352,14 +7381,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 18.74,
-          "upper": 45.69
+          "lower": 18.76,
+          "upper": 45.71
         },
         "rankingEligible": true,
         "overallRank": 102,
         "url": "https://benchlm.ai/models/qwen3-5-27b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-27b.md",
-        "score": 32.22,
+        "score": 32.24,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7367,7 +7396,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 62,
+        "rank": 63,
         "slug": "gpt-5-4-nano",
         "canonicalModelKey": "gpt-5-4-nano",
         "model": "GPT-5.4 nano",
@@ -7381,14 +7410,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 26.13,
-          "upper": 38.15
+          "lower": 26.04,
+          "upper": 38.1
         },
         "rankingEligible": true,
         "overallRank": 70,
         "url": "https://benchlm.ai/models/gpt-5-4-nano",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-nano.md",
-        "score": 32.14,
+        "score": 32.07,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7396,7 +7425,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 63,
+        "rank": 64,
         "slug": "claude-opus-4-5",
         "canonicalModelKey": "claude-opus-4-5",
         "model": "Claude Opus 4.5",
@@ -7410,14 +7439,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 19.89,
-          "upper": 42.92
+          "lower": 19.91,
+          "upper": 42.94
         },
         "rankingEligible": true,
         "overallRank": 52,
         "url": "https://benchlm.ai/models/claude-opus-4-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-5.md",
-        "score": 31.4,
+        "score": 31.42,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7425,7 +7454,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 64,
+        "rank": 65,
         "slug": "gemini-3-flash",
         "canonicalModelKey": "gemini-3-flash",
         "model": "Gemini 3 Flash",
@@ -7439,14 +7468,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 21.19,
-          "upper": 41.04
+          "lower": 22.14,
+          "upper": 40.64
         },
         "rankingEligible": true,
         "overallRank": 56,
         "url": "https://benchlm.ai/models/gemini-3-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-flash.md",
-        "score": 31.11,
+        "score": 31.39,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7454,7 +7483,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 65,
+        "rank": 66,
         "slug": "gemini-3-5-flash-lite",
         "canonicalModelKey": "gemini-3-5-flash-lite",
         "model": "Gemini 3.5 Flash-Lite",
@@ -7468,14 +7497,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 21.28,
-          "upper": 39.06
+          "lower": 21.27,
+          "upper": 38.98
         },
         "rankingEligible": true,
         "overallRank": 72,
         "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md",
-        "score": 30.17,
+        "score": 30.12,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7483,7 +7512,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 66,
+        "rank": 67,
         "slug": "qwen3-6-35b-a3b",
         "canonicalModelKey": "qwen3-6-35b-a3b",
         "model": "Qwen3.6-35B-A3B",
@@ -7497,14 +7526,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 18.02,
-          "upper": 41.04
+          "lower": 18.04,
+          "upper": 41.07
         },
         "rankingEligible": true,
         "overallRank": 107,
         "url": "https://benchlm.ai/models/qwen3-6-35b-a3b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-35b-a3b.md",
-        "score": 29.53,
+        "score": 29.55,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7512,7 +7541,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 67,
+        "rank": 68,
         "slug": "qwen3-5-35b-a3b",
         "canonicalModelKey": "qwen3-5-35b-a3b",
         "model": "Qwen3.5-35B-A3B",
@@ -7526,14 +7555,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 16.11,
-          "upper": 42.86
+          "lower": 16.12,
+          "upper": 42.88
         },
         "rankingEligible": true,
         "overallRank": 89,
         "url": "https://benchlm.ai/models/qwen3-5-35b-a3b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-35b-a3b.md",
-        "score": 29.48,
+        "score": 29.5,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7541,7 +7570,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 68,
+        "rank": 69,
         "slug": "qwen3-6-27b",
         "canonicalModelKey": "qwen3-6-27b",
         "model": "Qwen3.6-27B",
@@ -7555,14 +7584,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 14.21,
-          "upper": 42.14
+          "lower": 14.17,
+          "upper": 42.15
         },
         "rankingEligible": true,
         "overallRank": 91,
         "url": "https://benchlm.ai/models/qwen3-6-27b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-27b.md",
-        "score": 28.18,
+        "score": 28.16,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7570,7 +7599,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 69,
+        "rank": 70,
         "slug": "glm-4-7",
         "canonicalModelKey": "glm-4-7",
         "model": "GLM-4.7",
@@ -7584,14 +7613,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 14.49,
-          "upper": 40.8
+          "lower": 14.5,
+          "upper": 40.82
         },
         "rankingEligible": true,
         "overallRank": 78,
         "url": "https://benchlm.ai/models/glm-4-7",
         "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md",
-        "score": 27.64,
+        "score": 27.66,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7599,7 +7628,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 70,
+        "rank": 71,
         "slug": "gpt-5-mini",
         "canonicalModelKey": "gpt-5-mini",
         "model": "GPT-5 mini",
@@ -7613,14 +7642,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 16.07,
-          "upper": 39.1
+          "lower": 16.1,
+          "upper": 39.13
         },
         "rankingEligible": true,
         "overallRank": 101,
         "url": "https://benchlm.ai/models/gpt-5-mini",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-mini.md",
-        "score": 27.58,
+        "score": 27.61,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7628,7 +7657,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 71,
+        "rank": 72,
         "slug": "grok-build-0-1",
         "canonicalModelKey": "grok-build-0-1",
         "model": "Grok Build 0.1",
@@ -7642,14 +7671,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 16,
-          "upper": 39.03
+          "lower": 16.02,
+          "upper": 39.05
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/grok-build-0-1",
         "markdownUrl": "https://benchlm.ai/md/models/grok-build-0-1.md",
-        "score": 27.51,
+        "score": 27.54,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7657,7 +7686,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 72,
+        "rank": 73,
         "slug": "gemini-3-1-flash-lite",
         "canonicalModelKey": "gemini-3-1-flash-lite",
         "model": "Gemini 3.1 Flash-Lite",
@@ -7671,14 +7700,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 15.9,
-          "upper": 38.93
+          "lower": 15.94,
+          "upper": 38.97
         },
         "rankingEligible": true,
         "overallRank": 86,
         "url": "https://benchlm.ai/models/gemini-3-1-flash-lite",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-flash-lite.md",
-        "score": 27.42,
+        "score": 27.46,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7686,7 +7715,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 73,
+        "rank": 74,
         "slug": "muse-glimmer-30b",
         "canonicalModelKey": "muse-glimmer-30b",
         "model": "Muse Glimmer 30B",
@@ -7700,14 +7729,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 15.66,
-          "upper": 38.68
+          "lower": 15.69,
+          "upper": 38.71
         },
         "rankingEligible": true,
         "overallRank": 112,
         "url": "https://benchlm.ai/models/muse-glimmer-30b",
         "markdownUrl": "https://benchlm.ai/md/models/muse-glimmer-30b.md",
-        "score": 27.17,
+        "score": 27.2,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7715,7 +7744,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 74,
+        "rank": 75,
         "slug": "claude-sonnet-4-5",
         "canonicalModelKey": "claude-sonnet-4-5",
         "model": "Claude Sonnet 4.5",
@@ -7729,14 +7758,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 9.87,
-          "upper": 43.55
+          "lower": 9.88,
+          "upper": 43.57
         },
         "rankingEligible": true,
         "overallRank": 85,
         "url": "https://benchlm.ai/models/claude-sonnet-4-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-4-5.md",
-        "score": 26.71,
+        "score": 26.73,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7744,7 +7773,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 75,
+        "rank": 76,
         "slug": "minimax-m2-5",
         "canonicalModelKey": "minimax-m2-5",
         "model": "MiniMax M2.5",
@@ -7758,14 +7787,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 14.76,
-          "upper": 37.79
+          "lower": 14.07,
+          "upper": 37.1
         },
         "rankingEligible": true,
         "overallRank": 79,
         "url": "https://benchlm.ai/models/minimax-m2-5",
         "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-5.md",
-        "score": 26.28,
+        "score": 25.59,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7773,7 +7802,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 76,
+        "rank": 77,
         "slug": "minimax-m2-7",
         "canonicalModelKey": "minimax-m2-7",
         "model": "MiniMax M2.7",
@@ -7787,47 +7816,18 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 16.75,
-          "upper": 34.38
+          "lower": 16.7,
+          "upper": 34.35
         },
         "rankingEligible": true,
         "overallRank": 84,
         "url": "https://benchlm.ai/models/minimax-m2-7",
         "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-7.md",
-        "score": 25.56,
+        "score": 25.52,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
         "trustedBenchmarkCount": 30,
-        "scoreConfidence": 3
-      },
-      {
-        "rank": 77,
-        "slug": "gemini-2-5-pro",
-        "canonicalModelKey": "gemini-2-5-pro",
-        "model": "Gemini 2.5 Pro",
-        "creator": "Google",
-        "sourceType": "Proprietary",
-        "reasoningType": "Non-Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 50.44,
-        "provisionalDisplayScore": 51,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "estimated",
-        "scoreInterval90": {
-          "lower": 13.58,
-          "upper": 36.61
-        },
-        "rankingEligible": true,
-        "overallRank": 74,
-        "url": "https://benchlm.ai/models/gemini-2-5-pro",
-        "markdownUrl": "https://benchlm.ai/md/models/gemini-2-5-pro.md",
-        "score": 25.09,
-        "rankingMode": "bench-align-v5",
-        "category": "agentic",
-        "categoryLabel": "Agentic",
-        "trustedBenchmarkCount": 15,
         "scoreConfidence": 3
       },
       {
@@ -7846,13 +7846,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 0,
-          "upper": 53.66
+          "upper": 53.85
         },
         "rankingEligible": true,
         "overallRank": 62,
         "url": "https://benchlm.ai/models/grok-4-3",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-3.md",
-        "score": 25.05,
+        "score": 25.13,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7861,6 +7861,35 @@
       },
       {
         "rank": 79,
+        "slug": "gemini-2-5-pro",
+        "canonicalModelKey": "gemini-2-5-pro",
+        "model": "Gemini 2.5 Pro",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "reasoningType": "Non-Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 50.44,
+        "provisionalDisplayScore": 51,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "estimated",
+        "scoreInterval90": {
+          "lower": 13.61,
+          "upper": 36.64
+        },
+        "rankingEligible": true,
+        "overallRank": 74,
+        "url": "https://benchlm.ai/models/gemini-2-5-pro",
+        "markdownUrl": "https://benchlm.ai/md/models/gemini-2-5-pro.md",
+        "score": 25.12,
+        "rankingMode": "bench-align-v5",
+        "category": "agentic",
+        "categoryLabel": "Agentic",
+        "trustedBenchmarkCount": 15,
+        "scoreConfidence": 3
+      },
+      {
+        "rank": 80,
         "slug": "nemotron-3-ultra",
         "canonicalModelKey": "nemotron-3-ultra-500b",
         "model": "Nemotron 3 Ultra",
@@ -7874,14 +7903,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 14.36,
-          "upper": 34.86
+          "lower": 14.32,
+          "upper": 34.76
         },
         "rankingEligible": true,
         "overallRank": 113,
         "url": "https://benchlm.ai/models/nemotron-3-ultra",
         "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-ultra.md",
-        "score": 24.61,
+        "score": 24.54,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7889,7 +7918,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 80,
+        "rank": 81,
         "slug": "gemma-4-31b",
         "canonicalModelKey": "gemma-4-31b",
         "model": "Gemma 4 31B",
@@ -7903,14 +7932,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 12.57,
-          "upper": 35.6
+          "lower": 12.6,
+          "upper": 35.62
         },
         "rankingEligible": true,
         "overallRank": 99,
         "url": "https://benchlm.ai/models/gemma-4-31b",
         "markdownUrl": "https://benchlm.ai/md/models/gemma-4-31b.md",
-        "score": 24.09,
+        "score": 24.11,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7918,7 +7947,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 81,
+        "rank": 82,
         "slug": "qwen3-5-122b-a10b",
         "canonicalModelKey": "qwen3-5-122b-a10b",
         "model": "Qwen3.5-122B-A10B",
@@ -7932,14 +7961,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 11.85,
-          "upper": 34.88
+          "lower": 11.87,
+          "upper": 34.9
         },
         "rankingEligible": true,
         "overallRank": 116,
         "url": "https://benchlm.ai/models/qwen3-5-122b-a10b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-122b-a10b.md",
-        "score": 23.37,
+        "score": 23.38,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7947,7 +7976,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 82,
+        "rank": 83,
         "slug": "grok-4-20-beta",
         "canonicalModelKey": "grok-4-20-beta",
         "model": "Grok 4.20",
@@ -7961,14 +7990,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 13.66,
-          "upper": 30.96
+          "lower": 13.65,
+          "upper": 30.94
         },
         "rankingEligible": true,
         "overallRank": 45,
         "url": "https://benchlm.ai/models/grok-4-20-beta",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-20-beta.md",
-        "score": 22.31,
+        "score": 22.3,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -7976,7 +8005,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 83,
+        "rank": 84,
         "slug": "ornith-1-5-35b-a3b",
         "canonicalModelKey": "ornith-1-5-35b-a3b",
         "model": "Ornith-1.5-35B-A3B",
@@ -7990,8 +8019,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 5.62,
-          "upper": 38.03
+          "lower": 5.63,
+          "upper": 38.04
         },
         "rankingEligible": true,
         "overallRank": 153,
@@ -8005,7 +8034,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 84,
+        "rank": 85,
         "slug": "claude-haiku-4-5",
         "canonicalModelKey": "claude-haiku-4-5",
         "model": "Claude Haiku 4.5",
@@ -8019,14 +8048,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 11.87,
-          "upper": 29.27
+          "lower": 11.84,
+          "upper": 29.24
         },
         "rankingEligible": true,
         "overallRank": 108,
         "url": "https://benchlm.ai/models/claude-haiku-4-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-haiku-4-5.md",
-        "score": 20.57,
+        "score": 20.54,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8034,7 +8063,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 85,
+        "rank": 86,
         "slug": "mistral-medium-3-5-128b",
         "canonicalModelKey": "mistral-medium-3-5-128b",
         "model": "Mistral Medium 3.5 128B",
@@ -8048,14 +8077,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 13.7,
+          "lower": 13.71,
           "upper": 26.83
         },
         "rankingEligible": true,
         "overallRank": 130,
         "url": "https://benchlm.ai/models/mistral-medium-3-5-128b",
         "markdownUrl": "https://benchlm.ai/md/models/mistral-medium-3-5-128b.md",
-        "score": 20.26,
+        "score": 20.27,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8063,7 +8092,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 86,
+        "rank": 87,
         "slug": "lfm2-5-2-6b",
         "canonicalModelKey": "lfm2-5-2-6b",
         "model": "LFM2.5-2.6B",
@@ -8077,7 +8106,7 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 6.87,
+          "lower": 6.88,
           "upper": 33.19
         },
         "rankingEligible": true,
@@ -8092,7 +8121,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 87,
+        "rank": 88,
         "slug": "gpt-oss-120b",
         "canonicalModelKey": "gpt-oss-120b",
         "model": "GPT-OSS 120B",
@@ -8106,14 +8135,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 8.34,
-          "upper": 31.37
+          "lower": 8.36,
+          "upper": 31.38
         },
         "rankingEligible": true,
         "overallRank": 123,
         "url": "https://benchlm.ai/models/gpt-oss-120b",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-oss-120b.md",
-        "score": 19.86,
+        "score": 19.87,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8121,7 +8150,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 88,
+        "rank": 89,
         "slug": "command-a-plus",
         "canonicalModelKey": "command-a-plus",
         "model": "Command A+",
@@ -8135,14 +8164,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 7.89,
-          "upper": 30.92
+          "lower": 7.91,
+          "upper": 30.94
         },
         "rankingEligible": true,
         "overallRank": 129,
         "url": "https://benchlm.ai/models/command-a-plus",
         "markdownUrl": "https://benchlm.ai/md/models/command-a-plus.md",
-        "score": 19.41,
+        "score": 19.42,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8150,7 +8179,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 89,
+        "rank": 90,
         "slug": "mercury-2",
         "canonicalModelKey": "mercury-2",
         "model": "Mercury 2",
@@ -8164,14 +8193,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 6.42,
-          "upper": 29.44
+          "lower": 6.43,
+          "upper": 29.46
         },
         "rankingEligible": true,
         "overallRank": 126,
         "url": "https://benchlm.ai/models/mercury-2",
         "markdownUrl": "https://benchlm.ai/md/models/mercury-2.md",
-        "score": 17.93,
+        "score": 17.95,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8179,7 +8208,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 90,
+        "rank": 91,
         "slug": "mistral-small-4",
         "canonicalModelKey": "mistral-small-4",
         "model": "Mistral Small 4",
@@ -8193,14 +8222,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 6.11,
-          "upper": 29.13
+          "lower": 6.12,
+          "upper": 29.15
         },
         "rankingEligible": true,
         "overallRank": 135,
         "url": "https://benchlm.ai/models/mistral-small-4",
         "markdownUrl": "https://benchlm.ai/md/models/mistral-small-4.md",
-        "score": 17.62,
+        "score": 17.63,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8208,7 +8237,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 91,
+        "rank": 92,
         "slug": "trinity-large-thinking",
         "canonicalModelKey": "trinity-large-thinking",
         "model": "Trinity-Large-Thinking",
@@ -8222,14 +8251,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 5.74,
-          "upper": 28.77
+          "lower": 5.75,
+          "upper": 28.78
         },
         "rankingEligible": true,
         "overallRank": 136,
         "url": "https://benchlm.ai/models/trinity-large-thinking",
         "markdownUrl": "https://benchlm.ai/md/models/trinity-large-thinking.md",
-        "score": 17.25,
+        "score": 17.27,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8237,7 +8266,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 92,
+        "rank": 93,
         "slug": "mistral-large-3",
         "canonicalModelKey": "mistral-large-3",
         "model": "Mistral Large 3",
@@ -8252,13 +8281,13 @@
         "evidenceStatus": "estimated",
         "scoreInterval90": {
           "lower": 5.01,
-          "upper": 28.03
+          "upper": 28.04
         },
         "rankingEligible": true,
         "overallRank": 137,
         "url": "https://benchlm.ai/models/mistral-large-3",
         "markdownUrl": "https://benchlm.ai/md/models/mistral-large-3.md",
-        "score": 16.52,
+        "score": 16.53,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8266,7 +8295,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 93,
+        "rank": 94,
         "slug": "gpt-oss-20b",
         "canonicalModelKey": "gpt-oss-20b",
         "model": "GPT-OSS 20B",
@@ -8280,8 +8309,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 3.93,
-          "upper": 26.96
+          "lower": 3.94,
+          "upper": 26.97
         },
         "rankingEligible": true,
         "overallRank": 139,
@@ -8295,7 +8324,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 94,
+        "rank": 95,
         "slug": "ornith-1-5-9b",
         "canonicalModelKey": "ornith-1-5-9b",
         "model": "Ornith-1.5-9B",
@@ -8316,7 +8345,7 @@
         "overallRank": 172,
         "url": "https://benchlm.ai/models/ornith-1-5-9b",
         "markdownUrl": "https://benchlm.ai/md/models/ornith-1-5-9b.md",
-        "score": 14.95,
+        "score": 14.94,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8324,7 +8353,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 95,
+        "rank": 96,
         "slug": "granite-4-2-8b",
         "canonicalModelKey": "granite-4-2-8b",
         "model": "Granite 4.2 8B",
@@ -8353,7 +8382,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 96,
+        "rank": 97,
         "slug": "ministral-3-14b",
         "canonicalModelKey": "ministral-3-14b",
         "model": "Ministral 3 14B",
@@ -8367,8 +8396,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 2.53,
-          "upper": 25.56
+          "lower": 2.54,
+          "upper": 25.57
         },
         "rankingEligible": true,
         "overallRank": 173,
@@ -8382,7 +8411,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 97,
+        "rank": 98,
         "slug": "ministral-3-8b",
         "canonicalModelKey": "ministral-3-8b",
         "model": "Ministral 3 8B",
@@ -8411,7 +8440,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 98,
+        "rank": 99,
         "slug": "ministral-3-3b",
         "canonicalModelKey": "ministral-3-3b",
         "model": "Ministral 3 3B",
@@ -8440,7 +8469,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 99,
+        "rank": 100,
         "slug": "mercury-2-5",
         "canonicalModelKey": "mercury-2-5",
         "model": "Mercury 2.5",
@@ -8455,13 +8484,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 4.84,
-          "upper": 19.99
+          "upper": 19.98
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/mercury-2-5",
         "markdownUrl": "https://benchlm.ai/md/models/mercury-2-5.md",
-        "score": 12.42,
+        "score": 12.41,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8469,7 +8498,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 100,
+        "rank": 101,
         "slug": "llama-4-maverick",
         "canonicalModelKey": "llama-4-maverick",
         "model": "Llama 4 Maverick",
@@ -8483,7 +8512,7 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 0.54,
+          "lower": 0.53,
           "upper": 23.56
         },
         "rankingEligible": true,
@@ -8498,7 +8527,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 101,
+        "rank": 102,
         "slug": "deepseek-v3",
         "canonicalModelKey": "deepseek-v3",
         "model": "DeepSeek V3",
@@ -8519,7 +8548,7 @@
         "overallRank": 146,
         "url": "https://benchlm.ai/models/deepseek-v3",
         "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3.md",
-        "score": 11.34,
+        "score": 11.33,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8527,7 +8556,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 102,
+        "rank": 103,
         "slug": "llama-4-scout",
         "canonicalModelKey": "llama-4-scout",
         "model": "Llama 4 Scout",
@@ -8542,13 +8571,13 @@
         "evidenceStatus": "estimated",
         "scoreInterval90": {
           "lower": 0,
-          "upper": 20.63
+          "upper": 20.62
         },
         "rankingEligible": true,
         "overallRank": 160,
         "url": "https://benchlm.ai/models/llama-4-scout",
         "markdownUrl": "https://benchlm.ai/md/models/llama-4-scout.md",
-        "score": 9.12,
+        "score": 9.11,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8556,7 +8585,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 103,
+        "rank": 104,
         "slug": "nemotron-3-5-lightning-30b-a3b-nvfp4",
         "canonicalModelKey": "nemotron-3-5-lightning-30b-a3b-nvfp4",
         "model": "Nemotron 3.5 Lightning 30B A3B NVFP4",
@@ -8571,13 +8600,13 @@
         "evidenceStatus": "estimated",
         "scoreInterval90": {
           "lower": 0,
-          "upper": 23.73
+          "upper": 23.72
         },
         "rankingEligible": true,
         "overallRank": 181,
         "url": "https://benchlm.ai/models/nemotron-3-5-lightning-30b-a3b-nvfp4",
         "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-5-lightning-30b-a3b-nvfp4.md",
-        "score": 9.07,
+        "score": 9.06,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8585,7 +8614,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 104,
+        "rank": 105,
         "slug": "gemma-3-27b",
         "canonicalModelKey": "gemma-3-27b",
         "model": "Gemma 3 27B",
@@ -8600,13 +8629,13 @@
         "evidenceStatus": "estimated",
         "scoreInterval90": {
           "lower": 0,
-          "upper": 18.67
+          "upper": 18.66
         },
         "rankingEligible": true,
         "overallRank": 162,
         "url": "https://benchlm.ai/models/gemma-3-27b",
         "markdownUrl": "https://benchlm.ai/md/models/gemma-3-27b.md",
-        "score": 7.16,
+        "score": 7.14,
         "rankingMode": "bench-align-v5",
         "category": "agentic",
         "categoryLabel": "Agentic",
@@ -8630,14 +8659,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 79.95,
-          "upper": 93.76
+          "lower": 80.27,
+          "upper": 94
         },
         "rankingEligible": true,
         "overallRank": 2,
         "url": "https://benchlm.ai/models/claude-opus-5-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-5-5.md",
-        "score": 86.85,
+        "score": 87.13,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8659,14 +8688,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 75.39,
-          "upper": 87.19
+          "lower": 75.47,
+          "upper": 87.24
         },
         "rankingEligible": true,
         "overallRank": 3,
         "url": "https://benchlm.ai/models/claude-fable-5-1",
         "markdownUrl": "https://benchlm.ai/md/models/claude-fable-5-1.md",
-        "score": 81.29,
+        "score": 81.36,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8688,14 +8717,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 69.63,
-          "upper": 79.31
+          "lower": 69.67,
+          "upper": 79.45
         },
         "rankingEligible": true,
         "overallRank": 7,
         "url": "https://benchlm.ai/models/claude-fable",
         "markdownUrl": "https://benchlm.ai/md/models/claude-fable.md",
-        "score": 74.47,
+        "score": 74.56,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8717,14 +8746,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 64.52,
-          "upper": 84.34
+          "lower": 64.57,
+          "upper": 84.23
         },
         "rankingEligible": true,
         "overallRank": 1,
         "url": "https://benchlm.ai/models/gpt-6-astra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-6-astra.md",
-        "score": 74.43,
+        "score": 74.4,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8746,14 +8775,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 66.62,
-          "upper": 79.19
+          "lower": 66.69,
+          "upper": 79.16
         },
         "rankingEligible": true,
         "overallRank": 6,
         "url": "https://benchlm.ai/models/claude-opus-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-5.md",
-        "score": 72.91,
+        "score": 72.93,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8775,14 +8804,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 67.06,
-          "upper": 76.48
+          "lower": 67.13,
+          "upper": 76.54
         },
         "rankingEligible": true,
         "overallRank": 5,
         "url": "https://benchlm.ai/models/gpt-5-6-sol",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-sol.md",
-        "score": 71.77,
+        "score": 71.84,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8804,14 +8833,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 55.92,
-          "upper": 75.05
+          "lower": 56.09,
+          "upper": 75.2
         },
         "rankingEligible": true,
         "overallRank": 4,
         "url": "https://benchlm.ai/models/gpt-6-sol",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-6-sol.md",
-        "score": 65.48,
+        "score": 65.64,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8833,11 +8862,11 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 56.19,
-          "upper": 73.9
+          "lower": 56.22,
+          "upper": 73.87
         },
         "rankingEligible": true,
-        "overallRank": 10,
+        "overallRank": 9,
         "url": "https://benchlm.ai/models/gpt-5-6-terra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
         "score": 65.05,
@@ -8862,14 +8891,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 59.09,
-          "upper": 70.35
+          "lower": 59.18,
+          "upper": 70.42
         },
         "rankingEligible": true,
         "overallRank": 30,
         "url": "https://benchlm.ai/models/gpt-5-6-luna",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-luna.md",
-        "score": 64.72,
+        "score": 64.8,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8891,14 +8920,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 58.15,
-          "upper": 70.8
+          "lower": 58.24,
+          "upper": 70.84
         },
         "rankingEligible": true,
         "overallRank": 15,
         "url": "https://benchlm.ai/models/gpt-5-5",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-5.md",
-        "score": 64.47,
+        "score": 64.54,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8920,11 +8949,11 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 55.06,
-          "upper": 73.21
+          "lower": 55.07,
+          "upper": 73.22
         },
         "rankingEligible": true,
-        "overallRank": 11,
+        "overallRank": 10,
         "url": "https://benchlm.ai/models/gemini-3-8-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
         "score": 64.14,
@@ -8949,14 +8978,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 57.64,
-          "upper": 69.52
+          "lower": 57.7,
+          "upper": 69.55
         },
         "rankingEligible": true,
         "overallRank": 14,
         "url": "https://benchlm.ai/models/claude-opus-4-8",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-8.md",
-        "score": 63.58,
+        "score": 63.63,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -8978,14 +9007,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 56.13,
-          "upper": 70.5
+          "lower": 56.33,
+          "upper": 70.57
         },
         "rankingEligible": true,
-        "overallRank": 12,
+        "overallRank": 11,
         "url": "https://benchlm.ai/models/kimi-k3",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
-        "score": 63.31,
+        "score": 63.45,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9007,14 +9036,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 54.11,
-          "upper": 70.99
+          "lower": 54.14,
+          "upper": 70.98
         },
         "rankingEligible": true,
-        "overallRank": 17,
+        "overallRank": 16,
         "url": "https://benchlm.ai/models/grok-4-6",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-6.md",
-        "score": 62.55,
+        "score": 62.56,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9036,14 +9065,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 55.17,
-          "upper": 66.93
+          "lower": 55.25,
+          "upper": 66.96
         },
         "rankingEligible": true,
         "overallRank": 19,
         "url": "https://benchlm.ai/models/claude-sonnet-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-5.md",
-        "score": 61.05,
+        "score": 61.1,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9065,14 +9094,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 48.71,
-          "upper": 73.09
+          "lower": 48.54,
+          "upper": 73.08
         },
         "rankingEligible": true,
         "overallRank": 44,
         "url": "https://benchlm.ai/models/hy4-preview",
         "markdownUrl": "https://benchlm.ai/md/models/hy4-preview.md",
-        "score": 60.9,
+        "score": 60.81,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9081,35 +9110,6 @@
       },
       {
         "rank": 17,
-        "slug": "gpt-6-luna",
-        "canonicalModelKey": "gpt-6-luna",
-        "model": "GPT-6 Luna",
-        "creator": "OpenAI",
-        "sourceType": "Proprietary",
-        "reasoningType": "Reasoning",
-        "contextWindow": "1.05M",
-        "contextWindowTokens": 1050000,
-        "displayScore": 66.52,
-        "provisionalDisplayScore": 69,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "supported",
-        "scoreInterval90": {
-          "lower": 46.8,
-          "upper": 73.06
-        },
-        "rankingEligible": true,
-        "overallRank": 21,
-        "url": "https://benchlm.ai/models/gpt-6-luna",
-        "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md",
-        "score": 59.93,
-        "rankingMode": "bench-align-v5",
-        "category": "coding",
-        "categoryLabel": "Coding",
-        "trustedBenchmarkCount": 14,
-        "scoreConfidence": 2
-      },
-      {
-        "rank": 18,
         "slug": "gemini-3-7-flash",
         "canonicalModelKey": "gemini-3-7-flash",
         "model": "Gemini 3.7 Flash",
@@ -9123,14 +9123,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 50.78,
-          "upper": 68.8
+          "lower": 50.89,
+          "upper": 68.82
         },
         "rankingEligible": true,
         "overallRank": 26,
         "url": "https://benchlm.ai/models/gemini-3-7-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-7-flash.md",
-        "score": 59.79,
+        "score": 59.86,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9138,7 +9138,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 19,
+        "rank": 18,
         "slug": "claude-opus-4-7",
         "canonicalModelKey": "claude-opus-4-7",
         "model": "Claude Opus 4.7",
@@ -9152,14 +9152,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 53.67,
-          "upper": 65.87
+          "lower": 53.69,
+          "upper": 65.97
         },
         "rankingEligible": true,
         "overallRank": 23,
         "url": "https://benchlm.ai/models/claude-opus-4-7",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7.md",
-        "score": 59.77,
+        "score": 59.83,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9167,7 +9167,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 20,
+        "rank": 19,
         "slug": "grok-4-5",
         "canonicalModelKey": "grok-4-5",
         "model": "Grok 4.5",
@@ -9181,7 +9181,7 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 47.02,
+          "lower": 47,
           "upper": 70.09
         },
         "rankingEligible": true,
@@ -9196,7 +9196,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 21,
+        "rank": 20,
         "slug": "glm-5-3",
         "canonicalModelKey": "glm-5-3",
         "model": "GLM-5.3",
@@ -9210,14 +9210,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 50.13,
-          "upper": 66.17
+          "lower": 50.21,
+          "upper": 66.18
         },
         "rankingEligible": true,
         "overallRank": 24,
         "url": "https://benchlm.ai/models/glm-5-3",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-3.md",
-        "score": 58.15,
+        "score": 58.2,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9225,7 +9225,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 22,
+        "rank": 21,
         "slug": "glm-5-2",
         "canonicalModelKey": "glm-5-2",
         "model": "GLM-5.2",
@@ -9239,14 +9239,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 50.55,
-          "upper": 64.09
+          "lower": 50.62,
+          "upper": 64.11
         },
         "rankingEligible": true,
         "overallRank": 35,
         "url": "https://benchlm.ai/models/glm-5-2",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-2.md",
-        "score": 57.32,
+        "score": 57.36,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9254,7 +9254,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 23,
+        "rank": 22,
         "slug": "claude-opus-4-7-adaptive",
         "canonicalModelKey": "claude-opus-4-7-max",
         "model": "Claude Opus 4.7 (Adaptive)",
@@ -9263,19 +9263,19 @@
         "reasoningType": "Reasoning",
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
-        "displayScore": 69.42,
+        "displayScore": 68.83,
         "provisionalDisplayScore": 63,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 45.48,
-          "upper": 68.51
+          "lower": 45.41,
+          "upper": 68.44
         },
         "rankingEligible": true,
-        "overallRank": 16,
+        "overallRank": 18,
         "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
-        "score": 57,
+        "score": 56.92,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9283,7 +9283,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 24,
+        "rank": 23,
         "slug": "gpt-5-3-codex",
         "canonicalModelKey": "gpt-5-3-codex",
         "model": "GPT-5.3 Codex",
@@ -9297,14 +9297,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 40.82,
-          "upper": 72.78
+          "lower": 40.79,
+          "upper": 72.75
         },
         "rankingEligible": true,
         "overallRank": 37,
         "url": "https://benchlm.ai/models/gpt-5-3-codex",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-3-codex.md",
-        "score": 56.8,
+        "score": 56.77,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9312,7 +9312,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 25,
+        "rank": 24,
         "slug": "muse-spark-1-1",
         "canonicalModelKey": "muse-spark-1-1",
         "model": "Muse Spark 1.1",
@@ -9326,14 +9326,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 47.9,
-          "upper": 65.09
+          "lower": 47.97,
+          "upper": 65.1
         },
         "rankingEligible": true,
         "overallRank": 22,
         "url": "https://benchlm.ai/models/muse-spark-1-1",
         "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-1.md",
-        "score": 56.5,
+        "score": 56.53,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9341,7 +9341,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 26,
+        "rank": 25,
         "slug": "muse-spark-1-2",
         "canonicalModelKey": "muse-spark-1-2",
         "model": "Muse Spark 1.2",
@@ -9355,14 +9355,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 47.59,
-          "upper": 65.13
+          "lower": 47.66,
+          "upper": 65.15
         },
         "rankingEligible": true,
         "overallRank": 27,
         "url": "https://benchlm.ai/models/muse-spark-1-2",
         "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-2.md",
-        "score": 56.36,
+        "score": 56.41,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9370,7 +9370,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 27,
+        "rank": 26,
         "slug": "qwen3-8-max",
         "canonicalModelKey": "qwen3-8-max",
         "model": "Qwen3.8 Max",
@@ -9384,14 +9384,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 44.74,
+          "lower": 44.75,
           "upper": 67.94
         },
         "rankingEligible": true,
         "overallRank": 13,
         "url": "https://benchlm.ai/models/qwen3-8-max",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-max.md",
-        "score": 56.34,
+        "score": 56.35,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9399,7 +9399,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 28,
+        "rank": 27,
         "slug": "qwen3-8-flash-next",
         "canonicalModelKey": "qwen3-8-flash-next",
         "model": "Qwen3.8-Flash-Next",
@@ -9413,14 +9413,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 35.8,
-          "upper": 75.96
+          "lower": 35.78,
+          "upper": 75.95
         },
         "rankingEligible": true,
         "overallRank": 42,
         "url": "https://benchlm.ai/models/qwen3-8-flash-next",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-flash-next.md",
-        "score": 55.88,
+        "score": 55.87,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9428,7 +9428,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 29,
+        "rank": 28,
         "slug": "claude-opus-4-6-thinking",
         "canonicalModelKey": "claude-opus-4-6-thinking",
         "model": "Claude Opus 4.6 (Adaptive)",
@@ -9442,14 +9442,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 43.72,
-          "upper": 66.74
+          "lower": 43.74,
+          "upper": 66.77
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/claude-opus-4-6-thinking",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6-thinking.md",
-        "score": 55.23,
+        "score": 55.26,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9457,7 +9457,7 @@
         "scoreConfidence": 1
       },
       {
-        "rank": 30,
+        "rank": 29,
         "slug": "ornith-1-5-397b",
         "canonicalModelKey": "ornith-1-5-397b",
         "model": "Ornith-1.5-397B",
@@ -9471,14 +9471,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 34.75,
-          "upper": 75.34
+          "lower": 34.69,
+          "upper": 75.27
         },
         "rankingEligible": true,
         "overallRank": 39,
         "url": "https://benchlm.ai/models/ornith-1-5-397b",
         "markdownUrl": "https://benchlm.ai/md/models/ornith-1-5-397b.md",
-        "score": 55.05,
+        "score": 54.98,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9486,7 +9486,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 31,
+        "rank": 30,
         "slug": "gemini-3-6-flash",
         "canonicalModelKey": "gemini-3-6-flash",
         "model": "Gemini 3.6 Flash",
@@ -9500,14 +9500,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 47.71,
-          "upper": 61.75
+          "lower": 47.79,
+          "upper": 61.77
         },
         "rankingEligible": true,
         "overallRank": 28,
         "url": "https://benchlm.ai/models/gemini-3-6-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-6-flash.md",
-        "score": 54.73,
+        "score": 54.78,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9515,7 +9515,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 32,
+        "rank": 31,
         "slug": "muse-spark",
         "canonicalModelKey": "muse-spark",
         "model": "Muse Spark",
@@ -9529,19 +9529,48 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 46.32,
-          "upper": 61.56
+          "lower": 46.3,
+          "upper": 61.54
         },
         "rankingEligible": true,
         "overallRank": 38,
         "url": "https://benchlm.ai/models/muse-spark",
         "markdownUrl": "https://benchlm.ai/md/models/muse-spark.md",
-        "score": 53.94,
+        "score": 53.92,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
         "trustedBenchmarkCount": 33,
         "scoreConfidence": 4
+      },
+      {
+        "rank": 32,
+        "slug": "gpt-6-luna",
+        "canonicalModelKey": "gpt-6-luna",
+        "model": "GPT-6 Luna",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1.05M",
+        "contextWindowTokens": 1050000,
+        "displayScore": 66.52,
+        "provisionalDisplayScore": 69,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "supported",
+        "scoreInterval90": {
+          "lower": 44.1,
+          "upper": 63.66
+        },
+        "rankingEligible": true,
+        "overallRank": 21,
+        "url": "https://benchlm.ai/models/gpt-6-luna",
+        "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md",
+        "score": 53.88,
+        "rankingMode": "bench-align-v5",
+        "category": "coding",
+        "categoryLabel": "Coding",
+        "trustedBenchmarkCount": 14,
+        "scoreConfidence": 3
       },
       {
         "rank": 33,
@@ -9558,14 +9587,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 46.31,
-          "upper": 61.09
+          "lower": 46.37,
+          "upper": 61.11
         },
         "rankingEligible": true,
         "overallRank": 32,
         "url": "https://benchlm.ai/models/gemini-3-5-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash.md",
-        "score": 53.7,
+        "score": 53.74,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9587,14 +9616,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 44.32,
-          "upper": 59.75
+          "lower": 44.31,
+          "upper": 59.74
         },
         "rankingEligible": true,
         "overallRank": 71,
         "url": "https://benchlm.ai/models/hy3",
         "markdownUrl": "https://benchlm.ai/md/models/hy3.md",
-        "score": 52.03,
+        "score": 52.02,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9616,14 +9645,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 39.16,
-          "upper": 64.04
+          "lower": 39.23,
+          "upper": 64.08
         },
         "rankingEligible": true,
         "overallRank": 47,
         "url": "https://benchlm.ai/models/glm-5-3-flash",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-3-flash.md",
-        "score": 51.6,
+        "score": 51.65,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9645,14 +9674,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 44.41,
-          "upper": 58.55
+          "lower": 44.4,
+          "upper": 58.53
         },
         "rankingEligible": true,
         "overallRank": 48,
         "url": "https://benchlm.ai/models/glm-5-1",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5-1.md",
-        "score": 51.48,
+        "score": 51.46,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9674,14 +9703,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 42.75,
-          "upper": 59.89
+          "lower": 42.86,
+          "upper": 59.9
         },
         "rankingEligible": true,
         "overallRank": 31,
         "url": "https://benchlm.ai/models/claude-opus-4-6",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6.md",
-        "score": 51.32,
+        "score": 51.38,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9703,14 +9732,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 36.98,
-          "upper": 64.88
+          "lower": 37.03,
+          "upper": 64.9
         },
         "rankingEligible": true,
-        "overallRank": 18,
+        "overallRank": 17,
         "url": "https://benchlm.ai/models/gpt-5-4",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
-        "score": 50.93,
+        "score": 50.97,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9732,14 +9761,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 41.39,
-          "upper": 59.38
+          "lower": 41.45,
+          "upper": 59.29
         },
         "rankingEligible": true,
         "overallRank": 33,
         "url": "https://benchlm.ai/models/deepseek-v4-pro-0813",
         "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-pro-0813.md",
-        "score": 50.38,
+        "score": 50.37,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9761,14 +9790,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 39.93,
-          "upper": 59.56
+          "lower": 40,
+          "upper": 59.58
         },
         "rankingEligible": true,
         "overallRank": 55,
         "url": "https://benchlm.ai/models/qwen3-8-27b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-27b.md",
-        "score": 49.74,
+        "score": 49.79,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9790,14 +9819,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 42.17,
-          "upper": 54.87
+          "lower": 42.13,
+          "upper": 54.88
         },
         "rankingEligible": true,
         "overallRank": 49,
         "url": "https://benchlm.ai/models/claude-sonnet-4-6",
         "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-4-6.md",
-        "score": 48.52,
+        "score": 48.51,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9819,14 +9848,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 27.59,
-          "upper": 68.34
+          "lower": 27.58,
+          "upper": 68.56
         },
         "rankingEligible": true,
         "overallRank": 76,
         "url": "https://benchlm.ai/models/gpt-5-2-codex",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2-codex.md",
-        "score": 47.96,
+        "score": 48.07,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9848,14 +9877,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 37.36,
-          "upper": 58.02
+          "lower": 37.35,
+          "upper": 58
         },
         "rankingEligible": true,
         "overallRank": 50,
         "url": "https://benchlm.ai/models/qwen3-6-max-preview",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-max-preview.md",
-        "score": 47.69,
+        "score": 47.68,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9877,14 +9906,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 38.73,
-          "upper": 55.98
+          "lower": 38.72,
+          "upper": 56.05
         },
         "rankingEligible": true,
         "overallRank": 43,
         "url": "https://benchlm.ai/models/kimi-2-6",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-2-6.md",
-        "score": 47.36,
+        "score": 47.38,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9906,14 +9935,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 35.22,
-          "upper": 58.25
+          "lower": 35.16,
+          "upper": 58.19
         },
         "rankingEligible": true,
         "overallRank": 41,
         "url": "https://benchlm.ai/models/gemini-3-pro",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-pro.md",
-        "score": 46.73,
+        "score": 46.67,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9935,14 +9964,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 33.03,
-          "upper": 59.57
+          "lower": 33.09,
+          "upper": 59.58
         },
         "rankingEligible": true,
         "overallRank": 34,
         "url": "https://benchlm.ai/models/qwen3-7-max",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-max.md",
-        "score": 46.3,
+        "score": 46.33,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -9965,13 +9994,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 35.88,
-          "upper": 56.67
+          "upper": 56.66
         },
         "rankingEligible": true,
         "overallRank": 64,
         "url": "https://benchlm.ai/models/mimo-v2-5-pro",
         "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5-pro.md",
-        "score": 46.28,
+        "score": 46.27,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10000,7 +10029,7 @@
         "overallRank": 52,
         "url": "https://benchlm.ai/models/claude-opus-4-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-5.md",
-        "score": 46.1,
+        "score": 46.11,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10022,8 +10051,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 35.47,
-          "upper": 55.69
+          "lower": 35.48,
+          "upper": 55.68
         },
         "rankingEligible": true,
         "overallRank": 75,
@@ -10051,14 +10080,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 34.04,
-          "upper": 57.07
+          "lower": 34,
+          "upper": 57.03
         },
         "rankingEligible": true,
         "overallRank": 81,
         "url": "https://benchlm.ai/models/apodex-1-1",
         "markdownUrl": "https://benchlm.ai/md/models/apodex-1-1.md",
-        "score": 45.55,
+        "score": 45.51,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10080,14 +10109,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 30.14,
-          "upper": 58.43
+          "lower": 30.15,
+          "upper": 58.39
         },
         "rankingEligible": true,
         "overallRank": 53,
         "url": "https://benchlm.ai/models/qwen3-7-plus",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-plus.md",
-        "score": 44.29,
+        "score": 44.27,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10109,14 +10138,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 34.34,
-          "upper": 53.04
+          "lower": 34.38,
+          "upper": 53.08
         },
         "rankingEligible": true,
         "overallRank": 61,
         "url": "https://benchlm.ai/models/qwen3-6-plus",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-plus.md",
-        "score": 43.69,
+        "score": 43.73,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10138,14 +10167,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 36.98,
-          "upper": 49.74
+          "lower": 37.06,
+          "upper": 49.79
         },
         "rankingEligible": true,
         "overallRank": 29,
         "url": "https://benchlm.ai/models/gemini-3-1-pro",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-pro.md",
-        "score": 43.36,
+        "score": 43.42,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10167,14 +10196,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 30.51,
-          "upper": 53.53
+          "lower": 30.46,
+          "upper": 53.49
         },
         "rankingEligible": true,
         "overallRank": 59,
         "url": "https://benchlm.ai/models/glm-5",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5.md",
-        "score": 42.02,
+        "score": 41.98,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10196,14 +10225,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 34.2,
-          "upper": 48.95
+          "lower": 34.23,
+          "upper": 48.98
         },
         "rankingEligible": true,
         "overallRank": 36,
         "url": "https://benchlm.ai/models/gpt-5-2",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2.md",
-        "score": 41.57,
+        "score": 41.6,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10225,14 +10254,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 29.65,
-          "upper": 52.68
+          "lower": 29.61,
+          "upper": 52.64
         },
         "rankingEligible": true,
         "overallRank": 66,
         "url": "https://benchlm.ai/models/mimo-v2-pro",
         "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-pro.md",
-        "score": 41.16,
+        "score": 41.12,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10255,13 +10284,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 33.85,
-          "upper": 48.13
+          "upper": 48.12
         },
         "rankingEligible": true,
         "overallRank": 78,
         "url": "https://benchlm.ai/models/glm-4-7",
         "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md",
-        "score": 40.99,
+        "score": 40.98,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10283,14 +10312,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 29.39,
-          "upper": 52.42
+          "lower": 29.35,
+          "upper": 52.38
         },
         "rankingEligible": true,
         "overallRank": 65,
         "url": "https://benchlm.ai/models/kimi-k2-5",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k2-5.md",
-        "score": 40.9,
+        "score": 40.87,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10312,8 +10341,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 30.06,
-          "upper": 51.26
+          "lower": 30.07,
+          "upper": 51.25
         },
         "rankingEligible": true,
         "overallRank": 51,
@@ -10341,14 +10370,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 31.37,
+          "lower": 31.44,
           "upper": 48.4
         },
         "rankingEligible": true,
         "overallRank": 57,
         "url": "https://benchlm.ai/models/mimo-v2-5",
         "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5.md",
-        "score": 39.88,
+        "score": 39.92,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10370,14 +10399,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 31.4,
-          "upper": 48.17
+          "lower": 31.47,
+          "upper": 48.19
         },
         "rankingEligible": true,
         "overallRank": 72,
         "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md",
-        "score": 39.79,
+        "score": 39.83,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10399,14 +10428,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 26.52,
-          "upper": 53.01
+          "lower": 26.51,
+          "upper": 53
         },
         "rankingEligible": true,
         "overallRank": 46,
         "url": "https://benchlm.ai/models/gpt-5-1",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-1.md",
-        "score": 39.77,
+        "score": 39.75,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10428,14 +10457,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 25.68,
-          "upper": 53.52
+          "lower": 25.62,
+          "upper": 53.53
         },
         "rankingEligible": true,
         "overallRank": 60,
         "url": "https://benchlm.ai/models/minimax-m3",
         "markdownUrl": "https://benchlm.ai/md/models/minimax-m3.md",
-        "score": 39.6,
+        "score": 39.57,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10457,14 +10486,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 27.53,
-          "upper": 50.56
+          "lower": 27.5,
+          "upper": 50.53
         },
         "rankingEligible": true,
         "overallRank": 112,
         "url": "https://benchlm.ai/models/muse-glimmer-30b",
         "markdownUrl": "https://benchlm.ai/md/models/muse-glimmer-30b.md",
-        "score": 39.04,
+        "score": 39.02,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10486,14 +10515,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 27.24,
-          "upper": 50.27
+          "lower": 27.22,
+          "upper": 50.25
         },
         "rankingEligible": true,
         "overallRank": 107,
         "url": "https://benchlm.ai/models/qwen3-6-35b-a3b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-35b-a3b.md",
-        "score": 38.76,
+        "score": 38.73,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10516,13 +10545,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 29.61,
-          "upper": 47.62
+          "upper": 47.63
         },
         "rankingEligible": true,
         "overallRank": 54,
         "url": "https://benchlm.ai/models/gpt-5-4-mini",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-mini.md",
-        "score": 38.61,
+        "score": 38.62,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10544,14 +10573,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 21.96,
-          "upper": 54.73
+          "lower": 21.93,
+          "upper": 54.72
         },
         "rankingEligible": true,
         "overallRank": 91,
         "url": "https://benchlm.ai/models/qwen3-6-27b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-27b.md",
-        "score": 38.35,
+        "score": 38.33,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10573,14 +10602,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 26.57,
-          "upper": 49.6
+          "lower": 26.53,
+          "upper": 49.56
         },
         "rankingEligible": true,
         "overallRank": 79,
         "url": "https://benchlm.ai/models/minimax-m2-5",
         "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-5.md",
-        "score": 38.08,
+        "score": 38.04,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10602,14 +10631,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 26.34,
-          "upper": 49.37
+          "lower": 26.31,
+          "upper": 49.34
         },
         "rankingEligible": true,
         "overallRank": 98,
         "url": "https://benchlm.ai/models/gpt-5-medium",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-medium.md",
-        "score": 37.85,
+        "score": 37.82,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10631,14 +10660,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 26.04,
-          "upper": 49.07
+          "lower": 26.01,
+          "upper": 49.04
         },
         "rankingEligible": true,
         "overallRank": 82,
         "url": "https://benchlm.ai/models/glm-5v-turbo",
         "markdownUrl": "https://benchlm.ai/md/models/glm-5v-turbo.md",
-        "score": 37.55,
+        "score": 37.52,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10660,14 +10689,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 27.96,
+          "lower": 27.94,
           "upper": 46.49
         },
         "rankingEligible": true,
         "overallRank": 63,
         "url": "https://benchlm.ai/models/inkling",
         "markdownUrl": "https://benchlm.ai/md/models/inkling.md",
-        "score": 37.23,
+        "score": 37.21,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10689,8 +10718,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 26.4,
-          "upper": 47.69
+          "lower": 26.39,
+          "upper": 47.68
         },
         "rankingEligible": true,
         "overallRank": 116,
@@ -10718,14 +10747,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 25.71,
+          "lower": 25.69,
           "upper": 48.32
         },
         "rankingEligible": true,
         "overallRank": 84,
         "url": "https://benchlm.ai/models/minimax-m2-7",
         "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-7.md",
-        "score": 37.01,
+        "score": 37,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10748,13 +10777,13 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 27.58,
-          "upper": 46.23
+          "upper": 46.22
         },
         "rankingEligible": true,
         "overallRank": 99,
         "url": "https://benchlm.ai/models/gemma-4-31b",
         "markdownUrl": "https://benchlm.ai/md/models/gemma-4-31b.md",
-        "score": 36.91,
+        "score": 36.9,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10776,14 +10805,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 24.43,
-          "upper": 49.25
+          "lower": 24.47,
+          "upper": 49.23
         },
         "rankingEligible": true,
         "overallRank": 56,
         "url": "https://benchlm.ai/models/gemini-3-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-flash.md",
-        "score": 36.84,
+        "score": 36.85,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10805,14 +10834,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 24.87,
-          "upper": 47.9
+          "lower": 24.85,
+          "upper": 47.88
         },
         "rankingEligible": true,
         "overallRank": 114,
         "url": "https://benchlm.ai/models/mimo-v2-flash",
         "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-flash.md",
-        "score": 36.39,
+        "score": 36.37,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10834,14 +10863,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 24.6,
-          "upper": 47.63
+          "lower": 24.57,
+          "upper": 47.59
         },
         "rankingEligible": true,
         "overallRank": 100,
         "url": "https://benchlm.ai/models/gpt-5-1-codex",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-1-codex.md",
-        "score": 36.11,
+        "score": 36.08,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10863,14 +10892,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 24.45,
-          "upper": 47.47
+          "lower": 24.42,
+          "upper": 47.45
         },
         "rankingEligible": true,
         "overallRank": 109,
         "url": "https://benchlm.ai/models/step-3-7-flash",
         "markdownUrl": "https://benchlm.ai/md/models/step-3-7-flash.md",
-        "score": 35.96,
+        "score": 35.94,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10892,14 +10921,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 24.44,
-          "upper": 47.47
+          "lower": 24.41,
+          "upper": 47.44
         },
         "rankingEligible": true,
         "overallRank": 102,
         "url": "https://benchlm.ai/models/qwen3-5-27b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-27b.md",
-        "score": 35.95,
+        "score": 35.92,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10921,8 +10950,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 18.87,
-          "upper": 52.79
+          "lower": 18.9,
+          "upper": 52.76
         },
         "rankingEligible": true,
         "overallRank": 96,
@@ -10950,14 +10979,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 24.15,
-          "upper": 47.18
+          "lower": 24.12,
+          "upper": 47.15
         },
         "rankingEligible": true,
         "overallRank": 77,
         "url": "https://benchlm.ai/models/deepseek-v3-2",
         "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3-2.md",
-        "score": 35.67,
+        "score": 35.63,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -10979,14 +11008,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 27.14,
+          "lower": 27.13,
           "upper": 43.87
         },
         "rankingEligible": true,
         "overallRank": 92,
         "url": "https://benchlm.ai/models/gemma-4-26b-a4b",
         "markdownUrl": "https://benchlm.ai/md/models/gemma-4-26b-a4b.md",
-        "score": 35.51,
+        "score": 35.5,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11008,14 +11037,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 23.65,
-          "upper": 46.68
+          "lower": 23.63,
+          "upper": 46.65
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/deepseek-v3-2-thinking",
         "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3-2-thinking.md",
-        "score": 35.17,
+        "score": 35.14,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11037,14 +11066,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 23.07,
-          "upper": 46.1
+          "lower": 23.05,
+          "upper": 46.08
         },
         "rankingEligible": true,
         "overallRank": 124,
         "url": "https://benchlm.ai/models/o1",
         "markdownUrl": "https://benchlm.ai/md/models/o1.md",
-        "score": 34.58,
+        "score": 34.57,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11066,14 +11095,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 21.79,
-          "upper": 44.82
+          "lower": 21.77,
+          "upper": 44.8
         },
         "rankingEligible": true,
         "overallRank": 95,
         "url": "https://benchlm.ai/models/hy3-preview",
         "markdownUrl": "https://benchlm.ai/md/models/hy3-preview.md",
-        "score": 33.3,
+        "score": 33.29,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11095,14 +11124,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 21.7,
-          "upper": 44.73
+          "lower": 21.67,
+          "upper": 44.7
         },
         "rankingEligible": true,
         "overallRank": 101,
         "url": "https://benchlm.ai/models/gpt-5-mini",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-mini.md",
-        "score": 33.22,
+        "score": 33.19,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11124,14 +11153,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 18.95,
-          "upper": 47.03
+          "lower": 18.89,
+          "upper": 47.01
         },
         "rankingEligible": true,
         "overallRank": 70,
         "url": "https://benchlm.ai/models/gpt-5-4-nano",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-nano.md",
-        "score": 32.99,
+        "score": 32.95,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11153,14 +11182,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 19.54,
-          "upper": 42.57
+          "lower": 19.52,
+          "upper": 42.54
         },
         "rankingEligible": true,
         "overallRank": 93,
         "url": "https://benchlm.ai/models/grok-4-1-fast-reasoning",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-1-fast-reasoning.md",
-        "score": 31.05,
+        "score": 31.03,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11182,14 +11211,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 19.45,
-          "upper": 42.48
+          "lower": 19.44,
+          "upper": 42.47
         },
         "rankingEligible": true,
         "overallRank": 123,
         "url": "https://benchlm.ai/models/gpt-oss-120b",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-oss-120b.md",
-        "score": 30.96,
+        "score": 30.95,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11211,14 +11240,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 19.42,
-          "upper": 42.45
+          "lower": 19.4,
+          "upper": 42.43
         },
         "rankingEligible": true,
         "overallRank": 89,
         "url": "https://benchlm.ai/models/qwen3-5-35b-a3b",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-35b-a3b.md",
-        "score": 30.94,
+        "score": 30.91,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11240,14 +11269,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 19.08,
-          "upper": 42.11
+          "lower": 19.07,
+          "upper": 42.1
         },
         "rankingEligible": true,
         "overallRank": 129,
         "url": "https://benchlm.ai/models/command-a-plus",
         "markdownUrl": "https://benchlm.ai/md/models/command-a-plus.md",
-        "score": 30.59,
+        "score": 30.58,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11269,14 +11298,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 18.99,
-          "upper": 42.02
+          "lower": 18.98,
+          "upper": 42.01
         },
         "rankingEligible": true,
         "overallRank": 118,
         "url": "https://benchlm.ai/models/glm-4-6",
         "markdownUrl": "https://benchlm.ai/md/models/glm-4-6.md",
-        "score": 30.5,
+        "score": 30.49,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11298,14 +11327,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 20.73,
+          "lower": 20.69,
           "upper": 39.42
         },
         "rankingEligible": true,
         "overallRank": 62,
         "url": "https://benchlm.ai/models/grok-4-3",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-3.md",
-        "score": 30.08,
+        "score": 30.05,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11327,14 +11356,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 9.42,
-          "upper": 50.16
+          "lower": 9.36,
+          "upper": 50.17
         },
         "rankingEligible": true,
         "overallRank": 130,
         "url": "https://benchlm.ai/models/mistral-medium-3-5-128b",
         "markdownUrl": "https://benchlm.ai/md/models/mistral-medium-3-5-128b.md",
-        "score": 29.79,
+        "score": 29.77,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11356,14 +11385,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 17.95,
-          "upper": 40.98
+          "lower": 17.94,
+          "upper": 40.97
         },
         "rankingEligible": true,
         "overallRank": 135,
         "url": "https://benchlm.ai/models/mistral-small-4",
         "markdownUrl": "https://benchlm.ai/md/models/mistral-small-4.md",
-        "score": 29.46,
+        "score": 29.45,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11392,7 +11421,7 @@
         "overallRank": 128,
         "url": "https://benchlm.ai/models/o1-preview",
         "markdownUrl": "https://benchlm.ai/md/models/o1-preview.md",
-        "score": 28.83,
+        "score": 28.82,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11414,14 +11443,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 17,
-          "upper": 40.02
+          "lower": 16.97,
+          "upper": 40
         },
         "rankingEligible": true,
         "overallRank": 94,
         "url": "https://benchlm.ai/models/qwen3-5-flash",
         "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-flash.md",
-        "score": 28.51,
+        "score": 28.49,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11430,35 +11459,6 @@
       },
       {
         "rank": 98,
-        "slug": "gemini-3-1-flash-lite",
-        "canonicalModelKey": "gemini-3-1-flash-lite",
-        "model": "Gemini 3.1 Flash-Lite",
-        "creator": "Google",
-        "sourceType": "Proprietary",
-        "reasoningType": "Non-Reasoning",
-        "contextWindow": "1M",
-        "contextWindowTokens": 1000000,
-        "displayScore": 47.46,
-        "provisionalDisplayScore": 55,
-        "publicRankingMode": "bench-align-v5",
-        "evidenceStatus": "estimated",
-        "scoreInterval90": {
-          "lower": 16.93,
-          "upper": 39.95
-        },
-        "rankingEligible": true,
-        "overallRank": 86,
-        "url": "https://benchlm.ai/models/gemini-3-1-flash-lite",
-        "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-flash-lite.md",
-        "score": 28.44,
-        "rankingMode": "bench-align-v5",
-        "category": "coding",
-        "categoryLabel": "Coding",
-        "trustedBenchmarkCount": 7,
-        "scoreConfidence": 1
-      },
-      {
-        "rank": 99,
         "slug": "ling-2-6-flash",
         "canonicalModelKey": "ling-2-6-flash",
         "model": "Ling 2.6 Flash",
@@ -11472,8 +11472,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 16.92,
-          "upper": 39.95
+          "lower": 16.91,
+          "upper": 39.94
         },
         "rankingEligible": true,
         "overallRank": 138,
@@ -11485,6 +11485,35 @@
         "categoryLabel": "Coding",
         "trustedBenchmarkCount": 10,
         "scoreConfidence": 2
+      },
+      {
+        "rank": 99,
+        "slug": "gemini-3-1-flash-lite",
+        "canonicalModelKey": "gemini-3-1-flash-lite",
+        "model": "Gemini 3.1 Flash-Lite",
+        "creator": "Google",
+        "sourceType": "Proprietary",
+        "reasoningType": "Non-Reasoning",
+        "contextWindow": "1M",
+        "contextWindowTokens": 1000000,
+        "displayScore": 47.46,
+        "provisionalDisplayScore": 55,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": "estimated",
+        "scoreInterval90": {
+          "lower": 16.85,
+          "upper": 39.88
+        },
+        "rankingEligible": true,
+        "overallRank": 86,
+        "url": "https://benchlm.ai/models/gemini-3-1-flash-lite",
+        "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-flash-lite.md",
+        "score": 28.37,
+        "rankingMode": "bench-align-v5",
+        "category": "coding",
+        "categoryLabel": "Coding",
+        "trustedBenchmarkCount": 7,
+        "scoreConfidence": 1
       },
       {
         "rank": 100,
@@ -11501,14 +11530,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 16.74,
-          "upper": 39.77
+          "lower": 16.66,
+          "upper": 39.69
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/grok-build-0-1",
         "markdownUrl": "https://benchlm.ai/md/models/grok-build-0-1.md",
-        "score": 28.25,
+        "score": 28.18,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11530,14 +11559,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 15.99,
-          "upper": 39.02
+          "lower": 15.97,
+          "upper": 39
         },
         "rankingEligible": true,
         "overallRank": 106,
         "url": "https://benchlm.ai/models/grok-4-fast-reasoning",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-fast-reasoning.md",
-        "score": 27.5,
+        "score": 27.48,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11559,8 +11588,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 15.76,
-          "upper": 38.79
+          "lower": 15.75,
+          "upper": 38.78
         },
         "rankingEligible": true,
         "overallRank": 167,
@@ -11588,7 +11617,7 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 8.15,
+          "lower": 8.14,
           "upper": 45.84
         },
         "rankingEligible": true,
@@ -11646,14 +11675,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 15.27,
+          "lower": 15.26,
           "upper": 38.29
         },
         "rankingEligible": true,
         "overallRank": 139,
         "url": "https://benchlm.ai/models/gpt-oss-20b",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-oss-20b.md",
-        "score": 26.78,
+        "score": 26.77,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11675,14 +11704,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 14.38,
-          "upper": 37.41
+          "lower": 14.37,
+          "upper": 37.4
         },
         "rankingEligible": true,
         "overallRank": 144,
         "url": "https://benchlm.ai/models/grok-code-fast-1",
         "markdownUrl": "https://benchlm.ai/md/models/grok-code-fast-1.md",
-        "score": 25.9,
+        "score": 25.88,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11704,8 +11733,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 11.95,
-          "upper": 39.48
+          "lower": 11.94,
+          "upper": 39.47
         },
         "rankingEligible": true,
         "overallRank": 74,
@@ -11740,7 +11769,7 @@
         "overallRank": 152,
         "url": "https://benchlm.ai/models/nemotron-3-nano-omni-30b-a3b",
         "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-nano-omni-30b-a3b.md",
-        "score": 25.4,
+        "score": 25.39,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11763,13 +11792,13 @@
         "evidenceStatus": "estimated",
         "scoreInterval90": {
           "lower": 13.57,
-          "upper": 36.6
+          "upper": 36.59
         },
         "rankingEligible": true,
         "overallRank": 140,
         "url": "https://benchlm.ai/models/gemma-4-e4b",
         "markdownUrl": "https://benchlm.ai/md/models/gemma-4-e4b.md",
-        "score": 25.09,
+        "score": 25.08,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11798,7 +11827,7 @@
         "overallRank": 163,
         "url": "https://benchlm.ai/models/gpt-4-1-mini",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1-mini.md",
-        "score": 24.9,
+        "score": 24.91,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11849,7 +11878,7 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 13.1,
+          "lower": 13.11,
           "upper": 36.13
         },
         "rankingEligible": true,
@@ -11885,7 +11914,7 @@
         "overallRank": 142,
         "url": "https://benchlm.ai/models/lfm2-5-2-6b",
         "markdownUrl": "https://benchlm.ai/md/models/lfm2-5-2-6b.md",
-        "score": 24.53,
+        "score": 24.52,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11907,8 +11936,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 12.86,
-          "upper": 35.89
+          "lower": 12.87,
+          "upper": 35.9
         },
         "rankingEligible": true,
         "overallRank": 146,
@@ -11936,8 +11965,8 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 12.63,
-          "upper": 35.66
+          "lower": 12.62,
+          "upper": 35.65
         },
         "rankingEligible": true,
         "overallRank": 143,
@@ -11972,7 +12001,7 @@
         "overallRank": 177,
         "url": "https://benchlm.ai/models/llama-4-maverick",
         "markdownUrl": "https://benchlm.ai/md/models/llama-4-maverick.md",
-        "score": 23.64,
+        "score": 23.65,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -11994,14 +12023,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 17.08,
-          "upper": 29.98
+          "lower": 17.07,
+          "upper": 29.96
         },
         "rankingEligible": true,
         "overallRank": 113,
         "url": "https://benchlm.ai/models/nemotron-3-ultra",
         "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-ultra.md",
-        "score": 23.53,
+        "score": 23.52,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12082,7 +12111,7 @@
         "evidenceStatus": "supported",
         "scoreInterval90": {
           "lower": 13.94,
-          "upper": 30.94
+          "upper": 30.95
         },
         "rankingEligible": true,
         "overallRank": 45,
@@ -12110,7 +12139,7 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 10.77,
+          "lower": 10.78,
           "upper": 33.8
         },
         "rankingEligible": true,
@@ -12139,14 +12168,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 11.82,
-          "upper": 31.15
+          "lower": 11.85,
+          "upper": 31.17
         },
         "rankingEligible": true,
         "overallRank": 192,
         "url": "https://benchlm.ai/models/laguna-m-1",
         "markdownUrl": "https://benchlm.ai/md/models/laguna-m-1.md",
-        "score": 21.49,
+        "score": 21.51,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12168,14 +12197,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 9.4,
-          "upper": 32.43
+          "lower": 9.42,
+          "upper": 32.45
         },
         "rankingEligible": true,
         "overallRank": 164,
         "url": "https://benchlm.ai/models/claude-3-opus",
         "markdownUrl": "https://benchlm.ai/md/models/claude-3-opus.md",
-        "score": 20.92,
+        "score": 20.93,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12197,14 +12226,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 9,
-          "upper": 32.02
+          "lower": 9.01,
+          "upper": 32.03
         },
         "rankingEligible": true,
         "overallRank": 175,
         "url": "https://benchlm.ai/models/gpt-4-1-nano",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1-nano.md",
-        "score": 20.51,
+        "score": 20.52,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12226,14 +12255,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 3.58,
-          "upper": 37.22
+          "lower": 3.57,
+          "upper": 37.21
         },
         "rankingEligible": true,
         "overallRank": 126,
         "url": "https://benchlm.ai/models/mercury-2",
         "markdownUrl": "https://benchlm.ai/md/models/mercury-2.md",
-        "score": 20.4,
+        "score": 20.39,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12255,14 +12284,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 8.82,
-          "upper": 31.85
+          "lower": 8.84,
+          "upper": 31.87
         },
         "rankingEligible": true,
         "overallRank": 178,
         "url": "https://benchlm.ai/models/gpt-4-turbo",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-4-turbo.md",
-        "score": 20.33,
+        "score": 20.35,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12284,14 +12313,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 8.79,
-          "upper": 31.82
+          "lower": 8.74,
+          "upper": 31.77
         },
         "rankingEligible": false,
         "overallRank": null,
         "url": "https://benchlm.ai/models/mercury-2-5",
         "markdownUrl": "https://benchlm.ai/md/models/mercury-2-5.md",
-        "score": 20.31,
+        "score": 20.25,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12313,14 +12342,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 8.53,
-          "upper": 31.56
+          "lower": 8.54,
+          "upper": 31.57
         },
         "rankingEligible": true,
         "overallRank": 160,
         "url": "https://benchlm.ai/models/llama-4-scout",
         "markdownUrl": "https://benchlm.ai/md/models/llama-4-scout.md",
-        "score": 20.04,
+        "score": 20.05,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12349,7 +12378,7 @@
         "overallRank": 137,
         "url": "https://benchlm.ai/models/mistral-large-3",
         "markdownUrl": "https://benchlm.ai/md/models/mistral-large-3.md",
-        "score": 20.03,
+        "score": 20.02,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12371,14 +12400,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 11.85,
-          "upper": 27.7
+          "lower": 11.83,
+          "upper": 27.67
         },
         "rankingEligible": true,
         "overallRank": 108,
         "url": "https://benchlm.ai/models/claude-haiku-4-5",
         "markdownUrl": "https://benchlm.ai/md/models/claude-haiku-4-5.md",
-        "score": 19.77,
+        "score": 19.75,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12400,14 +12429,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 7.54,
-          "upper": 30.57
+          "lower": 7.56,
+          "upper": 30.58
         },
         "rankingEligible": true,
         "overallRank": 162,
         "url": "https://benchlm.ai/models/gemma-3-27b",
         "markdownUrl": "https://benchlm.ai/md/models/gemma-3-27b.md",
-        "score": 19.05,
+        "score": 19.07,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12429,14 +12458,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 1.56,
-          "upper": 35.58
+          "lower": 1.58,
+          "upper": 35.6
         },
         "rankingEligible": true,
         "overallRank": 181,
         "url": "https://benchlm.ai/models/nemotron-3-5-lightning-30b-a3b-nvfp4",
         "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-5-lightning-30b-a3b-nvfp4.md",
-        "score": 18.57,
+        "score": 18.59,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12458,14 +12487,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
         "scoreInterval90": {
-          "lower": 6.82,
-          "upper": 29.84
+          "lower": 6.84,
+          "upper": 29.86
         },
         "rankingEligible": true,
         "overallRank": 169,
         "url": "https://benchlm.ai/models/gpt-4o-mini",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-4o-mini.md",
-        "score": 18.33,
+        "score": 18.35,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12487,14 +12516,14 @@
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "supported",
         "scoreInterval90": {
-          "lower": 7.91,
-          "upper": 26.43
+          "lower": 7.93,
+          "upper": 26.46
         },
         "rankingEligible": true,
         "overallRank": 191,
         "url": "https://benchlm.ai/models/laguna-xs-2",
         "markdownUrl": "https://benchlm.ai/md/models/laguna-xs-2.md",
-        "score": 17.17,
+        "score": 17.19,
         "rankingMode": "bench-align-v5",
         "category": "coding",
         "categoryLabel": "Coding",
@@ -12571,7 +12600,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 12,
+        "overallRank": 11,
         "url": "https://benchlm.ai/models/kimi-k3",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
         "score": 78.5,
@@ -12635,6 +12664,32 @@
       },
       {
         "rank": 6,
+        "slug": "gpt-6-luna",
+        "canonicalModelKey": "gpt-6-luna",
+        "model": "GPT-6 Luna",
+        "creator": "OpenAI",
+        "sourceType": "Proprietary",
+        "reasoningType": "Reasoning",
+        "contextWindow": "1.05M",
+        "contextWindowTokens": 1050000,
+        "displayScore": 66.52,
+        "provisionalDisplayScore": 69,
+        "publicRankingMode": "bench-align-v5",
+        "evidenceStatus": null,
+        "scoreInterval90": null,
+        "rankingEligible": true,
+        "overallRank": 21,
+        "url": "https://benchlm.ai/models/gpt-6-luna",
+        "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md",
+        "score": 78.3,
+        "rankingMode": "provisional",
+        "category": "reasoning",
+        "categoryLabel": "Reasoning",
+        "trustedBenchmarkCount": 14,
+        "scoreConfidence": 3
+      },
+      {
+        "rank": 7,
         "slug": "muse-spark-1-3",
         "canonicalModelKey": "muse-spark-1-3",
         "model": "Muse Spark 1.3",
@@ -12660,7 +12715,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 7,
+        "rank": 8,
         "slug": "gemini-3-8-flash",
         "canonicalModelKey": "gemini-3-8-flash",
         "model": "Gemini 3.8 Flash",
@@ -12675,7 +12730,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 11,
+        "overallRank": 10,
         "url": "https://benchlm.ai/models/gemini-3-8-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
         "score": 76.9,
@@ -12686,7 +12741,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 8,
+        "rank": 9,
         "slug": "glm-5-3",
         "canonicalModelKey": "glm-5-3",
         "model": "GLM-5.3",
@@ -12712,7 +12767,7 @@
         "scoreConfidence": 2
       },
       {
-        "rank": 9,
+        "rank": 10,
         "slug": "claude-opus-5",
         "canonicalModelKey": "claude-opus-5",
         "model": "Claude Opus 5",
@@ -12738,7 +12793,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 10,
+        "rank": 11,
         "slug": "gpt-5-6-sol",
         "canonicalModelKey": "gpt-5-6-sol",
         "model": "GPT-5.6 Sol",
@@ -12764,7 +12819,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 11,
+        "rank": 12,
         "slug": "gpt-5-5",
         "canonicalModelKey": "gpt-5-5",
         "model": "GPT-5.5",
@@ -12790,7 +12845,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 12,
+        "rank": 13,
         "slug": "gpt-5-6-terra",
         "canonicalModelKey": "gpt-5-6-terra",
         "model": "GPT-5.6 Terra",
@@ -12805,7 +12860,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 10,
+        "overallRank": 9,
         "url": "https://benchlm.ai/models/gpt-5-6-terra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
         "score": 63.1,
@@ -12816,7 +12871,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 13,
+        "rank": 14,
         "slug": "gemini-3-5-flash",
         "canonicalModelKey": "gemini-3-5-flash",
         "model": "Gemini 3.5 Flash",
@@ -12842,7 +12897,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 14,
+        "rank": 15,
         "slug": "gpt-5-4",
         "canonicalModelKey": "gpt-5-4",
         "model": "GPT-5.4",
@@ -12857,7 +12912,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 18,
+        "overallRank": 17,
         "url": "https://benchlm.ai/models/gpt-5-4",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
         "score": 57.2,
@@ -12868,7 +12923,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 15,
+        "rank": 16,
         "slug": "claude-opus-4-8",
         "canonicalModelKey": "claude-opus-4-8",
         "model": "Claude Opus 4.8",
@@ -12894,7 +12949,7 @@
         "scoreConfidence": 4
       },
       {
-        "rank": 16,
+        "rank": 17,
         "slug": "gpt-5-6-luna",
         "canonicalModelKey": "gpt-5-6-luna",
         "model": "GPT-5.6 Luna",
@@ -12920,7 +12975,7 @@
         "scoreConfidence": 3
       },
       {
-        "rank": 17,
+        "rank": 18,
         "slug": "grok-4-5",
         "canonicalModelKey": "grok-4-5",
         "model": "Grok 4.5",
@@ -12963,7 +13018,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 12,
+        "overallRank": 11,
         "url": "https://benchlm.ai/models/kimi-k3",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
         "score": 89.4,
@@ -13171,7 +13226,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 11,
+        "overallRank": 10,
         "url": "https://benchlm.ai/models/gemini-3-8-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
         "score": 82.9,
@@ -13353,7 +13408,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 10,
+        "overallRank": 9,
         "url": "https://benchlm.ai/models/gpt-5-6-terra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
         "score": 77.2,
@@ -13483,7 +13538,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 18,
+        "overallRank": 17,
         "url": "https://benchlm.ai/models/gpt-5-4",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
         "score": 69.3,
@@ -13919,13 +13974,13 @@
         "reasoningType": "Reasoning",
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
-        "displayScore": 69.42,
+        "displayScore": 68.83,
         "provisionalDisplayScore": 63,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 16,
+        "overallRank": 18,
         "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
         "score": 50.1,
@@ -14471,7 +14526,7 @@
           "upper": 82.77
         },
         "rankingEligible": true,
-        "overallRank": 11,
+        "overallRank": 10,
         "url": "https://benchlm.ai/models/gemini-3-8-flash",
         "markdownUrl": "https://benchlm.ai/md/models/gemini-3-8-flash.md",
         "score": 73.86,
@@ -14500,7 +14555,7 @@
           "upper": 82.67
         },
         "rankingEligible": true,
-        "overallRank": 10,
+        "overallRank": 9,
         "url": "https://benchlm.ai/models/gpt-5-6-terra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
         "score": 72.08,
@@ -14616,7 +14671,7 @@
           "upper": 78.99
         },
         "rankingEligible": true,
-        "overallRank": 17,
+        "overallRank": 16,
         "url": "https://benchlm.ai/models/grok-4-6",
         "markdownUrl": "https://benchlm.ai/md/models/grok-4-6.md",
         "score": 69.16,
@@ -14645,7 +14700,7 @@
           "upper": 78.08
         },
         "rankingEligible": true,
-        "overallRank": 12,
+        "overallRank": 11,
         "url": "https://benchlm.ai/models/kimi-k3",
         "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md",
         "score": 69.14,
@@ -14732,7 +14787,7 @@
           "upper": 77.43
         },
         "rankingEligible": true,
-        "overallRank": 18,
+        "overallRank": 17,
         "url": "https://benchlm.ai/models/gpt-5-4",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
         "score": 66.45,
@@ -14769,7 +14824,7 @@
         "category": "knowledge",
         "categoryLabel": "Knowledge",
         "trustedBenchmarkCount": 14,
-        "scoreConfidence": 2
+        "scoreConfidence": 3
       },
       {
         "rank": 19,
@@ -15042,7 +15097,7 @@
         "reasoningType": "Reasoning",
         "contextWindow": "1M",
         "contextWindowTokens": 1000000,
-        "displayScore": 69.42,
+        "displayScore": 68.83,
         "provisionalDisplayScore": 63,
         "publicRankingMode": "bench-align-v5",
         "evidenceStatus": "estimated",
@@ -15051,7 +15106,7 @@
           "upper": 79.31
         },
         "rankingEligible": true,
-        "overallRank": 16,
+        "overallRank": 18,
         "url": "https://benchlm.ai/models/claude-opus-4-7-adaptive",
         "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-7-adaptive.md",
         "score": 62.62,
@@ -19573,7 +19628,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 18,
+        "overallRank": 17,
         "url": "https://benchlm.ai/models/gpt-5-4",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md",
         "score": 89.2,
@@ -19989,7 +20044,7 @@
         "evidenceStatus": null,
         "scoreInterval90": null,
         "rankingEligible": true,
-        "overallRank": 10,
+        "overallRank": 9,
         "url": "https://benchlm.ai/models/gpt-5-6-terra",
         "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md",
         "score": 85.7,
