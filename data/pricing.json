@@ -3,14 +3,14 @@
   "name": "BenchLM pricing",
   "description": "Model API pricing with linked BenchLM score and value fields when available.",
   "canonicalUrl": "https://benchlm.ai/data/pricing.json",
-  "generatedAt": "2026-09-26T12:42:43.308Z",
-  "sourceLastUpdated": "September 25, 2026",
+  "generatedAt": "2026-09-27T12:21:35.935Z",
+  "sourceLastUpdated": "September 27, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
     "src/data/pricingSupplemental.js"
   ],
   "counts": {
-    "pricedRows": 445,
+    "pricedRows": 446,
     "numericPricingRows": 294
   },
   "items": [
@@ -6229,6 +6229,27 @@
       "scorePerOutputDollar": 45.717,
       "url": "https://benchlm.ai/models/minimax-m3",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m3.md"
+    },
+    {
+      "canonicalModelKey": "minimax-m3-1-flash-preview",
+      "slug": "minimax-m3-1-flash-preview",
+      "model": "MiniMax M3.1 Flash Preview",
+      "creator": "MiniMax",
+      "sourceType": "Proprietary",
+      "contextWindow": null,
+      "contextWindowTokens": 0,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "MiniMax announced M3.1-Flash-Preview for MiniMax Code, but has not published an exact public API SKU or token-pricing row for this preview.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/minimax-m3-1-flash-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/minimax-m3-1-flash-preview.md"
     },
     {
       "canonicalModelKey": "minimax-speech-2-8-hd",
