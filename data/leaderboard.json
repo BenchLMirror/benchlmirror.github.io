@@ -7,8 +7,8 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-01T04:26:15.504Z",
-  "sourceLastUpdated": "September 30, 2026",
+  "generatedAt": "2026-10-02T02:32:43.124Z",
+  "sourceLastUpdated": "October 1, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
