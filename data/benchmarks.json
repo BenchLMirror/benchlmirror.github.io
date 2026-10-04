@@ -7,7 +7,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-02T21:14:35.525Z",
+  "generatedAt": "2026-10-03T17:21:11.450Z",
   "sourceLastUpdated": "October 2, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
