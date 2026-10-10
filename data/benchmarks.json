@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-09T04:59:16.998Z",
-  "sourceLastUpdated": "October 8, 2026",
+  "generatedAt": "2026-10-10T04:44:54.860Z",
+  "sourceLastUpdated": "October 10, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scaleLeaderboards.js",
@@ -788,7 +788,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 7,
+      "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/mmlu",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmlu.md"
     },
@@ -813,7 +813,7 @@
       "weight": 0.033333333333333326,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 84,
+      "displayableScoreCount": 106,
       "url": "https://benchlm.ai/benchmarks/gpqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gpqa.md"
     },
@@ -825,10 +825,10 @@
       "fullName": "GPQA Diamond",
       "description": "A display-only GPQA Diamond reference from provider comparison charts.",
       "capabilityCategory": "knowledge",
-      "paperUrl": "https://www.arcee.ai/blog/trinity-large-thinking",
-      "paperTitle": "Trinity-Large-Thinking: Scaling an Open Source Frontier Agent",
-      "authors": "Arcee AI",
-      "year": "2026",
+      "paperUrl": "https://arxiv.org/abs/2311.12022",
+      "paperTitle": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "authors": "David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael, Samuel R. Bowman",
+      "year": "2023",
       "tasks": "Graduate-level science questions",
       "format": "Multiple choice questions",
       "difficulty": "Graduate level",
@@ -863,7 +863,7 @@
       "weight": 0.022222222222222216,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 20,
+      "displayableScoreCount": 22,
       "url": "https://benchlm.ai/benchmarks/supergpqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/supergpqa.md"
     },
@@ -888,7 +888,7 @@
       "weight": 0.055555555555555546,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 46,
+      "displayableScoreCount": 62,
       "url": "https://benchlm.ai/benchmarks/mmlu-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmlu-pro.md"
     },
@@ -938,7 +938,7 @@
       "weight": 0.44444444444444436,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 59,
+      "displayableScoreCount": 67,
       "url": "https://benchlm.ai/benchmarks/hle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hle.md"
     },
@@ -1263,7 +1263,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/simpleqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/simpleqa.md"
     },
@@ -1513,7 +1513,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 12,
+      "displayableScoreCount": 13,
       "url": "https://benchlm.ai/benchmarks/mmluredux",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmluredux.md"
     },
@@ -1563,7 +1563,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/ceval",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ceval.md"
     },
@@ -1888,7 +1888,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 10,
       "url": "https://benchlm.ai/benchmarks/humaneval",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/humaneval.md"
     },
@@ -1963,7 +1963,7 @@
       "weight": null,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 20,
+      "displayableScoreCount": 39,
       "url": "https://benchlm.ai/benchmarks/terminal-bench-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench-2.md"
     },
@@ -1988,7 +1988,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 78,
+      "displayableScoreCount": 90,
       "url": "https://benchlm.ai/benchmarks/swe-bench-verified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-verified.md"
     },
@@ -2038,7 +2038,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 7,
+      "displayableScoreCount": 8,
       "url": "https://benchlm.ai/benchmarks/livecodebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/livecodebench.md"
     },
@@ -2063,7 +2063,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 32,
+      "displayableScoreCount": 53,
       "url": "https://benchlm.ai/benchmarks/livecodebench-v6",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/livecodebench-v6.md"
     },
@@ -2413,7 +2413,7 @@
       "weight": 0.05102040816326531,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 44,
+      "displayableScoreCount": 47,
       "url": "https://benchlm.ai/benchmarks/swe-bench-multilingual",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-multilingual.md"
     },
@@ -2813,7 +2813,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 29,
+      "displayableScoreCount": 33,
       "url": "https://benchlm.ai/benchmarks/nl2repo",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/nl2repo.md"
     },
@@ -3663,7 +3663,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 13,
       "url": "https://benchlm.ai/benchmarks/aime2024",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aime2024.md"
     },
@@ -3688,7 +3688,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 16,
+      "displayableScoreCount": 35,
       "url": "https://benchlm.ai/benchmarks/aime2025",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aime2025.md"
     },
@@ -3913,7 +3913,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 7,
+      "displayableScoreCount": 14,
       "url": "https://benchlm.ai/benchmarks/math-500",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/math-500.md"
     },
@@ -3938,7 +3938,7 @@
       "weight": 0.25,
       "scoringBasis": "legacy-category",
       "scoredCategory": "math",
-      "displayableScoreCount": 29,
+      "displayableScoreCount": 30,
       "url": "https://benchlm.ai/benchmarks/aime2026",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aime2026.md"
     },
@@ -3988,7 +3988,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 10,
+      "displayableScoreCount": 15,
       "url": "https://benchlm.ai/benchmarks/hmmtfeb2025",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hmmtfeb2025.md"
     },
@@ -4013,7 +4013,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 9,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/hmmtnov2025",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hmmtnov2025.md"
     },
@@ -4038,7 +4038,7 @@
       "weight": 0.25,
       "scoringBasis": "legacy-category",
       "scoredCategory": "math",
-      "displayableScoreCount": 23,
+      "displayableScoreCount": 24,
       "url": "https://benchlm.ai/benchmarks/hmmtfeb2026",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hmmtfeb2026.md"
     },
@@ -4313,7 +4313,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 6,
       "url": "https://benchlm.ai/benchmarks/musr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/musr.md"
     },
@@ -4338,7 +4338,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 6,
       "url": "https://benchlm.ai/benchmarks/bbh",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/bbh.md"
     },
@@ -4538,7 +4538,7 @@
       "weight": 0.25,
       "scoringBasis": "legacy-category",
       "scoredCategory": "reasoning",
-      "displayableScoreCount": 15,
+      "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/longbench-v2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/longbench-v2.md"
     },
@@ -4563,7 +4563,7 @@
       "weight": 0.2,
       "scoringBasis": "legacy-category",
       "scoredCategory": "reasoning",
-      "displayableScoreCount": 9,
+      "displayableScoreCount": 13,
       "url": "https://benchlm.ai/benchmarks/mrcrv2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mrcrv2.md"
     },
@@ -4888,7 +4888,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/gpqa-diamond",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gpqa-diamond.md"
     },
@@ -5088,7 +5088,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 34,
+      "displayableScoreCount": 52,
       "url": "https://benchlm.ai/benchmarks/ifeval",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifeval.md"
     },
@@ -5113,7 +5113,7 @@
       "weight": 0.7,
       "scoringBasis": "legacy-category",
       "scoredCategory": "instructionFollowing",
-      "displayableScoreCount": 43,
+      "displayableScoreCount": 45,
       "url": "https://benchlm.ai/benchmarks/ifbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ifbench.md"
     },
@@ -5263,7 +5263,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/mgsm",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mgsm.md"
     },
@@ -5288,7 +5288,7 @@
       "weight": 1,
       "scoringBasis": "legacy-category",
       "scoredCategory": "multilingual",
-      "displayableScoreCount": 16,
+      "displayableScoreCount": 17,
       "url": "https://benchlm.ai/benchmarks/mmluprox",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmluprox.md"
     },
@@ -5338,7 +5338,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 4,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/include",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/include.md"
     },
@@ -5363,7 +5363,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 6,
       "url": "https://benchlm.ai/benchmarks/polymath",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/polymath.md"
     },
@@ -5413,7 +5413,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/maxife",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/maxife.md"
     },
@@ -6313,7 +6313,7 @@
       "weight": 0.07643312101910825,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 45,
+      "displayableScoreCount": 48,
       "url": "https://benchlm.ai/benchmarks/browsecomp",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/browsecomp.md"
     },
@@ -6338,7 +6338,7 @@
       "weight": 0.025477707006369418,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 25,
       "url": "https://benchlm.ai/benchmarks/hlewithtools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlewithtools.md"
     },
@@ -6563,7 +6563,7 @@
       "weight": 0.06369426751592355,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 34,
+      "displayableScoreCount": 37,
       "url": "https://benchlm.ai/benchmarks/osworld-verified",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/osworld-verified.md"
     },
@@ -6813,7 +6813,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 9,
+      "displayableScoreCount": 10,
       "url": "https://benchlm.ai/benchmarks/androidworld",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/androidworld.md"
     },
@@ -7213,7 +7213,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 3,
       "url": "https://benchlm.ai/benchmarks/tau2airline",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/tau2airline.md"
     },
@@ -7425,10 +7425,10 @@
       "fullName": "Berkeley Function Calling Leaderboard v4",
       "description": "A function-calling benchmark for tool selection, schema adherence, and argument correctness.",
       "capabilityCategory": "agentic",
-      "paperUrl": "https://www.arcee.ai/blog/trinity-large-thinking",
-      "paperTitle": "Trinity-Large-Thinking: Scaling an Open Source Frontier Agent",
-      "authors": "Arcee AI",
-      "year": "2026",
+      "paperUrl": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+      "paperTitle": "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models",
+      "authors": "Shishir G. Patil et al.",
+      "year": "2025",
       "tasks": "Function-calling tasks",
       "format": "Tool invocation and schema evaluation",
       "difficulty": "Advanced tool use",
@@ -7438,7 +7438,7 @@
       "weight": 0.025477707006369418,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 23,
       "url": "https://benchlm.ai/benchmarks/bfcl-v4",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/bfcl-v4.md"
     },
@@ -7613,7 +7613,7 @@
       "weight": 0.019108280254777062,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 18,
+      "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/tau3-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/tau3-bench.md"
     },
@@ -8313,7 +8313,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 11,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/mmmu",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmmu.md"
     },
@@ -8338,7 +8338,7 @@
       "weight": 0.4,
       "scoringBasis": "legacy-category",
       "scoredCategory": "multimodalGrounded",
-      "displayableScoreCount": 42,
+      "displayableScoreCount": 48,
       "url": "https://benchlm.ai/benchmarks/mmmu-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmmu-pro.md"
     },
@@ -8688,7 +8688,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 11,
       "url": "https://benchlm.ai/benchmarks/omnidocbench15",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omnidocbench15.md"
     },
@@ -8788,7 +8788,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 12,
+      "displayableScoreCount": 17,
       "url": "https://benchlm.ai/benchmarks/realworldqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/realworldqa.md"
     },
@@ -8813,7 +8813,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 11,
       "url": "https://benchlm.ai/benchmarks/videommewithsub",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/videommewithsub.md"
     },
@@ -8838,7 +8838,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/videommenosub",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/videommenosub.md"
     },
@@ -8888,7 +8888,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 19,
+      "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/mathvision",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mathvision.md"
     },
@@ -8913,7 +8913,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/wemath",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/wemath.md"
     },
@@ -8938,7 +8938,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 6,
       "url": "https://benchlm.ai/benchmarks/dynamath",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/dynamath.md"
     },
@@ -9013,7 +9013,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 4,
       "url": "https://benchlm.ai/benchmarks/mmlongbenchdoc",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mmlongbenchdoc.md"
     },
@@ -9038,7 +9038,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 7,
       "url": "https://benchlm.ai/benchmarks/ccocr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ccocr.md"
     },
@@ -9063,7 +9063,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 8,
       "url": "https://benchlm.ai/benchmarks/ai2dtest",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ai2dtest.md"
     },
@@ -9088,7 +9088,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 4,
+      "displayableScoreCount": 9,
       "url": "https://benchlm.ai/benchmarks/countbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/countbench.md"
     },
@@ -9113,7 +9113,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 6,
+      "displayableScoreCount": 9,
       "url": "https://benchlm.ai/benchmarks/refcocoavg",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/refcocoavg.md"
     },
@@ -9138,7 +9138,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 2,
+      "displayableScoreCount": 4,
       "url": "https://benchlm.ai/benchmarks/odinw13",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/odinw13.md"
     },
@@ -9163,7 +9163,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 13,
+      "displayableScoreCount": 17,
       "url": "https://benchlm.ai/benchmarks/erqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/erqa.md"
     },
@@ -9188,7 +9188,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 11,
+      "displayableScoreCount": 12,
       "url": "https://benchlm.ai/benchmarks/videommmu",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/videommmu.md"
     },
@@ -9213,7 +9213,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 4,
+      "displayableScoreCount": 9,
       "url": "https://benchlm.ai/benchmarks/mlvuavg",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mlvuavg.md"
     },
@@ -9563,7 +9563,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 11,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/simplevqa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/simplevqa.md"
     },
@@ -9638,7 +9638,7 @@
       "weight": 0.2,
       "scoringBasis": "legacy-category",
       "scoredCategory": "multimodalGrounded",
-      "displayableScoreCount": 39,
+      "displayableScoreCount": 43,
       "url": "https://benchlm.ai/benchmarks/charxiv",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/charxiv.md"
     },
@@ -9913,7 +9913,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 4,
+      "displayableScoreCount": 5,
       "url": "https://benchlm.ai/benchmarks/kmmlupro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/kmmlupro.md"
     },
@@ -9938,7 +9938,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 3,
+      "displayableScoreCount": 4,
       "url": "https://benchlm.ai/benchmarks/click",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/click.md"
     },
@@ -9963,7 +9963,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/kobalt",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/kobalt.md"
     },
@@ -10013,7 +10013,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 1,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/hrm8k",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hrm8k.md"
     },
@@ -25190,5 +25190,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/decision-index-arts-liquid.md"
     }
   ],
-  "dataVersion": "sha256:4a06fa022153b13571b2ec6af684441828353f0a0a916fdb335ef9c8f456bf66"
+  "dataVersion": "sha256:f06b4ab4e1aa0870a74d33f0dfd33926026dd4e9dee1627513e88ea7b0dc096a"
 }
