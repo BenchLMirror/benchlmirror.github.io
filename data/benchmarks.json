@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-11T17:12:26.150Z",
-  "sourceLastUpdated": "October 10, 2026",
+  "generatedAt": "2026-10-13T01:05:28.521Z",
+  "sourceLastUpdated": "October 12, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scaleLeaderboards.js",
@@ -314,7 +314,7 @@
   },
   "counts": {
     "categories": 10,
-    "benchmarks": 667
+    "benchmarks": 668
   },
   "items": [
     {
@@ -1113,7 +1113,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 199,
+      "displayableScoreCount": 200,
       "url": "https://benchlm.ai/benchmarks/artificialanalysis",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificialanalysis.md"
     },
@@ -1138,7 +1138,7 @@
       "weight": 0.022222222222222216,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 181,
+      "displayableScoreCount": 180,
       "url": "https://benchlm.ai/benchmarks/gpqa-diamond",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gpqa-diamond.md"
     },
@@ -1163,7 +1163,7 @@
       "weight": 0.11111111111111109,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 195,
+      "displayableScoreCount": 196,
       "url": "https://benchlm.ai/benchmarks/aahle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aahle.md"
     },
@@ -1188,7 +1188,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 185,
+      "displayableScoreCount": 186,
       "url": "https://benchlm.ai/benchmarks/aaomniscienceindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaomniscienceindex.md"
     },
@@ -1213,7 +1213,7 @@
       "weight": 0.1666666666666666,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 183,
+      "displayableScoreCount": 185,
       "url": "https://benchlm.ai/benchmarks/omniscienceaccuracy",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omniscienceaccuracy.md"
     },
@@ -1238,7 +1238,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 183,
+      "displayableScoreCount": 185,
       "url": "https://benchlm.ai/benchmarks/omnisciencehallucinationrate",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omnisciencehallucinationrate.md"
     },
@@ -1363,7 +1363,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 14,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/healthbenchprofessional",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/healthbenchprofessional.md"
     },
@@ -2563,7 +2563,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 13,
+      "displayableScoreCount": 15,
       "url": "https://benchlm.ai/benchmarks/programbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/programbench.md"
     },
@@ -2638,7 +2638,7 @@
       "weight": 0.08163265306122448,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 18,
+      "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/frontierswev2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontierswev2.md"
     },
@@ -3063,7 +3063,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 102,
+      "displayableScoreCount": 101,
       "url": "https://benchlm.ai/benchmarks/aacodingindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aacodingindex.md"
     },
@@ -3113,7 +3113,7 @@
       "weight": 0.05102040816326531,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 105,
+      "displayableScoreCount": 106,
       "url": "https://benchlm.ai/benchmarks/aascicode",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aascicode.md"
     },
@@ -3388,7 +3388,7 @@
       "weight": 0.1530612244897959,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 41,
+      "displayableScoreCount": 43,
       "url": "https://benchlm.ai/benchmarks/deepswe",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/deepswe.md"
     },
@@ -4913,7 +4913,7 @@
       "weight": 0.15,
       "scoringBasis": "legacy-category",
       "scoredCategory": "reasoning",
-      "displayableScoreCount": 186,
+      "displayableScoreCount": 187,
       "url": "https://benchlm.ai/benchmarks/lcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/lcr.md"
     },
@@ -4938,7 +4938,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 23,
+      "displayableScoreCount": 24,
       "url": "https://benchlm.ai/benchmarks/aamlcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aamlcr.md"
     },
@@ -4963,7 +4963,7 @@
       "weight": null,
       "scoringBasis": "overall-only",
       "scoredCategory": null,
-      "displayableScoreCount": 190,
+      "displayableScoreCount": 191,
       "url": "https://benchlm.ai/benchmarks/critpt",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/critpt.md"
     },
@@ -6063,7 +6063,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 25,
+      "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/aabriefcaseelo",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aabriefcaseelo.md"
     },
@@ -6088,7 +6088,7 @@
       "weight": 0.019108280254777062,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 25,
+      "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/aaautomationbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaautomationbench.md"
     },
@@ -6163,7 +6163,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 0,
+      "displayableScoreCount": 2,
       "url": "https://benchlm.ai/benchmarks/harvey-lab-aa-v1-1",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/harvey-lab-aa-v1-1.md"
     },
@@ -6363,7 +6363,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 112,
+      "displayableScoreCount": 113,
       "url": "https://benchlm.ai/benchmarks/gdpvalaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaa.md"
     },
@@ -6388,7 +6388,7 @@
       "weight": 0.07643312101910825,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 122,
+      "displayableScoreCount": 124,
       "url": "https://benchlm.ai/benchmarks/gdpvalaanormalized",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaanormalized.md"
     },
@@ -6413,7 +6413,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 72,
+      "displayableScoreCount": 71,
       "url": "https://benchlm.ai/benchmarks/aaagenticindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaagenticindex.md"
     },
@@ -6438,7 +6438,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 24,
+      "displayableScoreCount": 26,
       "url": "https://benchlm.ai/benchmarks/terminal-bench-4",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench-4.md"
     },
@@ -6463,7 +6463,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 24,
+      "displayableScoreCount": 26,
       "url": "https://benchlm.ai/benchmarks/aagdppdf",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aagdppdf.md"
     },
@@ -6488,7 +6488,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 15,
+      "displayableScoreCount": 16,
       "url": "https://benchlm.ai/benchmarks/aaanalystagent",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaanalystagent.md"
     },
@@ -6738,7 +6738,7 @@
       "weight": 0.050955414012738835,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 30,
+      "displayableScoreCount": 32,
       "url": "https://benchlm.ai/benchmarks/jobbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/jobbench.md"
     },
@@ -7913,7 +7913,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 8,
+      "displayableScoreCount": 10,
       "url": "https://benchlm.ai/benchmarks/financeagentv2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/financeagentv2.md"
     },
@@ -8463,7 +8463,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 92,
+      "displayableScoreCount": 94,
       "url": "https://benchlm.ai/benchmarks/designarenawebsite",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/designarenawebsite.md"
     },
@@ -10120,6 +10120,31 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "scale-distressbench",
+      "name": "DistressBench",
+      "fullName": "Scale Labs DistressBench",
+      "description": "Measures crisis-support replies against clinician-written rubrics. These published results are excluded from overall and category rankings.",
+      "capabilityCategory": "crossDomain",
+      "paperUrl": "https://labs.scale.com/papers/distressbench",
+      "paperTitle": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
+      "authors": "Drew Rein, Patrick Oathout, Vishal Kumar, and Udari Madhushani Sehwag",
+      "year": "2026",
+      "tasks": "718 conversations (359 public, 359 private)",
+      "format": "Weighted rubric score (%)",
+      "difficulty": "Crisis-support response evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-distressbench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-distressbench.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "scale-drugdiscoverybench",
       "name": "DrugDiscoveryBench",
       "fullName": "Scale Labs DrugDiscoveryBench",
@@ -10179,7 +10204,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "68 published rows",
+      "tasks": "70 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10223,7 +10248,7 @@
       "benchmarkKey": "scale-hle-diamond",
       "name": "Humanity's Last Exam (Diamond)",
       "fullName": "Scale Labs Humanity's Last Exam (Diamond)",
-      "description": "A Scale Labs public leaderboard mirrored as display-only reference data. It does not affect BenchLM rankings. The catalog still links this board, but its public route was unavailable during the latest refresh; these are the last successfully captured rows.",
+      "description": "A Scale Labs public leaderboard mirrored as display-only reference data. It does not affect BenchLM rankings.",
       "capabilityCategory": "knowledge",
       "paperUrl": "https://labs.scale.com/leaderboard/hle-diamond",
       "paperTitle": "Scale Labs leaderboard",
@@ -10279,7 +10304,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "53 published rows",
+      "tasks": "54 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10304,7 +10329,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "63 published rows",
+      "tasks": "64 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10379,7 +10404,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "31 published rows",
+      "tasks": "32 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10429,7 +10454,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "35 published rows",
+      "tasks": "36 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10454,7 +10479,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "39 published rows",
+      "tasks": "40 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10504,7 +10529,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "19 published rows",
+      "tasks": "20 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10554,7 +10579,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "11 published rows",
+      "tasks": "12 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10579,7 +10604,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "11 published rows",
+      "tasks": "12 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -10598,7 +10623,7 @@
       "benchmarkKey": "scale-sweatlas-codebase-qna",
       "name": "SWE Atlas – Codebase QnA",
       "fullName": "Scale Labs SWE Atlas – Codebase QnA",
-      "description": "A Scale Labs public leaderboard mirrored as display-only reference data. It does not affect BenchLM rankings.",
+      "description": "A Scale Labs public leaderboard mirrored as display-only reference data. It does not affect BenchLM rankings. The catalog still links this board, but its public route was unavailable during the latest refresh; these are the last successfully captured rows.",
       "capabilityCategory": "coding",
       "paperUrl": "https://labs.scale.com/leaderboard/sweatlas-qna",
       "paperTitle": "Scale Labs leaderboard",
@@ -10698,7 +10723,7 @@
       "benchmarkKey": "scale-visual-language-understanding",
       "name": "Visual-Language Understanding",
       "fullName": "Scale Labs Visual-Language Understanding",
-      "description": "A Scale Labs public leaderboard mirrored as display-only reference data. It does not affect BenchLM rankings. The catalog still links this board, but its public route was unavailable during the latest refresh; these are the last successfully captured rows.",
+      "description": "A Scale Labs public leaderboard mirrored as display-only reference data. It does not affect BenchLM rankings.",
       "capabilityCategory": "multimodalGrounded",
       "paperUrl": "https://labs.scale.com/leaderboard/visual_language_understanding",
       "paperTitle": "Scale Labs leaderboard",
@@ -25190,5 +25215,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/decision-index-arts-liquid.md"
     }
   ],
-  "dataVersion": "sha256:f06b4ab4e1aa0870a74d33f0dfd33926026dd4e9dee1627513e88ea7b0dc096a"
+  "dataVersion": "sha256:7c60b6f9d7564e876d519e7846f9b881e4ef2ad48451ea419b97f6b18afce35d"
 }
