@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-16T20:01:03.996Z",
-  "sourceLastUpdated": "October 16, 2026",
+  "generatedAt": "2026-10-17T11:32:47.767Z",
+  "sourceLastUpdated": "October 17, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scaleLeaderboards.js",
@@ -25555,5 +25555,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aa-decision-wildguardtest.md"
     }
   ],
-  "dataVersion": "sha256:4bf503ecd3a0dbfb05354350e9be337bf721acd41fce569a24b40ae7abdbbb9d"
+  "dataVersion": "sha256:31cafbce14c8da5255e0b8f5756112bf52b5505cf61ba0454f0a5bd7f4e2e77a"
 }

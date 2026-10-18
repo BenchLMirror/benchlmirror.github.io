@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-16T20:01:03.996Z",
-  "sourceLastUpdated": "October 16, 2026",
+  "generatedAt": "2026-10-17T11:32:47.767Z",
+  "sourceLastUpdated": "October 17, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -364,13 +364,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": null,
       "contextWindowTokens": 0,
-      "displayScore": 79.61,
+      "displayScore": 79.63,
       "provisionalDisplayScore": 88,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 76.81,
-        "upper": 82.41
+        "lower": 76.83,
+        "upper": 82.43
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -651,13 +651,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 83.87,
+      "displayScore": 83.88,
       "provisionalDisplayScore": 85,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 79.4,
-        "upper": 88.34
+        "lower": 79.41,
+        "upper": 88.35
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -855,13 +855,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 82.17,
+      "displayScore": 82.18,
       "provisionalDisplayScore": 83,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 76.51,
-        "upper": 87.82
+        "lower": 76.53,
+        "upper": 87.84
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -1037,13 +1037,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M+",
       "contextWindowTokens": 1000000,
-      "displayScore": 81.25,
+      "displayScore": 81.27,
       "provisionalDisplayScore": 83,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 78.33,
-        "upper": 84.16
+        "lower": 78.35,
+        "upper": 84.18
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -1266,13 +1266,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 69.65,
+      "displayScore": 69.66,
       "provisionalDisplayScore": 81,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 65.59,
-        "upper": 73.71
+        "lower": 65.6,
+        "upper": 73.73
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -1519,13 +1519,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 83.17,
+      "displayScore": 83.18,
       "provisionalDisplayScore": 80,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 79.89,
-        "upper": 86.45
+        "lower": 79.9,
+        "upper": 86.46
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -1747,13 +1747,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 75.3,
+      "displayScore": 75.32,
       "provisionalDisplayScore": 79,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 72.6,
-        "upper": 78.01
+        "lower": 72.61,
+        "upper": 78.03
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -2006,13 +2006,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 69.86,
+      "displayScore": 69.87,
       "provisionalDisplayScore": 79,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 65.74,
-        "upper": 73.97
+        "lower": 65.75,
+        "upper": 73.99
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -2276,13 +2276,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 69.99,
+      "displayScore": 70.01,
       "provisionalDisplayScore": 77,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 66.12,
-        "upper": 73.86
+        "lower": 66.14,
+        "upper": 73.88
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -2522,13 +2522,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 64.83,
+      "displayScore": 64.84,
       "provisionalDisplayScore": 76,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 59.85,
-        "upper": 69.81
+        "lower": 59.86,
+        "upper": 69.82
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -2749,13 +2749,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 62.57,
+      "displayScore": 62.58,
       "provisionalDisplayScore": 76,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 52.81,
-        "upper": 72.33
+        "lower": 52.82,
+        "upper": 72.34
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -2995,13 +2995,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "400K",
       "contextWindowTokens": 400000,
-      "displayScore": 60.47,
+      "displayScore": 60.48,
       "provisionalDisplayScore": 75,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 53.1,
-        "upper": 67.84
+        "lower": 53.11,
+        "upper": 67.85
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -3055,7 +3055,7 @@
         "categoryRanks": {
           "agentic": 41,
           "coding": 35,
-          "knowledge": 32,
+          "knowledge": 33,
           "instructionFollowing": 18
         },
         "categoryRankingEligible": {
@@ -3174,7 +3174,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 45.58,
-        "upper": 65.02,
+        "upper": 65.03,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -3341,13 +3341,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 70.19,
+      "displayScore": 70.21,
       "provisionalDisplayScore": 75,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 66.49,
-        "upper": 73.89
+        "lower": 66.51,
+        "upper": 73.91
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -3583,13 +3583,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 69.27,
+      "displayScore": 69.29,
       "provisionalDisplayScore": 74,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 62.95,
-        "upper": 75.59
+        "lower": 62.97,
+        "upper": 75.61
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -4070,13 +4070,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 70.03,
+      "displayScore": 70.04,
       "provisionalDisplayScore": 72,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 65.92,
-        "upper": 74.14
+        "lower": 65.93,
+        "upper": 74.16
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -4207,13 +4207,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 64.69,
+      "displayScore": 64.7,
       "provisionalDisplayScore": 71,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 54.97,
-        "upper": 74.42,
+        "lower": 54.98,
+        "upper": 74.43,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -4272,7 +4272,7 @@
         "verifiedRankingEligible": false,
         "overallRank": 37,
         "categoryRanks": {
-          "agentic": 71,
+          "agentic": 70,
           "coding": 67,
           "multimodalGrounded": 17,
           "knowledge": 26
@@ -4457,13 +4457,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 53.75,
+      "displayScore": 53.76,
       "provisionalDisplayScore": 71,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 42.67,
-        "upper": 64.82
+        "lower": 42.68,
+        "upper": 64.84
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -4660,13 +4660,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 66.69,
+      "displayScore": 66.7,
       "provisionalDisplayScore": 70,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 62.21,
-        "upper": 71.17
+        "lower": 62.22,
+        "upper": 71.18
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -4849,13 +4849,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 61.87,
+      "displayScore": 61.88,
       "provisionalDisplayScore": 70,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 53.65,
-        "upper": 70.1
+        "lower": 53.66,
+        "upper": 70.11
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -4914,7 +4914,7 @@
           "coding": 43,
           "reasoning": 19,
           "multimodalGrounded": 7,
-          "knowledge": 31,
+          "knowledge": 32,
           "instructionFollowing": 37
         },
         "categoryRankingEligible": {
@@ -5125,13 +5125,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 62.38,
+      "displayScore": 62.39,
       "provisionalDisplayScore": 69,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 50.17,
-        "upper": 74.6
+        "lower": 50.18,
+        "upper": 74.61
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -5299,13 +5299,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 63.18,
+      "displayScore": 63.19,
       "provisionalDisplayScore": 69,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 48.83,
-        "upper": 77.53,
+        "lower": 48.84,
+        "upper": 77.54,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -5562,13 +5562,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "2M",
       "contextWindowTokens": 2000000,
-      "displayScore": 61.17,
+      "displayScore": 61.18,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 50.32,
-        "upper": 72.02
+        "lower": 50.33,
+        "upper": 72.03
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -5736,7 +5736,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 44.17,
-        "upper": 63.39
+        "upper": 63.4
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -5992,13 +5992,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 64.34,
+      "displayScore": 64.35,
       "provisionalDisplayScore": 67,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 59.27,
-        "upper": 69.41
+        "lower": 59.28,
+        "upper": 69.42
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -6213,13 +6213,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 68.95,
+      "displayScore": 68.96,
       "provisionalDisplayScore": 67,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 54.6,
-        "upper": 83.3,
+        "lower": 54.61,
+        "upper": 83.31,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "preference-only",
         "patternCalibrationFamilies": 4,
@@ -6374,8 +6374,8 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 48.67,
-        "upper": 68.12,
+        "lower": 48.68,
+        "upper": 68.13,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -6628,13 +6628,13 @@
       "reasoningType": "Hybrid",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 52.59,
+      "displayScore": 52.6,
       "provisionalDisplayScore": 67,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 42.26,
-        "upper": 62.93
+        "lower": 42.27,
+        "upper": 62.94
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -6868,7 +6868,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 29.45,
+        "lower": 29.46,
         "upper": 48.9,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -6930,7 +6930,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 144,
         "categoryRanks": {
-          "knowledge": 117,
+          "knowledge": 116,
           "instructionFollowing": 95
         },
         "categoryRankingEligible": {
@@ -6995,13 +6995,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 60.49,
+      "displayScore": 60.5,
       "provisionalDisplayScore": 65,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 52.55,
-        "upper": 68.43
+        "lower": 52.56,
+        "upper": 68.45
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -7229,13 +7229,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 54.89,
+      "displayScore": 54.9,
       "provisionalDisplayScore": 65,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 45.48,
-        "upper": 64.3
+        "lower": 45.49,
+        "upper": 64.31
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -7472,13 +7472,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 49.51,
+      "displayScore": 49.52,
       "provisionalDisplayScore": 64,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 42.29,
-        "upper": 56.72
+        "lower": 42.3,
+        "upper": 56.74
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -7657,13 +7657,13 @@
       "reasoningType": "Hybrid",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 53.48,
+      "displayScore": 53.5,
       "provisionalDisplayScore": 64,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 45.04,
-        "upper": 61.92
+        "lower": 45.05,
+        "upper": 61.94
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -7883,13 +7883,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "203K",
       "contextWindowTokens": 203000,
-      "displayScore": 56.29,
+      "displayScore": 56.31,
       "provisionalDisplayScore": 64,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 45.57,
-        "upper": 67.02
+        "lower": 45.58,
+        "upper": 67.03
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -8125,13 +8125,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 60.46,
+      "displayScore": 60.47,
       "provisionalDisplayScore": 63,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 50.6,
-        "upper": 70.32
+        "lower": 50.61,
+        "upper": 70.33
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -8333,13 +8333,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 55.88,
+      "displayScore": 55.89,
       "provisionalDisplayScore": 63,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 43.59,
-        "upper": 68.18
+        "lower": 43.6,
+        "upper": 68.19
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -8568,13 +8568,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 54.83,
+      "displayScore": 54.84,
       "provisionalDisplayScore": 62,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 44.15,
-        "upper": 65.51
+        "upper": 65.52
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -8730,12 +8730,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 48.6,
+      "displayScore": 48.59,
       "provisionalDisplayScore": 62,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 34.25,
+        "lower": 34.24,
         "upper": 62.94,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
@@ -8801,7 +8801,7 @@
           "agentic": 95,
           "coding": 78,
           "multimodalGrounded": 38,
-          "knowledge": 91,
+          "knowledge": 90,
           "instructionFollowing": 55,
           "math": 8
         },
@@ -8923,12 +8923,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 56.08,
+      "displayScore": 56.09,
       "provisionalDisplayScore": 62,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 41.73,
+        "lower": 41.74,
         "upper": 70.43,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "preference-only",
@@ -8990,7 +8990,7 @@
         "verifiedRankingEligible": true,
         "overallRank": 63,
         "categoryRanks": {
-          "agentic": 70,
+          "agentic": 71,
           "multimodalGrounded": 33,
           "knowledge": 85
         },
@@ -9087,13 +9087,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "400K",
       "contextWindowTokens": 400000,
-      "displayScore": 53.4,
+      "displayScore": 53.41,
       "provisionalDisplayScore": 61,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 42.62,
-        "upper": 64.17
+        "lower": 42.63,
+        "upper": 64.19
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -9324,13 +9324,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "131K",
       "contextWindowTokens": 131000,
-      "displayScore": 41.18,
+      "displayScore": 41.19,
       "provisionalDisplayScore": 61,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 26.83,
-        "upper": 55.53,
+        "lower": 26.84,
+        "upper": 55.54,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -9669,12 +9669,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 41.73,
+      "displayScore": 41.74,
       "provisionalDisplayScore": 61,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 32.01,
+        "lower": 32.02,
         "upper": 51.46,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -9890,7 +9890,7 @@
         "overallRank": 123,
         "categoryRanks": {
           "agentic": 84,
-          "coding": 91,
+          "coding": 90,
           "knowledge": 105,
           "instructionFollowing": 67
         },
@@ -10051,13 +10051,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 54.04,
+      "displayScore": 54.05,
       "provisionalDisplayScore": 60,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 41.41,
-        "upper": 66.67
+        "upper": 66.68
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -10237,13 +10237,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 53.04,
+      "displayScore": 53.05,
       "provisionalDisplayScore": 60,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 44.41,
-        "upper": 61.67
+        "upper": 61.68
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -10434,13 +10434,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 48.16,
+      "displayScore": 48.17,
       "provisionalDisplayScore": 60,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 36.78,
-        "upper": 59.54
+        "lower": 36.79,
+        "upper": 59.55
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -10674,13 +10674,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 48.4,
+      "displayScore": 48.41,
       "provisionalDisplayScore": 59,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 38.68,
-        "upper": 58.12,
+        "upper": 58.13,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -10822,13 +10822,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 45.64,
+      "displayScore": 45.65,
       "provisionalDisplayScore": 59,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 30.94,
-        "upper": 60.35
+        "upper": 60.36
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -11100,13 +11100,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "400K",
       "contextWindowTokens": 400000,
-      "displayScore": 59.85,
+      "displayScore": 59.86,
       "provisionalDisplayScore": 58,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 52.73,
-        "upper": 66.97
+        "lower": 52.74,
+        "upper": 66.98
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -11273,13 +11273,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 46.59,
+      "displayScore": 46.58,
       "provisionalDisplayScore": 57,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 32.24,
-        "upper": 60.94,
+        "upper": 60.93,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -11504,13 +11504,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 39.88,
+      "displayScore": 39.89,
       "provisionalDisplayScore": 56,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 30.16,
-        "upper": 49.6,
+        "upper": 49.61,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -11649,13 +11649,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 43.52,
+      "displayScore": 43.51,
       "provisionalDisplayScore": 55,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 29.17,
-        "upper": 57.87,
+        "lower": 29.16,
+        "upper": 57.86,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -11827,7 +11827,7 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 45.8,
+      "displayScore": 45.81,
       "provisionalDisplayScore": 55,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
@@ -11970,13 +11970,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 36.49,
+      "displayScore": 36.5,
       "provisionalDisplayScore": 54,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 20.08,
-        "upper": 52.9
+        "upper": 52.91
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -12096,8 +12096,8 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 26.84,
-        "upper": 55.31
+        "lower": 26.85,
+        "upper": 55.32
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -12214,7 +12214,7 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 37.59,
+      "displayScore": 37.6,
       "provisionalDisplayScore": 53,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
@@ -12345,17 +12345,17 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 48.84,
+      "displayScore": 48.85,
       "provisionalDisplayScore": 53,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 36.7,
-        "upper": 60.98
+        "lower": 36.71,
+        "upper": 61
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
-      "overallRank": 104,
+      "overallRank": 103,
       "url": "https://benchlm.ai/models/glm-4-7",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md",
       "id": 48,
@@ -12401,7 +12401,7 @@
       "ranking": {
         "rankingEligible": true,
         "verifiedRankingEligible": false,
-        "overallRank": 104,
+        "overallRank": 103,
         "categoryRanks": {
           "agentic": 91,
           "coding": 72,
@@ -12830,13 +12830,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "400K",
       "contextWindowTokens": 400000,
-      "displayScore": 46.85,
+      "displayScore": 46.86,
       "provisionalDisplayScore": 50,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 36.21,
-        "upper": 57.5
+        "lower": 36.22,
+        "upper": 57.51
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -13341,7 +13341,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 13.29,
-        "upper": 36.85
+        "upper": 36.86
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -13717,13 +13717,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 86.54,
+      "displayScore": 86.56,
       "provisionalDisplayScore": 82,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 81.72,
-        "upper": 91.36
+        "lower": 81.74,
+        "upper": 91.38
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -13911,13 +13911,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 84.06,
+      "displayScore": 84.07,
       "provisionalDisplayScore": 82,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 80.09,
-        "upper": 88.02
+        "lower": 80.1,
+        "upper": 88.04
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -14061,13 +14061,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 73.35,
+      "displayScore": 73.37,
       "provisionalDisplayScore": 78,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 59,
-        "upper": 87.7,
+        "lower": 59.02,
+        "upper": 87.72,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -14179,13 +14179,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 69.45,
+      "displayScore": 69.44,
       "provisionalDisplayScore": 78,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 59.73,
-        "upper": 79.18,
+        "lower": 59.71,
+        "upper": 79.16,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -14448,13 +14448,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 68.59,
+      "displayScore": 68.6,
       "provisionalDisplayScore": 77,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 54.24,
-        "upper": 82.94,
+        "lower": 54.25,
+        "upper": 82.95,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -14571,13 +14571,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 80.94,
+      "displayScore": 80.97,
       "provisionalDisplayScore": 77,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 78.12,
-        "upper": 83.77
+        "lower": 78.14,
+        "upper": 83.79
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -14719,13 +14719,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 69.23,
+      "displayScore": 69.25,
       "provisionalDisplayScore": 77,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 63.61,
-        "upper": 74.85
+        "lower": 63.63,
+        "upper": 74.87
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -14961,13 +14961,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 66.82,
+      "displayScore": 66.84,
       "provisionalDisplayScore": 77,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 61.2,
-        "upper": 72.44
+        "lower": 61.22,
+        "upper": 72.46
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -15190,13 +15190,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 78.46,
+      "displayScore": 78.48,
       "provisionalDisplayScore": 76,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 75.26,
-        "upper": 81.67
+        "lower": 75.27,
+        "upper": 81.68
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -15335,13 +15335,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 68.02,
+      "displayScore": 68.03,
       "provisionalDisplayScore": 74,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 53.67,
-        "upper": 82.37,
+        "lower": 53.68,
+        "upper": 82.38,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -15481,7 +15481,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 34.47,
-        "upper": 53.91,
+        "upper": 53.92,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -15584,13 +15584,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "N/A",
       "contextWindowTokens": 0,
-      "displayScore": 50.2,
+      "displayScore": 50.21,
       "provisionalDisplayScore": 74,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 35.85,
-        "upper": 64.55,
+        "lower": 35.86,
+        "upper": 64.56,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -15978,6 +15978,185 @@
       }
     },
     {
+      "slug": "deepseek-v4-1-flash",
+      "canonicalModelKey": "deepseek-v4-1-flash",
+      "model": "DeepSeek V4.1 Flash 1017",
+      "creator": "DeepSeek",
+      "sourceType": "Open Weight",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": 65.61,
+      "provisionalDisplayScore": 73,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "supported",
+      "scoreInterval90": {
+        "lower": 60.59,
+        "upper": 70.63
+      },
+      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
+      "rankingEligible": true,
+      "overallRank": 35,
+      "url": "https://benchlm.ai/models/deepseek-v4-1-flash",
+      "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-1-flash.md",
+      "id": 425,
+      "releaseDate": "2026-10-17",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "deepseek-v4-1-flash",
+        "familyName": "DeepSeek V4.1 Flash",
+        "variantType": "flash-reasoning",
+        "snapshotLabel": "1017",
+        "baseFamilyModelKey": "deepseek-v4-1-flash",
+        "relatedModelKeys": [
+          "deepseek-v4-flash-max",
+          "deepseek-v4-pro-max"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": "deepseek-v4-flash-max"
+      },
+      "scores": {
+        "displayScore": 73,
+        "overallScore": 73,
+        "rawOverallScore": 72,
+        "verifiedDisplayScore": 76,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": 60,
+          "reasoning": 83.4,
+          "multimodalGrounded": 77.9,
+          "knowledge": 69.7,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": 70.1
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 80.3,
+          "coding": null,
+          "reasoning": 83.4,
+          "multimodalGrounded": 77.9,
+          "knowledge": 69.7,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": 70.1
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 35,
+        "categoryRanks": {
+          "agentic": 24,
+          "coding": 18,
+          "knowledge": 31
+        },
+        "categoryRankingEligible": {
+          "agentic": true,
+          "coding": true,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 33,
+        "verifiedBenchmarkCount": 33,
+        "rankableBenchmarkCount": 19,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 3
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench21": 90.6,
+          "terminalBench3": 30,
+          "terminalBench4": 42.3,
+          "cyberGym": 88.1,
+          "exploitGym": 15.3,
+          "hleWithTools": 63.9,
+          "automationBench": 60.5,
+          "agentsLastExam": 35.4,
+          "gdpvalAaNormalized": 55,
+          "aaAutomationBench": 68.9,
+          "valsTerminalBench21": 74.5,
+          "aaBriefcaseElo": 1422,
+          "aaItbench": 46.9,
+          "aaTerminalBench4": 26.8,
+          "aaGdpPdf": 12.8,
+          "cweBenchV1": 55,
+          "aaAnalystAgent": 35,
+          "hermesIndex": 36.91,
+          "hermesBench": 70.74,
+          "gdpvalAa": 1600
+        },
+        "coding": {
+          "codeforces": 3471,
+          "terminalBench21": 90.6,
+          "terminalBench3": 30,
+          "deepSwe": 77,
+          "programBench": 29.1,
+          "nl2Repo": 68.2,
+          "aaSciCode": 51.9,
+          "openHarmonyBench": 60.3,
+          "bug-hunt-bench": 21.7
+        },
+        "reasoning": {
+          "stemBench120": 2.49,
+          "lcr": 84,
+          "critpt": 14.3,
+          "aaMlcr": 22.8,
+          "jevBench14": 4.768648223526218,
+          "jevBench15": 6.645505039231519
+        },
+        "multimodalGrounded": {
+          "chartographyWithTools": 83,
+          "babyVisionPython": 92.5,
+          "zeroBenchPython": 51,
+          "aaMmmuPro": 77
+        },
+        "knowledge": {
+          "gpqa": 90.9,
+          "gpqaDiamond": 90.9,
+          "hle": 42.6,
+          "artificialAnalysis": 39.46,
+          "aaHle": 39.2,
+          "aaOmniscienceIndex": -5.3,
+          "omniscienceAccuracy": 46.4,
+          "omniscienceHallucinationRate": 96.5
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {
+          "apex": 65.6,
+          "frontierMathV2Tiers13": 67.368,
+          "frontierMathV2Tier4": 26.829
+        },
+        "external": {
+          "secBenchPro": 62.8
+        }
+      },
+      "benchmarkSources": {
+        "agentic": {
+          "valsTerminalBench21": {
+            "publisher": "Vals AI",
+            "publisherUrl": "https://www.vals.ai/",
+            "sourceLabel": "Vals AI",
+            "sourceRole": "published-evaluation-results",
+            "scope": "Published leaderboard aggregates and evaluation settings only. Dataset contents are not included.",
+            "datasetContentsIncluded": false,
+            "licenseGrantIncluded": false,
+            "label": "Vals AI: Terminal-Bench 2.1 leaderboard",
+            "url": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash",
+            "benchmarkUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
+            "retrievedAt": null
+          }
+        }
+      }
+    },
+    {
       "slug": "gemini-3-6-flash",
       "canonicalModelKey": "gemini-3-6-flash",
       "model": "Gemini 3.6 Flash",
@@ -15986,13 +16165,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 62.77,
+      "displayScore": 62.78,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 55.06,
-        "upper": 70.48
+        "lower": 55.07,
+        "upper": 70.49
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -16196,13 +16375,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 73.55,
+      "displayScore": 73.57,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 63.83,
-        "upper": 83.27,
+        "lower": 63.85,
+        "upper": 83.29,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -16346,13 +16525,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 59.6,
+      "displayScore": 59.61,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 53.67,
-        "upper": 65.52
+        "lower": 53.68,
+        "upper": 65.54
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -16724,13 +16903,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 61.25,
+      "displayScore": 61.27,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 46.9,
-        "upper": 75.6,
+        "lower": 46.92,
+        "upper": 75.62,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -16890,13 +17069,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "512K",
       "contextWindowTokens": 512000,
-      "displayScore": 63.76,
+      "displayScore": 63.78,
       "provisionalDisplayScore": 73,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 49.41,
-        "upper": 78.11,
+        "lower": 49.43,
+        "upper": 78.13,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -17034,13 +17213,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 65.83,
+      "displayScore": 65.84,
       "provisionalDisplayScore": 72,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 59.69,
-        "upper": 71.98
+        "lower": 59.7,
+        "upper": 71.99
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -17213,13 +17392,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 62.65,
+      "displayScore": 62.66,
       "provisionalDisplayScore": 72,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 48.3,
-        "upper": 77,
+        "lower": 48.31,
+        "upper": 77.01,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -17351,13 +17530,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 74.26,
+      "displayScore": 74.27,
       "provisionalDisplayScore": 72,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 59.91,
-        "upper": 88.61,
+        "lower": 59.92,
+        "upper": 88.62,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -17477,185 +17656,6 @@
       }
     },
     {
-      "slug": "deepseek-v4-1-flash",
-      "canonicalModelKey": "deepseek-v4-1-flash",
-      "model": "DeepSeek V4.1 Flash",
-      "creator": "DeepSeek",
-      "sourceType": "Open Weight",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1M",
-      "contextWindowTokens": 1000000,
-      "displayScore": 65.59,
-      "provisionalDisplayScore": 72,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "supported",
-      "scoreInterval90": {
-        "lower": 60.57,
-        "upper": 70.61
-      },
-      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
-      "rankingEligible": true,
-      "overallRank": 35,
-      "url": "https://benchlm.ai/models/deepseek-v4-1-flash",
-      "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-1-flash.md",
-      "id": 425,
-      "releaseDate": "2026-09-10",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "deepseek-v4-1-flash",
-        "familyName": "DeepSeek V4.1 Flash",
-        "variantType": "flash-reasoning",
-        "snapshotLabel": null,
-        "baseFamilyModelKey": "deepseek-v4-1-flash",
-        "relatedModelKeys": [
-          "deepseek-v4-flash-max",
-          "deepseek-v4-pro-max"
-        ],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": "deepseek-v4-flash-max"
-      },
-      "scores": {
-        "displayScore": 72,
-        "overallScore": 72,
-        "rawOverallScore": 72,
-        "verifiedDisplayScore": 75,
-        "displayCategoryScores": {
-          "agentic": null,
-          "coding": 60,
-          "reasoning": 83.4,
-          "multimodalGrounded": 77.9,
-          "knowledge": 63.6,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": 70.1
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": 80.3,
-          "coding": null,
-          "reasoning": 83.4,
-          "multimodalGrounded": 77.9,
-          "knowledge": 63.6,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": 70.1
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 35,
-        "categoryRanks": {
-          "agentic": 24,
-          "coding": 18,
-          "knowledge": 33
-        },
-        "categoryRankingEligible": {
-          "agentic": true,
-          "coding": true,
-          "reasoning": false,
-          "multimodalGrounded": false,
-          "knowledge": false,
-          "multilingual": false,
-          "instructionFollowing": false,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 33,
-        "verifiedBenchmarkCount": 33,
-        "rankableBenchmarkCount": 19,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 3
-      },
-      "benchmarks": {
-        "agentic": {
-          "terminalBench21": 90.6,
-          "terminalBench3": 30,
-          "terminalBench4": 31.2,
-          "cyberGym": 88.1,
-          "exploitGym": 15.3,
-          "hleWithTools": 63.9,
-          "automationBench": 54.8,
-          "agentsLastExam": 31.8,
-          "gdpvalAaNormalized": 55,
-          "aaAutomationBench": 68.9,
-          "valsTerminalBench21": 74.5,
-          "aaBriefcaseElo": 1422,
-          "aaItbench": 46.9,
-          "aaTerminalBench4": 26.8,
-          "aaGdpPdf": 12.8,
-          "cweBenchV1": 55,
-          "aaAnalystAgent": 35,
-          "hermesIndex": 36.91,
-          "hermesBench": 70.74,
-          "gdpvalAa": 1600
-        },
-        "coding": {
-          "codeforces": 3471,
-          "terminalBench21": 90.6,
-          "terminalBench3": 30,
-          "deepSwe": 74.2,
-          "programBench": 20.3,
-          "nl2Repo": 65.4,
-          "aaSciCode": 51.9,
-          "openHarmonyBench": 60.3,
-          "bug-hunt-bench": 21.7
-        },
-        "reasoning": {
-          "stemBench120": 2.49,
-          "lcr": 84,
-          "critpt": 14.3,
-          "aaMlcr": 22.8,
-          "jevBench14": 4.768648223526218,
-          "jevBench15": 6.645505039231519
-        },
-        "multimodalGrounded": {
-          "chartographyWithTools": 78.9,
-          "babyVisionPython": 89.6,
-          "zeroBenchPython": 49,
-          "aaMmmuPro": 77
-        },
-        "knowledge": {
-          "gpqa": 90.9,
-          "gpqaDiamond": 90.9,
-          "hle": 36.8,
-          "artificialAnalysis": 39.46,
-          "aaHle": 39.2,
-          "aaOmniscienceIndex": -5.3,
-          "omniscienceAccuracy": 46.4,
-          "omniscienceHallucinationRate": 96.5
-        },
-        "multilingual": {},
-        "instructionFollowing": {},
-        "math": {
-          "apex": 65.6,
-          "frontierMathV2Tiers13": 67.368,
-          "frontierMathV2Tier4": 26.829
-        },
-        "external": {
-          "secBenchPro": 62.8
-        }
-      },
-      "benchmarkSources": {
-        "agentic": {
-          "valsTerminalBench21": {
-            "publisher": "Vals AI",
-            "publisherUrl": "https://www.vals.ai/",
-            "sourceLabel": "Vals AI",
-            "sourceRole": "published-evaluation-results",
-            "scope": "Published leaderboard aggregates and evaluation settings only. Dataset contents are not included.",
-            "datasetContentsIncluded": false,
-            "licenseGrantIncluded": false,
-            "label": "Vals AI: Terminal-Bench 2.1 leaderboard",
-            "url": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash",
-            "benchmarkUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
-            "retrievedAt": null
-          }
-        }
-      }
-    },
-    {
       "slug": "gpt-5-1",
       "canonicalModelKey": "gpt-5-1",
       "model": "GPT-5.1",
@@ -17664,13 +17664,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 57.2,
+      "displayScore": 57.21,
       "provisionalDisplayScore": 72,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 46.44,
-        "upper": 67.97
+        "upper": 67.98
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -17938,13 +17938,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "500K",
       "contextWindowTokens": 500000,
-      "displayScore": 67.01,
+      "displayScore": 67.02,
       "provisionalDisplayScore": 71,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 63.71,
-        "upper": 70.3
+        "lower": 63.72,
+        "upper": 70.31
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -18396,13 +18396,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 71.15,
+      "displayScore": 71.16,
       "provisionalDisplayScore": 71,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 56.8,
-        "upper": 85.5,
+        "lower": 56.81,
+        "upper": 85.51,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -18533,13 +18533,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 45.98,
+      "displayScore": 45.99,
       "provisionalDisplayScore": 71,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 36.26,
-        "upper": 55.7,
+        "upper": 55.71,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -18823,7 +18823,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 36.02,
+        "lower": 36.03,
         "upper": 64.72,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
@@ -19310,13 +19310,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 64.5,
+      "displayScore": 64.51,
       "provisionalDisplayScore": 70,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 54.78,
-        "upper": 74.22,
+        "lower": 54.79,
+        "upper": 74.23,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -19451,13 +19451,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "500K",
       "contextWindowTokens": 500000,
-      "displayScore": 63.27,
+      "displayScore": 63.28,
       "provisionalDisplayScore": 69,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 57.91,
-        "upper": 68.62
+        "lower": 57.92,
+        "upper": 68.63
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -19669,13 +19669,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 58.51,
+      "displayScore": 58.52,
       "provisionalDisplayScore": 69,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 48.78,
-        "upper": 68.23,
+        "lower": 48.79,
+        "upper": 68.24,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -20035,13 +20035,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 54.27,
+      "displayScore": 54.28,
       "provisionalDisplayScore": 69,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 39.09,
-        "upper": 69.44
+        "lower": 39.1,
+        "upper": 69.46
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -20361,13 +20361,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 52.95,
+      "displayScore": 52.97,
       "provisionalDisplayScore": 69,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 35.96,
-        "upper": 69.95
+        "lower": 35.98,
+        "upper": 69.97
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -20575,13 +20575,13 @@
       "reasoningType": "Hybrid",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 61.5,
+      "displayScore": 61.51,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 54.43,
-        "upper": 68.58
+        "lower": 54.44,
+        "upper": 68.59
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -20953,12 +20953,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 39.36,
+      "displayScore": 39.37,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 29.64,
+        "lower": 29.65,
         "upper": 49.09,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -21074,17 +21074,17 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
-      "displayScore": 66.64,
+      "displayScore": 66.66,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 62.48,
-        "upper": 70.81
+        "lower": 62.49,
+        "upper": 70.82
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
-      "overallRank": 32,
+      "overallRank": 31,
       "url": "https://benchlm.ai/models/gpt-6-luna",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md",
       "id": 517,
@@ -21133,7 +21133,7 @@
       "ranking": {
         "rankingEligible": false,
         "verifiedRankingEligible": false,
-        "overallRank": 32,
+        "overallRank": 31,
         "categoryRanks": {
           "agentic": 37,
           "coding": 37,
@@ -21220,13 +21220,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 67.87,
+      "displayScore": 67.88,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 63.42,
-        "upper": 72.33
+        "lower": 63.43,
+        "upper": 72.34
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -21466,13 +21466,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 53.06,
+      "displayScore": 53.07,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 42.95,
-        "upper": 63.17
+        "lower": 42.96,
+        "upper": 63.18
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -21680,12 +21680,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 52.47,
+      "displayScore": 52.46,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 42.75,
+        "lower": 42.74,
         "upper": 62.19,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -21808,13 +21808,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 45.43,
+      "displayScore": 45.44,
       "provisionalDisplayScore": 68,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 39.19,
-        "upper": 51.67
+        "lower": 39.2,
+        "upper": 51.68
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -22039,13 +22039,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 53.18,
+      "displayScore": 53.19,
       "provisionalDisplayScore": 67,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 43.46,
-        "upper": 62.9,
+        "upper": 62.91,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -22265,12 +22265,12 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 51.76,
+      "displayScore": 51.77,
       "provisionalDisplayScore": 66,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 41.99,
+        "lower": 42,
         "upper": 61.54
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
@@ -22388,8 +22388,8 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.87,
-        "upper": 59.32,
+        "lower": 39.88,
+        "upper": 59.33,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -22520,7 +22520,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 39.52,
-        "upper": 68.21,
+        "upper": 68.22,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -23058,13 +23058,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 52.97,
+      "displayScore": 52.98,
       "provisionalDisplayScore": 65,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 43.25,
-        "upper": 62.69,
+        "upper": 62.7,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -23291,13 +23291,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 54.16,
+      "displayScore": 54.2,
       "provisionalDisplayScore": 65,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.81,
-        "upper": 68.51,
+        "lower": 39.85,
+        "upper": 68.55,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -23411,13 +23411,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 38.37,
+      "displayScore": 38.38,
       "provisionalDisplayScore": 65,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 24.02,
-        "upper": 52.72,
+        "lower": 24.03,
+        "upper": 52.73,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -23700,13 +23700,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 54.09,
+      "displayScore": 54.1,
       "provisionalDisplayScore": 64,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.74,
-        "upper": 68.44,
+        "lower": 39.75,
+        "upper": 68.45,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -24428,7 +24428,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 30.32,
+        "lower": 30.33,
         "upper": 49.77,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -24536,13 +24536,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 42.11,
+      "displayScore": 42.12,
       "provisionalDisplayScore": 64,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 32.39,
-        "upper": 51.83,
+        "upper": 51.84,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -24644,13 +24644,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 49.99,
+      "displayScore": 50,
       "provisionalDisplayScore": 63,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 40.27,
-        "upper": 59.71,
+        "upper": 59.72,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -25188,13 +25188,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 66.72,
+      "displayScore": 66.74,
       "provisionalDisplayScore": 63,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 57,
-        "upper": 76.45,
+        "lower": 57.02,
+        "upper": 76.46,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -25634,12 +25634,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "2M",
       "contextWindowTokens": 2000000,
-      "displayScore": 45.82,
+      "displayScore": 45.83,
       "provisionalDisplayScore": 63,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 36.1,
+        "lower": 36.11,
         "upper": 55.55,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -26103,13 +26103,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 43.64,
+      "displayScore": 43.65,
       "provisionalDisplayScore": 62,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 29.3,
-        "upper": 57.99,
+        "upper": 58,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -26349,7 +26349,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 34.11,
+        "lower": 34.12,
         "upper": 62.81,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
@@ -26476,7 +26476,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 36.97,
-        "upper": 62.27
+        "upper": 62.28
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -26909,12 +26909,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 55.07,
+      "displayScore": 55.08,
       "provisionalDisplayScore": 62,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 45.35,
+        "lower": 45.36,
         "upper": 64.8,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -27589,12 +27589,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "2M",
       "contextWindowTokens": 2000000,
-      "displayScore": 43.47,
+      "displayScore": 43.48,
       "provisionalDisplayScore": 61,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 33.75,
+        "lower": 33.76,
         "upper": 53.2,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -27733,13 +27733,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 42.81,
+      "displayScore": 42.82,
       "provisionalDisplayScore": 61,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 33.09,
-        "upper": 52.53,
+        "lower": 33.1,
+        "upper": 52.54,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -27912,8 +27912,8 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 36.75,
-        "upper": 63.64
+        "lower": 36.76,
+        "upper": 63.65
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -29121,13 +29121,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 49.38,
+      "displayScore": 49.39,
       "provisionalDisplayScore": 59,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 35.03,
-        "upper": 63.73,
+        "lower": 35.04,
+        "upper": 63.74,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -29402,7 +29402,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 17.86,
-        "upper": 37.3,
+        "upper": 37.31,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -29751,7 +29751,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 30.86,
-        "upper": 59.55,
+        "upper": 59.56,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -29876,13 +29876,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 49.13,
+      "displayScore": 49.14,
       "provisionalDisplayScore": 58,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 34.56,
-        "upper": 63.69
+        "lower": 34.57,
+        "upper": 63.71
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -30040,13 +30040,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 42.14,
+      "displayScore": 42.15,
       "provisionalDisplayScore": 57,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 26.21,
-        "upper": 58.08
+        "upper": 58.09
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -30512,13 +30512,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 46.95,
+      "displayScore": 46.96,
       "provisionalDisplayScore": 57,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 37.23,
-        "upper": 56.67,
+        "lower": 37.24,
+        "upper": 56.69,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -30727,7 +30727,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 28.35,
+        "lower": 28.36,
         "upper": 47.8,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -31129,7 +31129,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 29.41,
-        "upper": 48.85,
+        "upper": 48.86,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -31343,13 +31343,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 33.97,
+      "displayScore": 33.98,
       "provisionalDisplayScore": 56,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 19.62,
-        "upper": 48.32,
+        "lower": 19.63,
+        "upper": 48.33,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -31475,12 +31475,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 40.99,
+      "displayScore": 41,
       "provisionalDisplayScore": 56,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 31.27,
+        "lower": 31.28,
         "upper": 50.72,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -31629,13 +31629,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 53.16,
+      "displayScore": 53.17,
       "provisionalDisplayScore": 56,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 38.81,
-        "upper": 67.51,
+        "lower": 38.82,
+        "upper": 67.52,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -32003,13 +32003,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 34.7,
+      "displayScore": 34.71,
       "provisionalDisplayScore": 55,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 24.98,
-        "upper": 44.42,
+        "upper": 44.43,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -32790,13 +32790,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 40.01,
+      "displayScore": 40.02,
       "provisionalDisplayScore": 54,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 30.29,
-        "upper": 49.73,
+        "upper": 49.74,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -32976,13 +32976,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 40.77,
+      "displayScore": 40.78,
       "provisionalDisplayScore": 54,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 24.24,
-        "upper": 57.3
+        "lower": 24.25,
+        "upper": 57.31
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -33348,7 +33348,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 25.21,
-        "upper": 44.65,
+        "upper": 44.66,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -33727,13 +33727,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "256K",
       "contextWindowTokens": 256000,
-      "displayScore": 52.22,
+      "displayScore": 52.21,
       "provisionalDisplayScore": 53,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 37.87,
-        "upper": 66.57,
+        "lower": 37.86,
+        "upper": 66.56,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "preference-only",
         "patternCalibrationFamilies": 4,
@@ -33794,8 +33794,8 @@
         "verifiedRankingEligible": false,
         "overallRank": 91,
         "categoryRanks": {
-          "coding": 90,
-          "knowledge": 90,
+          "coding": 91,
+          "knowledge": 91,
           "instructionFollowing": 97
         },
         "categoryRankingEligible": {
@@ -34197,7 +34197,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 24.78,
-        "upper": 44.22,
+        "upper": 44.23,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -34334,7 +34334,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 23.75,
+        "lower": 23.76,
         "upper": 43.2,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -34459,13 +34459,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 40.97,
+      "displayScore": 40.98,
       "provisionalDisplayScore": 52,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 31.25,
-        "upper": 50.69,
+        "upper": 50.7,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -34572,7 +34572,7 @@
       "reasoningType": "Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 39.55,
+      "displayScore": 39.56,
       "provisionalDisplayScore": 51,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
@@ -35247,7 +35247,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 23.37,
+        "lower": 23.36,
         "upper": 42.81,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -35507,12 +35507,12 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 47.95,
+      "displayScore": 47.96,
       "provisionalDisplayScore": 50,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 38.23,
+        "lower": 38.24,
         "upper": 57.68,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -35636,7 +35636,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 18.62,
+        "lower": 18.63,
         "upper": 38.07,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -35750,13 +35750,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 33.31,
+      "displayScore": 33.32,
       "provisionalDisplayScore": 50,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 20,
-        "upper": 46.63
+        "upper": 46.64
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -35884,13 +35884,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 46.92,
+      "displayScore": 46.93,
       "provisionalDisplayScore": 50,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 32.57,
-        "upper": 61.27,
+        "lower": 32.58,
+        "upper": 61.28,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -36444,12 +36444,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "2M",
       "contextWindowTokens": 2000000,
-      "displayScore": 57.42,
+      "displayScore": 57.43,
       "provisionalDisplayScore": 49,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 47.7,
+        "lower": 47.71,
         "upper": 67.15,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -36911,13 +36911,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "10M",
       "contextWindowTokens": 10000000,
-      "displayScore": 28.19,
+      "displayScore": 28.2,
       "provisionalDisplayScore": 48,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 12.92,
-        "upper": 43.46
+        "upper": 43.47
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -37035,12 +37035,12 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 41.15,
+      "displayScore": 41.16,
       "provisionalDisplayScore": 47,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 31.43,
+        "lower": 31.44,
         "upper": 50.88,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -37235,7 +37235,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 26.73,
-        "upper": 46.17,
+        "upper": 46.18,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -37474,13 +37474,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 29.26,
+      "displayScore": 29.27,
       "provisionalDisplayScore": 46,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 14.91,
-        "upper": 43.61,
+        "lower": 14.92,
+        "upper": 43.62,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
         "patternCalibrationFamilies": 12,
@@ -38940,13 +38940,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "131K",
       "contextWindowTokens": 131000,
-      "displayScore": 38,
+      "displayScore": 37.9,
       "provisionalDisplayScore": 44,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 23.65,
-        "upper": 52.35,
+        "lower": 23.55,
+        "upper": 52.25,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -39010,7 +39010,7 @@
         "overallRank": 148,
         "categoryRanks": {
           "agentic": 92,
-          "knowledge": 116,
+          "knowledge": 117,
           "instructionFollowing": 64
         },
         "categoryRankingEligible": {
@@ -39441,13 +39441,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 25.51,
+      "displayScore": 25.5,
       "provisionalDisplayScore": 43,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 11.16,
-        "upper": 39.86,
+        "lower": 11.15,
+        "upper": 39.85,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -39822,12 +39822,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 31.32,
+      "displayScore": 31.33,
       "provisionalDisplayScore": 43,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 16.97,
+        "lower": 16.98,
         "upper": 45.67,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
@@ -40676,13 +40676,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "131K",
       "contextWindowTokens": 131000,
-      "displayScore": 6.29,
+      "displayScore": 6.28,
       "provisionalDisplayScore": 41,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 0,
-        "upper": 20.64,
+        "upper": 20.63,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -40809,7 +40809,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 9.88,
-        "upper": 47.5
+        "upper": 47.51
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -43262,8 +43262,8 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 56.92,
-        "upper": 76.37,
+        "lower": 56.93,
+        "upper": 76.38,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -43274,7 +43274,7 @@
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
-      "overallRank": 31,
+      "overallRank": 32,
       "url": "https://benchlm.ai/models/gpt-5-2-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2-pro.md",
       "id": 177,
@@ -43323,7 +43323,7 @@
       "ranking": {
         "rankingEligible": false,
         "verifiedRankingEligible": false,
-        "overallRank": 31,
+        "overallRank": 32,
         "categoryRanks": {},
         "categoryRankingEligible": {
           "agentic": false,
@@ -43814,13 +43814,13 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 49.94,
+      "displayScore": 49.95,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 40.75,
-        "upper": 59.14
+        "upper": 59.15
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -43932,13 +43932,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 48.38,
+      "displayScore": 48.39,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
       "scoreInterval90": {
-        "lower": 37.01,
-        "upper": 59.76
+        "lower": 37.02,
+        "upper": 59.77
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -44061,7 +44061,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 19.52,
-        "upper": 52.44
+        "upper": 52.45
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -44612,7 +44612,7 @@
       "reasoningType": "Reasoning",
       "contextWindow": "400K",
       "contextWindowTokens": 400000,
-      "displayScore": 37.36,
+      "displayScore": 37.37,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "supported",
@@ -44816,7 +44816,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 13.24,
-        "upper": 43.73
+        "upper": 43.74
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -45018,7 +45018,7 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "128K",
       "contextWindowTokens": 128000,
-      "displayScore": 28.2,
+      "displayScore": 28.21,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
@@ -45918,7 +45918,7 @@
       "evidenceStatus": "supported",
       "scoreInterval90": {
         "lower": 39.47,
-        "upper": 51.28
+        "upper": 51.29
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
@@ -46019,7 +46019,7 @@
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 15.21,
+        "lower": 15.22,
         "upper": 34.66,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
@@ -46320,7 +46320,7 @@
       "reasoningType": "Non-Reasoning",
       "contextWindow": "200K",
       "contextWindowTokens": 200000,
-      "displayScore": 27.72,
+      "displayScore": 27.73,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
@@ -47519,7 +47519,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 0,
-        "upper": 16.92,
+        "upper": 16.93,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -48118,7 +48118,7 @@
       "evidenceStatus": "estimated",
       "scoreInterval90": {
         "lower": 9.46,
-        "upper": 28.9,
+        "upper": 28.91,
         "scope": "source-pattern",
         "sourcePattern": "objective-and-preference",
         "patternCalibrationFamilies": 12,
@@ -51594,12 +51594,12 @@
       "reasoningType": "Reasoning",
       "contextWindow": "1M",
       "contextWindowTokens": 1000000,
-      "displayScore": 48.84,
+      "displayScore": 48.85,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 34.49,
+        "lower": 34.5,
         "upper": 63.19,
         "scope": "source-pattern",
         "sourcePattern": "objective-only",
@@ -51611,7 +51611,7 @@
       },
       "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
       "rankingEligible": true,
-      "overallRank": 103,
+      "overallRank": 104,
       "url": "https://benchlm.ai/models/qwen3-5-plus",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-plus.md",
       "id": 227,
@@ -51660,7 +51660,7 @@
       "ranking": {
         "rankingEligible": false,
         "verifiedRankingEligible": false,
-        "overallRank": 103,
+        "overallRank": 104,
         "categoryRanks": {},
         "categoryRankingEligible": {
           "agentic": false,
@@ -71178,13 +71178,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 54.16,
+      "displayScore": 54.2,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.81,
-        "upper": 68.51,
+        "lower": 39.85,
+        "upper": 68.55,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -71288,13 +71288,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 54.16,
+      "displayScore": 54.2,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.81,
-        "upper": 68.51,
+        "lower": 39.85,
+        "upper": 68.55,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -71398,13 +71398,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 54.16,
+      "displayScore": 54.2,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.81,
-        "upper": 68.51,
+        "lower": 39.85,
+        "upper": 68.55,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -71508,13 +71508,13 @@
       "reasoningType": "Reasoning",
       "contextWindow": "262K",
       "contextWindowTokens": 262000,
-      "displayScore": 54.16,
+      "displayScore": 54.2,
       "provisionalDisplayScore": 0,
       "publicRankingMode": "bench-align-v5",
       "evidenceStatus": "estimated",
       "scoreInterval90": {
-        "lower": 39.81,
-        "upper": 68.51,
+        "lower": 39.85,
+        "upper": 68.55,
         "scope": "global-pool-pattern-unvalidated",
         "sourcePattern": "benchmark-only",
         "patternCalibrationFamilies": 4,
@@ -126787,5 +126787,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:868e5cd5bc1ca64eaa080d93d8f6d7712fca2531506b543e09ff5cce1051ba38"
+  "dataVersion": "sha256:8a917d7896f16c18dc65bbabed072f5ef32649313489a7f785b2c138cb88cdbc"
 }

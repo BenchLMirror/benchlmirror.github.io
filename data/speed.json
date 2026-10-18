@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-16T20:01:03.996Z",
+  "generatedAt": "2026-10-17T11:32:47.767Z",
   "sourceLastUpdated": "2026-10-15",
   "sourceFiles": [
     "src/data/modelOperationalMetrics.js"
@@ -464,14 +464,14 @@
     {
       "canonicalModelKey": "deepseek-v4-1-flash",
       "slug": "deepseek-v4-1-flash",
-      "model": "DeepSeek V4.1 Flash",
+      "model": "DeepSeek V4.1 Flash 1017",
       "creator": "DeepSeek",
       "tokensPerSecond": 180,
       "ttft": 12.26,
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-10-15",
-      "displayScore": 72,
+      "displayScore": 73,
       "overallRank": 35,
       "url": "https://benchlm.ai/models/deepseek-v4-1-flash",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-1-flash.md"
@@ -2137,7 +2137,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-10-15",
       "displayScore": 53,
-      "overallRank": 104,
+      "overallRank": 103,
       "url": "https://benchlm.ai/models/glm-4-7",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md"
     },
@@ -2382,5 +2382,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/phi-4-multimodal-instruct.md"
     }
   ],
-  "dataVersion": "sha256:5c2459835036550401cae5afca4559afbeaf3fbc778c2bf177df462ff9ea9aa3"
+  "dataVersion": "sha256:88632c471cb671d7965764b5d9303fe792e59cfa9fd0adf86b1522fe880a92ac"
 }
