@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-24T03:01:18.079Z",
+  "generatedAt": "2026-10-24T11:46:40.431Z",
   "sourceLastUpdated": "October 23, 2026",
   "sourceFiles": [
     "src/data/featuredComparisons.js",
