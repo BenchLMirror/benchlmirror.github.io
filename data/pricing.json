@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-29T16:50:36.279Z",
+  "generatedAt": "2026-11-03T22:17:52.785Z",
   "sourceLastUpdated": "October 29, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
@@ -16,7 +16,7 @@
   ],
   "manifestUrl": "https://benchlm.ai/data/manifest.json",
   "counts": {
-    "pricedRows": 910,
+    "pricedRows": 911,
     "numericPricingRows": 410
   },
   "items": [
@@ -14742,6 +14742,27 @@
       "markdownUrl": "https://benchlm.ai/md/models/phi-4-multimodal-instruct.md"
     },
     {
+      "canonicalModelKey": "phonic-1",
+      "slug": "phonic-1",
+      "model": "Phonic-1",
+      "creator": "Phonic",
+      "sourceType": "Proprietary",
+      "contextWindow": "N/A",
+      "contextWindowTokens": 0,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Phonic bills one rate per minute of conversation, with no separate LLM or per-token charges. The pricing page lists Starter at $0.07 per minute ($4.20 per hour, the figure in Phonic’s launch table) and Pro at $0.065 per minute with a $200 monthly minimum; the same page’s FAQ and the docs still quote $0.06 and $0.055, and Cekura measured $0.060 per minute. There is no comparable text-token input/output pair.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/phonic-1",
+      "markdownUrl": "https://benchlm.ai/md/models/phonic-1.md"
+    },
+    {
       "canonicalModelKey": "phonon-1",
       "slug": "phonon-1",
       "model": "Phonon-1",
@@ -19131,5 +19152,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/zonos-2.md"
     }
   ],
-  "dataVersion": "sha256:a869009933c05c8400a576cb812f4ee12e47781a42f63d1c04da97cd2548a1b5"
+  "dataVersion": "sha256:35b67561a7fc459ecbd085a1a77a634ea0a2c282c6ceff689602a105116ce96e"
 }

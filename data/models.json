@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-29T16:50:36.279Z",
+  "generatedAt": "2026-11-03T22:17:52.785Z",
   "sourceLastUpdated": "October 29, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
@@ -405,8 +405,8 @@
     }
   },
   "counts": {
-    "totalModels": 1004,
-    "canonicalModels": 840,
+    "totalModels": 1005,
+    "canonicalModels": 841,
     "rankingEligibleModels": 214
   },
   "items": [
@@ -541,6 +541,7 @@
           "aaDeepsecBench": 25.9
         },
         "coding": {
+          "scarfBench": 69.8,
           "bug-hunt-bench": 27,
           "sweVerified": 96,
           "swePro": 79.2,
@@ -796,6 +797,7 @@
       },
       "benchmarks": {
         "agentic": {
+          "lifeVal": 80.6,
           "browseComp": 91.5,
           "osWorld2": 72.6,
           "terminalBench4": 57.9,
@@ -828,6 +830,7 @@
           "aaCyberGymE2e": 0
         },
         "coding": {
+          "scarfBench": 65.4,
           "deepSwe": 74.1,
           "frontierCode": 53.3,
           "frontierCode11Extended": 64.5,
@@ -1920,6 +1923,7 @@
       },
       "benchmarks": {
         "agentic": {
+          "lifeVal": 80,
           "frontierBench": 34.59,
           "terminalBench21": 91.9,
           "browseComp": 92.2,
@@ -2218,6 +2222,7 @@
           "aaCyberGymE2e": 58
         },
         "coding": {
+          "scarfBench": 61.3,
           "deepSwe": 67.5,
           "cursorBench32": 60.8,
           "frontierSwe": 81.2,
@@ -3612,6 +3617,7 @@
       },
       "benchmarks": {
         "agentic": {
+          "lifeVal": 77.4,
           "terminalBench2": 82,
           "cyberGym": 81.8,
           "browseComp": 84.4,
@@ -4302,6 +4308,7 @@
           "aaAnalystAgent": 41.3
         },
         "coding": {
+          "scarfBench": 37.6,
           "liveCodeBenchPro": 82.9,
           "reactNativeEvals": 78.9,
           "vibeCodeBench": 32.034,
@@ -5172,6 +5179,7 @@
       },
       "benchmarks": {
         "agentic": {
+          "lifeVal": 73,
           "terminalBench2": 75.1,
           "cyberGym": 79,
           "browseComp": 82.7,
@@ -11375,6 +11383,7 @@
           "gdpvalAa": 713
         },
         "coding": {
+          "scarfBench": 24.4,
           "liveCodeBenchV6": 77.1,
           "aaCodingIndex": 39.32,
           "aaSciCode": 40
@@ -11501,6 +11510,7 @@
       },
       "benchmarks": {
         "agentic": {
+          "lifeVal": 49.3,
           "browseComp": 65.8,
           "osWorldVerified": 47.3,
           "tau2Bench": 84.8,
@@ -14649,6 +14659,7 @@
           "aaCyberGymE2e": 0.8
         },
         "coding": {
+          "scarfBench": 70.5,
           "frontierCode": 54.4,
           "aaSciCode": 66.9,
           "cursorBench40": 57.8,
@@ -14835,6 +14846,7 @@
           "gdpvalAa": 1608
         },
         "coding": {
+          "scarfBench": 68.4,
           "deepSwe": 71.9,
           "aaSciCode": 54.2,
           "bug-hunt-bench": 44.3,
@@ -14992,6 +15004,7 @@
           "exploitGym": 39.5
         },
         "coding": {
+          "scarfBench": 75.2,
           "deepSwe": 77.9,
           "frontierSweV2": 55,
           "vibeCodeBench": 91.9,
@@ -15545,6 +15558,7 @@
           "aaCyberGymE2e": 8.4
         },
         "coding": {
+          "scarfBench": 66,
           "deepSwe": 73.8,
           "terminalBench21": 89.4,
           "aaSciCode": 56.6,
@@ -17910,6 +17924,7 @@
           "aaCyberGymE2e": 22.9
         },
         "coding": {
+          "scarfBench": 69,
           "codeforces": 3471,
           "terminalBench21": 90.6,
           "terminalBench3": 30,
@@ -66401,6 +66416,99 @@
         "reasoning": {
           "jevBench15": 66.47011066179378
         },
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
+      "slug": "phonic-1",
+      "canonicalModelKey": "phonic-1",
+      "model": "Phonic-1",
+      "creator": "Phonic",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "N/A",
+      "contextWindowTokens": 0,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/phonic-1",
+      "markdownUrl": "https://benchlm.ai/md/models/phonic-1.md",
+      "id": 1017,
+      "releaseDate": "2026-10-29",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "phonic-1",
+        "familyName": "Phonic-1",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "phonic-1",
+        "relatedModelKeys": [],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
         "multimodalGrounded": {},
         "knowledge": {},
         "multilingual": {},
@@ -132312,5 +132420,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:546e75bc0111b7c5fc93bbc3a44bac7a697b74dda8c2427b5dbb9541a80ff028"
+  "dataVersion": "sha256:17a10b5051953157b92f2e7aa100097e26ae95440c2887ea42215862be64ff36"
 }

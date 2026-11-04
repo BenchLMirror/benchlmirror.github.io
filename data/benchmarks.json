@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-10-29T16:50:36.279Z",
+  "generatedAt": "2026-11-03T22:17:52.785Z",
   "sourceLastUpdated": "October 29, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
@@ -384,7 +384,7 @@
   },
   "counts": {
     "categories": 10,
-    "benchmarks": 782
+    "benchmarks": 784
   },
   "items": [
     {
@@ -2611,6 +2611,31 @@
       "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/frontiercode-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontiercode-2.md"
+    },
+    {
+      "category": "coding",
+      "categoryLabel": "Coding",
+      "benchmarkKey": "scarfBench",
+      "name": "ScarfBench",
+      "fullName": "ScarfBench: Cross-Framework Application Migration in Enterprise Java",
+      "description": "IBM Research's benchmark for coding agents that migrate complete enterprise Java applications between Jakarta EE, Quarkus and Spring while keeping them working.",
+      "capabilityCategory": "coding",
+      "paperUrl": "https://arxiv.org/abs/2605.06754",
+      "paperTitle": "ScarfBench: A Benchmark for Cross-Framework Application Migration in Enterprise Java",
+      "authors": "Advait Pavuluri, Bridget McGinn, Ashita Saxena, George Safta, Srikanth Tamilselvam, Raju Pavuluri, Michele Merler, Baishakhi Ray, Rahul Krishna (IBM Research)",
+      "year": "2026",
+      "tasks": "204 framework migration tasks across 34 enterprise Java applications",
+      "format": "Percent of smoke tests passed after migration (Kaggle)",
+      "difficulty": "Whole-application framework migration",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 10,
+      "url": "https://benchlm.ai/benchmarks/scarfbench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scarfbench.md"
     },
     {
       "category": "coding",
@@ -7761,6 +7786,31 @@
       "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/aacybergyme2e",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aacybergyme2e.md"
+    },
+    {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "lifeVal",
+      "name": "LifeVal",
+      "fullName": "LifeVal: everyday life tasks",
+      "description": "OpenAI's benchmark of practical everyday tasks people want a personal assistant to handle, such as finding childcare, accessing government services, budgeting, shopping and caregiving.",
+      "capabilityCategory": "agentic",
+      "paperUrl": "https://openai.com/index/lifeval/",
+      "paperTitle": "LifeVal",
+      "authors": "OpenAI",
+      "year": "2026",
+      "tasks": "169 everyday life tasks (caregiving, health, education, household administration, personal finance, shopping, government services)",
+      "format": "Average reward, unweighted across tasks",
+      "difficulty": "Agentic personal-assistant work",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 5,
+      "url": "https://benchlm.ai/benchmarks/lifeval",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/lifeval.md"
     },
     {
       "category": "agentic",
@@ -28135,5 +28185,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/facts-grounding-v1.md"
     }
   ],
-  "dataVersion": "sha256:b77b042e618ad93d9816d4ec15360025bbfaa3ee2242ea45bef050531c7fb560"
+  "dataVersion": "sha256:686014b982c16354aed513e72ff6bdfcb973453e910298fb28c7a16a0fc5eaaa"
 }
