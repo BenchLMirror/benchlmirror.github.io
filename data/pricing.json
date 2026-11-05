@@ -8,16 +8,16 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-03T22:17:52.785Z",
-  "sourceLastUpdated": "October 29, 2026",
+  "generatedAt": "2026-11-04T23:09:40.411Z",
+  "sourceLastUpdated": "November 4, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
     "src/data/pricingSupplemental.js"
   ],
   "manifestUrl": "https://benchlm.ai/data/manifest.json",
   "counts": {
-    "pricedRows": 911,
-    "numericPricingRows": 410
+    "pricedRows": 915,
+    "numericPricingRows": 411
   },
   "items": [
     {
@@ -7644,6 +7644,27 @@
       "markdownUrl": "https://benchlm.ai/md/models/hy3-preview.md"
     },
     {
+      "canonicalModelKey": "hy4",
+      "slug": "hy4",
+      "model": "Hy4",
+      "creator": "Tencent",
+      "sourceType": "Pending",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "inputPrice": 0.834,
+      "outputPrice": 2.501,
+      "cachedInputPrice": 0.042,
+      "trainingPrice": null,
+      "note": "Tencent Cloud TokenHub lists Hy4 at $0.834 input, $0.042 cached input, and $2.501 output per million tokens, the same list price as Hy4 preview, which Tencent's launch post confirms. Until December 31, 2026 (Beijing time), TokenHub bills Hy4 at 50% of list price, and OpenRouter's tencent/hy4 listing shows the same half rate ($0.417 input, $0.021 cached input, $1.2505 output). We store the list price. Tencent plans to open-source the weights, so source type stays pending until a checkpoint is public.",
+      "hasNumericPricing": true,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/hy4",
+      "markdownUrl": "https://benchlm.ai/md/models/hy4.md"
+    },
+    {
       "canonicalModelKey": "hy4-preview",
       "slug": "hy4-preview",
       "model": "Hy4 preview",
@@ -9454,14 +9475,14 @@
       "slug": "kimi-3-1-pro",
       "model": "Kimi K3.1 Pro",
       "creator": "Moonshot AI",
-      "sourceType": "Pending",
+      "sourceType": "Open Weight",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
       "inputPrice": 2,
       "outputPrice": 10,
       "cachedInputPrice": 0.2,
       "trainingPrice": null,
-      "note": "Moonshot AI's official Kimi API pricing page lists kimi-k3.1-pro at $2.00 cache-miss input, $0.20 cache-hit input, and $10.00 output per million tokens, with 5-minute cache writes at $2.00 and 1-hour cache writes at $4.00, and a 1,048,576-token context window for all K3 series models. Pricing is flat across context length. The kimi-k3.1-pro-highspeed variant is listed separately at $4.00 input, $0.20 cache-hit input, and $20.00 output. Prices exclude applicable taxes. Moonshot schedules the full weight release by November 4, 2026, so source type remains pending until the files are public.",
+      "note": "Moonshot AI's official Kimi API pricing page lists kimi-k3.1-pro at $2.00 cache-miss input, $0.20 cache-hit input, and $10.00 output per million tokens, with 5-minute cache writes at $2.00 and 1-hour cache writes at $4.00, and a 1,048,576-token context window for all K3 series models. Pricing is flat across context length. The kimi-k3.1-pro-highspeed variant is listed separately at $4.00 input, $0.20 cache-hit input, and $20.00 output. Prices exclude applicable taxes. Moonshot published the full weights on Hugging Face (moonshotai/Kimi-K3.1-Pro, checked November 4, 2026) under the Kimi K3.1 Pro License.",
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 74.61,
@@ -16128,6 +16149,69 @@
       "markdownUrl": "https://benchlm.ai/md/models/reflex-27b.md"
     },
     {
+      "canonicalModelKey": "cohere-rerank-5-fast",
+      "slug": "cohere-rerank-5-fast",
+      "model": "Rerank 5 Fast",
+      "creator": "Cohere",
+      "sourceType": "Proprietary",
+      "contextWindow": "32K",
+      "contextWindowTokens": 32000,
+      "inputPrice": 0.02,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Cohere lists $0.02 per million tokens for Rerank 5 Fast. Reranking returns relevance scores, so there is no output-token tariff. Context Focus passage spans come back in the same call at no separate listed price.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/cohere-rerank-5-fast",
+      "markdownUrl": "https://benchlm.ai/md/models/cohere-rerank-5-fast.md"
+    },
+    {
+      "canonicalModelKey": "cohere-rerank-5-pro",
+      "slug": "cohere-rerank-5-pro",
+      "model": "Rerank 5 Pro",
+      "creator": "Cohere",
+      "sourceType": "Proprietary",
+      "contextWindow": "32K",
+      "contextWindowTokens": 32000,
+      "inputPrice": 0.05,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Cohere lists $0.05 per million tokens for Rerank 5 Pro. Reranking returns relevance scores, so there is no output-token tariff. Context Focus passage spans come back in the same call at no separate listed price.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/cohere-rerank-5-pro",
+      "markdownUrl": "https://benchlm.ai/md/models/cohere-rerank-5-pro.md"
+    },
+    {
+      "canonicalModelKey": "ripple-65b-preview",
+      "slug": "ripple-65b-preview",
+      "model": "Ripple-65B Preview",
+      "creator": "Ricursive Intelligence",
+      "sourceType": "Open Weight",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Ricursive publishes downloadable Apache 2.0 weights and runs no first-party API, so there is no first-party per-token tariff. At launch on November 4, 2026, OpenRouter routes ricursiveai/ripple-65b-preview to GMI Cloud (BF16, 16,384-token context) at $0.20 input, $0.05 cached input and $0.60 output per million tokens; Together AI lists the model as coming soon. Hardware costs for self-hosting are separate.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/ripple-65b-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/ripple-65b-preview.md"
+    },
+    {
       "canonicalModelKey": "decision-index-0-3-rsi-jev-v5-0-vl-3b",
       "slug": "decision-index-0-3-rsi-jev-v5-0-vl-3b",
       "model": "RSI-Jev v5.0 VL 3B",
@@ -19152,5 +19236,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/zonos-2.md"
     }
   ],
-  "dataVersion": "sha256:35b67561a7fc459ecbd085a1a77a634ea0a2c282c6ceff689602a105116ce96e"
+  "dataVersion": "sha256:89cb857a52ce8c89cb560dbf5f7961f460fb7f523d87bbace696c3fba1764661"
 }

@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-03T22:17:52.785Z",
-  "sourceLastUpdated": "October 29, 2026",
+  "generatedAt": "2026-11-04T23:09:40.411Z",
+  "sourceLastUpdated": "November 4, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -405,8 +405,8 @@
     }
   },
   "counts": {
-    "totalModels": 1005,
-    "canonicalModels": 841,
+    "totalModels": 1009,
+    "canonicalModels": 843,
     "rankingEligibleModels": 214
   },
   "items": [
@@ -6900,7 +6900,7 @@
           "agentic": 62.2,
           "coding": 54.3,
           "reasoning": 78.1,
-          "multimodalGrounded": 68,
+          "multimodalGrounded": 67.9,
           "knowledge": 65.7,
           "multilingual": null,
           "instructionFollowing": 87.6,
@@ -14345,7 +14345,7 @@
       "canonicalModelKey": "kimi-3-1-pro",
       "model": "Kimi K3.1 Pro",
       "creator": "Moonshot AI",
-      "sourceType": "Pending",
+      "sourceType": "Open Weight",
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
@@ -14449,7 +14449,7 @@
           "bioMysteryBench": 80.6,
           "agentsLastExam": 43.2,
           "agentsLastExamCli": 44.2,
-          "apexAgents": 67.2,
+          "apexAgents": 69.4,
           "frontierFinance": 58.6,
           "harveyLegalAgentPublic": 23.7,
           "handbookMd": 44.6,
@@ -17992,6 +17992,317 @@
       }
     },
     {
+      "slug": "hy4-preview",
+      "canonicalModelKey": "hy4-preview",
+      "model": "Hy4 preview",
+      "creator": "Tencent",
+      "sourceType": "Open Weight",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": 61.46,
+      "provisionalDisplayScore": 72,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 47.11,
+        "upper": 75.81,
+        "scope": "global-pool-pattern-unvalidated",
+        "sourcePattern": "benchmark-only",
+        "patternCalibrationFamilies": 4,
+        "patternIntervalAvailable": false,
+        "validatedFutureTruth": false,
+        "coverageValidated": false,
+        "simultaneousRosterCoverageValidated": false
+      },
+      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
+      "rankingEligible": true,
+      "overallRank": 48,
+      "url": "https://benchlm.ai/models/hy4-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/hy4-preview.md",
+      "id": 410,
+      "releaseDate": "2026-08-28",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "hy4",
+        "familyName": "Hy4",
+        "variantType": "preview",
+        "snapshotLabel": "Preview",
+        "baseFamilyModelKey": "hy4",
+        "relatedModelKeys": [
+          "hy3",
+          "hy4"
+        ],
+        "isCanonicalFamilyEntry": false,
+        "supersedesModelKey": "hy3"
+      },
+      "scores": {
+        "displayScore": 72,
+        "overallScore": 72,
+        "rawOverallScore": 72,
+        "verifiedDisplayScore": 66,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": 62.6,
+          "reasoning": null,
+          "multimodalGrounded": 86.6,
+          "knowledge": 79.1,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 47.2,
+          "coding": 62.5,
+          "reasoning": null,
+          "multimodalGrounded": 86.6,
+          "knowledge": 79.1,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 48,
+        "categoryRanks": {
+          "agentic": 37,
+          "coding": 26,
+          "knowledge": 37
+        },
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": true,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 25,
+        "verifiedBenchmarkCount": 25,
+        "rankableBenchmarkCount": 25,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 2
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench21": 85.4,
+          "cyberGym": 78.4,
+          "wideResearch": 83.9,
+          "draco": 77.2,
+          "mcpAtlas": 83.7,
+          "toolathlonVerified": 74.1,
+          "apexAgents": 37.1,
+          "skillsBench": 62.9,
+          "jobBench": 61.7,
+          "agentsLastExam": 22.8,
+          "gdpvalAa": 1678,
+          "automationBench": 32.1,
+          "bankerToolBench": 78.6,
+          "hleWithTools": 55.4,
+          "valsTerminalBench21": 55.1,
+          "cweBenchV1": 53,
+          "hermesIndex": 26.13,
+          "hermesBench": 58.6
+        },
+        "coding": {
+          "terminalBench21": 85.4,
+          "swePro": 65.7,
+          "sweMultilingual": 82.9,
+          "deepSwe": 64.3,
+          "nl2Repo": 58.9,
+          "programBench": 17.5,
+          "postTrainBench": 35.6,
+          "sweMarathon": 31.9
+        },
+        "reasoning": {
+          "stemBench120": 2.586,
+          "critpt": 16.9
+        },
+        "multimodalGrounded": {
+          "officeQaPro": 66.2
+        },
+        "knowledge": {
+          "gpqa": 92.3,
+          "gpqaDiamond": 92.3,
+          "hle": 55.4,
+          "hleNoTools": 43.4
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {
+          "apex": 74.2
+        }
+      },
+      "benchmarkSources": {
+        "agentic": {
+          "valsTerminalBench21": {
+            "publisher": "Vals AI",
+            "publisherUrl": "https://www.vals.ai/",
+            "sourceLabel": "Vals AI",
+            "sourceRole": "published-evaluation-results",
+            "scope": "Published leaderboard aggregates and evaluation settings only. Dataset contents are not included.",
+            "datasetContentsIncluded": false,
+            "licenseGrantIncluded": false,
+            "label": "Vals AI: Terminal-Bench 2.1 leaderboard",
+            "url": "https://www.vals.ai/models/tencent_hy4-preview",
+            "benchmarkUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
+            "retrievedAt": null
+          }
+        }
+      }
+    },
+    {
+      "slug": "dots3-note-preview",
+      "canonicalModelKey": "dots3-note-preview",
+      "model": "dots3-note Preview",
+      "creator": "Dots Studio",
+      "sourceType": "Open Weight",
+      "reasoningType": "Reasoning",
+      "contextWindow": "512K",
+      "contextWindowTokens": 512000,
+      "displayScore": 64.35,
+      "provisionalDisplayScore": 72,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 50,
+        "upper": 78.69,
+        "scope": "global-pool-pattern-unvalidated",
+        "sourcePattern": "benchmark-only",
+        "patternCalibrationFamilies": 4,
+        "patternIntervalAvailable": false,
+        "validatedFutureTruth": false,
+        "coverageValidated": false,
+        "simultaneousRosterCoverageValidated": false
+      },
+      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
+      "rankingEligible": true,
+      "overallRank": 35,
+      "url": "https://benchlm.ai/models/dots3-note-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/dots3-note-preview.md",
+      "id": 394,
+      "releaseDate": "2026-08-14",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "dots3-note",
+        "familyName": "dots3-note",
+        "variantType": "preview",
+        "snapshotLabel": "Preview",
+        "baseFamilyModelKey": "dots3-note-preview",
+        "relatedModelKeys": [],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 72,
+        "overallScore": 72,
+        "rawOverallScore": 72,
+        "verifiedDisplayScore": 72,
+        "displayCategoryScores": {
+          "agentic": 70.5,
+          "coding": 57.2,
+          "reasoning": 76.6,
+          "multimodalGrounded": 79.8,
+          "knowledge": 75.2,
+          "multilingual": null,
+          "instructionFollowing": 89.1,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 69.1,
+          "coding": 57.1,
+          "reasoning": 76.6,
+          "multimodalGrounded": 79.8,
+          "knowledge": 75.2,
+          "multilingual": null,
+          "instructionFollowing": 89.1,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 35,
+        "categoryRanks": {
+          "agentic": 28,
+          "instructionFollowing": 35
+        },
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": true,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 30,
+        "verifiedBenchmarkCount": 30,
+        "rankableBenchmarkCount": 30,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 3
+      },
+      "benchmarks": {
+        "agentic": {
+          "clawEval": 73.4,
+          "terminalBench21": 75.1,
+          "toolathlonVerified": 55.6,
+          "skillsBench": 52.8,
+          "apexAgents": 30.8,
+          "browseComp": 83.3,
+          "hleWithTools": 52.6,
+          "deepSearchQa": 92.1,
+          "wideResearch": 78.9
+        },
+        "coding": {
+          "codeforces": 3056,
+          "liveCodeBenchV6": 91.5,
+          "terminalBench21": 75.1,
+          "sweVerified": 78.4,
+          "sweMultilingual": 75.7,
+          "swePro": 61,
+          "nl2Repo": 49.8
+        },
+        "reasoning": {
+          "arcAgi2": 81.4
+        },
+        "multimodalGrounded": {
+          "simpleVqa": 72.5,
+          "mmmuPro": 79.1,
+          "mathVision": 87.7,
+          "zeroBench": 19,
+          "charxivNoTools": 83.1,
+          "gdpPdf": 60.7,
+          "perceptionBench": 53.4,
+          "babyVision": 50,
+          "mmvu": 79.9,
+          "videoMmmu": 86.8
+        },
+        "knowledge": {
+          "hle": 52.6
+        },
+        "multilingual": {},
+        "instructionFollowing": {
+          "ifBench": 80.4,
+          "ifeval": 93.9
+        },
+        "math": {
+          "imoAnswerBench": 90.9
+        }
+      }
+    },
+    {
       "slug": "mimo-v2-6-pro",
       "canonicalModelKey": "mimo-v2-6-pro",
       "model": "MiMo-V2.6-Pro",
@@ -18284,316 +18595,6 @@
         "multilingual": {},
         "instructionFollowing": {},
         "math": {}
-      }
-    },
-    {
-      "slug": "hy4-preview",
-      "canonicalModelKey": "hy4-preview",
-      "model": "Hy4 preview",
-      "creator": "Tencent",
-      "sourceType": "Open Weight",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1M",
-      "contextWindowTokens": 1000000,
-      "displayScore": 61.46,
-      "provisionalDisplayScore": 72,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 47.11,
-        "upper": 75.81,
-        "scope": "global-pool-pattern-unvalidated",
-        "sourcePattern": "benchmark-only",
-        "patternCalibrationFamilies": 4,
-        "patternIntervalAvailable": false,
-        "validatedFutureTruth": false,
-        "coverageValidated": false,
-        "simultaneousRosterCoverageValidated": false
-      },
-      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
-      "rankingEligible": true,
-      "overallRank": 48,
-      "url": "https://benchlm.ai/models/hy4-preview",
-      "markdownUrl": "https://benchlm.ai/md/models/hy4-preview.md",
-      "id": 410,
-      "releaseDate": "2026-08-28",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "hy4",
-        "familyName": "Hy4",
-        "variantType": "preview",
-        "snapshotLabel": "Preview",
-        "baseFamilyModelKey": "hy4-preview",
-        "relatedModelKeys": [
-          "hy3"
-        ],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": "hy3"
-      },
-      "scores": {
-        "displayScore": 72,
-        "overallScore": 72,
-        "rawOverallScore": 72,
-        "verifiedDisplayScore": 66,
-        "displayCategoryScores": {
-          "agentic": null,
-          "coding": 62.6,
-          "reasoning": null,
-          "multimodalGrounded": 86.6,
-          "knowledge": 79.1,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": 47.2,
-          "coding": 62.5,
-          "reasoning": null,
-          "multimodalGrounded": 86.6,
-          "knowledge": 79.1,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 48,
-        "categoryRanks": {
-          "agentic": 37,
-          "coding": 26,
-          "knowledge": 37
-        },
-        "categoryRankingEligible": {
-          "agentic": false,
-          "coding": true,
-          "reasoning": false,
-          "multimodalGrounded": false,
-          "knowledge": false,
-          "multilingual": false,
-          "instructionFollowing": false,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 25,
-        "verifiedBenchmarkCount": 25,
-        "rankableBenchmarkCount": 25,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 2
-      },
-      "benchmarks": {
-        "agentic": {
-          "terminalBench21": 85.4,
-          "cyberGym": 78.4,
-          "wideResearch": 83.9,
-          "draco": 77.2,
-          "mcpAtlas": 83.7,
-          "toolathlonVerified": 74.1,
-          "apexAgents": 37.1,
-          "skillsBench": 62.9,
-          "jobBench": 61.7,
-          "agentsLastExam": 22.8,
-          "gdpvalAa": 1678,
-          "automationBench": 32.1,
-          "bankerToolBench": 78.6,
-          "hleWithTools": 55.4,
-          "valsTerminalBench21": 55.1,
-          "cweBenchV1": 53,
-          "hermesIndex": 26.13,
-          "hermesBench": 58.6
-        },
-        "coding": {
-          "terminalBench21": 85.4,
-          "swePro": 65.7,
-          "sweMultilingual": 82.9,
-          "deepSwe": 64.3,
-          "nl2Repo": 58.9,
-          "programBench": 17.5,
-          "postTrainBench": 35.6,
-          "sweMarathon": 31.9
-        },
-        "reasoning": {
-          "stemBench120": 2.586,
-          "critpt": 16.9
-        },
-        "multimodalGrounded": {
-          "officeQaPro": 66.2
-        },
-        "knowledge": {
-          "gpqa": 92.3,
-          "gpqaDiamond": 92.3,
-          "hle": 55.4,
-          "hleNoTools": 43.4
-        },
-        "multilingual": {},
-        "instructionFollowing": {},
-        "math": {
-          "apex": 74.2
-        }
-      },
-      "benchmarkSources": {
-        "agentic": {
-          "valsTerminalBench21": {
-            "publisher": "Vals AI",
-            "publisherUrl": "https://www.vals.ai/",
-            "sourceLabel": "Vals AI",
-            "sourceRole": "published-evaluation-results",
-            "scope": "Published leaderboard aggregates and evaluation settings only. Dataset contents are not included.",
-            "datasetContentsIncluded": false,
-            "licenseGrantIncluded": false,
-            "label": "Vals AI: Terminal-Bench 2.1 leaderboard",
-            "url": "https://www.vals.ai/models/tencent_hy4-preview",
-            "benchmarkUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
-            "retrievedAt": null
-          }
-        }
-      }
-    },
-    {
-      "slug": "dots3-note-preview",
-      "canonicalModelKey": "dots3-note-preview",
-      "model": "dots3-note Preview",
-      "creator": "Dots Studio",
-      "sourceType": "Open Weight",
-      "reasoningType": "Reasoning",
-      "contextWindow": "512K",
-      "contextWindowTokens": 512000,
-      "displayScore": 64.35,
-      "provisionalDisplayScore": 72,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 50,
-        "upper": 78.69,
-        "scope": "global-pool-pattern-unvalidated",
-        "sourcePattern": "benchmark-only",
-        "patternCalibrationFamilies": 4,
-        "patternIntervalAvailable": false,
-        "validatedFutureTruth": false,
-        "coverageValidated": false,
-        "simultaneousRosterCoverageValidated": false
-      },
-      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
-      "rankingEligible": true,
-      "overallRank": 35,
-      "url": "https://benchlm.ai/models/dots3-note-preview",
-      "markdownUrl": "https://benchlm.ai/md/models/dots3-note-preview.md",
-      "id": 394,
-      "releaseDate": "2026-08-14",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "dots3-note",
-        "familyName": "dots3-note",
-        "variantType": "preview",
-        "snapshotLabel": "Preview",
-        "baseFamilyModelKey": "dots3-note-preview",
-        "relatedModelKeys": [],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": null
-      },
-      "scores": {
-        "displayScore": 72,
-        "overallScore": 72,
-        "rawOverallScore": 72,
-        "verifiedDisplayScore": 72,
-        "displayCategoryScores": {
-          "agentic": 70.5,
-          "coding": 57.2,
-          "reasoning": 76.6,
-          "multimodalGrounded": 79.8,
-          "knowledge": 75.2,
-          "multilingual": null,
-          "instructionFollowing": 89.1,
-          "math": null
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": 69.1,
-          "coding": 57.1,
-          "reasoning": 76.6,
-          "multimodalGrounded": 79.8,
-          "knowledge": 75.2,
-          "multilingual": null,
-          "instructionFollowing": 89.1,
-          "math": null
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 35,
-        "categoryRanks": {
-          "agentic": 28,
-          "instructionFollowing": 35
-        },
-        "categoryRankingEligible": {
-          "agentic": false,
-          "coding": false,
-          "reasoning": false,
-          "multimodalGrounded": false,
-          "knowledge": false,
-          "multilingual": false,
-          "instructionFollowing": true,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 30,
-        "verifiedBenchmarkCount": 30,
-        "rankableBenchmarkCount": 30,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 3
-      },
-      "benchmarks": {
-        "agentic": {
-          "clawEval": 73.4,
-          "terminalBench21": 75.1,
-          "toolathlonVerified": 55.6,
-          "skillsBench": 52.8,
-          "apexAgents": 30.8,
-          "browseComp": 83.3,
-          "hleWithTools": 52.6,
-          "deepSearchQa": 92.1,
-          "wideResearch": 78.9
-        },
-        "coding": {
-          "codeforces": 3056,
-          "liveCodeBenchV6": 91.5,
-          "terminalBench21": 75.1,
-          "sweVerified": 78.4,
-          "sweMultilingual": 75.7,
-          "swePro": 61,
-          "nl2Repo": 49.8
-        },
-        "reasoning": {
-          "arcAgi2": 81.4
-        },
-        "multimodalGrounded": {
-          "simpleVqa": 72.5,
-          "mmmuPro": 79.1,
-          "mathVision": 87.7,
-          "zeroBench": 19,
-          "charxivNoTools": 83.1,
-          "gdpPdf": 60.7,
-          "perceptionBench": 53.4,
-          "babyVision": 50,
-          "mmvu": 79.9,
-          "videoMmmu": 86.8
-        },
-        "knowledge": {
-          "hle": 52.6
-        },
-        "multilingual": {},
-        "instructionFollowing": {
-          "ifBench": 80.4,
-          "ifeval": 93.9
-        },
-        "math": {
-          "imoAnswerBench": 90.9
-        }
       }
     },
     {
@@ -27192,6 +27193,134 @@
       }
     },
     {
+      "slug": "mimo-v2-omni",
+      "canonicalModelKey": "mimo-v2-omni",
+      "model": "MiMo-V2-Omni",
+      "creator": "Xiaomi",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "262K",
+      "contextWindowTokens": 262000,
+      "displayScore": 48.99,
+      "provisionalDisplayScore": 62,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 39.26,
+        "upper": 58.71,
+        "scope": "source-pattern",
+        "sourcePattern": "objective-and-preference",
+        "patternCalibrationFamilies": 12,
+        "patternIntervalAvailable": true,
+        "validatedFutureTruth": false,
+        "coverageValidated": false,
+        "simultaneousRosterCoverageValidated": false
+      },
+      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
+      "rankingEligible": true,
+      "overallRank": 105,
+      "url": "https://benchlm.ai/models/mimo-v2-omni",
+      "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-omni.md",
+      "id": 24,
+      "releaseDate": "2026-03-18",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "mimo-v2-omni",
+        "familyName": "MiMo-V2-Omni",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "mimo-v2-omni",
+        "relatedModelKeys": [
+          "mimo-v2-flash",
+          "mimo-v2-pro"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 62,
+        "overallScore": 62,
+        "rawOverallScore": 63,
+        "verifiedDisplayScore": 62,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": 76.5,
+          "multimodalGrounded": 67.9,
+          "knowledge": 34.2,
+          "multilingual": null,
+          "instructionFollowing": 64,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": 76.5,
+          "multimodalGrounded": 67.9,
+          "knowledge": 34.2,
+          "multilingual": null,
+          "instructionFollowing": 64,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 105,
+        "categoryRanks": {
+          "knowledge": 107,
+          "instructionFollowing": 85
+        },
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": true,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 8,
+        "verifiedBenchmarkCount": 8,
+        "rankableBenchmarkCount": 8,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 2
+      },
+      "benchmarks": {
+        "agentic": {
+          "clawEval": 45.2,
+          "tau2Bench": 91.2
+        },
+        "coding": {
+          "sweVerified": 74.8
+        },
+        "reasoning": {
+          "lcr": 75,
+          "critpt": 1.1
+        },
+        "multimodalGrounded": {
+          "aaMmmuPro": 69.9
+        },
+        "knowledge": {
+          "artificialAnalysis": 23.92,
+          "aaGpqaDiamond": 82.8,
+          "aaHle": 22.1,
+          "aaOmniscienceIndex": -20.1,
+          "omniscienceAccuracy": 19.3,
+          "omniscienceHallucinationRate": 48.9
+        },
+        "multilingual": {},
+        "instructionFollowing": {
+          "aaIfBench": 53.5
+        },
+        "math": {}
+      }
+    },
+    {
       "slug": "deepseek-v4-flash-0731",
       "canonicalModelKey": "deepseek-v4-flash-max",
       "model": "DeepSeek V4 Flash 0731",
@@ -28296,134 +28425,6 @@
         "knowledge": {},
         "multilingual": {},
         "instructionFollowing": {},
-        "math": {}
-      }
-    },
-    {
-      "slug": "mimo-v2-omni",
-      "canonicalModelKey": "mimo-v2-omni",
-      "model": "MiMo-V2-Omni",
-      "creator": "Xiaomi",
-      "sourceType": "Proprietary",
-      "reasoningType": "Reasoning",
-      "contextWindow": "262K",
-      "contextWindowTokens": 262000,
-      "displayScore": 48.99,
-      "provisionalDisplayScore": 62,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 39.26,
-        "upper": 58.71,
-        "scope": "source-pattern",
-        "sourcePattern": "objective-and-preference",
-        "patternCalibrationFamilies": 12,
-        "patternIntervalAvailable": true,
-        "validatedFutureTruth": false,
-        "coverageValidated": false,
-        "simultaneousRosterCoverageValidated": false
-      },
-      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
-      "rankingEligible": true,
-      "overallRank": 105,
-      "url": "https://benchlm.ai/models/mimo-v2-omni",
-      "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-omni.md",
-      "id": 24,
-      "releaseDate": "2026-03-18",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "mimo-v2-omni",
-        "familyName": "MiMo-V2-Omni",
-        "variantType": "base",
-        "snapshotLabel": null,
-        "baseFamilyModelKey": "mimo-v2-omni",
-        "relatedModelKeys": [
-          "mimo-v2-flash",
-          "mimo-v2-pro"
-        ],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": null
-      },
-      "scores": {
-        "displayScore": 62,
-        "overallScore": 62,
-        "rawOverallScore": 63,
-        "verifiedDisplayScore": 62,
-        "displayCategoryScores": {
-          "agentic": null,
-          "coding": null,
-          "reasoning": 76.5,
-          "multimodalGrounded": 67.9,
-          "knowledge": 34.2,
-          "multilingual": null,
-          "instructionFollowing": 64,
-          "math": null
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": null,
-          "coding": null,
-          "reasoning": 76.5,
-          "multimodalGrounded": 67.9,
-          "knowledge": 34.2,
-          "multilingual": null,
-          "instructionFollowing": 64,
-          "math": null
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 105,
-        "categoryRanks": {
-          "knowledge": 107,
-          "instructionFollowing": 85
-        },
-        "categoryRankingEligible": {
-          "agentic": false,
-          "coding": false,
-          "reasoning": false,
-          "multimodalGrounded": false,
-          "knowledge": false,
-          "multilingual": false,
-          "instructionFollowing": true,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 8,
-        "verifiedBenchmarkCount": 8,
-        "rankableBenchmarkCount": 8,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 2
-      },
-      "benchmarks": {
-        "agentic": {
-          "clawEval": 45.2,
-          "tau2Bench": 91.2
-        },
-        "coding": {
-          "sweVerified": 74.8
-        },
-        "reasoning": {
-          "lcr": 75,
-          "critpt": 1.1
-        },
-        "multimodalGrounded": {
-          "aaMmmuPro": 69.9
-        },
-        "knowledge": {
-          "artificialAnalysis": 23.92,
-          "aaGpqaDiamond": 82.8,
-          "aaHle": 22.1,
-          "aaOmniscienceIndex": -20.1,
-          "omniscienceAccuracy": 19.3,
-          "omniscienceHallucinationRate": 48.9
-        },
-        "multilingual": {},
-        "instructionFollowing": {
-          "aaIfBench": 53.5
-        },
         "math": {}
       }
     },
@@ -50135,6 +50136,123 @@
       }
     },
     {
+      "slug": "ripple-65b-preview",
+      "canonicalModelKey": "ripple-65b-preview",
+      "model": "Ripple-65B Preview",
+      "creator": "Ricursive Intelligence",
+      "sourceType": "Open Weight",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/ripple-65b-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/ripple-65b-preview.md",
+      "id": 1022,
+      "releaseDate": "2026-11-04",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "ripple",
+        "familyName": "Ripple",
+        "variantType": "base",
+        "snapshotLabel": "BF16",
+        "baseFamilyModelKey": "ripple-65b-preview",
+        "relatedModelKeys": [],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": 69,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 62.5,
+          "coding": 51.6,
+          "reasoning": 76.5,
+          "multimodalGrounded": null,
+          "knowledge": 78.4,
+          "multilingual": null,
+          "instructionFollowing": 86.2,
+          "math": 84.5
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 18,
+        "verifiedBenchmarkCount": 18,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench21": 80.5,
+          "tau3Bench": 31.27,
+          "automationBench": 36.4,
+          "mcpAtlas": 71.67
+        },
+        "coding": {
+          "terminalBench21": 80.5,
+          "sweVerified": 76.5,
+          "swePro": 61.42,
+          "deepSwe": 44.3,
+          "sciCode": 39.4
+        },
+        "reasoning": {
+          "lcr": 75
+        },
+        "multimodalGrounded": {},
+        "knowledge": {
+          "mmlu": 89.6,
+          "mmluPro": 84.2,
+          "gpqaDiamond": 85.2
+        },
+        "multilingual": {},
+        "instructionFollowing": {
+          "ifBench": 79.2
+        },
+        "math": {
+          "aime2024": 97.1,
+          "aime2025": 98.3,
+          "aime2026": 95,
+          "hmmtFeb2026": 90.5
+        }
+      }
+    },
+    {
       "slug": "longcat-flash-lite-sparse",
       "canonicalModelKey": "longcat-flash-lite-sparse",
       "model": "LongCat-Flash-Lite-Sparse",
@@ -50717,6 +50835,121 @@
         },
         "knowledge": {
           "superGpqa": 67.4
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
+      "slug": "hy4",
+      "canonicalModelKey": "hy4",
+      "model": "Hy4",
+      "creator": "Tencent",
+      "sourceType": "Pending",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/hy4",
+      "markdownUrl": "https://benchlm.ai/md/models/hy4.md",
+      "id": 1018,
+      "releaseDate": "2026-11-04",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "hy4",
+        "familyName": "Hy4",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "hy4",
+        "relatedModelKeys": [
+          "hy4-preview",
+          "hy3"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": "hy4-preview"
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": 77,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 80.4,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": 78.8,
+          "knowledge": 83.4,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 10,
+        "verifiedBenchmarkCount": 10,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench4": 44.4,
+          "terminalBenchScience": 19.8,
+          "hleWithTools": 59.1,
+          "agentsLastExam": 41,
+          "apexAgents": 75.2,
+          "automationBench": 56.2,
+          "osWorld21": 78.9
+        },
+        "coding": {
+          "deepSwe": 74.9,
+          "sweMarathon": 43.8,
+          "programBench": 30,
+          "frontierCode2": 31,
+          "postTrainBench12": 35.2
+        },
+        "reasoning": {},
+        "multimodalGrounded": {
+          "mmmuPro": 78.6,
+          "zeroBenchPython": 55.4
+        },
+        "knowledge": {
+          "hle": 59.1
         },
         "multilingual": {},
         "instructionFollowing": {},
@@ -67318,6 +67551,196 @@
           "jevDecisionIndex03Tools": 83.4,
           "jevDecisionIndex03Arts": 62.7
         }
+      }
+    },
+    {
+      "slug": "cohere-rerank-5-fast",
+      "canonicalModelKey": "cohere-rerank-5-fast",
+      "model": "Rerank 5 Fast",
+      "creator": "Cohere",
+      "sourceType": "Proprietary",
+      "reasoningType": "Non-Reasoning",
+      "contextWindow": "32K",
+      "contextWindowTokens": 32000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/cohere-rerank-5-fast",
+      "markdownUrl": "https://benchlm.ai/md/models/cohere-rerank-5-fast.md",
+      "id": 1020,
+      "releaseDate": "2026-10-21",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "cohere-rerank-5",
+        "familyName": "Rerank 5",
+        "variantType": "fast",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "cohere-rerank-5-pro",
+        "relatedModelKeys": [
+          "cohere-rerank-5-pro"
+        ],
+        "isCanonicalFamilyEntry": false,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
+      "slug": "cohere-rerank-5-pro",
+      "canonicalModelKey": "cohere-rerank-5-pro",
+      "model": "Rerank 5 Pro",
+      "creator": "Cohere",
+      "sourceType": "Proprietary",
+      "reasoningType": "Non-Reasoning",
+      "contextWindow": "32K",
+      "contextWindowTokens": 32000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/cohere-rerank-5-pro",
+      "markdownUrl": "https://benchlm.ai/md/models/cohere-rerank-5-pro.md",
+      "id": 1019,
+      "releaseDate": "2026-10-21",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "cohere-rerank-5",
+        "familyName": "Rerank 5",
+        "variantType": "pro",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "cohere-rerank-5-pro",
+        "relatedModelKeys": [
+          "cohere-rerank-5-fast"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
       }
     },
     {
@@ -132420,5 +132843,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:17a10b5051953157b92f2e7aa100097e26ae95440c2887ea42215862be64ff36"
+  "dataVersion": "sha256:c68d457d8fd3b952d5fae461cd63450805cf7f71fe1ec76d6d7d616450e2dbf1"
 }

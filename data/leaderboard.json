@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-03T22:17:52.785Z",
-  "sourceLastUpdated": "October 29, 2026",
+  "generatedAt": "2026-11-04T23:09:40.411Z",
+  "sourceLastUpdated": "November 4, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -412,7 +412,7 @@
       "canonicalModelKey": "kimi-3-1-pro",
       "model": "Kimi K3.1 Pro",
       "creator": "Moonshot AI",
-      "sourceType": "Pending",
+      "sourceType": "Open Weight",
       "reasoningType": "Reasoning",
       "contextWindow": "1.05M",
       "contextWindowTokens": 1050000,
@@ -7692,7 +7692,7 @@
         "canonicalModelKey": "kimi-3-1-pro",
         "model": "Kimi K3.1 Pro",
         "creator": "Moonshot AI",
-        "sourceType": "Pending",
+        "sourceType": "Open Weight",
         "reasoningType": "Reasoning",
         "contextWindow": "1.05M",
         "contextWindowTokens": 1050000,
@@ -17988,7 +17988,7 @@
         "canonicalModelKey": "kimi-3-1-pro",
         "model": "Kimi K3.1 Pro",
         "creator": "Moonshot AI",
-        "sourceType": "Pending",
+        "sourceType": "Open Weight",
         "reasoningType": "Reasoning",
         "contextWindow": "1.05M",
         "contextWindowTokens": 1050000,
@@ -19001,7 +19001,7 @@
         "overallRank": 112,
         "url": "https://benchlm.ai/models/inkling",
         "markdownUrl": "https://benchlm.ai/md/models/inkling.md",
-        "score": 68,
+        "score": 67.9,
         "rankingMode": "provisional",
         "category": "multimodalGrounded",
         "categoryLabel": "Multimodal & Grounded",
@@ -19964,7 +19964,7 @@
         "canonicalModelKey": "kimi-3-1-pro",
         "model": "Kimi K3.1 Pro",
         "creator": "Moonshot AI",
-        "sourceType": "Pending",
+        "sourceType": "Open Weight",
         "reasoningType": "Reasoning",
         "contextWindow": "1.05M",
         "contextWindowTokens": 1050000,
@@ -30598,5 +30598,5 @@
       }
     ]
   },
-  "dataVersion": "sha256:1aeabdef192b1a14445e50eae1a26f8636d34367c46061c061a994c5ccc5496c"
+  "dataVersion": "sha256:c3f541572e62e811cbf8f09e64bddd16debd656d8b1b9129c5bb06deadaf018f"
 }
