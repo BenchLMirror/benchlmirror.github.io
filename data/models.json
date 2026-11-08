@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-07T01:07:17.599Z",
-  "sourceLastUpdated": "November 6, 2026",
+  "generatedAt": "2026-11-07T23:39:21.893Z",
+  "sourceLastUpdated": "November 7, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -626,6 +626,9 @@
           "arxivMathJune2026WithTools": 91.3,
           "frontierMathV2Tiers13": 85.614,
           "frontierMathV2Tier4": 73.171
+        },
+        "external": {
+          "maxxBench": 63.5
         }
       },
       "benchmarkSources": {
@@ -889,6 +892,7 @@
           "frontierMathV2Tiers13": 93.684
         },
         "external": {
+          "maxxBench": 71.9,
           "clocktowerBench": 1859,
           "exploitBench": 100,
           "sreBench": 88,
@@ -1082,6 +1086,7 @@
           "frontierMathV2Tier4": 90.2
         },
         "external": {
+          "maxxBench": 63.5,
           "clocktowerBench": 1544
         }
       },
@@ -1344,6 +1349,9 @@
           "arxivMathAugust2026WithTools": 95.2,
           "frontierMathV2Tiers13": 88.772,
           "frontierMathV2Tier4": 80.488
+        },
+        "external": {
+          "maxxBench": 66.9
         }
       }
     },
@@ -2190,6 +2198,7 @@
           "frontierMathV2Tier4": 83
         },
         "external": {
+          "maxxBench": 69.1,
           "clocktowerBench": 1591,
           "exploitBench": 73.5,
           "secBenchPro": 71.2,
@@ -6072,6 +6081,7 @@
           "frontierMathV2Tier4": 58.5
         },
         "external": {
+          "maxxBench": 46.1,
           "exploitBench": 33.2,
           "exploitGymHoneypot": 9.9
         }
@@ -14938,6 +14948,7 @@
           "frontierMathV2Tier4": 95
         },
         "external": {
+          "maxxBench": 76.4,
           "clocktowerBench": 1549
         }
       }
@@ -15977,6 +15988,9 @@
         "math": {
           "frontierMathV2Tiers13": 68.421,
           "frontierMathV2Tier4": 21.951
+        },
+        "external": {
+          "maxxBench": 53.4
         }
       },
       "benchmarkSources": {
@@ -17801,6 +17815,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "maxxBench": 55.6,
           "secBenchPro": 62.8
         }
       },
@@ -18935,7 +18950,10 @@
         },
         "multilingual": {},
         "instructionFollowing": {},
-        "math": {}
+        "math": {},
+        "external": {
+          "maxxBench": 38.8
+        }
       },
       "benchmarkSources": {
         "agentic": {
@@ -23190,6 +23208,7 @@
           "frontierMathV2Tier4": 29.268
         },
         "external": {
+          "maxxBench": 56.7,
           "exploitBench": 54.4
         }
       },
@@ -23420,6 +23439,7 @@
           "frontierMathV2Tier4": 56.098
         },
         "external": {
+          "maxxBench": 51.7,
           "secBenchPro": 34.2,
           "exploitBenchInternalPort": 0,
           "exploitGymHoneypot": 0
@@ -23721,6 +23741,9 @@
         "math": {
           "frontierMathV2Tiers13": 55.789,
           "frontierMathV2Tier4": 17.073
+        },
+        "external": {
+          "maxxBench": 55.1
         }
       },
       "benchmarkSources": {
@@ -28047,6 +28070,9 @@
           "imoAnswerBench": 88.4,
           "apex": 33,
           "apexShortlist": 85.7
+        },
+        "external": {
+          "maxxBench": 28.1
         }
       },
       "benchmarkSources": {
@@ -133683,5 +133709,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:bf85c4231a8848cfe7698a572931e086338eacafbcd578a475534a1d7c922084"
+  "dataVersion": "sha256:33143c4b5d0a2234296518aa8baaf94c2943599f22b6452b91e87fc212820725"
 }
