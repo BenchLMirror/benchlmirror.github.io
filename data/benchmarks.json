@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-10T04:58:51.933Z",
+  "generatedAt": "2026-11-11T03:03:08.797Z",
   "sourceLastUpdated": "November 10, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
@@ -62,329 +62,334 @@
         "valsRoboBench": {
           "name": "Robo-bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/robo_bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "emb": {
           "name": "EMB v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/emb",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "embV11": {
           "name": "EMB v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/emb-v1-1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "cyber": {
           "name": "CyberBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/cyber",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMentalHealth": {
           "name": "Mental Health Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/mental-health",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsSweBenchMultimodal": {
           "name": "SWE-bench Multimodal (Vals)",
           "sourceUrl": "https://www.vals.ai/benchmarks/swebench-multimodal",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsIndex": {
           "name": "Vals Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/vals_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsClaimBench": {
           "name": "ClaimBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/claimbench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsFinanceIndex": {
           "name": "Vals Finance Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/finance_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsLegalIndex": {
           "name": "Vals Legal Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/legal_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsInferenceProviderIndex": {
           "name": "Vals Inference Provider Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/inference_provider",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsRouterIndex": {
           "name": "Vals Router Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/vals_router_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsScienceIndex": {
           "name": "Vals Science Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/science_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsRsiIndex": {
           "name": "Vals RSI Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/rsi_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsWebSearchIndex": {
           "name": "Web Search Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/web_search",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTimeHorizonKsp": {
           "name": "Time Horizon Index: KSP",
           "sourceUrl": "https://www.vals.ai/benchmarks/time_horizon_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsCuaBench": {
           "name": "CUA-bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/cua_bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "voiceCodeBench": {
           "name": "VoiceCodeBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/voice-code-bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsBioMysteryBench": {
           "name": "BioMysteryBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/biomysterybench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "financeAgentV2": {
           "name": "Finance Agent v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/fabv2",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "financeAgentV21": {
           "name": "Finance Agent v2.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/fabv2-1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsFinanceAgentV1": {
           "name": "Finance Agent v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/finance_agent",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "vibeCodeBench": {
           "name": "Vibe Code Bench v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/vibe-code",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "vibeCodeBench1To100": {
           "name": "Vibe Code Bench 1-100",
           "sourceUrl": "https://www.vals.ai/benchmarks/vcb-1-100",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMedScribe": {
           "name": "MedScribe",
           "sourceUrl": "https://www.vals.ai/benchmarks/medscribe",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "taxEvalV2": {
           "name": "TaxEval v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/tax_eval_v2",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTaxAgentBench": {
           "name": "Tax Agent Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/tax_agent_bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "hlab": {
           "name": "Harvey's Legal Agent Benchmark v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/hlab",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "hlabV1": {
           "name": "Harvey's Legal Agent Benchmark v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/hlab-v1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsSweBench": {
           "name": "Vals SWE-bench mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/swebench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsLiveCodeBench": {
           "name": "Vals LiveCodeBench mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/lcb",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTerminalBench21": {
           "name": "Vals Terminal-Bench 2.1 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTerminalBench4": {
           "name": "Vals Terminal-Bench 4.0 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-4",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTerminalBenchScience": {
           "name": "Vals Terminal-Bench Science mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-science",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsGpqaDiamond": {
           "name": "Vals GPQA Diamond mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/gpqa",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsCorpFinV2": {
           "name": "CorpFin v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/corp_fin_v2",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMultimodalIndex": {
           "name": "Vals Multimodal Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/vals_multimodal_index",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "codeMigration": {
           "name": "Code Migration v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/code-migration",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "codeMigrationV11": {
           "name": "Code Migration v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/code-migration-v1-1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsReverseEngBench": {
           "name": "SRE Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/srebench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "legalResearchBench": {
           "name": "Legal Research Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/legal_research",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsLegalBench": {
           "name": "LegalBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/legal_bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsCaseLawV2": {
           "name": "CaseLaw v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/case_law_v2",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsImmigrationBench": {
           "name": "Immigration Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/immigration",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMortgageTax": {
           "name": "MortgageTax",
           "sourceUrl": "https://www.vals.ai/benchmarks/mortgage_tax",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMedCode": {
           "name": "MedCode",
           "sourceUrl": "https://www.vals.ai/benchmarks/medcode",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMedQa": {
           "name": "MedQA",
           "sourceUrl": "https://www.vals.ai/benchmarks/medqa",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsProofBench": {
           "name": "ProofBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/proof_bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "mysteryMechanism": {
           "name": "MysteryMechanism",
           "sourceUrl": "https://www.vals.ai/benchmarks/mysterymechanism",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsAime": {
           "name": "AIME",
           "sourceUrl": "https://www.vals.ai/benchmarks/aime",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMath500": {
           "name": "MATH 500",
           "sourceUrl": "https://www.vals.ai/benchmarks/math500",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMgsm": {
           "name": "MGSM",
           "sourceUrl": "https://www.vals.ai/benchmarks/mgsm",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMmluPro": {
           "name": "Vals MMLU-Pro mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/mmlu_pro",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsMmmu": {
           "name": "MMMU",
           "sourceUrl": "https://www.vals.ai/benchmarks/mmmu",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "sage": {
           "name": "SAGE",
           "sourceUrl": "https://www.vals.ai/benchmarks/sage",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsIoi": {
           "name": "IOI",
           "sourceUrl": "https://www.vals.ai/benchmarks/ioi",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsIoiV1": {
           "name": "IOI v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/ioi-v1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsProgramBench": {
           "name": "Vals ProgramBench mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/programbench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "skillsBench": {
           "name": "SkillsBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/skillsbench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTerminalBench2": {
           "name": "Vals Terminal-Bench 2.0 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-2",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "valsTerminalBench1": {
           "name": "Vals Terminal-Bench 1.0 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "pokerAgent": {
           "name": "Agent Poker Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/poker_agent",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "publicBenefitsBench": {
           "name": "Public Benefits Bench v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/public-benefits-bench",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         },
         "publicBenefitsBenchV1": {
           "name": "Public Benefits Bench v1",
           "sourceUrl": "https://www.vals.ai/benchmarks/public-benefits-bench-v1",
-          "capturedAt": "2026-11-09T21:00:16.821Z"
+          "capturedAt": "2026-11-10T17:02:14.124Z"
+        },
+        "valsAccessToJustice": {
+          "name": "Access to Justice",
+          "sourceUrl": "https://www.vals.ai/benchmarks/a2j",
+          "capturedAt": "2026-11-10T17:02:14.124Z"
         }
       }
     }
   },
   "counts": {
     "categories": 10,
-    "benchmarks": 872
+    "benchmarks": 890
   },
   "items": [
     {
@@ -1408,7 +1413,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 174,
+      "displayableScoreCount": 175,
       "url": "https://benchlm.ai/benchmarks/artificialanalysis",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificialanalysis.md"
     },
@@ -1483,7 +1488,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 161,
+      "displayableScoreCount": 164,
       "url": "https://benchlm.ai/benchmarks/aaomniscienceindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaomniscienceindex.md"
     },
@@ -1508,7 +1513,7 @@
       "weight": 0.1666666666666666,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 162,
+      "displayableScoreCount": 165,
       "url": "https://benchlm.ai/benchmarks/omniscienceaccuracy",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omniscienceaccuracy.md"
     },
@@ -1533,7 +1538,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 159,
+      "displayableScoreCount": 162,
       "url": "https://benchlm.ai/benchmarks/omnisciencehallucinationrate",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omnisciencehallucinationrate.md"
     },
@@ -2708,7 +2713,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 26,
+      "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/frontiercode-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontiercode-2.md"
     },
@@ -2858,7 +2863,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 14,
+      "displayableScoreCount": 21,
       "url": "https://benchlm.ai/benchmarks/cursorbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/cursorbench.md"
     },
@@ -3083,7 +3088,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 24,
+      "displayableScoreCount": 25,
       "url": "https://benchlm.ai/benchmarks/bug-hunt-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/bug-hunt-bench.md"
     },
@@ -4658,7 +4663,7 @@
       "weight": 0.3,
       "scoringBasis": "legacy-category",
       "scoredCategory": "math",
-      "displayableScoreCount": 65,
+      "displayableScoreCount": 67,
       "url": "https://benchlm.ai/benchmarks/frontiermathv2tiers13",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontiermathv2tiers13.md"
     },
@@ -4683,7 +4688,7 @@
       "weight": 0.1,
       "scoringBasis": "legacy-category",
       "scoredCategory": "math",
-      "displayableScoreCount": 52,
+      "displayableScoreCount": 54,
       "url": "https://benchlm.ai/benchmarks/frontiermathv2tier4",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontiermathv2tier4.md"
     },
@@ -4883,7 +4888,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 38,
+      "displayableScoreCount": 39,
       "url": "https://benchlm.ai/benchmarks/arcagi1",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arcagi1.md"
     },
@@ -5383,7 +5388,7 @@
       "weight": 0.15,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "reasoning",
-      "displayableScoreCount": 44,
+      "displayableScoreCount": 45,
       "url": "https://benchlm.ai/benchmarks/arc-agi-2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arc-agi-2.md"
     },
@@ -5408,7 +5413,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 9,
+      "displayableScoreCount": 10,
       "url": "https://benchlm.ai/benchmarks/arc-agi-3-provider-adapter",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arc-agi-3-provider-adapter.md"
     },
@@ -5433,7 +5438,7 @@
       "weight": 0.15,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "reasoning",
-      "displayableScoreCount": 23,
+      "displayableScoreCount": 24,
       "url": "https://benchlm.ai/benchmarks/arcagi3",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/arcagi3.md"
     },
@@ -5583,7 +5588,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 20,
+      "displayableScoreCount": 22,
       "url": "https://benchlm.ai/benchmarks/aamlcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aamlcr.md"
     },
@@ -6168,7 +6173,7 @@
       "benchmarkKey": "aaGlobalMmluLite",
       "name": "AA Global-MMLU-Lite",
       "fullName": "Artificial Analysis Global-MMLU-Lite",
-      "description": "An independently evaluated multilingual knowledge result from Artificial Analysis.",
+      "description": "Global MMLU Lite is a multilingual version of MMLU with 400 questions per language, half culturally sensitive and half culturally agnostic. This page holds two independent runs: Artificial Analysis's, in the main table, and Kaggle's.",
       "capabilityCategory": "multilingual",
       "paperUrl": "https://artificialanalysis.ai/evaluations/global-mmlu-lite",
       "paperTitle": "Artificial Analysis Global-MMLU-Lite Benchmark Leaderboard",
@@ -6184,8 +6189,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 14,
-      "url": "https://benchlm.ai/benchmarks/aaglobalmmlulite",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/aaglobalmmlulite.md"
+      "url": "https://benchlm.ai/benchmarks/global-mmlu-lite",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/global-mmlu-lite.md"
     },
     {
       "category": "multilingual",
@@ -8186,6 +8191,31 @@
       "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/aacybergyme2e",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aacybergyme2e.md"
+    },
+    {
+      "category": "agentic",
+      "categoryLabel": "Agentic",
+      "benchmarkKey": "mka",
+      "name": "MKA",
+      "fullName": "Multimodal Knowledge Agent Benchmark",
+      "description": "Google DeepMind's benchmark of professional knowledge work where the key information sits in visual files such as architectural drawings, engineering schematics and medical scans. The agent has to deliver a finished report, spreadsheet, slide deck or marked-up drawing. Artificial Analysis runs it on a private 200-task set.",
+      "capabilityCategory": "agentic",
+      "paperUrl": "https://artificialanalysis.ai/evaluations/mka",
+      "paperTitle": "MKA Benchmark Leaderboard",
+      "authors": "Google DeepMind, in partnership with Artificial Analysis",
+      "year": "2026",
+      "tasks": "200 multimodal professional tasks across 10 industry verticals",
+      "format": "Climb WSR (weighted rubric satisfaction rate, %)",
+      "difficulty": "Expert multimodal knowledge work",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 19,
+      "url": "https://benchlm.ai/benchmarks/mka",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/mka.md"
     },
     {
       "category": "agentic",
@@ -12265,6 +12295,56 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "scale-adversarial-robustness",
+      "name": "SEAL Adversarial Robustness",
+      "fullName": "Scale Labs SEAL Adversarial Robustness",
+      "description": "Scale’s SEAL board that counted harmful replies to 1,000 human-written adversarial prompts. Fewer violations rank higher. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of January 2025 and no longer adds models.",
+      "capabilityCategory": "instructionFollowing",
+      "paperUrl": "https://labs.scale.com/leaderboard/adversarial_robustness",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "1,000 adversarial prompts",
+      "format": "Violations (lower is better)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-adversarial-robustness",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-adversarial-robustness.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-arabic",
+      "name": "SEAL Arabic",
+      "fullName": "Scale Labs SEAL Arabic",
+      "description": "Scale's SEAL leaderboard for Arabic: expert raters judge how well models answer about 1,000 prompts written by native Arabic speakers. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of March 2025 and no longer adds models.",
+      "capabilityCategory": "crossDomain",
+      "paperUrl": "https://labs.scale.com/leaderboard/arabic",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "About 1,000 prompts per language",
+      "format": "Elo-style rating",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-arabic",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-arabic.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "scale-audiomc",
       "name": "AudioMC",
       "fullName": "Scale Labs AudioMC",
@@ -12336,6 +12416,56 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/scale-audiomc-text",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-audiomc-text.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-chinese",
+      "name": "SEAL Chinese",
+      "fullName": "Scale Labs SEAL Chinese",
+      "description": "Scale's SEAL leaderboard for Chinese: expert raters judge how well models answer about 1,000 prompts written by native Chinese speakers. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of March 2025 and no longer adds models.",
+      "capabilityCategory": "crossDomain",
+      "paperUrl": "https://labs.scale.com/leaderboard/chinese",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "About 1,000 prompts per language",
+      "format": "Elo-style rating",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-chinese",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-chinese.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-coding",
+      "name": "SEAL Coding",
+      "fullName": "Scale Labs SEAL Coding",
+      "description": "Scale’s SEAL coding board: expert reviewers compared model answers to 1,000 prompts across programming languages, debugging, optimization, and documentation tasks. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of March 2025 and no longer adds models.",
+      "capabilityCategory": "coding",
+      "paperUrl": "https://labs.scale.com/leaderboard/coding",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "1,000 coding prompts",
+      "format": "Elo-style rating",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-coding",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-coding.md"
     },
     {
       "category": "external",
@@ -12540,6 +12670,31 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "scale-humanitys-last-exam-preview",
+      "name": "Humanity's Last Exam (Preview)",
+      "fullName": "Scale Labs Humanity's Last Exam (Preview)",
+      "description": "The first published Humanity’s Last Exam results from early 2025, kept by Scale as a preview board. The current HLE tables are on the same page. BenchLM shows it as display-only reference data, excluded from rankings. Scale has not added a row to this board since April 2025.",
+      "capabilityCategory": "knowledge",
+      "paperUrl": "https://labs.scale.com/leaderboard/humanitys_last_exam_preview",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "21 published rows",
+      "format": "Accuracy (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-humanitys-last-exam",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-humanitys-last-exam.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "scale-humanitys-last-exam-text-only",
       "name": "Humanity's Last Exam (Text Only)",
       "fullName": "Scale Labs Humanity's Last Exam (Text Only)",
@@ -12565,6 +12720,106 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "scale-humanitys-last-exam-text-only-preview",
+      "name": "Humanity's Last Exam (Text Only, Preview)",
+      "fullName": "Scale Labs Humanity's Last Exam (Text Only, Preview)",
+      "description": "The first published text-only Humanity’s Last Exam results from early 2025, kept by Scale as a preview board. The current text-only tables are on the same page. BenchLM shows it as display-only reference data, excluded from rankings. Scale has not added a row to this board since April 2025.",
+      "capabilityCategory": "knowledge",
+      "paperUrl": "https://labs.scale.com/leaderboard/humanitys_last_exam_text_only_preview",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "25 published rows",
+      "format": "Accuracy (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-humanitys-last-exam-text-only",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-humanitys-last-exam-text-only.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-instruction-following",
+      "name": "SEAL Instruction Following",
+      "fullName": "Scale Labs SEAL Instruction Following",
+      "description": "Scale’s SEAL board for precise instruction following on 1,054 private prompts with detailed, specific commands. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of January 2025 and no longer adds models.",
+      "capabilityCategory": "instructionFollowing",
+      "paperUrl": "https://labs.scale.com/leaderboard/instruction_following",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "1,054 prompts",
+      "format": "Expert-rated score",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-instruction-following",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-instruction-following.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-japanese",
+      "name": "SEAL Japanese",
+      "fullName": "Scale Labs SEAL Japanese",
+      "description": "Scale's SEAL leaderboard for Japanese: expert raters judge how well models answer about 1,000 prompts written by native Japanese speakers. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of March 2025 and no longer adds models.",
+      "capabilityCategory": "crossDomain",
+      "paperUrl": "https://labs.scale.com/leaderboard/japanese",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "About 1,000 prompts per language",
+      "format": "Elo-style rating",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-japanese",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-japanese.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-korean",
+      "name": "SEAL Korean",
+      "fullName": "Scale Labs SEAL Korean",
+      "description": "Scale's SEAL leaderboard for Korean: expert raters judge how well models answer about 1,000 prompts written by native Korean speakers. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of March 2025 and no longer adds models.",
+      "capabilityCategory": "crossDomain",
+      "paperUrl": "https://labs.scale.com/leaderboard/korean",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "About 1,000 prompts per language",
+      "format": "Expert-rated score",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-korean",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-korean.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "scale-mask",
       "name": "MASK",
       "fullName": "Scale Labs MASK",
@@ -12586,6 +12841,31 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/scale-mask",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-mask.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-math",
+      "name": "SEAL Math",
+      "fullName": "Scale Labs SEAL Math",
+      "description": "Scale’s SEAL math board on GSM1k, a new set of grade-school word problems written to mirror GSM8K without its contamination. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of January 2025 and no longer adds models.",
+      "capabilityCategory": "math",
+      "paperUrl": "https://labs.scale.com/leaderboard/math",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "About 1,000 problems (GSM1k)",
+      "format": "Accuracy (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-math",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-math.md"
     },
     {
       "category": "external",
@@ -12815,6 +13095,31 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "scale-spanish",
+      "name": "SEAL Spanish",
+      "fullName": "Scale Labs SEAL Spanish",
+      "description": "Scale's SEAL leaderboard for Spanish: expert raters judge how well models answer about 1,000 prompts written by native Spanish speakers. BenchLM shows it as display-only reference data, excluded from rankings. Scale marked this board deprecated as of March 2025 and no longer adds models.",
+      "capabilityCategory": "crossDomain",
+      "paperUrl": "https://labs.scale.com/leaderboard/spanish",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "About 1,000 prompts per language",
+      "format": "Elo-style rating",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 0,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-spanish",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-spanish.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "scale-swe-atlas-overall",
       "name": "SWE Atlas - Overall",
       "fullName": "Scale Labs SWE Atlas - Overall",
@@ -12911,6 +13216,56 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/scale-swe-atlas-refactoring",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-swe-atlas-refactoring.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-swe-bench-pro-v1-public",
+      "name": "SWE-Bench Pro (Public Dataset)",
+      "fullName": "Scale Labs SWE-Bench Pro (Public Dataset)",
+      "description": "Scale’s first SWE-Bench Pro leaderboard, with public and private (commercial) dataset lanes. Scale now publishes SWE-Bench Pro V2 on a separate board. BenchLM shows it as display-only reference data, excluded from rankings.",
+      "capabilityCategory": "coding",
+      "paperUrl": "https://labs.scale.com/leaderboard/swe_bench_pro",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "25 published rows",
+      "format": "Resolve rate (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/swe-bench-pro",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-pro.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-swe-bench-pro-v1-private",
+      "name": "SWE-Bench Pro (Private Dataset)",
+      "fullName": "Scale Labs SWE-Bench Pro (Private Dataset)",
+      "description": "Scale’s first SWE-Bench Pro leaderboard, with public and private (commercial) dataset lanes. Scale now publishes SWE-Bench Pro V2 on a separate board. BenchLM shows it as display-only reference data, excluded from rankings.",
+      "capabilityCategory": "coding",
+      "paperUrl": "https://labs.scale.com/leaderboard/swe_bench_pro",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "14 published rows",
+      "format": "Resolve rate (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/swe-bench-pro",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/swe-bench-pro.md"
     },
     {
       "category": "external",
@@ -13036,6 +13391,56 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/scale-sweatlas-test-writing",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-sweatlas-test-writing.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-tool-use-chat",
+      "name": "SEAL Agentic Tool Use (Chat)",
+      "fullName": "Scale Labs SEAL Agentic Tool Use (Chat)",
+      "description": "ToolComp-Chat: 485-prompt benchmark subset that needs models to chain a Python interpreter and web search calls to reach a final answer. BenchLM shows it as display-only reference data, excluded from rankings. Scale has not added a row to this board since March 2025.",
+      "capabilityCategory": "agentic",
+      "paperUrl": "https://labs.scale.com/leaderboard/tool_use_chat",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "ToolComp prompts, Chat subset",
+      "format": "Accuracy (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-tool-use-chat",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-tool-use-chat.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "scale-tool-use-enterprise",
+      "name": "SEAL Agentic Tool Use (Enterprise)",
+      "fullName": "Scale Labs SEAL Agentic Tool Use (Enterprise)",
+      "description": "ToolComp-Enterprise: the subset of Scale’s 485-prompt tool-use benchmark that needs models to chain calls across 11 enterprise tools. BenchLM shows it as display-only reference data, excluded from rankings. Scale has not added a row to this board since March 2025.",
+      "capabilityCategory": "agentic",
+      "paperUrl": "https://labs.scale.com/leaderboard/tool_use_enterprise",
+      "paperTitle": "Scale Labs leaderboard",
+      "authors": "Scale AI",
+      "year": "2026",
+      "tasks": "ToolComp prompts, Enterprise subset",
+      "format": "Accuracy (%)",
+      "difficulty": "External agent and model evaluation",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/scale-tool-use-enterprise",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scale-tool-use-enterprise.md"
     },
     {
       "category": "external",
@@ -14558,7 +14963,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 80,
+      "displayableScoreCount": 81,
       "url": "https://benchlm.ai/benchmarks/chesspuzzles",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/chesspuzzles.md"
     },
@@ -14583,7 +14988,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 75,
+      "displayableScoreCount": 76,
       "url": "https://benchlm.ai/benchmarks/mysterygamepuzzles",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mysterygamepuzzles.md"
     },
@@ -14608,7 +15013,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 36,
+      "displayableScoreCount": 37,
       "url": "https://benchlm.ai/benchmarks/furnitureassembly",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/furnitureassembly.md"
     },
@@ -14633,7 +15038,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 28,
+      "displayableScoreCount": 29,
       "url": "https://benchlm.ai/benchmarks/ebrbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/ebrbench.md"
     },
@@ -16336,6 +16741,31 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/publicbenefitsbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/publicbenefitsbench.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "valsAccessToJustice",
+      "name": "Access to Justice",
+      "fullName": "Vals AI Access to Justice",
+      "description": "Can AI help someone navigate a civil legal problem without a lawyer?",
+      "capabilityCategory": "agentic",
+      "paperUrl": "https://www.vals.ai/benchmarks/a2j",
+      "paperTitle": "Access to Justice leaderboard and methodology",
+      "authors": "Vals AI, with support from NextLadder Ventures",
+      "year": "2026",
+      "tasks": "252 simulated legal-aid conversations across 8 topics",
+      "format": "Share of expert rubric criteria met",
+      "difficulty": "First-contact civil legal help with local referrals",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/access-to-justice",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/access-to-justice.md"
     },
     {
       "category": "external",
@@ -29431,8 +29861,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/scicode-main-standard-kaggle",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode-main-standard-kaggle.md"
+      "url": "https://benchlm.ai/benchmarks/scicode",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode.md"
     },
     {
       "category": "external",
@@ -29456,8 +29886,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/scicode-main-with-background-kaggle",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode-main-with-background-kaggle.md"
+      "url": "https://benchlm.ai/benchmarks/scicode",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode.md"
     },
     {
       "category": "external",
@@ -29481,8 +29911,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/scicode-subproblem-standard-kaggle",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode-subproblem-standard-kaggle.md"
+      "url": "https://benchlm.ai/benchmarks/scicode",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode.md"
     },
     {
       "category": "external",
@@ -29506,8 +29936,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/scicode-subproblem-with-background-kaggle",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode-subproblem-with-background-kaggle.md"
+      "url": "https://benchlm.ai/benchmarks/scicode",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/scicode.md"
     },
     {
       "category": "external",
@@ -29681,8 +30111,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/global-mmlu-lite-kaggle",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/global-mmlu-lite-kaggle.md"
+      "url": "https://benchlm.ai/benchmarks/global-mmlu-lite",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/global-mmlu-lite.md"
     },
     {
       "category": "external",
@@ -29706,8 +30136,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/mgsm-bengali",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/mgsm-bengali.md"
+      "url": "https://benchlm.ai/benchmarks/mgsm",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/mgsm.md"
     },
     {
       "category": "external",
@@ -30362,6 +30792,31 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "nytConnections",
+      "name": "NYT Connections",
+      "fullName": "NYT Connections LLM Benchmark (extended version)",
+      "description": "Lech Mazur's NYT Connections benchmark gives a model 940 puzzles from the New York Times word game, each with up to four extra trick words, and asks it to sort the words into four groups of four in one try. It tests word knowledge, wordplay and resisting plausible decoys.",
+      "capabilityCategory": "reasoning",
+      "paperUrl": "https://github.com/lechmazur/nyt-connections",
+      "paperTitle": "NYT Connections LLM Benchmark (Lech Mazur, GitHub)",
+      "authors": "Lech Mazur",
+      "year": "2024",
+      "tasks": "940 NYT Connections puzzles, each with up to four added trick words",
+      "format": "Sort 16 to 20 words into four groups of four, one attempt per puzzle, no feedback",
+      "difficulty": "Wordplay, word knowledge and decoys that fit almost-but-not-quite",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 93,
+      "url": "https://benchlm.ai/benchmarks/nyt-connections",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/nyt-connections.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "stealthMark",
       "name": "StealthMark",
       "fullName": "StealthMark Intelligence Benchmarks (overall score)",
@@ -30385,5 +30840,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/stealthmark.md"
     }
   ],
-  "dataVersion": "sha256:a9919462db08ac1ba2931e7703a3ba5869d3bc4d8708dcdbe7d47c1443db95a2"
+  "dataVersion": "sha256:cf9ad3e9c715acddc19ed671265eaaaef510b05f9f19ad317495779535082651"
 }
