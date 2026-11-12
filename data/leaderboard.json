@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-11T03:03:08.797Z",
-  "sourceLastUpdated": "November 10, 2026",
+  "generatedAt": "2026-11-12T02:13:11.479Z",
+  "sourceLastUpdated": "November 11, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -35790,5 +35790,5 @@
       }
     ]
   },
-  "dataVersion": "sha256:99b9f1951c09ddbc00743a3a035ca401df33c978e778c32a2a890f8aaebb3b2e"
+  "dataVersion": "sha256:6035e7d852df76d2eb0ae9384bc0163821614f1802338f0f02c38e71917487fb"
 }

@@ -8,16 +8,16 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-11T03:03:08.797Z",
-  "sourceLastUpdated": "November 10, 2026",
+  "generatedAt": "2026-11-12T02:13:11.479Z",
+  "sourceLastUpdated": "November 11, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
     "src/data/pricingSupplemental.js"
   ],
   "manifestUrl": "https://benchlm.ai/data/manifest.json",
   "counts": {
-    "pricedRows": 926,
-    "numericPricingRows": 421
+    "pricedRows": 932,
+    "numericPricingRows": 424
   },
   "items": [
     {
@@ -4116,6 +4116,27 @@
       "markdownUrl": "https://benchlm.ai/md/models/ember-1.md"
     },
     {
+      "canonicalModelKey": "ernie-5-5-flash-preview",
+      "slug": "ernie-5-5-flash-preview",
+      "model": "ERNIE 5.5 Flash Preview",
+      "creator": "Baidu",
+      "sourceType": "Pending",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Baidu's launch coverage on November 11, 2026 gives first-party Qianfan pricing in CNY only: ¥2 input and ¥8 output per million tokens at peak hours, ¥1 and ¥4 off-peak, with a limited-time 50% discount. The Qianfan model page needs a Baidu Cloud sign-in, so BenchLM has not read the rate card itself. BenchLM leaves the USD fields unavailable because it does not convert a non-USD first-party price. Baidu also serves the model free on OpenRouter (baidu/ernie-5.5-flash-preview:free, rate-limited); OpenRouter lists a paid route with no provider yet. Weights are due under Apache 2.0 by November 25, 2026.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/ernie-5-5-flash-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/ernie-5-5-flash-preview.md"
+    },
+    {
       "canonicalModelKey": "decision-index-0-3-exaone-4-0-1-2b-jev-v0-3",
       "slug": "decision-index-0-3-exaone-4-0-1-2b-jev-v0-3",
       "model": "EXAONE-4.0-1.2B-JEV v0.3",
@@ -4891,6 +4912,27 @@
       "scorePerOutputDollar": 8.791,
       "url": "https://benchlm.ai/models/gemini-4-carbon",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-4-carbon.md"
+    },
+    {
+      "canonicalModelKey": "gemini-decision-1",
+      "slug": "gemini-decision-1",
+      "model": "Gemini Decision 1",
+      "creator": "Google",
+      "sourceType": "Proprietary",
+      "contextWindow": "262K",
+      "contextWindowTokens": 262000,
+      "inputPrice": 0.1,
+      "outputPrice": 0,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Google lists gemini-decision-1 on the Gemini API at $0.10 per million input tokens for text, image, video, audio and PDF input on the paid tier, and free of charge on the Free tier. It generates zero output tokens, so output is not billed. Each request bills shared input once, plus each question's own instructions and criteria. Context caching and the Batch API are not supported. The Vercel AI Gateway lists the same rate.",
+      "hasNumericPricing": true,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/gemini-decision-1",
+      "markdownUrl": "https://benchlm.ai/md/models/gemini-decision-1.md"
     },
     {
       "canonicalModelKey": "native-judgebench-gemini-1-5-pro-solver",
@@ -6613,6 +6655,27 @@
       "scorePerOutputDollar": 124.74,
       "url": "https://benchlm.ai/models/gpt-6-luna",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md"
+    },
+    {
+      "canonicalModelKey": "gpt-6-luna-decisions",
+      "slug": "gpt-6-luna-decisions",
+      "model": "GPT-6 Luna (Decisions)",
+      "creator": "OpenAI",
+      "sourceType": "Proprietary",
+      "contextWindow": "1.05M",
+      "contextWindowTokens": 1050000,
+      "inputPrice": 0.1,
+      "outputPrice": 0,
+      "cachedInputPrice": 0.01,
+      "trainingPrice": null,
+      "note": "OpenAI's Decisions guide prices gpt-6-luna on /v1/decisions at $0.10 per million uncached input tokens with no output charge. Cache reads and writes are billed at the standard gpt-6-luna prompt-caching rates ($0.01 cached input). Regional processing premiums and long-context input multipliers apply.",
+      "hasNumericPricing": true,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/gpt-6-luna-decisions",
+      "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna-decisions.md"
     },
     {
       "canonicalModelKey": "gpt-6-luna-low",
@@ -16842,6 +16905,48 @@
       "markdownUrl": "https://benchlm.ai/md/models/scribe-v2-2-realtime.md"
     },
     {
+      "canonicalModelKey": "scribe-v3",
+      "slug": "scribe-v3",
+      "model": "Scribe v3",
+      "creator": "ElevenLabs",
+      "sourceType": "Proprietary",
+      "contextWindow": "N/A",
+      "contextWindowTokens": 0,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "ElevenLabs lists Scribe v3 at $0.20 per hour of audio on its API pricing page, the same rate as Scribe v2. There is no per-token text rate to compare.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/scribe-v3",
+      "markdownUrl": "https://benchlm.ai/md/models/scribe-v3.md"
+    },
+    {
+      "canonicalModelKey": "scribe-v3-live",
+      "slug": "scribe-v3-live",
+      "model": "Scribe v3 Live",
+      "creator": "ElevenLabs",
+      "sourceType": "Proprietary",
+      "contextWindow": "N/A",
+      "contextWindowTokens": 0,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "ElevenLabs lists Scribe v3 Live at $0.22 per hour of audio on its API pricing page, the same rate as Scribe v2 Realtime. There is no per-token text rate to compare.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/scribe-v3-live",
+      "markdownUrl": "https://benchlm.ai/md/models/scribe-v3-live.md"
+    },
+    {
       "canonicalModelKey": "seed-1-6",
       "slug": "seed-1-6",
       "model": "Seed 1.6",
@@ -17743,6 +17848,27 @@
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/step-audio-chat-130b",
       "markdownUrl": "https://benchlm.ai/md/models/step-audio-chat-130b.md"
+    },
+    {
+      "canonicalModelKey": "subq-snap-1-1",
+      "slug": "subq-snap-1-1",
+      "model": "SubQ Snap 1.1",
+      "creator": "Subquadratic",
+      "sourceType": "Proprietary",
+      "contextWindow": "384K",
+      "contextWindowTokens": 384000,
+      "inputPrice": 0.04,
+      "outputPrice": 0,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "Subquadratic prices SubQ Snap at $0.04 per million input tokens with free output, and gives new users 100M free tokens. A cached-input rate is not published in the reviewed source.",
+      "hasNumericPricing": true,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/subq-snap-1-1",
+      "markdownUrl": "https://benchlm.ai/md/models/subq-snap-1-1.md"
     },
     {
       "canonicalModelKey": "decision-index-rune-26b-a4b-v3",
@@ -19467,5 +19593,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/zonos-2.md"
     }
   ],
-  "dataVersion": "sha256:756bfff14c9a91cec830d2b9830cad28068b1fb886d18dc4dc0d5b19fb270858"
+  "dataVersion": "sha256:4b51560fea7838eae59820757ad22baaadc6231f21146a16c46743e2502586d1"
 }

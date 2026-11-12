@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-11T03:03:08.797Z",
-  "sourceLastUpdated": "November 10, 2026",
+  "generatedAt": "2026-11-12T02:13:11.479Z",
+  "sourceLastUpdated": "November 11, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
     "src/data/provenance.js",
@@ -410,8 +410,8 @@
     }
   },
   "counts": {
-    "totalModels": 1020,
-    "canonicalModels": 851,
+    "totalModels": 1026,
+    "canonicalModels": 857,
     "rankingEligibleModels": 212
   },
   "items": [
@@ -634,6 +634,7 @@
           "frontierMathV2Tier4": 73.171
         },
         "external": {
+          "frontierPhysics": 9.5,
           "nytConnections": 94.3,
           "code2Video": 1543,
           "dayjobHealthcare": 9.2,
@@ -922,6 +923,7 @@
           "frontierMathV2Tiers13": 93.684
         },
         "external": {
+          "frontierPhysics": 23.2,
           "nytConnections": 98.4,
           "jokeArena": 1562,
           "chartArena": 1624,
@@ -1425,6 +1427,7 @@
           "frontierMathV2Tier4": 87.805
         },
         "external": {
+          "frontierPhysics": 11.3,
           "nytConnections": 90,
           "jokeArena": 1544,
           "chartArena": 1618,
@@ -2337,6 +2340,7 @@
           "frontierMathV2Tier4": 83
         },
         "external": {
+          "frontierPhysics": 7.1,
           "nytConnections": 93.8,
           "code2Video": 1548,
           "dayjobHealthcare": 1.2,
@@ -2635,6 +2639,7 @@
         },
         "math": {},
         "external": {
+          "frontierPhysics": 2.4,
           "nytConnections": 93.6,
           "landingPageArena": 1550,
           "code2Video": 1481,
@@ -2904,6 +2909,7 @@
           "frontierMathV2Tier4": 56.098
         },
         "external": {
+          "benchflowSkillsBench": 54.1,
           "nytConnections": 91.1,
           "dayjobHealthcare": 0.8,
           "dayjob": 2,
@@ -3417,6 +3423,7 @@
           "frontierMathV2Tier4": 68.3
         },
         "external": {
+          "frontierPhysics": 3.6,
           "nytConnections": 78.4,
           "jokeArena": 1471,
           "dayjobHealthcare": 2,
@@ -4106,6 +4113,7 @@
           "frontierMathV2Tier4": 72.5
         },
         "external": {
+          "benchflowSkillsBench": 67.3,
           "nytConnections": 96.2,
           "jokeArena": 1487,
           "code2Video": 1571,
@@ -4786,6 +4794,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "benchflowSkillsBench": 60.8,
           "nytConnections": 97.4,
           "code2Video": 1454,
           "dayjobHealthcare": 0,
@@ -5054,6 +5063,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "benchflowSkillsBench": 48.2,
           "nytConnections": 92.6,
           "babaIsBench": 88,
           "chessPuzzles": 45,
@@ -6360,6 +6370,7 @@
           "frontierMathV2Tier4": 58.5
         },
         "external": {
+          "frontierPhysics": 3.6,
           "nytConnections": 69.4,
           "chartArena": 1373,
           "dayjobHealthcare": 1.2,
@@ -6592,6 +6603,7 @@
           "frontierMath": 43.8
         },
         "external": {
+          "benchflowSkillsBench": 61.2,
           "nytConnections": 39,
           "clocktowerBench": 1241
         }
@@ -6772,6 +6784,7 @@
           "frontierMathV2Tier4": 25.641
         },
         "external": {
+          "benchflowSkillsBench": 54,
           "nytConnections": 87.2,
           "chessPuzzles": 20,
           "mysteryGamePuzzles": 18,
@@ -7298,6 +7311,7 @@
           "usamo2026": 85.71
         },
         "external": {
+          "benchflowSkillsBench": 53,
           "nytConnections": 65.1,
           "stealthMark": 38.6,
           "babaIsBench": 46,
@@ -8148,6 +8162,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "benchflowSkillsBench": 50.2,
           "nytConnections": 43.2,
           "binaryAudit": 49.1,
           "clocktowerBench": 1432,
@@ -8757,6 +8772,7 @@
           "frontierMathV2Tiers13": 36.842
         },
         "external": {
+          "benchflowSkillsBench": 58.4,
           "nytConnections": 77.7,
           "chessPuzzles": 20
         }
@@ -9004,6 +9020,7 @@
           "frontierMathV2Tier4": 46.341
         },
         "external": {
+          "frontierPhysics": 4.2,
           "nytConnections": 65.7,
           "factsMultimodal": 38.9,
           "stealthMark": 49.5,
@@ -9373,6 +9390,7 @@
         "math": {},
         "korean": {},
         "external": {
+          "benchflowSkillsBench": 47.2,
           "nytConnections": 44.8,
           "chessPuzzles": 23,
           "mysteryGamePuzzles": 16
@@ -9619,6 +9637,7 @@
           "frontierMathV2Tier4": 9.756
         },
         "external": {
+          "benchflowSkillsBench": 41.4,
           "nytConnections": 61.8,
           "chessPuzzles": 17,
           "mysteryGamePuzzles": 7
@@ -11595,6 +11614,7 @@
           "frontierMathV2Tier4": 4.878
         },
         "external": {
+          "benchflowSkillsBench": 49,
           "nytConnections": 49.4,
           "failureSensorIq": 66.7,
           "otelBench": 29,
@@ -11961,6 +11981,7 @@
           "hmmtFeb2026": 72.7
         },
         "external": {
+          "benchflowSkillsBench": 34.9,
           "nytConnections": 24.7
         }
       },
@@ -12211,6 +12232,7 @@
         },
         "korean": {},
         "external": {
+          "benchflowSkillsBench": 51.7,
           "nytConnections": 83.6,
           "otelBench": 26.1,
           "binaryAudit": 17.5,
@@ -15415,6 +15437,7 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "frontierPhysics": 6.5,
           "nytConnections": 93.4,
           "stealthMark": 56.7,
           "exploitBench": 74.7,
@@ -15652,6 +15675,9 @@
           "frontierMathV2Tier4": 95
         },
         "external": {
+          "frontierPhysics": 27.4,
+          "cookieBench": 91.5,
+          "blenderWorldText": 86.1,
           "nytConnections": 88.5,
           "jokeArena": 1512,
           "chartArena": 1628,
@@ -15831,6 +15857,9 @@
           "frontierMathV2Tier4": 100
         },
         "external": {
+          "frontierPhysics": 19.6,
+          "cookieBench": 89.7,
+          "blenderWorldText": 85.3,
           "nytConnections": 97.8,
           "jokeArena": 1520,
           "chartArena": 1624,
@@ -16163,6 +16192,7 @@
           "frontierMathV2Tier4": 78.049
         },
         "external": {
+          "frontierPhysics": 8.3,
           "nytConnections": 98.6,
           "jokeArena": 1502,
           "chartArena": 1511,
@@ -16453,6 +16483,7 @@
           "frontierMathV2Tier4": 92.683
         },
         "external": {
+          "frontierPhysics": 14.3,
           "nytConnections": 86.8,
           "stealthMark": 60.4,
           "exploitBench": 97.1,
@@ -16644,6 +16675,7 @@
           "frontierMathV2Tier4": 21.951
         },
         "external": {
+          "frontierPhysics": 0,
           "nytConnections": 97.4,
           "jokeArena": 1555,
           "chartArena": 1479,
@@ -17371,6 +17403,7 @@
           "frontierMathV2Tier4": 90
         },
         "external": {
+          "frontierPhysics": 14.3,
           "nytConnections": 90.1,
           "code2Video": 1546,
           "dayjobHealthcare": 2.8,
@@ -18141,152 +18174,6 @@
       }
     },
     {
-      "slug": "minimax-m3-1-flash",
-      "canonicalModelKey": "minimax-m3-1-flash",
-      "model": "MiniMax M3.1 Flash",
-      "creator": "MiniMax",
-      "sourceType": "Proprietary",
-      "reasoningType": "Reasoning",
-      "contextWindow": "1M",
-      "contextWindowTokens": 1000000,
-      "displayScore": 60.06,
-      "provisionalDisplayScore": 72,
-      "publicRankingMode": "bench-align-v5",
-      "evidenceStatus": "estimated",
-      "scoreInterval90": {
-        "lower": 45.71,
-        "upper": 74.41,
-        "scope": "source-pattern",
-        "sourcePattern": "objective-only",
-        "patternCalibrationFamilies": 12,
-        "patternIntervalAvailable": true,
-        "validatedFutureTruth": false,
-        "coverageValidated": false,
-        "simultaneousRosterCoverageValidated": false
-      },
-      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
-      "rankingEligible": true,
-      "overallRank": 53,
-      "url": "https://benchlm.ai/models/minimax-m3-1-flash",
-      "markdownUrl": "https://benchlm.ai/md/models/minimax-m3-1-flash.md",
-      "id": 967,
-      "releaseDate": "2026-10-19",
-      "market": null,
-      "isRegional": false,
-      "family": {
-        "familyKey": "minimax-m3-1-flash",
-        "familyName": "MiniMax M3.1 Flash",
-        "variantType": "flash-reasoning",
-        "snapshotLabel": null,
-        "baseFamilyModelKey": "minimax-m3-1-flash",
-        "relatedModelKeys": [
-          "minimax-m3-1-flash-preview",
-          "minimax-m3"
-        ],
-        "isCanonicalFamilyEntry": true,
-        "supersedesModelKey": "minimax-m3-1-flash-preview"
-      },
-      "scores": {
-        "displayScore": 72,
-        "overallScore": 72,
-        "rawOverallScore": 0,
-        "verifiedDisplayScore": 73,
-        "displayCategoryScores": {
-          "agentic": 74.1,
-          "coding": null,
-          "reasoning": 78,
-          "multimodalGrounded": 72.4,
-          "knowledge": 65.7,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        },
-        "verifiedDisplayCategoryScores": {
-          "agentic": 77.5,
-          "coding": null,
-          "reasoning": 78,
-          "multimodalGrounded": 72.4,
-          "knowledge": 65.7,
-          "multilingual": null,
-          "instructionFollowing": null,
-          "math": null
-        }
-      },
-      "ranking": {
-        "rankingEligible": false,
-        "verifiedRankingEligible": false,
-        "overallRank": 53,
-        "categoryRanks": {
-          "agentic": 42,
-          "coding": 37,
-          "reasoning": 45,
-          "multimodalGrounded": 26,
-          "knowledge": 34
-        },
-        "categoryRankingEligible": {
-          "agentic": false,
-          "coding": false,
-          "reasoning": false,
-          "multimodalGrounded": true,
-          "knowledge": false,
-          "multilingual": false,
-          "instructionFollowing": false,
-          "math": false
-        }
-      },
-      "coverage": {
-        "trustedBenchmarkCount": 18,
-        "verifiedBenchmarkCount": 18,
-        "rankableBenchmarkCount": 18,
-        "generatedBenchmarkCount": 0,
-        "scoreConfidence": 2
-      },
-      "benchmarks": {
-        "agentic": {
-          "locaBench256k": 60.3,
-          "sweRefactorBench": 23,
-          "automationBench": 62.2,
-          "bankerToolBench": 76.2,
-          "terminalBench4": 38.1,
-          "agentsLastExam": 29.6,
-          "osWorld2": 61.7,
-          "cyberGym": 82.2,
-          "gdpvalAaNormalized": 47.9,
-          "mka": 33.5
-        },
-        "coding": {
-          "postTrainBench11": 39.3,
-          "deepSwe": 73.7,
-          "nl2Repo": 61.2,
-          "aaSciCode": 53.4
-        },
-        "reasoning": {
-          "lcr": 79.7,
-          "critpt": 22.3
-        },
-        "multimodalGrounded": {
-          "babyVisionPython": 91,
-          "charxiv": 82.5,
-          "aaMmmuPro": 79.1
-        },
-        "knowledge": {
-          "hleNoTools": 43.4,
-          "artificialAnalysis": 29.06,
-          "aaHle": 48,
-          "aaOmniscienceIndex": -6.4,
-          "omniscienceAccuracy": 45.1,
-          "omniscienceHallucinationRate": 93.7
-        },
-        "multilingual": {},
-        "instructionFollowing": {},
-        "math": {},
-        "external": {
-          "nytConnections": 28.3,
-          "stealthMark": 45.9
-        }
-      }
-    },
-    {
       "slug": "deepseek-v4-1-flash",
       "canonicalModelKey": "deepseek-v4-1-flash",
       "model": "DeepSeek V4.1 Flash 1017",
@@ -18449,6 +18336,9 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "frontierPhysics": 3.6,
+          "cookieBench": 87.9,
+          "blenderWorldText": 79.2,
           "nytConnections": 92.8,
           "landingPageArena": 1481,
           "stealthMark": 59.2,
@@ -18694,6 +18584,152 @@
             "benchmarkUrl": "https://www.vals.ai/benchmarks/mmlu_pro",
             "retrievedAt": null
           }
+        }
+      }
+    },
+    {
+      "slug": "minimax-m3-1-flash",
+      "canonicalModelKey": "minimax-m3-1-flash",
+      "model": "MiniMax M3.1 Flash",
+      "creator": "MiniMax",
+      "sourceType": "Proprietary",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": 60.06,
+      "provisionalDisplayScore": 72,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": "estimated",
+      "scoreInterval90": {
+        "lower": 45.71,
+        "upper": 74.41,
+        "scope": "source-pattern",
+        "sourcePattern": "objective-only",
+        "patternCalibrationFamilies": 12,
+        "patternIntervalAvailable": true,
+        "validatedFutureTruth": false,
+        "coverageValidated": false,
+        "simultaneousRosterCoverageValidated": false
+      },
+      "orderingMeaning": "Point-estimate order; conditional ranges do not establish rank confidence.",
+      "rankingEligible": true,
+      "overallRank": 53,
+      "url": "https://benchlm.ai/models/minimax-m3-1-flash",
+      "markdownUrl": "https://benchlm.ai/md/models/minimax-m3-1-flash.md",
+      "id": 967,
+      "releaseDate": "2026-10-19",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "minimax-m3-1-flash",
+        "familyName": "MiniMax M3.1 Flash",
+        "variantType": "flash-reasoning",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "minimax-m3-1-flash",
+        "relatedModelKeys": [
+          "minimax-m3-1-flash-preview",
+          "minimax-m3"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": "minimax-m3-1-flash-preview"
+      },
+      "scores": {
+        "displayScore": 72,
+        "overallScore": 72,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": 73,
+        "displayCategoryScores": {
+          "agentic": 74.1,
+          "coding": null,
+          "reasoning": 78,
+          "multimodalGrounded": 72.4,
+          "knowledge": 65.7,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 77.5,
+          "coding": null,
+          "reasoning": 78,
+          "multimodalGrounded": 72.4,
+          "knowledge": 65.7,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": 53,
+        "categoryRanks": {
+          "agentic": 42,
+          "coding": 37,
+          "reasoning": 45,
+          "multimodalGrounded": 26,
+          "knowledge": 34
+        },
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": true,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 18,
+        "verifiedBenchmarkCount": 18,
+        "rankableBenchmarkCount": 18,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 2
+      },
+      "benchmarks": {
+        "agentic": {
+          "locaBench256k": 60.3,
+          "sweRefactorBench": 23,
+          "automationBench": 62.2,
+          "bankerToolBench": 76.2,
+          "terminalBench4": 38.1,
+          "agentsLastExam": 29.6,
+          "osWorld2": 61.7,
+          "cyberGym": 82.2,
+          "gdpvalAaNormalized": 47.9,
+          "mka": 33.5
+        },
+        "coding": {
+          "postTrainBench11": 39.3,
+          "deepSwe": 73.7,
+          "nl2Repo": 61.2,
+          "aaSciCode": 53.4
+        },
+        "reasoning": {
+          "lcr": 79.7,
+          "critpt": 22.3
+        },
+        "multimodalGrounded": {
+          "babyVisionPython": 91,
+          "charxiv": 82.5,
+          "aaMmmuPro": 79.1
+        },
+        "knowledge": {
+          "hleNoTools": 43.4,
+          "artificialAnalysis": 29.06,
+          "aaHle": 48,
+          "aaOmniscienceIndex": -6.4,
+          "omniscienceAccuracy": 45.1,
+          "omniscienceHallucinationRate": 93.7
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {
+          "nytConnections": 28.3,
+          "stealthMark": 45.9
         }
       }
     },
@@ -19075,6 +19111,7 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "benchflowSkillsBench": 55.9,
           "nytConnections": 41.2,
           "babaIsBench": 54
         }
@@ -19376,6 +19413,7 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "frontierPhysics": 1.2,
           "stealthMark": 47.9,
           "exploitBench": 47.9,
           "secBenchPro": 66.3
@@ -20250,6 +20288,7 @@
           "frontierMathV2Tier4": 31.707
         },
         "external": {
+          "frontierPhysics": 2.4,
           "nytConnections": 80,
           "landingPageArena": 1401,
           "code2Video": 1450,
@@ -22263,6 +22302,7 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "benchflowSkillsBench": 54.6,
           "nytConnections": 83.1,
           "dayjobHealthcare": 0,
           "dayjob": 0,
@@ -23600,6 +23640,7 @@
           "frontierMathV2Tier4": 14.634
         },
         "external": {
+          "benchflowSkillsBench": 41.7,
           "nytConnections": 55.2,
           "chessPuzzles": 18
         }
@@ -24169,6 +24210,9 @@
           "frontierMathV2Tier4": 29.268
         },
         "external": {
+          "frontierPhysics": 4.2,
+          "cookieBench": 80.4,
+          "blenderWorldText": 69.7,
           "nytConnections": 74.2,
           "jokeArena": 1529,
           "landingPageArena": 1480,
@@ -25430,6 +25474,8 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "cookieBench": 76.9,
+          "blenderWorldText": 71.4,
           "chartArena": 1452,
           "code2Video": 1467,
           "babaIsBench": 67,
@@ -28786,6 +28832,7 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "frontierPhysics": 4.2,
           "nytConnections": 76.8,
           "jokeArena": 1480,
           "chartArena": 1503,
@@ -32826,6 +32873,7 @@
           "frontierMathV2Tiers13": 27.719
         },
         "external": {
+          "benchflowSkillsBench": 20.1,
           "nytConnections": 8.2
         }
       },
@@ -36440,6 +36488,7 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "frontierPhysics": 0,
           "nytConnections": 27.4,
           "stealthMark": 43.3,
           "chessPuzzles": 33,
@@ -37997,6 +38046,7 @@
           "frontierMathV2Tier4": 2.439
         },
         "external": {
+          "benchflowSkillsBench": 36.2,
           "nytConnections": 35.8,
           "failureSensorIq": 64.2,
           "compileBench": 86.7,
@@ -39891,6 +39941,7 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "benchflowSkillsBench": 30.1,
           "nytConnections": 14.3,
           "failureSensorIq": 61.8,
           "compileBench": 68.9,
@@ -52395,6 +52446,122 @@
       }
     },
     {
+      "slug": "ernie-5-5-flash-preview",
+      "canonicalModelKey": "ernie-5-5-flash-preview",
+      "model": "ERNIE 5.5 Flash Preview",
+      "creator": "Baidu",
+      "sourceType": "Pending",
+      "reasoningType": "Reasoning",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/ernie-5-5-flash-preview",
+      "markdownUrl": "https://benchlm.ai/md/models/ernie-5-5-flash-preview.md",
+      "id": 1033,
+      "releaseDate": "2026-11-11",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "ernie-5-5-flash",
+        "familyName": "ERNIE 5.5 Flash",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "ernie-5-5-flash-preview",
+        "relatedModelKeys": [],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": 72,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": 79.2,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": 68.1,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 12,
+        "verifiedBenchmarkCount": 12,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {
+          "terminalBench4": 46.5,
+          "terminalBenchScience": 21,
+          "automationBench": 61.9,
+          "apexAgents": 64.2,
+          "draco": 84.9,
+          "spreadsheetBench2": 36.4,
+          "agentsLastExamCli": 29,
+          "toolathlonVerified": 75,
+          "mcpAtlas": 84.6,
+          "browseComp": 87.4
+        },
+        "coding": {
+          "deepSwe": 71.2,
+          "programBench": 29.5,
+          "nl2Repo": 64.8
+        },
+        "reasoning": {},
+        "multimodalGrounded": {
+          "officeQaProV2": 67.9
+        },
+        "knowledge": {
+          "hleNoTools": 46.4
+        },
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {
+          "cookieBench": 88.2,
+          "blenderWorldText": 79
+        }
+      }
+    },
+    {
       "slug": "seed-2-1-pro",
       "canonicalModelKey": "seed-2-1-pro",
       "model": "Seed 2.1 Pro",
@@ -52856,6 +53023,8 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "cookieBench": 88.8,
+          "blenderWorldText": 76.8,
           "nytConnections": 83.5
         }
       }
@@ -68898,6 +69067,292 @@
       }
     },
     {
+      "slug": "gemini-decision-1",
+      "canonicalModelKey": "gemini-decision-1",
+      "model": "Gemini Decision 1",
+      "creator": "Google",
+      "sourceType": "Proprietary",
+      "reasoningType": "Unspecified",
+      "contextWindow": "262K",
+      "contextWindowTokens": 262000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/gemini-decision-1",
+      "markdownUrl": "https://benchlm.ai/md/models/gemini-decision-1.md",
+      "id": 1036,
+      "releaseDate": "2026-11-11",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "gemini-decision-1",
+        "familyName": "Gemini Decision 1",
+        "variantType": "decision-system",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "gemini-decision-1",
+        "relatedModelKeys": [],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {
+          "aaDecisionIndexV2": 66
+        }
+      }
+    },
+    {
+      "slug": "scribe-v3",
+      "canonicalModelKey": "scribe-v3",
+      "model": "Scribe v3",
+      "creator": "ElevenLabs",
+      "sourceType": "Proprietary",
+      "reasoningType": "Non-Reasoning",
+      "contextWindow": "N/A",
+      "contextWindowTokens": 0,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/scribe-v3",
+      "markdownUrl": "https://benchlm.ai/md/models/scribe-v3.md",
+      "id": 1034,
+      "releaseDate": "2026-11-10",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "scribe-v3",
+        "familyName": "Scribe v3",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "scribe-v3",
+        "relatedModelKeys": [
+          "scribe-v3-live"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
+      "slug": "scribe-v3-live",
+      "canonicalModelKey": "scribe-v3-live",
+      "model": "Scribe v3 Live",
+      "creator": "ElevenLabs",
+      "sourceType": "Proprietary",
+      "reasoningType": "Non-Reasoning",
+      "contextWindow": "N/A",
+      "contextWindowTokens": 0,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/scribe-v3-live",
+      "markdownUrl": "https://benchlm.ai/md/models/scribe-v3-live.md",
+      "id": 1035,
+      "releaseDate": "2026-11-10",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "scribe-v3-live",
+        "familyName": "Scribe v3 Live",
+        "variantType": "base",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "scribe-v3-live",
+        "relatedModelKeys": [
+          "scribe-v3"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": "scribe-v2-2-realtime"
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {}
+      }
+    },
+    {
       "slug": "celeris-1-1-decision",
       "canonicalModelKey": "celeris-1-1-decision",
       "model": "Celeris-1.1 Decision",
@@ -68997,7 +69452,7 @@
           "aaDecisionHleMultiChoice": 12.5,
           "aaDecisionWhen2Call": 87.1,
           "aaDecisionWildGuardTest": 94.9,
-          "aaDecisionIndexV2": 63.5
+          "aaDecisionIndexV2": 62
         }
       }
     },
@@ -69194,7 +69649,7 @@
           "aaDecisionHleMultiChoice": 17,
           "aaDecisionWhen2Call": 94.6,
           "aaDecisionWildGuardTest": 95.5,
-          "aaDecisionIndexV2": 73.4
+          "aaDecisionIndexV2": 72.6
         }
       }
     },
@@ -69896,7 +70351,103 @@
           "jevDecisionIndex03Retrieval": 73.4,
           "jevDecisionIndex03Tools": 86,
           "jevDecisionIndex03Arts": 62.3,
-          "aaDecisionIndexV2": 72.8
+          "aaDecisionIndexV2": 72.5
+        }
+      }
+    },
+    {
+      "slug": "subq-snap-1-1",
+      "canonicalModelKey": "subq-snap-1-1",
+      "model": "SubQ Snap 1.1",
+      "creator": "Subquadratic",
+      "sourceType": "Proprietary",
+      "reasoningType": "Unspecified",
+      "contextWindow": "384K",
+      "contextWindowTokens": 384000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/subq-snap-1-1",
+      "markdownUrl": "https://benchlm.ai/md/models/subq-snap-1-1.md",
+      "id": 1037,
+      "releaseDate": "2026-10-22",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "subq-snap",
+        "familyName": "SubQ Snap",
+        "variantType": "decision-system",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "subq-snap-1-1",
+        "relatedModelKeys": [],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {
+          "aaDecisionIndexV2": 67.9
         }
       }
     },
@@ -70006,7 +70557,7 @@
           "aaDecisionHleMultiChoice": 18.3,
           "aaDecisionWhen2Call": 94.8,
           "aaDecisionWildGuardTest": 93.3,
-          "aaDecisionIndexV2": 67.5
+          "aaDecisionIndexV2": 66.4
         }
       }
     },
@@ -70110,7 +70661,7 @@
           "jevDecisionIndex03Retrieval": 66.2,
           "jevDecisionIndex03Tools": 83.4,
           "jevDecisionIndex03Arts": 62.7,
-          "aaDecisionIndexV2": 72.4
+          "aaDecisionIndexV2": 71.4
         }
       }
     },
@@ -71191,7 +71742,7 @@
           "aaDecisionHleMultiChoice": 12.1,
           "aaDecisionWhen2Call": 74.4,
           "aaDecisionWildGuardTest": 93.3,
-          "aaDecisionIndexV2": 61.6
+          "aaDecisionIndexV2": 60.1
         }
       }
     },
@@ -71302,7 +71853,7 @@
           "aaDecisionHleMultiChoice": 14.6,
           "aaDecisionWhen2Call": 87.7,
           "aaDecisionWildGuardTest": 94.4,
-          "aaDecisionIndexV2": 70.5
+          "aaDecisionIndexV2": 69.8
         }
       }
     },
@@ -71404,7 +71955,7 @@
           "aaDecisionHleMultiChoice": 15,
           "aaDecisionWhen2Call": 92.6,
           "aaDecisionWildGuardTest": 95.4,
-          "aaDecisionIndexV2": 70.4
+          "aaDecisionIndexV2": 70.6
         }
       }
     },
@@ -72177,7 +72728,7 @@
           "jevDecisionIndex03Retrieval": 64.8,
           "jevDecisionIndex03Tools": 74.4,
           "jevDecisionIndex03Arts": 47.7,
-          "aaDecisionIndexV2": 67
+          "aaDecisionIndexV2": 66.2
         }
       }
     },
@@ -72879,7 +73430,7 @@
           "aaDecisionHleMultiChoice": 10.9,
           "aaDecisionWhen2Call": 81.9,
           "aaDecisionWildGuardTest": 88.2,
-          "aaDecisionIndexV2": 62.8
+          "aaDecisionIndexV2": 62.1
         }
       }
     },
@@ -72990,7 +73541,7 @@
           "jevDecisionIndex03Retrieval": 56.5,
           "jevDecisionIndex03Tools": 60,
           "jevDecisionIndex03Arts": 37.8,
-          "aaDecisionIndexV2": 59.3
+          "aaDecisionIndexV2": 57.8
         }
       }
     },
@@ -73608,7 +74159,7 @@
           "aaDecisionHleMultiChoice": 13.6,
           "aaDecisionWhen2Call": 86.2,
           "aaDecisionWildGuardTest": 87.9,
-          "aaDecisionIndexV2": 63.4
+          "aaDecisionIndexV2": 61.6
         }
       }
     },
@@ -73703,6 +74254,104 @@
         "multilingual": {},
         "instructionFollowing": {},
         "math": {}
+      }
+    },
+    {
+      "slug": "gpt-6-luna-decisions",
+      "canonicalModelKey": "gpt-6-luna-decisions",
+      "model": "GPT-6 Luna (Decisions)",
+      "creator": "OpenAI",
+      "sourceType": "Proprietary",
+      "reasoningType": "Unspecified",
+      "contextWindow": "1.05M",
+      "contextWindowTokens": 1050000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/gpt-6-luna-decisions",
+      "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna-decisions.md",
+      "id": 1038,
+      "releaseDate": "2026-10-06",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "gpt-6-luna-decisions",
+        "familyName": "GPT-6 Luna (Decisions)",
+        "variantType": "decision-system",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "gpt-6-luna-decisions",
+        "relatedModelKeys": [
+          "gpt-6-luna"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {
+          "aaDecisionIndexV2": 60.2
+        }
       }
     },
     {
@@ -73811,7 +74460,7 @@
           "aaDecisionHleMultiChoice": 11.1,
           "aaDecisionWhen2Call": 71,
           "aaDecisionWildGuardTest": 90.7,
-          "aaDecisionIndexV2": 60.2
+          "aaDecisionIndexV2": 60.3
         }
       }
     },
@@ -98069,7 +98718,7 @@
           "aaDecisionHleMultiChoice": 11.5,
           "aaDecisionWhen2Call": 77.4,
           "aaDecisionWildGuardTest": 90.9,
-          "aaDecisionIndexV2": 61.6
+          "aaDecisionIndexV2": 60.8
         }
       }
     },
@@ -117715,7 +118364,7 @@
           "aaDecisionHleMultiChoice": 10.1,
           "aaDecisionWhen2Call": 79.3,
           "aaDecisionWildGuardTest": 88,
-          "aaDecisionIndexV2": 63
+          "aaDecisionIndexV2": 62.1
         }
       }
     },
@@ -135408,5 +136057,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:57ccfb3a170ae03eefb6689f6a8cf50ebea62b8cacf5355e8713bdbdea59c8db"
+  "dataVersion": "sha256:68fc7dfa268c9921b4cf6c39d7f474bbd6f3915ce7036a2daca833b0044740cc"
 }

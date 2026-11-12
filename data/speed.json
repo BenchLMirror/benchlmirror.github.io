@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-11T03:03:08.797Z",
+  "generatedAt": "2026-11-12T02:13:11.479Z",
   "sourceLastUpdated": "2026-11-10",
   "sourceFiles": [
     "src/data/modelOperationalMetrics.js"
