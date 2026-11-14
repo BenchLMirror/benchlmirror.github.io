@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-13T02:11:01.846Z",
+  "generatedAt": "2026-11-13T21:12:19.001Z",
   "sourceLastUpdated": "November 12, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
@@ -16,7 +16,7 @@
   ],
   "manifestUrl": "https://benchlm.ai/data/manifest.json",
   "counts": {
-    "pricedRows": 937,
+    "pricedRows": 939,
     "numericPricingRows": 427
   },
   "items": [
@@ -7495,6 +7495,48 @@
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/hark-handoff-2",
       "markdownUrl": "https://benchlm.ai/md/models/hark-handoff-2.md"
+    },
+    {
+      "canonicalModelKey": "heygen-decision-1",
+      "slug": "heygen-decision-1",
+      "model": "HeyGen Decision 1",
+      "creator": "HeyGen",
+      "sourceType": "Proprietary",
+      "contextWindow": "131K",
+      "contextWindowTokens": 131000,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "HeyGen bills HeyGen Decision 1 on input tokens only; output tokens are always zero. HeyGen's signed-in API pricing page lists $0.14 per million input tokens (Quality tier), the same rate a model listing showed at launch on November 13, 2026, but no public HeyGen page shows it yet, so the numeric fields stay unresolved.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/heygen-decision-1",
+      "markdownUrl": "https://benchlm.ai/md/models/heygen-decision-1.md"
+    },
+    {
+      "canonicalModelKey": "heygen-decision-1-turbo",
+      "slug": "heygen-decision-1-turbo",
+      "model": "HeyGen Decision 1 Turbo",
+      "creator": "HeyGen",
+      "sourceType": "Proprietary",
+      "contextWindow": "262K",
+      "contextWindowTokens": 262000,
+      "inputPrice": null,
+      "outputPrice": null,
+      "cachedInputPrice": null,
+      "trainingPrice": null,
+      "note": "HeyGen bills HeyGen Decision 1 Turbo on input tokens only; output tokens are always zero. HeyGen's signed-in API pricing page lists $0.09 per million input tokens (Turbo tier), the same rate a model listing showed at launch on November 13, 2026, but no public HeyGen page shows it yet, so the numeric fields stay unresolved. The model is in preview.",
+      "hasNumericPricing": false,
+      "isFreePricing": false,
+      "displayScore": null,
+      "overallRank": null,
+      "scorePerOutputDollar": null,
+      "url": "https://benchlm.ai/models/heygen-decision-1-turbo",
+      "markdownUrl": "https://benchlm.ai/md/models/heygen-decision-1-turbo.md"
     },
     {
       "canonicalModelKey": "heygen-voice",
@@ -19698,5 +19740,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/zonos-2.md"
     }
   ],
-  "dataVersion": "sha256:91877d6a0f53562d10fe94a2af00edd994f17eff220c0810cb9a793628f23c3e"
+  "dataVersion": "sha256:d0558cf5882da4fa777fe19431b912d473f9cb5caf10e59b4b57f3258eeb517e"
 }

@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-13T02:11:01.846Z",
+  "generatedAt": "2026-11-13T21:12:19.001Z",
   "sourceLastUpdated": "November 13, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
@@ -405,13 +405,18 @@
           "name": "Access to Justice",
           "sourceUrl": "https://www.vals.ai/benchmarks/a2j",
           "capturedAt": "2026-11-12T18:36:22.395Z"
+        },
+        "valsFinancialCoachingBench": {
+          "name": "Financial Coaching Bench",
+          "sourceUrl": "https://www.vals.ai/benchmarks/financial-coaching-bench",
+          "capturedAt": "2026-11-13T15:44:23.276Z"
         }
       }
     }
   },
   "counts": {
-    "totalModels": 1031,
-    "canonicalModels": 861,
+    "totalModels": 1033,
+    "canonicalModels": 862,
     "rankingEligibleModels": 213
   },
   "items": [
@@ -635,6 +640,9 @@
           "frontierMathV2Tier4": 73.171
         },
         "external": {
+          "gameArenaGo": 1564,
+          "asciiArena": 1506,
+          "pelicanArena": 1561,
           "frontierPhysics": 9.5,
           "nytConnections": 94.3,
           "code2Video": 1543,
@@ -927,6 +935,10 @@
           "frontierMathV2Tiers13": 93.684
         },
         "external": {
+          "gameArenaGo": 1735,
+          "asciiArena": 1730,
+          "landmarkArena": 1755,
+          "pelicanArena": 1819,
           "frontierPhysics": 23.2,
           "nytConnections": 98.4,
           "jokeArena": 1564,
@@ -1432,6 +1444,10 @@
           "frontierMathV2Tier4": 87.805
         },
         "external": {
+          "gameArenaGo": 1601,
+          "asciiArena": 1484,
+          "landmarkArena": 1607,
+          "pelicanArena": 1672,
           "frontierPhysics": 11.3,
           "nytConnections": 90,
           "jokeArena": 1541,
@@ -1694,6 +1710,8 @@
           "frontierMathV2Tier4": 83
         },
         "external": {
+          "gameArenaGo": 1005,
+          "pelicanArena": 1640,
           "jokeArena": 1520,
           "factsMultimodal": 46.4,
           "frontierPhysics": 7.1,
@@ -2156,6 +2174,9 @@
           "frontierMathV2Tier4": 46.341
         },
         "external": {
+          "asciiArena": 1282,
+          "landmarkArena": 1475,
+          "pelicanArena": 1592,
           "nytConnections": 88.3,
           "jokeArena": 1457,
           "landingPageArena": 1563,
@@ -2440,6 +2461,9 @@
           "frontierMathV2Tier4": 80.488
         },
         "external": {
+          "gameArenaGo": 1442,
+          "asciiArena": 1541,
+          "pelicanArena": 1726,
           "nytConnections": 80.5,
           "jokeArena": 1549,
           "chartArena": 1456,
@@ -2671,6 +2695,8 @@
         },
         "math": {},
         "external": {
+          "asciiArena": 1303,
+          "pelicanArena": 1494,
           "frontierPhysics": 2.4,
           "nytConnections": 93.6,
           "landingPageArena": 1560,
@@ -3201,6 +3227,7 @@
           "frontierMathV2Tier4": 56.098
         },
         "external": {
+          "gameArenaGo": 1116,
           "benchflowSkillsBench": 54.1,
           "nytConnections": 91.1,
           "dayjobHealthcare": 0.8,
@@ -3449,6 +3476,9 @@
           "frontierMathV2Tier4": 29.268
         },
         "external": {
+          "gameArenaGo": 1118,
+          "landmarkArena": 1162,
+          "pelicanArena": 1229,
           "jokeArena": 1417,
           "nytConnections": 75.1,
           "landingPageArena": 1417,
@@ -3885,6 +3915,9 @@
           "frontierMathV2Tier4": 68.3
         },
         "external": {
+          "gameArenaGo": 512,
+          "asciiArena": 1294,
+          "pelicanArena": 1342,
           "factsMultimodal": 39.9,
           "frontierPhysics": 3.6,
           "nytConnections": 78.4,
@@ -4372,6 +4405,7 @@
           "frontierMathV2Tier4": 72.5
         },
         "external": {
+          "gameArenaGo": 996,
           "benchflowSkillsBench": 67.3,
           "nytConnections": 96.2,
           "jokeArena": 1499,
@@ -5056,6 +5090,8 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "gameArenaGo": 1147,
+          "asciiArena": 1573,
           "benchflowSkillsBench": 60.8,
           "nytConnections": 97.4,
           "code2Video": 1454,
@@ -5340,6 +5376,7 @@
         },
         "korean": {},
         "external": {
+          "gameArenaGo": 856,
           "nytConnections": 91.3,
           "binaryAudit": 17.5,
           "clocktowerBench": 1276,
@@ -6039,6 +6076,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "gameArenaGo": 756,
           "benchflowSkillsBench": 48.2,
           "nytConnections": 92.6,
           "babaIsBench": 88,
@@ -6291,6 +6329,7 @@
           "frontierMathV2Tiers13": 33.333
         },
         "external": {
+          "gameArenaGo": 555,
           "failureSensorIq": 67.6,
           "chessPuzzles": 36,
           "mysteryGamePuzzles": 29
@@ -6779,6 +6818,9 @@
           "frontierMathV2Tier4": 58.5
         },
         "external": {
+          "gameArenaGo": 446,
+          "asciiArena": 1262,
+          "pelicanArena": 1420,
           "factsMultimodal": 37.4,
           "frontierPhysics": 3.6,
           "nytConnections": 69.4,
@@ -8046,6 +8088,7 @@
           "frontierMath": 43.8
         },
         "external": {
+          "gameArenaGo": 510,
           "jokeArena": 1455,
           "benchflowSkillsBench": 61.2,
           "nytConnections": 39,
@@ -9430,6 +9473,7 @@
         "math": {},
         "korean": {},
         "external": {
+          "gameArenaGo": 296,
           "benchflowSkillsBench": 47.2,
           "nytConnections": 44.8,
           "chessPuzzles": 23,
@@ -9680,6 +9724,9 @@
           "frontierMathV2Tier4": 46.341
         },
         "external": {
+          "gameArenaGo": 1076,
+          "asciiArena": 1354,
+          "pelicanArena": 1325,
           "frontierPhysics": 4.2,
           "nytConnections": 65.7,
           "factsMultimodal": 38.9,
@@ -10056,6 +10103,7 @@
           "frontierMathV2Tier4": 9.756
         },
         "external": {
+          "gameArenaGo": 120,
           "benchflowSkillsBench": 41.4,
           "nytConnections": 61.8,
           "chessPuzzles": 17,
@@ -11454,6 +11502,7 @@
         },
         "korean": {},
         "external": {
+          "gameArenaGo": 561,
           "benchflowSkillsBench": 51.7,
           "nytConnections": 83.6,
           "otelBench": 26.1,
@@ -15830,6 +15879,7 @@
           "frontierMathV2Tier4": 100
         },
         "external": {
+          "gameArenaGo": 1877,
           "nytConnections": 97.3,
           "spireClimb": 19.6,
           "chessPuzzles": 79,
@@ -16111,7 +16161,8 @@
           "postTrainBench12": 36.5,
           "aaSciCode": 60.8,
           "bug-hunt-bench": 36,
-          "frontierCode2": 19.6
+          "frontierCode2": 19.6,
+          "openHarmonyBench12": 52.38
         },
         "reasoning": {
           "lcr": 86.3,
@@ -16394,6 +16445,10 @@
           "frontierMathV2Tier4": 95
         },
         "external": {
+          "gameArenaGo": 1543,
+          "asciiArena": 1651,
+          "landmarkArena": 1792,
+          "pelicanArena": 1736,
           "frontierPhysics": 27.4,
           "cookieBench": 91.5,
           "blenderWorldText": 86.1,
@@ -16595,6 +16650,10 @@
           "frontierMathV2Tier4": 100
         },
         "external": {
+          "gameArenaGo": 1448,
+          "asciiArena": 1686,
+          "landmarkArena": 1694,
+          "pelicanArena": 1787,
           "frontierPhysics": 19.6,
           "cookieBench": 89.7,
           "blenderWorldText": 85.3,
@@ -16764,6 +16823,10 @@
           "frontierMathV2Tier4": 95.122
         },
         "external": {
+          "gameArenaGo": 1830,
+          "asciiArena": 2019,
+          "landmarkArena": 1556,
+          "pelicanArena": 1600,
           "nytConnections": 99.3,
           "chartArena": 1506,
           "landingPageArena": 1473,
@@ -16940,6 +17003,10 @@
           "frontierMathV2Tier4": 78.049
         },
         "external": {
+          "gameArenaGo": 1686,
+          "asciiArena": 1983,
+          "landmarkArena": 1595,
+          "pelicanArena": 1664,
           "frontierPhysics": 8.3,
           "nytConnections": 98.6,
           "jokeArena": 1501,
@@ -17250,6 +17317,8 @@
           "frontierMathV2Tier4": 92.683
         },
         "external": {
+          "gameArenaGo": 1202,
+          "factsMultimodal": 48.8,
           "frontierPhysics": 14.3,
           "nytConnections": 86.8,
           "stealthMark": 60.4,
@@ -17436,6 +17505,10 @@
           "frontierMathV2Tier4": 21.951
         },
         "external": {
+          "gameArenaGo": 1170,
+          "asciiArena": 1672,
+          "landmarkArena": 1368,
+          "pelicanArena": 1570,
           "frontierPhysics": 0,
           "nytConnections": 97.4,
           "jokeArena": 1557,
@@ -17689,6 +17762,7 @@
           "frontierMathV2Tier4": 36.585
         },
         "external": {
+          "gameArenaGo": 1006,
           "nytConnections": 94,
           "code2Video": 1477,
           "babaIsBench": 100,
@@ -18327,6 +18401,9 @@
           "frontierMathV2Tier4": 90
         },
         "external": {
+          "gameArenaGo": 900,
+          "asciiArena": 1497,
+          "pelicanArena": 1674,
           "factsMultimodal": 43.9,
           "frontierPhysics": 14.3,
           "nytConnections": 90.1,
@@ -18955,6 +19032,9 @@
           "frontierMathV2Tier4": 21.951
         },
         "external": {
+          "gameArenaGo": 712,
+          "pelicanArena": 1452,
+          "factsMultimodal": 53.7,
           "nytConnections": 89,
           "babaIsBench": 88,
           "chessPuzzles": 40,
@@ -20048,6 +20128,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "landmarkArena": 1431,
           "frontierPhysics": 3.6,
           "cookieBench": 87.9,
           "blenderWorldText": 79.2,
@@ -21114,6 +21195,9 @@
           "frontierMathV2Tier4": 31.707
         },
         "external": {
+          "gameArenaGo": 1023,
+          "landmarkArena": 1308,
+          "pelicanArena": 1420,
           "factsMultimodal": 39.3,
           "frontierPhysics": 2.4,
           "nytConnections": 80,
@@ -22224,6 +22308,8 @@
           "frontierMathV2Tier4": 29.268
         },
         "external": {
+          "landmarkArena": 1484,
+          "pelicanArena": 1568,
           "frontierPhysics": 4.2,
           "cookieBench": 80.4,
           "blenderWorldText": 69.7,
@@ -22448,6 +22534,7 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "gameArenaGo": 497,
           "factsMultimodal": 49.7,
           "benchflowSkillsBench": 54.6,
           "nytConnections": 83.1,
@@ -23991,6 +24078,7 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "pelicanArena": 1599,
           "cookieBench": 76.9,
           "blenderWorldText": 71.4,
           "chartArena": 1469,
@@ -24186,7 +24274,8 @@
         },
         "coding": {
           "frontierCode2": 38.2,
-          "cursorBench40": 54.3
+          "cursorBench40": 54.3,
+          "bug-hunt-bench": 32.7
         },
         "reasoning": {},
         "multimodalGrounded": {
@@ -24745,6 +24834,8 @@
           "frontierMathV2Tier4": 24.39
         },
         "external": {
+          "gameArenaGo": 904,
+          "pelicanArena": 1358,
           "nytConnections": 79.9,
           "chartArena": 1467,
           "babaIsBench": 75,
@@ -24967,6 +25058,7 @@
           "frontierMathV2Tier4": 14.634
         },
         "external": {
+          "gameArenaGo": 130,
           "benchflowSkillsBench": 41.7,
           "nytConnections": 55.2,
           "chessPuzzles": 18
@@ -27031,6 +27123,9 @@
           "frontierMathV2Tier4": 56.098
         },
         "external": {
+          "gameArenaGo": 474,
+          "asciiArena": 1279,
+          "pelicanArena": 1536,
           "nytConnections": 68.7,
           "jokeArena": 1486,
           "chartArena": 1409,
@@ -29661,6 +29756,8 @@
           "frontierMathV2Tier4": 0
         },
         "external": {
+          "asciiArena": 1271,
+          "pelicanArena": 1186,
           "nytConnections": 60.4,
           "chartArena": 1558,
           "dayjobHealthcare": 0,
@@ -31619,6 +31716,9 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "gameArenaGo": 1004,
+          "landmarkArena": 1416,
+          "pelicanArena": 1304,
           "frontierPhysics": 4.2,
           "nytConnections": 76.8,
           "jokeArena": 1482,
@@ -40330,6 +40430,7 @@
           "frontierMathV2Tier4": 2.439
         },
         "external": {
+          "gameArenaGo": 325,
           "benchflowSkillsBench": 36.2,
           "nytConnections": 35.8,
           "failureSensorIq": 64.2,
@@ -71106,6 +71207,198 @@
         "multilingual": {},
         "instructionFollowing": {},
         "math": {}
+      }
+    },
+    {
+      "slug": "heygen-decision-1",
+      "canonicalModelKey": "heygen-decision-1",
+      "model": "HeyGen Decision 1",
+      "creator": "HeyGen",
+      "sourceType": "Proprietary",
+      "reasoningType": "Unspecified",
+      "contextWindow": "131K",
+      "contextWindowTokens": 131000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/heygen-decision-1",
+      "markdownUrl": "https://benchlm.ai/md/models/heygen-decision-1.md",
+      "id": 1044,
+      "releaseDate": "2026-11-13",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "heygen-decision-1",
+        "familyName": "HeyGen Decision 1",
+        "variantType": "decision-system",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "heygen-decision-1",
+        "relatedModelKeys": [
+          "heygen-decision-1-turbo"
+        ],
+        "isCanonicalFamilyEntry": true,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {}
+      }
+    },
+    {
+      "slug": "heygen-decision-1-turbo",
+      "canonicalModelKey": "heygen-decision-1-turbo",
+      "model": "HeyGen Decision 1 Turbo",
+      "creator": "HeyGen",
+      "sourceType": "Proprietary",
+      "reasoningType": "Unspecified",
+      "contextWindow": "262K",
+      "contextWindowTokens": 262000,
+      "displayScore": null,
+      "provisionalDisplayScore": 0,
+      "publicRankingMode": "bench-align-v5",
+      "evidenceStatus": null,
+      "scoreInterval90": null,
+      "orderingMeaning": null,
+      "rankingEligible": false,
+      "overallRank": null,
+      "url": "https://benchlm.ai/models/heygen-decision-1-turbo",
+      "markdownUrl": "https://benchlm.ai/md/models/heygen-decision-1-turbo.md",
+      "id": 1045,
+      "releaseDate": "2026-11-13",
+      "market": null,
+      "isRegional": false,
+      "family": {
+        "familyKey": "heygen-decision-1",
+        "familyName": "HeyGen Decision 1",
+        "variantType": "decision-system",
+        "snapshotLabel": null,
+        "baseFamilyModelKey": "heygen-decision-1",
+        "relatedModelKeys": [
+          "heygen-decision-1"
+        ],
+        "isCanonicalFamilyEntry": false,
+        "supersedesModelKey": null
+      },
+      "scores": {
+        "displayScore": 0,
+        "overallScore": 0,
+        "rawOverallScore": 0,
+        "verifiedDisplayScore": null,
+        "displayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        },
+        "verifiedDisplayCategoryScores": {
+          "agentic": null,
+          "coding": null,
+          "reasoning": null,
+          "multimodalGrounded": null,
+          "knowledge": null,
+          "multilingual": null,
+          "instructionFollowing": null,
+          "math": null
+        }
+      },
+      "ranking": {
+        "rankingEligible": false,
+        "verifiedRankingEligible": false,
+        "overallRank": null,
+        "categoryRanks": {},
+        "categoryRankingEligible": {
+          "agentic": false,
+          "coding": false,
+          "reasoning": false,
+          "multimodalGrounded": false,
+          "knowledge": false,
+          "multilingual": false,
+          "instructionFollowing": false,
+          "math": false
+        }
+      },
+      "coverage": {
+        "trustedBenchmarkCount": 0,
+        "verifiedBenchmarkCount": 0,
+        "rankableBenchmarkCount": 0,
+        "generatedBenchmarkCount": 0,
+        "scoreConfidence": 1
+      },
+      "benchmarks": {
+        "agentic": {},
+        "coding": {},
+        "reasoning": {},
+        "multimodalGrounded": {},
+        "knowledge": {},
+        "multilingual": {},
+        "instructionFollowing": {},
+        "math": {},
+        "external": {}
       }
     },
     {
@@ -138494,5 +138787,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:eefee0e1a8c85f815a2de5e081c61fa32374a1ca7416656c0be6c7fbeb05ef66"
+  "dataVersion": "sha256:ee70a8388debfce164e1f2b034843f3250016a40e0489d7a704ce11856c86776"
 }
