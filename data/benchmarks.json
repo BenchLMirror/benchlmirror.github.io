@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-13T21:12:19.001Z",
+  "generatedAt": "2026-11-15T02:27:37.723Z",
   "sourceLastUpdated": "November 13, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
@@ -394,7 +394,7 @@
   },
   "counts": {
     "categories": 10,
-    "benchmarks": 917
+    "benchmarks": 919
   },
   "items": [
     {
@@ -2593,7 +2593,7 @@
       "weight": 0.03061224489795918,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 17,
+      "displayableScoreCount": 18,
       "url": "https://benchlm.ai/benchmarks/vulcanbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/vulcanbench.md"
     },
@@ -4044,8 +4044,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 1,
-      "url": "https://benchlm.ai/benchmarks/arxivmathjune2026",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmathjune2026.md"
+      "url": "https://benchlm.ai/benchmarks/arxivmath",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmath.md"
     },
     {
       "category": "math",
@@ -4069,8 +4069,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 1,
-      "url": "https://benchlm.ai/benchmarks/arxivmathjune2026withtools",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmathjune2026withtools.md"
+      "url": "https://benchlm.ai/benchmarks/arxivmath",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmath.md"
     },
     {
       "category": "math",
@@ -4094,8 +4094,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 2,
-      "url": "https://benchlm.ai/benchmarks/arxivmathaugust2026",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmathaugust2026.md"
+      "url": "https://benchlm.ai/benchmarks/arxivmath",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmath.md"
     },
     {
       "category": "math",
@@ -4119,8 +4119,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 2,
-      "url": "https://benchlm.ai/benchmarks/arxivmathaugust2026withtools",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmathaugust2026withtools.md"
+      "url": "https://benchlm.ai/benchmarks/arxivmath",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/arxivmath.md"
     },
     {
       "category": "math",
@@ -5794,8 +5794,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 1,
-      "url": "https://benchlm.ai/benchmarks/multiif",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/multiif.md"
+      "url": "https://benchlm.ai/benchmarks/multi-if",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/multi-if.md"
     },
     {
       "category": "instructionFollowing",
@@ -7564,7 +7564,7 @@
       "difficulty": "Professional legal work",
       "decimals": 1,
       "successorKey": null,
-      "successorUrl": "https://benchlm.ai/benchmarks/harvey-lab-aa-v1-1",
+      "successorUrl": "https://benchlm.ai/benchmarks/aaharveylab",
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
@@ -7594,8 +7594,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 8,
-      "url": "https://benchlm.ai/benchmarks/harvey-lab-aa-v1-1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/harvey-lab-aa-v1-1.md"
+      "url": "https://benchlm.ai/benchmarks/aaharveylab",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/aaharveylab.md"
     },
     {
       "category": "agentic",
@@ -7619,8 +7619,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/harvey-lab-aa-v1-1-criterion-pass",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/harvey-lab-aa-v1-1-criterion-pass.md"
+      "url": "https://benchlm.ai/benchmarks/aaharveylab",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/aaharveylab.md"
     },
     {
       "category": "agentic",
@@ -8119,8 +8119,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 1,
-      "url": "https://benchlm.ai/benchmarks/cwebench",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/cwebench.md"
+      "url": "https://benchlm.ai/benchmarks/cwe-bench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/cwe-bench.md"
     },
     {
       "category": "agentic",
@@ -10250,10 +10250,35 @@
     {
       "category": "multimodalGrounded",
       "categoryLabel": "Multimodal & Grounded",
+      "benchmarkKey": "parseBench2LlamaIndex",
+      "name": "ParseBench-2",
+      "fullName": "ParseBench-2: severity-aware document parsing (LlamaIndex leaderboard)",
+      "description": "Scores document parsers and vision-language models on 4,317 pages from 2,645 documents in six dimensions: text, formatting, tables, charts, visual grounding and forms, with severity-aware scoring and the listed cost per page. A separate release from ParseBench-1; the scores are not comparable.",
+      "capabilityCategory": "multimodalGrounded",
+      "paperUrl": "https://www.parsebench.ai/parsebench-2.pdf",
+      "paperTitle": "ParseBench-2: Severity-Aware Evaluation of Document Parsing",
+      "authors": "Pierre-Loïc Doulcet, Boyang Zhang, Sebastián G. Acosta, Sacha Bron, Daniel B. Ospina, Antonio Jimeno Yepes, Nutchapol Dendumrongsup and Simon Suo (LlamaIndex)",
+      "year": "2026",
+      "tasks": "4,317 page-level test cases from 2,645 documents in 13 datasets",
+      "format": "Severity-capped page scores, averaged per dataset with fixed weights; six dimension scores and their unweighted mean, in percent",
+      "difficulty": "Charts and visual grounding separate the field; several systems that lead on text and tables score near zero on charts",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 17,
+      "url": "https://benchlm.ai/benchmarks/parsebench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/parsebench.md"
+    },
+    {
+      "category": "multimodalGrounded",
+      "categoryLabel": "Multimodal & Grounded",
       "benchmarkKey": "parseBenchLlamaIndex",
-      "name": "ParseBench",
-      "fullName": "ParseBench: document parsing for AI agents (LlamaIndex leaderboard)",
-      "description": "Scores document parsers and vision-language models on 2,078 human-verified enterprise pages across tables, charts, content faithfulness, semantic formatting and visual grounding, with the listed cost per page.",
+      "name": "ParseBench-1",
+      "fullName": "ParseBench-1: document parsing for AI agents (LlamaIndex leaderboard, first release)",
+      "description": "The first ParseBench release: scores document parsers and vision-language models on 2,078 human-verified enterprise pages across tables, charts, content faithfulness, semantic formatting and visual grounding, with the listed cost per page. ParseBench-2 is a separate benchmark with different scoring.",
       "capabilityCategory": "multimodalGrounded",
       "paperUrl": "https://arxiv.org/abs/2604.08538",
       "paperTitle": "ParseBench: A Document Parsing Benchmark for AI Agents",
@@ -10519,8 +10544,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 2,
-      "url": "https://benchlm.ai/benchmarks/officeqaprov2",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/officeqaprov2.md"
+      "url": "https://benchlm.ai/benchmarks/officeqapro",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/officeqapro.md"
     },
     {
       "category": "multimodalGrounded",
@@ -14619,8 +14644,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/valsterminalbench1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/valsterminalbench1.md"
+      "url": "https://benchlm.ai/benchmarks/terminal-bench#terminal-bench-1-0",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench.md"
     },
     {
       "category": "external",
@@ -15121,6 +15146,31 @@
       "displayableScoreCount": 0,
       "url": "https://benchlm.ai/benchmarks/company-agent-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/company-agent-bench.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "barcBench",
+      "name": "BARC-Bench",
+      "fullName": "Benign Asks, Risky Consequences",
+      "description": "Scale AI's benchmark of whether AI agents stay safe while carrying out ordinary workplace requests. Agents handle 110 benign tasks in nine simulated workspaces, where the risk lies in how the work is done, such as leaking private details in a calendar invite. The score is safety pass^5: the share of tasks on which all five attempts were safe.",
+      "capabilityCategory": "agentic",
+      "paperUrl": "https://arxiv.org/abs/2610.32024v2",
+      "paperTitle": "BARC-Bench: Benign Asks, Risky Consequences",
+      "authors": "Kangkang Li, Kelvin Luu, Lily Ma, Tu Trinh, Ying Liu and Mohamed Elfeki (Scale AI)",
+      "year": "2026",
+      "tasks": "110 benign workplace requests across nine simulated workspaces: 70 communication tasks, 34 file operations and 6 workspace application changes",
+      "format": "Agent runs in simulated workspaces with MCP tools; five attempts per task, judged by GPT-5.6 Sol against each task's rubric",
+      "difficulty": "Respecting boundaries the requester never stated, from workspace records and social norms",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/barc-bench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/barc-bench.md"
     },
     {
       "category": "external",
@@ -16564,7 +16614,7 @@
       "difficulty": "Professional finance modeling",
       "decimals": 2,
       "successorKey": null,
-      "successorUrl": "https://benchlm.ai/benchmarks/emb-v1-1",
+      "successorUrl": "https://benchlm.ai/benchmarks/emb",
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
@@ -16764,7 +16814,7 @@
       "difficulty": "Production code migration",
       "decimals": 2,
       "successorKey": null,
-      "successorUrl": "https://benchlm.ai/benchmarks/code-migration-v1-1",
+      "successorUrl": "https://benchlm.ai/benchmarks/codemigration",
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
@@ -16994,8 +17044,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/vals-ioi-v1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/vals-ioi-v1.md"
+      "url": "https://benchlm.ai/benchmarks/valsioi",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/valsioi.md"
     },
     {
       "category": "external",
@@ -17169,8 +17219,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/publicbenefitsbenchv1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/publicbenefitsbenchv1.md"
+      "url": "https://benchlm.ai/benchmarks/publicbenefitsbench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/publicbenefitsbench.md"
     },
     {
       "category": "external",
@@ -30191,8 +30241,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/emb-v1-1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/emb-v1-1.md"
+      "url": "https://benchlm.ai/benchmarks/emb",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/emb.md"
     },
     {
       "category": "external",
@@ -30216,8 +30266,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/code-migration-v1-1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/code-migration-v1-1.md"
+      "url": "https://benchlm.ai/benchmarks/codemigration",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/codemigration.md"
     },
     {
       "category": "external",
@@ -30241,8 +30291,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/hlab-v1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/hlab-v1.md"
+      "url": "https://benchlm.ai/benchmarks/hlab",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/hlab.md"
     },
     {
       "category": "external",
@@ -30273,7 +30323,7 @@
       "category": "external",
       "categoryLabel": "external",
       "benchmarkKey": "parseBench",
-      "name": "ParseBench (Kaggle)",
+      "name": "ParseBench-1 (Kaggle)",
       "fullName": "ParseBench Document Parsing (Kaggle task v4)",
       "description": "Tests document parsing across tables, charts, content faithfulness, semantic formatting, and visual grounding.",
       "capabilityCategory": "multimodalGrounded",
@@ -30666,8 +30716,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/facts-search-v1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/facts-search-v1.md"
+      "url": "https://benchlm.ai/benchmarks/facts-search",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/facts-search.md"
     },
     {
       "category": "external",
@@ -30691,8 +30741,8 @@
       "scoringBasis": null,
       "scoredCategory": null,
       "displayableScoreCount": 0,
-      "url": "https://benchlm.ai/benchmarks/facts-grounding-v1",
-      "markdownUrl": "https://benchlm.ai/md/benchmarks/facts-grounding-v1.md"
+      "url": "https://benchlm.ai/benchmarks/facts-grounding",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/facts-grounding.md"
     },
     {
       "category": "external",
@@ -31520,5 +31570,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/skillsbench.md"
     }
   ],
-  "dataVersion": "sha256:4a3ed14cdbc0b209269ba6961095058d551b15a4102124918757a5e1fcfb1097"
+  "dataVersion": "sha256:8075280ee9d11d9f54ff6eb4a40aa2bbca61ba2460a1a267ba00d1ecd6988040"
 }

@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-13T21:12:19.001Z",
+  "generatedAt": "2026-11-15T02:27:37.723Z",
   "sourceLastUpdated": "2026-11-12",
   "sourceFiles": [
     "src/data/modelOperationalMetrics.js"
@@ -397,7 +397,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-11-12",
       "displayScore": 68,
-      "overallRank": 28,
+      "overallRank": 27,
       "url": "https://benchlm.ai/models/muse-wonder",
       "markdownUrl": "https://benchlm.ai/md/models/muse-wonder.md"
     },
@@ -667,7 +667,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-11-12",
       "displayScore": 72,
-      "overallRank": 29,
+      "overallRank": 28,
       "url": "https://benchlm.ai/models/muse-spark-1-2",
       "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-2.md"
     },
@@ -1297,7 +1297,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-11-12",
       "displayScore": 71,
-      "overallRank": 27,
+      "overallRank": 26,
       "url": "https://benchlm.ai/models/gpt-5-4",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4.md"
     },
@@ -1567,7 +1567,7 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "sourceUpdatedAt": "2026-11-12",
       "displayScore": 76,
-      "overallRank": 26,
+      "overallRank": 29,
       "url": "https://benchlm.ai/models/gpt-5-4-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md"
     },
@@ -2502,5 +2502,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/phi-4-multimodal-instruct.md"
     }
   ],
-  "dataVersion": "sha256:eee945335e820c2a9d1f4451d35a319d343fde63945dfadcb3d627e28f2b1139"
+  "dataVersion": "sha256:2eb88af9999a7f30e131b65d7ca396b40c50f068c4f1a1256931e8443d66227b"
 }
