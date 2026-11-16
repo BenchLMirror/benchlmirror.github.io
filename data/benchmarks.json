@@ -8,8 +8,8 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-15T02:27:37.723Z",
-  "sourceLastUpdated": "November 13, 2026",
+  "generatedAt": "2026-11-16T04:34:36.480Z",
+  "sourceLastUpdated": "November 16, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
     "src/data/scaleLeaderboards.js",
@@ -62,339 +62,344 @@
         "valsRoboBench": {
           "name": "Robo-bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/robo_bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "emb": {
           "name": "EMB v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/emb",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "embV11": {
           "name": "EMB v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/emb-v1-1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "cyber": {
           "name": "CyberBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/cyber",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMentalHealth": {
           "name": "Mental Health Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/mental-health",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsSweBenchMultimodal": {
           "name": "SWE-bench Multimodal (Vals)",
           "sourceUrl": "https://www.vals.ai/benchmarks/swebench-multimodal",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsIndex": {
           "name": "Vals Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/vals_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsClaimBench": {
           "name": "ClaimBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/claimbench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsFinanceIndex": {
           "name": "Vals Finance Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/finance_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsLegalIndex": {
           "name": "Vals Legal Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/legal_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsInferenceProviderIndex": {
           "name": "Vals Inference Provider Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/inference_provider",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsRouterIndex": {
           "name": "Vals Router Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/vals_router_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsScienceIndex": {
           "name": "Vals Science Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/science_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsRsiIndex": {
           "name": "Vals RSI Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/rsi_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsWebSearchIndex": {
           "name": "Web Search Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/web_search",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTimeHorizonKsp": {
           "name": "Time Horizon Index: KSP",
           "sourceUrl": "https://www.vals.ai/benchmarks/time_horizon_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsCuaBench": {
           "name": "CUA-bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/cua_bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "voiceCodeBench": {
           "name": "VoiceCodeBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/voice-code-bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsBioMysteryBench": {
           "name": "BioMysteryBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/biomysterybench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "financeAgentV2": {
           "name": "Finance Agent v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/fabv2",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "financeAgentV21": {
           "name": "Finance Agent v2.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/fabv2-1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsFinanceAgentV1": {
           "name": "Finance Agent v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/finance_agent",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "vibeCodeBench": {
           "name": "Vibe Code Bench v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/vibe-code",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "vibeCodeBench1To100": {
-          "name": "Vibe Code Bench 1-100",
+          "name": "Vibe Code Bench 1-100 v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/vcb-1-100",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
+        },
+        "vibeCodeBench1To100V11": {
+          "name": "Vibe Code Bench 1-100 v1.1",
+          "sourceUrl": "https://www.vals.ai/benchmarks/vcb-1-100-v1-1",
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMedScribe": {
           "name": "MedScribe",
           "sourceUrl": "https://www.vals.ai/benchmarks/medscribe",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "taxEvalV2": {
           "name": "TaxEval v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/tax_eval_v2",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTaxAgentBench": {
           "name": "Tax Agent Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/tax_agent_bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "hlab": {
           "name": "Harvey's Legal Agent Benchmark v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/hlab",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "hlabV1": {
           "name": "Harvey's Legal Agent Benchmark v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/hlab-v1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsSweBench": {
           "name": "Vals SWE-bench mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/swebench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsLiveCodeBench": {
           "name": "Vals LiveCodeBench mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/lcb",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTerminalBench21": {
           "name": "Vals Terminal-Bench 2.1 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-2-1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTerminalBench4": {
           "name": "Vals Terminal-Bench 4.0 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-4",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTerminalBenchScience": {
           "name": "Vals Terminal-Bench Science mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-science",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsGpqaDiamond": {
           "name": "Vals GPQA Diamond mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/gpqa",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsCorpFinV2": {
           "name": "CorpFin v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/corp_fin_v2",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMultimodalIndex": {
           "name": "Vals Multimodal Index",
           "sourceUrl": "https://www.vals.ai/benchmarks/vals_multimodal_index",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "codeMigration": {
           "name": "Code Migration v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/code-migration",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "codeMigrationV11": {
           "name": "Code Migration v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/code-migration-v1-1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsReverseEngBench": {
           "name": "SRE Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/srebench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "legalResearchBench": {
           "name": "Legal Research Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/legal_research",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsLegalBench": {
           "name": "LegalBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/legal_bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsCaseLawV2": {
           "name": "CaseLaw v2",
           "sourceUrl": "https://www.vals.ai/benchmarks/case_law_v2",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsImmigrationBench": {
           "name": "Immigration Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/immigration",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMortgageTax": {
           "name": "MortgageTax",
           "sourceUrl": "https://www.vals.ai/benchmarks/mortgage_tax",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMedCode": {
           "name": "MedCode",
           "sourceUrl": "https://www.vals.ai/benchmarks/medcode",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMedQa": {
           "name": "MedQA",
           "sourceUrl": "https://www.vals.ai/benchmarks/medqa",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsProofBench": {
           "name": "ProofBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/proof_bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "mysteryMechanism": {
           "name": "MysteryMechanism",
           "sourceUrl": "https://www.vals.ai/benchmarks/mysterymechanism",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsAime": {
           "name": "AIME",
           "sourceUrl": "https://www.vals.ai/benchmarks/aime",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMath500": {
           "name": "MATH 500",
           "sourceUrl": "https://www.vals.ai/benchmarks/math500",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMgsm": {
           "name": "MGSM",
           "sourceUrl": "https://www.vals.ai/benchmarks/mgsm",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMmluPro": {
           "name": "Vals MMLU-Pro mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/mmlu_pro",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsMmmu": {
           "name": "MMMU",
           "sourceUrl": "https://www.vals.ai/benchmarks/mmmu",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "sage": {
           "name": "SAGE",
           "sourceUrl": "https://www.vals.ai/benchmarks/sage",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsIoi": {
           "name": "IOI",
           "sourceUrl": "https://www.vals.ai/benchmarks/ioi",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsIoiV1": {
           "name": "IOI v1 (archived)",
           "sourceUrl": "https://www.vals.ai/benchmarks/ioi-v1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsProgramBench": {
           "name": "Vals ProgramBench mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/programbench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "skillsBench": {
           "name": "SkillsBench",
           "sourceUrl": "https://www.vals.ai/benchmarks/skillsbench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTerminalBench2": {
           "name": "Vals Terminal-Bench 2.0 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench-2",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsTerminalBench1": {
           "name": "Vals Terminal-Bench 1.0 mirror",
           "sourceUrl": "https://www.vals.ai/benchmarks/terminal-bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "pokerAgent": {
           "name": "Agent Poker Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/poker_agent",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "publicBenefitsBench": {
           "name": "Public Benefits Bench v1.1",
           "sourceUrl": "https://www.vals.ai/benchmarks/public-benefits-bench",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "publicBenefitsBenchV1": {
           "name": "Public Benefits Bench v1",
           "sourceUrl": "https://www.vals.ai/benchmarks/public-benefits-bench-v1",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsAccessToJustice": {
           "name": "Access to Justice",
           "sourceUrl": "https://www.vals.ai/benchmarks/a2j",
-          "capturedAt": "2026-11-12T18:36:22.395Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         },
         "valsFinancialCoachingBench": {
           "name": "Financial Coaching Bench",
           "sourceUrl": "https://www.vals.ai/benchmarks/financial-coaching-bench",
-          "capturedAt": "2026-11-13T15:44:23.276Z"
+          "capturedAt": "2026-11-16T03:50:01.603Z"
         }
       }
     }
   },
   "counts": {
     "categories": 10,
-    "benchmarks": 919
+    "benchmarks": 920
   },
   "items": [
     {
@@ -1243,7 +1248,7 @@
       "weight": 0.44444444444444436,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 77,
+      "displayableScoreCount": 78,
       "url": "https://benchlm.ai/benchmarks/hle",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hle.md"
     },
@@ -1418,7 +1423,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 180,
+      "displayableScoreCount": 181,
       "url": "https://benchlm.ai/benchmarks/artificialanalysis",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificialanalysis.md"
     },
@@ -1493,7 +1498,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 165,
+      "displayableScoreCount": 167,
       "url": "https://benchlm.ai/benchmarks/aaomniscienceindex",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaomniscienceindex.md"
     },
@@ -1518,7 +1523,7 @@
       "weight": 0.1666666666666666,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 166,
+      "displayableScoreCount": 168,
       "url": "https://benchlm.ai/benchmarks/omniscienceaccuracy",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omniscienceaccuracy.md"
     },
@@ -1543,7 +1548,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 163,
+      "displayableScoreCount": 165,
       "url": "https://benchlm.ai/benchmarks/omnisciencehallucinationrate",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/omnisciencehallucinationrate.md"
     },
@@ -1693,7 +1698,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 18,
+      "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/healthbenchprofessional",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/healthbenchprofessional.md"
     },
@@ -1793,7 +1798,7 @@
       "weight": 0.06666666666666665,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "knowledge",
-      "displayableScoreCount": 54,
+      "displayableScoreCount": 55,
       "url": "https://benchlm.ai/benchmarks/hlenotools",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/hlenotools.md"
     },
@@ -3043,7 +3048,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 19,
+      "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/programbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/programbench.md"
     },
@@ -3118,7 +3123,7 @@
       "weight": 0.08163265306122448,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 23,
       "url": "https://benchlm.ai/benchmarks/frontierswev2",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/frontierswev2.md"
     },
@@ -3943,7 +3948,7 @@
       "weight": 0.1530612244897959,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "coding",
-      "displayableScoreCount": 59,
+      "displayableScoreCount": 60,
       "url": "https://benchlm.ai/benchmarks/deepswe",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/deepswe.md"
     },
@@ -5668,7 +5673,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 21,
+      "displayableScoreCount": 22,
       "url": "https://benchlm.ai/benchmarks/aamlcr",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aamlcr.md"
     },
@@ -7318,7 +7323,7 @@
       "weight": 0.09022556390977442,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 44,
       "url": "https://benchlm.ai/benchmarks/terminal-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench.md"
     },
@@ -7343,7 +7348,7 @@
       "weight": 0.09022556390977442,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 26,
+      "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/terminal-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench.md"
     },
@@ -7468,7 +7473,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 23,
+      "displayableScoreCount": 24,
       "url": "https://benchlm.ai/benchmarks/aabriefcaseelo",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aabriefcaseelo.md"
     },
@@ -7518,7 +7523,7 @@
       "weight": 0.022556390977443604,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "agentic",
-      "displayableScoreCount": 23,
+      "displayableScoreCount": 24,
       "url": "https://benchlm.ai/benchmarks/aaautomationbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aaautomationbench.md"
     },
@@ -7793,7 +7798,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 118,
+      "displayableScoreCount": 119,
       "url": "https://benchlm.ai/benchmarks/gdpvalaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/gdpvalaa.md"
     },
@@ -7868,7 +7873,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 23,
       "url": "https://benchlm.ai/benchmarks/terminal-bench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/terminal-bench.md"
     },
@@ -7893,7 +7898,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 23,
       "url": "https://benchlm.ai/benchmarks/aagdppdf",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/aagdppdf.md"
     },
@@ -7943,7 +7948,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 30,
+      "displayableScoreCount": 31,
       "url": "https://benchlm.ai/benchmarks/apexagentsaa",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/apexagentsaa.md"
     },
@@ -10143,7 +10148,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 51,
+      "displayableScoreCount": 52,
       "url": "https://benchlm.ai/benchmarks/mazebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/mazebench.md"
     },
@@ -10268,7 +10273,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 17,
+      "displayableScoreCount": 19,
       "url": "https://benchlm.ai/benchmarks/parsebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/parsebench.md"
     },
@@ -10290,10 +10295,10 @@
       "decimals": 2,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.06666666666666667,
+      "weight": 0.0625,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
-      "displayableScoreCount": 39,
+      "displayableScoreCount": 40,
       "url": "https://benchlm.ai/benchmarks/parsebench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/parsebench.md"
     },
@@ -10318,7 +10323,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 26,
+      "displayableScoreCount": 27,
       "url": "https://benchlm.ai/benchmarks/extractbench",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/extractbench.md"
     },
@@ -10343,7 +10348,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 7,
+      "displayableScoreCount": 8,
       "url": "https://benchlm.ai/benchmarks/extractbench-pro",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/extractbench-pro.md"
     },
@@ -10365,10 +10370,10 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": null,
-      "scoringBasis": null,
-      "scoredCategory": null,
-      "displayableScoreCount": 10,
+      "weight": 0.0625,
+      "scoringBasis": "bench-align-basket",
+      "scoredCategory": "multimodalGrounded",
+      "displayableScoreCount": 11,
       "url": "https://benchlm.ai/benchmarks/chartography",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/chartography.md"
     },
@@ -10665,7 +10670,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.3,
+      "weight": 0.28125,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
       "displayableScoreCount": 54,
@@ -10690,7 +10695,7 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.09999999999999999,
+      "weight": 0.09374999999999999,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
       "displayableScoreCount": 114,
@@ -10793,7 +10798,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 105,
+      "displayableScoreCount": 106,
       "url": "https://benchlm.ai/benchmarks/designarenawebsite",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/designarenawebsite.md"
     },
@@ -10815,7 +10820,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.19999999999999998,
+      "weight": 0.18749999999999997,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
       "displayableScoreCount": 16,
@@ -11640,7 +11645,7 @@
       "decimals": 1,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.09999999999999999,
+      "weight": 0.09374999999999999,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
       "displayableScoreCount": 20,
@@ -11990,7 +11995,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.16666666666666666,
+      "weight": 0.15625,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
       "displayableScoreCount": 49,
@@ -12015,7 +12020,7 @@
       "decimals": null,
       "successorKey": null,
       "successorUrl": null,
-      "weight": 0.06666666666666667,
+      "weight": 0.0625,
       "scoringBasis": "bench-align-basket",
       "scoredCategory": "multimodalGrounded",
       "displayableScoreCount": 17,
@@ -12609,7 +12614,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "26 published rows",
+      "tasks": "27 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -12659,7 +12664,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "82 published rows",
+      "tasks": "84 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -12684,7 +12689,7 @@
       "paperTitle": "Scale Labs leaderboard",
       "authors": "Scale AI",
       "year": "2026",
-      "tasks": "33 published rows",
+      "tasks": "35 published rows",
       "format": "Published Scale leaderboard score",
       "difficulty": "External agent and model evaluation",
       "decimals": 2,
@@ -17302,7 +17307,7 @@
       "categoryLabel": "external",
       "benchmarkKey": "vibeCodeBench1To100",
       "name": "Vibe Code Bench 1-100",
-      "fullName": "Vals Vibe Code Bench 1-100",
+      "fullName": "Vals Vibe Code Bench 1-100 v1 (archived)",
       "description": "Can a model extend one working web application across a long sequence of dependent requests?",
       "capabilityCategory": "coding",
       "paperUrl": "https://www.vals.ai/benchmarks/vcb-1-100",
@@ -17311,6 +17316,31 @@
       "year": "2026",
       "tasks": "Long chains of dependent web-application change requests",
       "format": "Accuracy score",
+      "difficulty": "Long-horizon software delivery",
+      "decimals": 2,
+      "successorKey": null,
+      "successorUrl": "https://benchlm.ai/benchmarks/vibe-code-bench-1-100",
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 0,
+      "url": "https://benchlm.ai/benchmarks/vibe-code-bench-1-100",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/vibe-code-bench-1-100.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "vibeCodeBench1To100V11",
+      "name": "Vibe Code Bench 1-100 v1.1",
+      "fullName": "Vals Vibe Code Bench 1-100 v1.1",
+      "description": "Can a model extend a working web application through up to ten dependent product requests without breaking what already works?",
+      "capabilityCategory": "coding",
+      "paperUrl": "https://www.vals.ai/benchmarks/vcb-1-100-v1-1",
+      "paperTitle": "Vals Vibe Code Bench 1-100 v1.1",
+      "authors": "Vals AI",
+      "year": "2026",
+      "tasks": "50 test scenarios with 456 dependent product requests",
+      "format": "Consecutive passing prefix (accuracy)",
       "difficulty": "Long-horizon software delivery",
       "decimals": 2,
       "successorKey": null,
@@ -30040,7 +30070,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 18,
+      "displayableScoreCount": 20,
       "url": "https://benchlm.ai/benchmarks/artificial-analysis-decision-index",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/artificial-analysis-decision-index.md"
     },
@@ -30890,7 +30920,7 @@
       "weight": null,
       "scoringBasis": null,
       "scoredCategory": null,
-      "displayableScoreCount": 22,
+      "displayableScoreCount": 23,
       "url": "https://benchlm.ai/benchmarks/facts-multimodal",
       "markdownUrl": "https://benchlm.ai/md/benchmarks/facts-multimodal.md"
     },
@@ -31570,5 +31600,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/skillsbench.md"
     }
   ],
-  "dataVersion": "sha256:8075280ee9d11d9f54ff6eb4a40aa2bbca61ba2460a1a267ba00d1ecd6988040"
+  "dataVersion": "sha256:d8aa874fe6c3c7b91683167236d37d2a88373275e7c786a4ed957b0cf2def2da"
 }
