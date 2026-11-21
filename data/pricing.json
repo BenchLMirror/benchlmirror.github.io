@@ -8,16 +8,16 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-20T03:52:37.287Z",
-  "sourceLastUpdated": "November 18, 2026",
+  "generatedAt": "2026-11-21T02:13:40.787Z",
+  "sourceLastUpdated": "November 20, 2026",
   "sourceFiles": [
     "src/data/pricing.json",
     "src/data/pricingSupplemental.js"
   ],
   "manifestUrl": "https://benchlm.ai/data/manifest.json",
   "counts": {
-    "pricedRows": 930,
-    "numericPricingRows": 427
+    "pricedRows": 931,
+    "numericPricingRows": 428
   },
   "items": [
     {
@@ -288,7 +288,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 54.7,
-      "overallRank": 75,
+      "overallRank": 76,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/apodex-1-1",
       "markdownUrl": "https://benchlm.ai/md/models/apodex-1-1.md"
@@ -896,8 +896,8 @@
       "note": "Reflection publishes downloadable Apache 2.0 weights and, per the October 16, 2026 launch post, serves Beam-1.0-501B-A23B through its API in public beta, free to start. No per-token tariff is published; the account-gated platform pricing page shows none. Hardware costs for self-hosting are separate. The model id and request limits are documented on the developer Models page.",
       "hasNumericPricing": false,
       "isFreePricing": false,
-      "displayScore": 47.3,
-      "overallRank": 106,
+      "displayScore": 46.9,
+      "overallRank": 107,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/reflection-beam",
       "markdownUrl": "https://benchlm.ai/md/models/reflection-beam.md"
@@ -1800,7 +1800,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 34.7,
-      "overallRank": 183,
+      "overallRank": 184,
       "scorePerOutputDollar": 27.76,
       "url": "https://benchlm.ai/models/claude-3-haiku",
       "markdownUrl": "https://benchlm.ai/md/models/claude-3-haiku.md"
@@ -1821,7 +1821,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 30.5,
-      "overallRank": 199,
+      "overallRank": 200,
       "scorePerOutputDollar": 0.407,
       "url": "https://benchlm.ai/models/claude-3-opus",
       "markdownUrl": "https://benchlm.ai/md/models/claude-3-opus.md"
@@ -1841,9 +1841,9 @@
       "note": "Anthropic's pricing docs list Claude Sonnet 3.5 at $3 input / $15 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 38.6,
-      "overallRank": 164,
-      "scorePerOutputDollar": 2.573,
+      "displayScore": 38.7,
+      "overallRank": 165,
+      "scorePerOutputDollar": 2.58,
       "url": "https://benchlm.ai/models/claude-3-5-sonnet",
       "markdownUrl": "https://benchlm.ai/md/models/claude-3-5-sonnet.md"
     },
@@ -1863,7 +1863,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 41.1,
-      "overallRank": 144,
+      "overallRank": 145,
       "scorePerOutputDollar": 2.74,
       "url": "https://benchlm.ai/models/claude-4-sonnet",
       "markdownUrl": "https://benchlm.ai/md/models/claude-4-sonnet.md"
@@ -1884,7 +1884,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 44.1,
-      "overallRank": 122,
+      "overallRank": 124,
       "scorePerOutputDollar": 0.588,
       "url": "https://benchlm.ai/models/claude-4-1-opus",
       "markdownUrl": "https://benchlm.ai/md/models/claude-4-1-opus.md"
@@ -1905,7 +1905,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 74.6,
-      "overallRank": 16,
+      "overallRank": 17,
       "scorePerOutputDollar": 1.492,
       "url": "https://benchlm.ai/models/claude-fable",
       "markdownUrl": "https://benchlm.ai/md/models/claude-fable.md"
@@ -1925,9 +1925,9 @@
       "note": "Anthropic's September 2026 launch page lists `claude-fable-5-1` at $10 input / $50 output per million tokens and cuts cache reads to $0.25 per million tokens. Anthropic estimates that lower cache-read rate reduces typical usage-based Fable workloads by about 25% and highly agentic workloads by as much as 45%; cache-write and Batch rates are not inferred from those estimates.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 78.7,
+      "displayScore": 78.6,
       "overallRank": 12,
-      "scorePerOutputDollar": 1.574,
+      "scorePerOutputDollar": 1.572,
       "url": "https://benchlm.ai/models/claude-fable-5-1",
       "markdownUrl": "https://benchlm.ai/md/models/claude-fable-5-1.md"
     },
@@ -1946,9 +1946,9 @@
       "note": "Anthropic's November 9, 2026 launch page and Claude API pricing page list `claude-fable-5-2` at $8 input / $40 output per million tokens, down from $10 / $50 for Fable 5.1. Cache writes cost $10 (5-minute) and $16 (1-hour), cache reads $0.20, and the Batch API halves input and output to $4 / $20. Fast mode costs $16 / $80.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 93.2,
+      "displayScore": 93.3,
       "overallRank": 1,
-      "scorePerOutputDollar": 2.33,
+      "scorePerOutputDollar": 2.333,
       "url": "https://benchlm.ai/models/claude-fable-5-2",
       "markdownUrl": "https://benchlm.ai/md/models/claude-fable-5-2.md"
     },
@@ -1968,7 +1968,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 33.8,
-      "overallRank": 190,
+      "overallRank": 191,
       "scorePerOutputDollar": 6.76,
       "url": "https://benchlm.ai/models/claude-haiku-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-haiku-4-5.md"
@@ -1988,9 +1988,9 @@
       "note": "Anthropic lists $0.10 input / $0.50 output per million tokens for prompts up to 100,000 tokens; prompts over 100,000 tokens cost $0.50 / $2.50. Cache reads cost $0.01 / $0.05 per million tokens at those respective tiers; cache writes cost $0.125 / $0.625 (5-minute) or $0.20 / $1.00 (1-hour). Batch API input and output receive a 50% discount. Pricing fields store the lower prompt tier.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 63.6,
+      "displayScore": 63.7,
       "overallRank": 39,
-      "scorePerOutputDollar": 127.2,
+      "scorePerOutputDollar": 127.4,
       "url": "https://benchlm.ai/models/claude-haiku-5-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-haiku-5-5.md"
     },
@@ -2094,7 +2094,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 54.4,
-      "overallRank": 77,
+      "overallRank": 78,
       "scorePerOutputDollar": 2.176,
       "url": "https://benchlm.ai/models/claude-opus-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-5.md"
@@ -2115,7 +2115,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 59.8,
-      "overallRank": 60,
+      "overallRank": 58,
       "scorePerOutputDollar": 2.392,
       "url": "https://benchlm.ai/models/claude-opus-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-6.md"
@@ -2156,9 +2156,9 @@
       "note": "Anthropic's May 28, 2026 Claude Opus 4.8 launch announcement says Opus 4.8 is available at the same price as Opus 4.7. BenchLM maps that to the current Opus API rate of $5 input / $25 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 66.7,
-      "overallRank": 31,
-      "scorePerOutputDollar": 2.668,
+      "displayScore": 66.6,
+      "overallRank": 32,
+      "scorePerOutputDollar": 2.664,
       "url": "https://benchlm.ai/models/claude-opus-4-8",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-4-8.md"
     },
@@ -2178,7 +2178,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 74.9,
-      "overallRank": 15,
+      "overallRank": 16,
       "scorePerOutputDollar": 2.996,
       "url": "https://benchlm.ai/models/claude-opus-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-opus-5.md"
@@ -2220,7 +2220,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 46.6,
-      "overallRank": 108,
+      "overallRank": 109,
       "scorePerOutputDollar": 3.107,
       "url": "https://benchlm.ai/models/claude-sonnet-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-4-5.md"
@@ -2241,7 +2241,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 53.8,
-      "overallRank": 81,
+      "overallRank": 82,
       "scorePerOutputDollar": 3.587,
       "url": "https://benchlm.ai/models/claude-sonnet-4-6",
       "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-4-6.md"
@@ -2282,9 +2282,9 @@
       "note": "Anthropic’s current pricing docs list $2 per million input tokens, $10 per million output tokens, $0.10 cache reads, $2.50 five-minute cache writes, and $4 one-hour cache writes. The October 7, 2026 Haiku 5.5 announcement cut Sonnet 5.5 cache reads by 50% from $0.20. Batch API rates are $1 input and $5 output per million tokens; the cached-input batch estimate is half the current cache-read rate. Anthropic states that the 1M context window is included at standard pricing.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 77.9,
+      "displayScore": 77.8,
       "overallRank": 13,
-      "scorePerOutputDollar": 7.79,
+      "scorePerOutputDollar": 7.78,
       "url": "https://benchlm.ai/models/claude-sonnet-5-5",
       "markdownUrl": "https://benchlm.ai/md/models/claude-sonnet-5-5.md"
     },
@@ -3395,9 +3395,9 @@
       "note": "DeepSeek's official DeepSeek-R1 release page lists $0.55 input (cache miss) / $2.19 output per million tokens, with cache-hit input at $0.14.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 43.4,
-      "overallRank": 132,
-      "scorePerOutputDollar": 19.817,
+      "displayScore": 43.5,
+      "overallRank": 133,
+      "scorePerOutputDollar": 19.863,
       "url": "https://benchlm.ai/models/deepseek-r1",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-r1.md"
     },
@@ -3438,7 +3438,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 37.2,
-      "overallRank": 173,
+      "overallRank": 174,
       "scorePerOutputDollar": 33.818,
       "url": "https://benchlm.ai/models/deepseek-v3",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3.md"
@@ -3459,7 +3459,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 37.5,
-      "overallRank": 179,
+      "overallRank": 180,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/deepseek-v3-0324",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3-0324.md"
@@ -3501,7 +3501,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 40,
-      "overallRank": 152,
+      "overallRank": 153,
       "scorePerOutputDollar": 95.238,
       "url": "https://benchlm.ai/models/deepseek-v3-2",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v3-2.md"
@@ -3542,9 +3542,9 @@
       "note": "DeepSeek's pricing page, read September 25, 2026, lists `deepseek-v4-pro` (model version DeepSeek-V4-Pro-0813) with peak and off-peak rates, effective 16:00 UTC on August 16, 2026 per DeepSeek's August 13, 2026 V4-Pro GA announcement and change log (https://api-docs.deepseek.com/news/news260813, https://api-docs.deepseek.com/updates/). The stored values are the peak rates: $1.32 cache-miss input / $0.044 cache-hit input / $3.96 output per million tokens. Off-peak rates are half of peak: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday, excluding Chinese public holidays; all other hours are off-peak. The page lists a 1M context length, a 384K maximum output, and a 500-request concurrency limit, and no Batch API discount. DeepSeek's September 10, 2026 V4.1 Flash announcement said `deepseek-v4-pro` requests would route to DeepSeek-V4.1-Flash and bill at the V4.1 Flash rate from 04:00 UTC on September 14, 2026 until V4.1 Pro launches. DeepSeek then said V4 Pro API service continues after September 14, 2026 with the billing method unchanged and that it will give notice of any change: on its pricing page, read September 17, 2026, and in its change log entry for September 10, read September 25, 2026 (https://api-docs.deepseek.com/news/news260910). This row previously stored the flat $0.435 cache-miss input / $0.003625 cache-hit input / $0.87 output rate from the pricing page checked August 12, 2026, before the peak/off-peak schedule took effect.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 61.5,
+      "displayScore": 61.4,
       "overallRank": 48,
-      "scorePerOutputDollar": 15.53,
+      "scorePerOutputDollar": 15.505,
       "url": "https://benchlm.ai/models/deepseek-v4-pro",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-pro.md"
     },
@@ -3563,9 +3563,9 @@
       "note": "DeepSeek's pricing page read October 17, 2026 lists `deepseek-flash` with model version DeepSeek-V4.1-Flash-1017 at the same peak and off-peak rates, and DeepSeek's October 17, 2026 changelog says the upgrade leaves the API calling method and pricing unchanged (https://api-docs.deepseek.com/updates). DeepSeek's pricing page checked September 10, 2026 lists `deepseek-flash` (model version DeepSeek-V4.1-Flash) with peak and off-peak rates, effective 04:00 UTC on September 10, 2026. The stored values are the peak rates: $0.30 cache-miss input / $0.006 cache-hit input / $1.20 output per million tokens. Off-peak rates are half of peak: $0.15 / $0.003 / $0.60. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; all other hours are off-peak. The page lists a 1M context length, a 384K maximum output, and a 2,500-request concurrency limit. The legacy `deepseek-v4-flash` and `deepseek-v4-flash-vision-exp` IDs route to this model at the same Flash price, and DeepSeek's September 10, 2026 announcement said `deepseek-v4-pro` requests would join them from 04:00 UTC on September 14, 2026. DeepSeek's pricing page, read September 17, 2026, says V4 Pro API service continues after September 14, 2026 with the billing method unchanged, and that DeepSeek will give notice of any change; the September 10 post had not been edited when read the same day (https://api-docs.deepseek.com/news/news260910, https://api-docs.deepseek.com/quick_start/pricing). MIT-licensed weights are also published on Hugging Face for self-hosting.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 69.9,
+      "displayScore": 70,
       "overallRank": 23,
-      "scorePerOutputDollar": 58.25,
+      "scorePerOutputDollar": 58.333,
       "url": "https://benchlm.ai/models/deepseek-v4-1-flash",
       "markdownUrl": "https://benchlm.ai/md/models/deepseek-v4-1-flash.md"
     },
@@ -4340,9 +4340,9 @@
       "note": "Last published rate. Google's Gemini pricing docs listed Gemini 1.5 Pro at $1.25 input / $5.00 output per million tokens for prompts up to 128K tokens, rising to $2.50 / $10.00 above 128K. The pricing page, read September 25, 2026, no longer lists it.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 35.3,
-      "overallRank": 181,
-      "scorePerOutputDollar": 7.06,
+      "displayScore": 35.4,
+      "overallRank": 182,
+      "scorePerOutputDollar": 7.08,
       "url": "https://benchlm.ai/models/gemini-1-5-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-1-5-pro.md"
     },
@@ -4425,7 +4425,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 43,
-      "overallRank": 135,
+      "overallRank": 136,
       "scorePerOutputDollar": 4.3,
       "url": "https://benchlm.ai/models/gemini-2-5-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-2-5-pro.md"
@@ -4446,7 +4446,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 53.1,
-      "overallRank": 84,
+      "overallRank": 85,
       "scorePerOutputDollar": 17.7,
       "url": "https://benchlm.ai/models/gemini-3-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-flash.md"
@@ -4467,7 +4467,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 59.8,
-      "overallRank": 59,
+      "overallRank": 60,
       "scorePerOutputDollar": 4.983,
       "url": "https://benchlm.ai/models/gemini-3-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-pro.md"
@@ -4509,7 +4509,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 41.4,
-      "overallRank": 143,
+      "overallRank": 144,
       "scorePerOutputDollar": 27.6,
       "url": "https://benchlm.ai/models/gemini-3-1-flash-lite",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-1-flash-lite.md"
@@ -4550,9 +4550,9 @@
       "note": "Google's Gemini API deprecations page, read October 23, 2026, lists gemini-3.5-flash with no shutdown date: it can no longer be selected in Google AI Studio, its endpoint automatically routes API requests to gemini-3.6-flash, and the Developer API pricing page no longer lists it. Google's Gemini Developer API pricing page previously listed Gemini 3.5 Flash at $1.50 input / $0.15 cached input / $9.00 output per million tokens on the standard paid tier.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 59.8,
+      "displayScore": 59.7,
       "overallRank": 62,
-      "scorePerOutputDollar": 6.644,
+      "scorePerOutputDollar": 6.633,
       "url": "https://benchlm.ai/models/gemini-3-5-flash",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash.md"
     },
@@ -4593,7 +4593,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 50.1,
-      "overallRank": 95,
+      "overallRank": 96,
       "scorePerOutputDollar": 20.04,
       "url": "https://benchlm.ai/models/gemini-3-5-flash-lite",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-3-5-flash-lite.md"
@@ -4802,9 +4802,9 @@
       "note": "Google's Gemini API pricing page lists gemini-4-argon on the paid tier, not the Free tier. Standard input/output is $2.00 / $10.00 per million tokens through November 30, 2026, then $4.00 / $20.00 starting December 1; implicit cached input is $0.10 / $0.20 across those dates, and explicit caching is unsupported. Batch and Flex input/output is $1.00 / $5.00 through November 30, then $2.00 / $10.00 from December 1, with implicit cached input at $0.05 / $0.10. Priority input/output is $3.60 / $18.00 through November 30, then $7.20 / $36.00 from December 1, with implicit cached input at $0.18 / $0.36. An invite-only Contributor tier, whose content is used to improve Google's products, lists $1.00 / $5.00 with $0.05 cached input.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 79.1,
+      "displayScore": 79,
       "overallRank": 10,
-      "scorePerOutputDollar": 7.91,
+      "scorePerOutputDollar": 7.9,
       "url": "https://benchlm.ai/models/gemini-4-argon",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-4-argon.md"
     },
@@ -4823,9 +4823,9 @@
       "note": "Google made gemini-4-carbon generally available on the paid tier of the Gemini API and in Google AI Studio on November 10, 2026, after a limited first release through the Fairwind Program announced October 28; it is not offered on the Free tier. Pricing matches Gemini 4 Argon. Standard input/output is $2.00 / $10.00 per million tokens through November 30, 2026, then $4.00 / $20.00 starting December 1; implicit cached input is $0.10 / $0.20 across those dates, and explicit caching is unsupported. Batch and Flex input/output is $1.00 / $5.00 through November 30, then $2.00 / $10.00 from December 1, with implicit cached input at $0.05 / $0.10. Priority input/output is $3.60 / $18.00 through November 30, then $7.20 / $36.00 from December 1, with implicit cached input at $0.18 / $0.36. An invite-only Contributor tier, whose content is used to improve Google's products, lists $1.00 / $5.00 with $0.05 cached input.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 88.1,
-      "overallRank": 3,
-      "scorePerOutputDollar": 8.81,
+      "displayScore": 88,
+      "overallRank": 4,
+      "scorePerOutputDollar": 8.8,
       "url": "https://benchlm.ai/models/gemini-4-carbon",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-4-carbon.md"
     },
@@ -4844,9 +4844,9 @@
       "note": "Google made gemini-4-hydrogen generally available on the Gemini API and in Google AI Studio on November 12, 2026, on the free and paid tiers. Paid-tier Standard input/output is $1.50 / $7.50 per million tokens, with implicit cached input at $0.075; explicit caching is unsupported. Batch and Flex input/output is $0.75 / $3.75, with implicit cached input at $0.0375. Priority input/output is $2.70 / $13.50, with implicit cached input at $0.135. Output includes thinking tokens. The free tier is free of charge, and its content is used to improve Google's products. An invite-only Contributor tier, whose content is also used to improve Google's products, lists $0.75 / $3.75 with $0.0375 cached input.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 78.8,
+      "displayScore": 78.7,
       "overallRank": 11,
-      "scorePerOutputDollar": 10.507,
+      "scorePerOutputDollar": 10.493,
       "url": "https://benchlm.ai/models/gemini-4-hydrogen",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-4-hydrogen.md"
     },
@@ -4865,9 +4865,9 @@
       "note": "Standard rates are $3 input, $15 output and $0.15 implicit cached input per million tokens. Batch and Flex are $1.50 input, $7.50 output and $0.075 cached input. Priority is $5.40 input, $27 output and $0.27 cached input. Output includes thinking tokens. Google offers paid API access for this model.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 86.3,
-      "overallRank": 4,
-      "scorePerOutputDollar": 5.753,
+      "displayScore": 91.3,
+      "overallRank": 2,
+      "scorePerOutputDollar": 6.087,
       "url": "https://benchlm.ai/models/gemini-4-neon",
       "markdownUrl": "https://benchlm.ai/md/models/gemini-4-neon.md"
     },
@@ -4929,7 +4929,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 33.5,
-      "overallRank": 192,
+      "overallRank": 193,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gemma-3-27b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-3-27b.md"
@@ -4950,7 +4950,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 38.1,
-      "overallRank": 167,
+      "overallRank": 168,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gemma-4-26b-a4b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-4-26b-a4b.md"
@@ -4971,7 +4971,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 43,
-      "overallRank": 136,
+      "overallRank": 137,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gemma-4-31b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-4-31b.md"
@@ -4992,7 +4992,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 33.9,
-      "overallRank": 187,
+      "overallRank": 188,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gemma-4-e2b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-4-e2b.md"
@@ -5013,7 +5013,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 33.9,
-      "overallRank": 188,
+      "overallRank": 189,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gemma-4-e4b",
       "markdownUrl": "https://benchlm.ai/md/models/gemma-4-e4b.md"
@@ -5328,7 +5328,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 39,
-      "overallRank": 161,
+      "overallRank": 162,
       "scorePerOutputDollar": 17.727,
       "url": "https://benchlm.ai/models/glm-4-5",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-5.md"
@@ -5349,7 +5349,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 39.6,
-      "overallRank": 169,
+      "overallRank": 170,
       "scorePerOutputDollar": 36,
       "url": "https://benchlm.ai/models/glm-4-5-air",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-5-air.md"
@@ -5370,7 +5370,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 43.2,
-      "overallRank": 134,
+      "overallRank": 135,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/glm-4-7",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-7.md"
@@ -5391,7 +5391,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 37.5,
-      "overallRank": 170,
+      "overallRank": 171,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/glm-4-7-flash",
       "markdownUrl": "https://benchlm.ai/md/models/glm-4-7-flash.md"
@@ -5412,7 +5412,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 45.8,
-      "overallRank": 115,
+      "overallRank": 116,
       "scorePerOutputDollar": 14.312,
       "url": "https://benchlm.ai/models/glm-5",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5.md"
@@ -5433,7 +5433,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 45.5,
-      "overallRank": 118,
+      "overallRank": 119,
       "scorePerOutputDollar": 11.375,
       "url": "https://benchlm.ai/models/glm-5-turbo",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5-turbo.md"
@@ -5454,7 +5454,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 52.2,
-      "overallRank": 87,
+      "overallRank": 88,
       "scorePerOutputDollar": 11.864,
       "url": "https://benchlm.ai/models/glm-5-1",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5-1.md"
@@ -5495,7 +5495,7 @@
       "note": "Z.AI publishes the GLM-5.3 FP8 checkpoint under the custom GLM-5.3 License for self-hosting and does not publish a distinct first-party hosted per-token rate for this exact checkpoint. We represent the open-weight row as self-host/free-per-token before infrastructure costs. The hosted Z.AI route and Coding Plan must not be read as free from this self-host placeholder.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 63.8,
+      "displayScore": 63.7,
       "overallRank": 38,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/glm-5-3",
@@ -5538,7 +5538,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 38.8,
-      "overallRank": 162,
+      "overallRank": 163,
       "scorePerOutputDollar": 9.7,
       "url": "https://benchlm.ai/models/glm-5v-turbo",
       "markdownUrl": "https://benchlm.ai/md/models/glm-5v-turbo.md"
@@ -5790,7 +5790,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 33.8,
-      "overallRank": 189,
+      "overallRank": 190,
       "scorePerOutputDollar": 1.127,
       "url": "https://benchlm.ai/models/gpt-4-turbo",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-turbo.md"
@@ -5832,7 +5832,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 35.8,
-      "overallRank": 178,
+      "overallRank": 179,
       "scorePerOutputDollar": 4.475,
       "url": "https://benchlm.ai/models/gpt-4-1",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1.md"
@@ -5853,7 +5853,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 33,
-      "overallRank": 194,
+      "overallRank": 195,
       "scorePerOutputDollar": 20.625,
       "url": "https://benchlm.ai/models/gpt-4-1-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1-mini.md"
@@ -5874,7 +5874,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 21.2,
-      "overallRank": 212,
+      "overallRank": 213,
       "scorePerOutputDollar": 53,
       "url": "https://benchlm.ai/models/gpt-4-1-nano",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4-1-nano.md"
@@ -5916,7 +5916,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 30.3,
-      "overallRank": 201,
+      "overallRank": 202,
       "scorePerOutputDollar": 3.03,
       "url": "https://benchlm.ai/models/gpt-4o",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4o.md"
@@ -5957,9 +5957,9 @@
       "note": "OpenAI's GPT-4o mini model page lists $0.15 input / $0.60 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 29.9,
+      "displayScore": 30,
       "overallRank": 203,
-      "scorePerOutputDollar": 49.833,
+      "scorePerOutputDollar": 50,
       "url": "https://benchlm.ai/models/gpt-4o-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-4o-mini.md"
     },
@@ -6041,9 +6041,9 @@
       "note": "OpenAI's GPT-5 model page lists GPT-5 at $1.25 input / $10.00 output per million tokens; OpenAI publishes one GPT-5 tariff for every reasoning effort.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 54.1,
-      "overallRank": 80,
-      "scorePerOutputDollar": 5.41,
+      "displayScore": 54,
+      "overallRank": 81,
+      "scorePerOutputDollar": 5.4,
       "url": "https://benchlm.ai/models/gpt-5",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5.md"
     },
@@ -6063,7 +6063,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 41.6,
-      "overallRank": 140,
+      "overallRank": 141,
       "scorePerOutputDollar": 20.8,
       "url": "https://benchlm.ai/models/gpt-5-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-mini.md"
@@ -6084,7 +6084,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 40.9,
-      "overallRank": 145,
+      "overallRank": 146,
       "scorePerOutputDollar": 102.25,
       "url": "https://benchlm.ai/models/gpt-5-nano",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-nano.md"
@@ -6105,7 +6105,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 49.2,
-      "overallRank": 97,
+      "overallRank": 98,
       "scorePerOutputDollar": 4.92,
       "url": "https://benchlm.ai/models/gpt-5-1",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-1.md"
@@ -6126,7 +6126,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 45.5,
-      "overallRank": 117,
+      "overallRank": 118,
       "scorePerOutputDollar": 4.55,
       "url": "https://benchlm.ai/models/gpt-5-1-codex",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-1-codex.md"
@@ -6147,7 +6147,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 45.9,
-      "overallRank": 114,
+      "overallRank": 115,
       "scorePerOutputDollar": 4.59,
       "url": "https://benchlm.ai/models/gpt-5-1-codex-max",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-1-codex-max.md"
@@ -6231,7 +6231,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 50.7,
-      "overallRank": 90,
+      "overallRank": 91,
       "scorePerOutputDollar": 3.621,
       "url": "https://benchlm.ai/models/gpt-5-2-codex",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-2-codex.md"
@@ -6252,7 +6252,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 54.9,
-      "overallRank": 74,
+      "overallRank": 75,
       "scorePerOutputDollar": 3.921,
       "url": "https://benchlm.ai/models/gpt-5-3-codex",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-3-codex.md"
@@ -6335,9 +6335,9 @@
       "note": "OpenAI's current API pricing page lists gpt-5.4-mini at $0.75 input / $0.075 cached input / $4.50 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 50.4,
-      "overallRank": 92,
-      "scorePerOutputDollar": 11.2,
+      "displayScore": 50.3,
+      "overallRank": 93,
+      "scorePerOutputDollar": 11.178,
       "url": "https://benchlm.ai/models/gpt-5-4-mini",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-mini.md"
     },
@@ -6357,7 +6357,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 44.5,
-      "overallRank": 120,
+      "overallRank": 121,
       "scorePerOutputDollar": 35.6,
       "url": "https://benchlm.ai/models/gpt-5-4-nano",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-nano.md"
@@ -6377,8 +6377,8 @@
       "note": "OpenAI's current API pricing page lists GPT-5.4 Pro at $30.00 input / $180.00 output per million tokens for short-context requests, with higher pricing for long-context requests and no cached-input rate.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 68.3,
-      "overallRank": 26,
+      "displayScore": 68.2,
+      "overallRank": 27,
       "scorePerOutputDollar": 0.379,
       "url": "https://benchlm.ai/models/gpt-5-4-pro",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-4-pro.md"
@@ -6503,9 +6503,9 @@
       "note": "OpenAI's API pricing page lists GPT-5.6 Terra at $2.00 input / $0.20 cached input / $12.00 output per million tokens for short-context requests. Prompts above 272K input tokens use the published $4.00 input / $0.40 cached input / $18.00 output long-context tier; cache writes cost $2.50 per million tokens. Observed September 11, 2026; the $2.50 / $15.00 launch rate is retained in the price history.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 65.9,
+      "displayScore": 66,
       "overallRank": 34,
-      "scorePerOutputDollar": 5.492,
+      "scorePerOutputDollar": 5.5,
       "url": "https://benchlm.ai/models/gpt-5-6-terra",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-5-6-terra.md"
     },
@@ -6566,9 +6566,9 @@
       "note": "OpenAI's GPT-6 Luna model page lists $0.10 input / $0.01 cached input / $0.125 cache writes / $0.50 output per million tokens. Prompts above 272K input tokens are charged at 2x input and cache rates and 1.5x output for the full request; regional processing adds 10% where available; Batch and Flex are 50% of Standard and Fast mode is 2x.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 61.3,
+      "displayScore": 61.2,
       "overallRank": 49,
-      "scorePerOutputDollar": 122.6,
+      "scorePerOutputDollar": 122.4,
       "url": "https://benchlm.ai/models/gpt-6-luna",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-6-luna.md"
     },
@@ -6671,9 +6671,9 @@
       "note": "OpenAI's GPT-6.2 Astra model page lists $8.00 input / $0.40 cached input / $10.00 cache writes (30-minute retention; $20 for 12-hour retention) / $40.00 output per million tokens, 20% below GPT-6 Astra's input and output rates. Requests above 272K input tokens are charged at 2x input and cache rates and 1.5x output for the full request; Batch is 50% of Standard, Fast mode is 2x, and Ultrafast is 3x through February 28, 2027 and 6x from March 1, 2027. A Responses API background-completion beta cuts token rates by 30% (two-hour window) or 40% (eight-hour window).",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 91.1,
-      "overallRank": 2,
-      "scorePerOutputDollar": 2.278,
+      "displayScore": 90.8,
+      "overallRank": 3,
+      "scorePerOutputDollar": 2.27,
       "url": "https://benchlm.ai/models/gpt-6-2-astra",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-6-2-astra.md"
     },
@@ -6692,9 +6692,9 @@
       "note": "OpenAI's GPT-6.2 Sol model page lists $2.00 input / $0.10 cached input / $2.50 cache writes (30-minute retention; $5 for 12-hour retention) / $10.00 output per million tokens, the same rates as GPT-6.1 Sol. Requests above 272K input tokens are charged at 2x input and cache rates and 1.5x output for the full request; Batch is 50% of Standard, Fast mode is 2x, and Ultrafast is 3x through February 28, 2027 and 6x from March 1, 2027. A Responses API background-completion beta cuts token rates by 30% (two-hour window) or 40% (eight-hour window).",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 82.6,
+      "displayScore": 81,
       "overallRank": 7,
-      "scorePerOutputDollar": 8.26,
+      "scorePerOutputDollar": 8.1,
       "url": "https://benchlm.ai/models/gpt-6-2-sol",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-6-2-sol.md"
     },
@@ -6735,7 +6735,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 35.4,
-      "overallRank": 180,
+      "overallRank": 181,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gpt-oss-120b",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-oss-120b.md"
@@ -6756,7 +6756,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 30,
-      "overallRank": 202,
+      "overallRank": 204,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/gpt-oss-20b",
       "markdownUrl": "https://benchlm.ai/md/models/gpt-oss-20b.md"
@@ -6840,7 +6840,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 31.1,
-      "overallRank": 197,
+      "overallRank": 198,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/granite-4-2-8b",
       "markdownUrl": "https://benchlm.ai/md/models/granite-4-2-8b.md"
@@ -6987,7 +6987,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 38.5,
-      "overallRank": 166,
+      "overallRank": 167,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/grok-3-beta",
       "markdownUrl": "https://benchlm.ai/md/models/grok-3-beta.md"
@@ -7008,7 +7008,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 40.8,
-      "overallRank": 146,
+      "overallRank": 148,
       "scorePerOutputDollar": 81.6,
       "url": "https://benchlm.ai/models/grok-3-mini",
       "markdownUrl": "https://benchlm.ai/md/models/grok-3-mini.md"
@@ -7029,7 +7029,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 48.1,
-      "overallRank": 101,
+      "overallRank": 102,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/grok-4",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4.md"
@@ -7071,7 +7071,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 40.5,
-      "overallRank": 149,
+      "overallRank": 150,
       "scorePerOutputDollar": 81,
       "url": "https://benchlm.ai/models/grok-4-1-fast",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-1-fast.md"
@@ -7092,7 +7092,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 51.6,
-      "overallRank": 89,
+      "overallRank": 90,
       "scorePerOutputDollar": 20.64,
       "url": "https://benchlm.ai/models/grok-4-20-beta",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-20-beta.md"
@@ -7134,7 +7134,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 46.7,
-      "overallRank": 107,
+      "overallRank": 108,
       "scorePerOutputDollar": 18.68,
       "url": "https://benchlm.ai/models/grok-4-3",
       "markdownUrl": "https://benchlm.ai/md/models/grok-4-3.md"
@@ -7806,7 +7806,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 52.1,
-      "overallRank": 88,
+      "overallRank": 89,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/hy3",
       "markdownUrl": "https://benchlm.ai/md/models/hy3.md"
@@ -7827,7 +7827,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 38.5,
-      "overallRank": 165,
+      "overallRank": 166,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/hy3-preview",
       "markdownUrl": "https://benchlm.ai/md/models/hy3-preview.md"
@@ -7890,7 +7890,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 68.2,
-      "overallRank": 27,
+      "overallRank": 26,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/hy4-preview",
       "markdownUrl": "https://benchlm.ai/md/models/hy4-preview.md"
@@ -8016,10 +8016,31 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 48.9,
-      "overallRank": 98,
+      "overallRank": 99,
       "scorePerOutputDollar": 10.449,
       "url": "https://benchlm.ai/models/inkling",
       "markdownUrl": "https://benchlm.ai/md/models/inkling.md"
+    },
+    {
+      "canonicalModelKey": "inkling-2-mini",
+      "slug": "inkling-2-mini",
+      "model": "Inkling 2 Mini",
+      "creator": "Thinking Machines Lab",
+      "sourceType": "Open Weight",
+      "contextWindow": "1M",
+      "contextWindowTokens": 1000000,
+      "inputPrice": 0.15,
+      "outputPrice": 0.5,
+      "cachedInputPrice": 0.015,
+      "trainingPrice": null,
+      "note": "Thinking Machines Lab’s Tinker models and pricing page lists Inkling 2 Mini at $0.15 prefill / $0.015 cached prefill / $0.50 sample per million tokens on both the 64K training tier (thinkingmachines/Inkling-2-Mini, $0.75 training) and the 256K training tier (thinkingmachines/Inkling-2-Mini:peft:262144, $1.50 training), with 1M sampling context on both options. Open weights (~20GB NVFP4/MXFP8) are also available under Apache 2.0 on Hugging Face for local and self-hosted inference.",
+      "hasNumericPricing": true,
+      "isFreePricing": false,
+      "displayScore": 55.9,
+      "overallRank": 70,
+      "scorePerOutputDollar": 111.8,
+      "url": "https://benchlm.ai/models/inkling-2-mini",
+      "markdownUrl": "https://benchlm.ai/md/models/inkling-2-mini.md"
     },
     {
       "canonicalModelKey": "inkling-2-small",
@@ -8036,9 +8057,9 @@
       "note": "Thinking Machines Lab's Tinker models and pricing page lists Inkling 2 Small at $0.30 prefill / $0.03 cached prefill / $1.00 sample per million tokens, the same rate for the 64K and 256K fine-tuning tiers and for the 256K beta serverless endpoint (thinkingmachines/Inkling-2-Small:peft:262144:sampling-nvfp4). Training costs $1.50 per million tokens at 64K and $3.00 at 256K. The model card lists a 1M-token context window; hosted Tinker tiers top out at 256K.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 66.5,
-      "overallRank": 32,
-      "scorePerOutputDollar": 66.5,
+      "displayScore": 66.7,
+      "overallRank": 31,
+      "scorePerOutputDollar": 66.7,
       "url": "https://benchlm.ai/models/inkling-2-small",
       "markdownUrl": "https://benchlm.ai/md/models/inkling-2-small.md"
     },
@@ -8058,7 +8079,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 48.9,
-      "overallRank": 99,
+      "overallRank": 100,
       "scorePerOutputDollar": 33.958,
       "url": "https://benchlm.ai/models/inkling-small",
       "markdownUrl": "https://benchlm.ai/md/models/inkling-small.md"
@@ -9590,9 +9611,9 @@
       "note": "Moonshot's Kimi API chat pricing page, read September 25, 2026, lists kimi-k2.6 at $0.95 cache-miss input / $0.16 cache-hit input / $4.00 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 54.2,
-      "overallRank": 79,
-      "scorePerOutputDollar": 13.55,
+      "displayScore": 54.1,
+      "overallRank": 80,
+      "scorePerOutputDollar": 13.525,
       "url": "https://benchlm.ai/models/kimi-2-6",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-2-6.md"
     },
@@ -9612,7 +9633,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 34.2,
-      "overallRank": 186,
+      "overallRank": 187,
       "scorePerOutputDollar": 13.68,
       "url": "https://benchlm.ai/models/kimi-k2",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k2.md"
@@ -9654,7 +9675,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 52.2,
-      "overallRank": 86,
+      "overallRank": 87,
       "scorePerOutputDollar": 13.05,
       "url": "https://benchlm.ai/models/kimi-k2-7-code",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k2-7-code.md"
@@ -9674,9 +9695,9 @@
       "note": "Moonshot AI's official Kimi K3 pricing page lists $0.30 cache-hit input, $3.00 cache-miss input, and $15.00 output per million tokens for model ID kimi-k3, with an exact 1,048,576-token context window. OpenRouter independently lists route moonshotai/kimi-k3 with one Moonshot AI INT4 endpoint at the same rates and context length. Prices exclude applicable taxes. Moonshot published the full weights on Hugging Face under the Kimi K3 License (model card checked October 29, 2026).",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 65.5,
+      "displayScore": 65.4,
       "overallRank": 36,
-      "scorePerOutputDollar": 4.367,
+      "scorePerOutputDollar": 4.36,
       "url": "https://benchlm.ai/models/kimi-k3",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-k3.md"
     },
@@ -9695,9 +9716,9 @@
       "note": "Moonshot AI's official Kimi API pricing page lists kimi-k3.1-pro at $2.00 cache-miss input, $0.20 cache-hit input, and $10.00 output per million tokens, with 5-minute cache writes at $2.00 and 1-hour cache writes at $4.00, and a 1,048,576-token context window for all K3 series models. Pricing is flat across context length. The kimi-k3.1-pro-highspeed variant is listed separately at $4.00 input, $0.20 cache-hit input, and $20.00 output. Prices exclude applicable taxes. Moonshot published the full weights on Hugging Face (moonshotai/Kimi-K3.1-Pro, checked November 4, 2026) under the Kimi K3.1 Pro License.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 70.6,
+      "displayScore": 70.1,
       "overallRank": 21,
-      "scorePerOutputDollar": 7.06,
+      "scorePerOutputDollar": 7.01,
       "url": "https://benchlm.ai/models/kimi-3-1-pro",
       "markdownUrl": "https://benchlm.ai/md/models/kimi-3-1-pro.md"
     },
@@ -9822,7 +9843,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 46.5,
-      "overallRank": 111,
+      "overallRank": 112,
       "scorePerOutputDollar": 232.5,
       "url": "https://benchlm.ai/models/laguna-s-2-1",
       "markdownUrl": "https://benchlm.ai/md/models/laguna-s-2-1.md"
@@ -10200,7 +10221,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 39,
-      "overallRank": 159,
+      "overallRank": 160,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/lfm2-5-2-6b",
       "markdownUrl": "https://benchlm.ai/md/models/lfm2-5-2-6b.md"
@@ -10263,7 +10284,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 41.5,
-      "overallRank": 141,
+      "overallRank": 142,
       "scorePerOutputDollar": 41.5,
       "url": "https://benchlm.ai/models/lfm2-5-24b-a2b",
       "markdownUrl": "https://benchlm.ai/md/models/lfm2-5-24b-a2b.md"
@@ -10326,7 +10347,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 36.4,
-      "overallRank": 175,
+      "overallRank": 176,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/lfm2-5-8b-a1b",
       "markdownUrl": "https://benchlm.ai/md/models/lfm2-5-8b-a1b.md"
@@ -10430,8 +10451,8 @@
       "note": "Liquid AI publishes LFM3-1.7B under the LFM Open License v1.0 for local, on-device and self-hosted use. The October 27, 2026 launch post names the Liquid API, its Playground and OpenRouter as launch channels, but neither it nor Liquid's pricing page (checked October 27, 2026) lists a token price for this checkpoint, so BenchLM represents it as self-host/free-per-token before infrastructure costs.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 30.9,
-      "overallRank": 198,
+      "displayScore": 31,
+      "overallRank": 199,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/lfm3-1-7b",
       "markdownUrl": "https://benchlm.ai/md/models/lfm3-1-7b.md"
@@ -10536,7 +10557,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 47.8,
-      "overallRank": 104,
+      "overallRank": 105,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/ling-2-6-flash",
       "markdownUrl": "https://benchlm.ai/md/models/ling-2-6-flash.md"
@@ -10557,7 +10578,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 48.1,
-      "overallRank": 102,
+      "overallRank": 103,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/ling-3-0-flash",
       "markdownUrl": "https://benchlm.ai/md/models/ling-3-0-flash.md"
@@ -10935,7 +10956,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 28.8,
-      "overallRank": 204,
+      "overallRank": 205,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/llama-4-maverick",
       "markdownUrl": "https://benchlm.ai/md/models/llama-4-maverick.md"
@@ -10956,7 +10977,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 33.3,
-      "overallRank": 193,
+      "overallRank": 194,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/llama-4-scout",
       "markdownUrl": "https://benchlm.ai/md/models/llama-4-scout.md"
@@ -12026,9 +12047,9 @@
       "note": "Inception's official model page lists Mercury 2 at $0.25/M input, $0.025/M cached input, and $0.75/M output tokens. Inception's models page, read October 26, 2026, says Mercury 2 and Mercury 2.5 are closed to new users since October 19, 2026; existing customers with earlier usage keep access until November 15, 2026 and are then moved to Mercury 3. Enterprise customers remain supported under their agreements.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 36.3,
-      "overallRank": 176,
-      "scorePerOutputDollar": 48.4,
+      "displayScore": 36.4,
+      "overallRank": 177,
+      "scorePerOutputDollar": 48.533,
       "url": "https://benchlm.ai/models/mercury-2",
       "markdownUrl": "https://benchlm.ai/md/models/mercury-2.md"
     },
@@ -12047,9 +12068,9 @@
       "note": "Inception lists Mercury 2.5 at $0.04/M input, $0.004/M cached input, and $0.15/M output during its 80% launch offer. Standard rates are $0.20/M input, $0.02/M cached input, and $0.75/M output. No promotion end date is stated on the first-party models page as of September 8, 2026. Inception's models page, read October 26, 2026, says Mercury 2 and Mercury 2.5 are closed to new users since October 19, 2026; existing customers with earlier usage keep access until November 15, 2026 and are then moved to Mercury 3. Enterprise customers remain supported under their agreements.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 39.8,
-      "overallRank": 154,
-      "scorePerOutputDollar": 265.333,
+      "displayScore": 39.6,
+      "overallRank": 157,
+      "scorePerOutputDollar": 264,
       "url": "https://benchlm.ai/models/mercury-2-5",
       "markdownUrl": "https://benchlm.ai/md/models/mercury-2-5.md"
     },
@@ -12236,8 +12257,8 @@
       "note": "Open-weight model. Self-hosted or third-party hosted costs vary by provider and infrastructure.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 39,
-      "overallRank": 158,
+      "displayScore": 39.1,
+      "overallRank": 159,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/mimo-v2-flash",
       "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-flash.md"
@@ -12258,7 +12279,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 50.1,
-      "overallRank": 94,
+      "overallRank": 95,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/mimo-v2-5",
       "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5.md"
@@ -12279,7 +12300,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 55.8,
-      "overallRank": 70,
+      "overallRank": 71,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/mimo-v2-5-pro",
       "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-5-pro.md"
@@ -12300,7 +12321,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 63.2,
-      "overallRank": 43,
+      "overallRank": 44,
       "scorePerOutputDollar": 225.714,
       "url": "https://benchlm.ai/models/mimo-v2-6-flash",
       "markdownUrl": "https://benchlm.ai/md/models/mimo-v2-6-flash.md"
@@ -12573,7 +12594,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 39,
-      "overallRank": 160,
+      "overallRank": 161,
       "scorePerOutputDollar": 32.5,
       "url": "https://benchlm.ai/models/minimax-m2-5",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-5.md"
@@ -12594,7 +12615,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 42,
-      "overallRank": 137,
+      "overallRank": 138,
       "scorePerOutputDollar": 35,
       "url": "https://benchlm.ai/models/minimax-m2-7",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m2-7.md"
@@ -12615,7 +12636,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 52.6,
-      "overallRank": 85,
+      "overallRank": 86,
       "scorePerOutputDollar": 43.833,
       "url": "https://benchlm.ai/models/minimax-m3",
       "markdownUrl": "https://benchlm.ai/md/models/minimax-m3.md"
@@ -12845,8 +12866,8 @@
       "note": "Public API pricing is unavailable, unpublished, or not yet tracked by BenchLM.",
       "hasNumericPricing": false,
       "isFreePricing": false,
-      "displayScore": 37.3,
-      "overallRank": 172,
+      "displayScore": 37.4,
+      "overallRank": 173,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/mistral-large-2",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-large-2.md"
@@ -12866,9 +12887,9 @@
       "note": "Mistral's official Mistral Large 3 model card lists $0.50 input / $1.50 output per million tokens.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 37.6,
-      "overallRank": 168,
-      "scorePerOutputDollar": 25.067,
+      "displayScore": 37.7,
+      "overallRank": 169,
+      "scorePerOutputDollar": 25.133,
       "url": "https://benchlm.ai/models/mistral-large-3",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-large-3.md"
     },
@@ -12909,7 +12930,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 34.6,
-      "overallRank": 185,
+      "overallRank": 186,
       "scorePerOutputDollar": 17.3,
       "url": "https://benchlm.ai/models/mistral-medium-3",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-medium-3.md"
@@ -12930,7 +12951,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 43.7,
-      "overallRank": 129,
+      "overallRank": 130,
       "scorePerOutputDollar": 5.827,
       "url": "https://benchlm.ai/models/mistral-medium-3-5-128b",
       "markdownUrl": "https://benchlm.ai/md/models/mistral-medium-3-5-128b.md"
@@ -13014,7 +13035,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 41.1,
-      "overallRank": 157,
+      "overallRank": 158,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/mixtral-8x22b-instruct-v0-1",
       "markdownUrl": "https://benchlm.ai/md/models/mixtral-8x22b-instruct-v0-1.md"
@@ -13182,7 +13203,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 44.4,
-      "overallRank": 121,
+      "overallRank": 122,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/muse-glimmer-30b",
       "markdownUrl": "https://benchlm.ai/md/models/muse-glimmer-30b.md"
@@ -13202,9 +13223,9 @@
       "note": "Meta Model API lists muse-spark-1.2 at $1.25 input, $0.15 cached input, and $4.25 output per million tokens. Meta separately lists muse-spark-1.2-contributor, whose data may be used to improve Meta products, at $0.10 input, $0.002 cached input, and $0.20 output per million tokens; BenchLM stores the standard non-contributor SKU as the headline rate.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 59.9,
-      "overallRank": 58,
-      "scorePerOutputDollar": 14.094,
+      "displayScore": 59.8,
+      "overallRank": 61,
+      "scorePerOutputDollar": 14.071,
       "url": "https://benchlm.ai/models/muse-spark-1-2",
       "markdownUrl": "https://benchlm.ai/md/models/muse-spark-1-2.md"
     },
@@ -13244,7 +13265,7 @@
       "note": "Meta publishes downloadable Muse Model License weights and names hosted API partners (Baseten, Fireworks AI, Groq, Modal, Nebius, OpenRouter, Together AI). Neither the launch post nor the model card publishes a per-token price, and the Hugging Face page lists no deployed inference provider at the time of review. Partner prices are not copied here.",
       "hasNumericPricing": false,
       "isFreePricing": false,
-      "displayScore": 55.8,
+      "displayScore": 56.2,
       "overallRank": 69,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/muse-spark-open",
@@ -13307,7 +13328,7 @@
       "note": "Muse Wonder Full is included in Muse Code Power Usage ($50/month) and Maximum Usage ($200/month) plans. Meta publishes no separate API input, cached-input, or output token rate for this model.",
       "hasNumericPricing": false,
       "isFreePricing": false,
-      "displayScore": 77.2,
+      "displayScore": 77.1,
       "overallRank": 14,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/muse-wonder-full",
@@ -13391,8 +13412,8 @@
       "note": "Open-weight model. Self-hosted or third-party hosted costs vary by provider and infrastructure.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 32.9,
-      "overallRank": 195,
+      "displayScore": 32.8,
+      "overallRank": 196,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-nano-omni-30b-a3b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-nano-omni-30b-a3b.md"
@@ -13413,7 +13434,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 32.3,
-      "overallRank": 196,
+      "overallRank": 197,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-super-100b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-super-100b.md"
@@ -13434,7 +13455,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 25.9,
-      "overallRank": 209,
+      "overallRank": 210,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-super-120b-a12b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-super-120b-a12b.md"
@@ -13454,8 +13475,8 @@
       "note": "Open-weight model. Self-hosted or third-party hosted costs vary by provider and infrastructure.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 49.6,
-      "overallRank": 96,
+      "displayScore": 49.5,
+      "overallRank": 97,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-ultra",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-ultra.md"
@@ -13497,7 +13518,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 43.7,
-      "overallRank": 130,
+      "overallRank": 131,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-5-bolt-74b-a9b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-5-bolt-74b-a9b.md"
@@ -13581,7 +13602,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 27.5,
-      "overallRank": 205,
+      "overallRank": 206,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-5-lightning-30b-a3b-nvfp4",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-5-lightning-30b-a3b-nvfp4.md"
@@ -13602,7 +13623,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 46.3,
-      "overallRank": 112,
+      "overallRank": 113,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/nemotron-3-5-super-vl-120b-a12b",
       "markdownUrl": "https://benchlm.ai/md/models/nemotron-3-5-super-vl-120b-a12b.md"
@@ -13959,7 +13980,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 43.8,
-      "overallRank": 127,
+      "overallRank": 128,
       "scorePerOutputDollar": 0.73,
       "url": "https://benchlm.ai/models/o1",
       "markdownUrl": "https://benchlm.ai/md/models/o1.md"
@@ -14001,7 +14022,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 43.5,
-      "overallRank": 142,
+      "overallRank": 143,
       "scorePerOutputDollar": 0.725,
       "url": "https://benchlm.ai/models/o1-preview",
       "markdownUrl": "https://benchlm.ai/md/models/o1-preview.md"
@@ -14043,7 +14064,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 55.3,
-      "overallRank": 72,
+      "overallRank": 73,
       "scorePerOutputDollar": 6.913,
       "url": "https://benchlm.ai/models/o3",
       "markdownUrl": "https://benchlm.ai/md/models/o3.md"
@@ -14064,7 +14085,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 43.6,
-      "overallRank": 131,
+      "overallRank": 132,
       "scorePerOutputDollar": 9.909,
       "url": "https://benchlm.ai/models/o3-mini",
       "markdownUrl": "https://benchlm.ai/md/models/o3-mini.md"
@@ -14085,7 +14106,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 50.4,
-      "overallRank": 91,
+      "overallRank": 92,
       "scorePerOutputDollar": 0.63,
       "url": "https://benchlm.ai/models/o3-pro",
       "markdownUrl": "https://benchlm.ai/md/models/o3-pro.md"
@@ -14631,7 +14652,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 48.8,
-      "overallRank": 100,
+      "overallRank": 101,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/ornith-1-5-35b-a3b",
       "markdownUrl": "https://benchlm.ai/md/models/ornith-1-5-35b-a3b.md"
@@ -14652,7 +14673,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 63.2,
-      "overallRank": 44,
+      "overallRank": 43,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/ornith-1-5-397b",
       "markdownUrl": "https://benchlm.ai/md/models/ornith-1-5-397b.md"
@@ -14673,7 +14694,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 36.1,
-      "overallRank": 177,
+      "overallRank": 178,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/ornith-1-5-9b",
       "markdownUrl": "https://benchlm.ai/md/models/ornith-1-5-9b.md"
@@ -14988,7 +15009,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 42.2,
-      "overallRank": 150,
+      "overallRank": 151,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/phi-4",
       "markdownUrl": "https://benchlm.ai/md/models/phi-4.md"
@@ -15576,7 +15597,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 34.9,
-      "overallRank": 182,
+      "overallRank": 183,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-235b-2507",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-235b-2507.md"
@@ -15723,7 +15744,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 46.5,
-      "overallRank": 110,
+      "overallRank": 111,
       "scorePerOutputDollar": 12.917,
       "url": "https://benchlm.ai/models/qwen3-5-397b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-397b.md"
@@ -15744,7 +15765,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 37.4,
-      "overallRank": 171,
+      "overallRank": 172,
       "scorePerOutputDollar": 93.5,
       "url": "https://benchlm.ai/models/qwen3-5-flash",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-flash.md"
@@ -15764,9 +15785,9 @@
       "note": "Alibaba Cloud Model Studio's official pricing page lists qwen3.5-plus at $0.40 input / $2.40 output per million tokens in International deployment mode for prompts up to 256K tokens, rising to $0.50 / $3.00 above 256K.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 43.7,
-      "overallRank": 128,
-      "scorePerOutputDollar": 18.208,
+      "displayScore": 43.8,
+      "overallRank": 129,
+      "scorePerOutputDollar": 18.25,
       "url": "https://benchlm.ai/models/qwen3-5-plus",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-plus.md"
     },
@@ -15807,7 +15828,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 43.3,
-      "overallRank": 133,
+      "overallRank": 134,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-5-122b-a10b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-122b-a10b.md"
@@ -15828,7 +15849,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 40,
-      "overallRank": 151,
+      "overallRank": 152,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-5-27b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-27b.md"
@@ -15849,7 +15870,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 34.7,
-      "overallRank": 184,
+      "overallRank": 185,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-5-35b-a3b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-5-35b-a3b.md"
@@ -15912,7 +15933,7 @@
       "hasNumericPricing": false,
       "isFreePricing": false,
       "displayScore": 50.2,
-      "overallRank": 93,
+      "overallRank": 94,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-6-plus",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-plus.md"
@@ -15933,7 +15954,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 43.9,
-      "overallRank": 125,
+      "overallRank": 127,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-6-27b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-6-27b.md"
@@ -15954,7 +15975,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 44,
-      "overallRank": 124,
+      "overallRank": 125,
       "scorePerOutputDollar": 338.462,
       "url": "https://benchlm.ai/models/qwen3-7-flash",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-7-flash.md"
@@ -15995,7 +16016,7 @@
       "note": "Qwen publishes the Qwen3.8-2.4T-A95B checkpoint for self-hosting under the custom Qwen3.8-Max License. Alibaba Cloud Model Studio's official pricing page separately lists the hosted qwen3.8-max SKU in both non-thinking and thinking modes for the 0 < Token <= 1M tier. The China and global tables list CNY 12 input / CNY 36 output per million tokens; the US international table lists CNY 14.988 input / CNY 44.965 output. The USD numeric fields stay null because we do not convert a non-USD first-party price.",
       "hasNumericPricing": false,
       "isFreePricing": false,
-      "displayScore": 65.6,
+      "displayScore": 65.5,
       "overallRank": 35,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-8-max",
@@ -16038,7 +16059,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 55,
-      "overallRank": 73,
+      "overallRank": 74,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-8-27b",
       "markdownUrl": "https://benchlm.ai/md/models/qwen3-8-27b.md"
@@ -16079,7 +16100,7 @@
       "note": "Qwen publishes Qwen3.8-Flash-Next under the Qwen Community 1.0 license for self-hosting and does not publish a distinct first-party hosted token rate for this exact experimental checkpoint. BenchLM represents the open-weight row as self-host/free-per-token before infrastructure costs. Qwen Cloud's production Qwen3.8-Flash is a separate model based on this architecture, so this row does not inherit its price or default 1M context.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 60.8,
+      "displayScore": 60.7,
       "overallRank": 52,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/qwen3-8-flash-next",
@@ -16163,9 +16184,9 @@
       "note": "Qwen Cloud's pay-as-you-go API pricing lists qwen4-max at $1.50 input, $4.50 output and $0.075 implicit-cache input per million tokens, with no context tiers. The Token Plan subscription also includes it.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 74.5,
-      "overallRank": 17,
-      "scorePerOutputDollar": 16.556,
+      "displayScore": 74.9,
+      "overallRank": 15,
+      "scorePerOutputDollar": 16.644,
       "url": "https://benchlm.ai/models/qwen4-max",
       "markdownUrl": "https://benchlm.ai/md/models/qwen4-max.md"
     },
@@ -16479,7 +16500,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 55.4,
-      "overallRank": 71,
+      "overallRank": 72,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/sage-a1-5",
       "markdownUrl": "https://benchlm.ai/md/models/sage-a1-5.md"
@@ -16709,8 +16730,8 @@
       "note": "Sarvam's official API pricing page lists Sarvam 105B as free per token.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 26.1,
-      "overallRank": 208,
+      "displayScore": 26,
+      "overallRank": 209,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/sarvam-105b",
       "markdownUrl": "https://benchlm.ai/md/models/sarvam-105b.md"
@@ -16730,8 +16751,8 @@
       "note": "Sarvam's official API pricing page lists Sarvam 30B as free per token.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 25,
-      "overallRank": 210,
+      "displayScore": 24.9,
+      "overallRank": 211,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/sarvam-30b",
       "markdownUrl": "https://benchlm.ai/md/models/sarvam-30b.md"
@@ -17403,7 +17424,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 41.8,
-      "overallRank": 139,
+      "overallRank": 140,
       "scorePerOutputDollar": 69.667,
       "url": "https://benchlm.ai/models/solar-pro-3",
       "markdownUrl": "https://benchlm.ai/md/models/solar-pro-3.md"
@@ -17612,8 +17633,8 @@
       "note": "SparkLLM publishes the Apache-2.0 Spark-X2.6-4B checkpoint for self-hosting and does not publish a first-party hosted token price. BenchLM represents the open-weight row as self-host/free-per-token before infrastructure costs.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 40.7,
-      "overallRank": 148,
+      "displayScore": 40.6,
+      "overallRank": 149,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/spark-x2-6-4b",
       "markdownUrl": "https://benchlm.ai/md/models/spark-x2-6-4b.md"
@@ -17718,7 +17739,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 47.7,
-      "overallRank": 105,
+      "overallRank": 106,
       "scorePerOutputDollar": 159,
       "url": "https://benchlm.ai/models/step-3-5-flash",
       "markdownUrl": "https://benchlm.ai/md/models/step-3-5-flash.md"
@@ -17739,7 +17760,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 48,
-      "overallRank": 103,
+      "overallRank": 104,
       "scorePerOutputDollar": 41.739,
       "url": "https://benchlm.ai/models/step-3-7-flash",
       "markdownUrl": "https://benchlm.ai/md/models/step-3-7-flash.md"
@@ -17759,9 +17780,9 @@
       "note": "StepFun lists `step-5-preview` at $1.00 per million cache-miss input tokens, $0.05 per million cache-hit input tokens, and $2.70 per million output tokens. Output tokens include both the reasoning process and final answer. StepFun now publishes self-hostable FP8 and BF16 weights under StepFun Model License 1.0. These prices describe the hosted API; running the weights requires hardware.",
       "hasNumericPricing": true,
       "isFreePricing": false,
-      "displayScore": 62.8,
+      "displayScore": 62.7,
       "overallRank": 45,
-      "scorePerOutputDollar": 23.259,
+      "scorePerOutputDollar": 23.222,
       "url": "https://benchlm.ai/models/step-5-preview",
       "markdownUrl": "https://benchlm.ai/md/models/step-5-preview.md"
     },
@@ -18222,7 +18243,7 @@
       "hasNumericPricing": true,
       "isFreePricing": true,
       "displayScore": 46,
-      "overallRank": 113,
+      "overallRank": 114,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/ternary-bonsai-2-27b",
       "markdownUrl": "https://benchlm.ai/md/models/ternary-bonsai-2-27b.md"
@@ -18432,7 +18453,7 @@
       "hasNumericPricing": true,
       "isFreePricing": false,
       "displayScore": 30.5,
-      "overallRank": 200,
+      "overallRank": 201,
       "scorePerOutputDollar": 33.889,
       "url": "https://benchlm.ai/models/trinity-large-thinking",
       "markdownUrl": "https://benchlm.ai/md/models/trinity-large-thinking.md"
@@ -19460,8 +19481,8 @@
       "note": "Open-weight model. Self-hosted or third-party hosted costs vary by provider and infrastructure.",
       "hasNumericPricing": true,
       "isFreePricing": true,
-      "displayScore": 24.2,
-      "overallRank": 211,
+      "displayScore": 24.5,
+      "overallRank": 212,
       "scorePerOutputDollar": null,
       "url": "https://benchlm.ai/models/zaya1-8b",
       "markdownUrl": "https://benchlm.ai/md/models/zaya1-8b.md"
@@ -19551,5 +19572,5 @@
       "markdownUrl": "https://benchlm.ai/md/models/zonos-2.md"
     }
   ],
-  "dataVersion": "sha256:260b58ceb4ba12207a1a9ee4204d889277c0061a5d239120e4a251def2271fe9"
+  "dataVersion": "sha256:841ba1b2412c7cb4e683a425ad6abddad6fa5c7e53d0154c80d30243faee2b10"
 }
