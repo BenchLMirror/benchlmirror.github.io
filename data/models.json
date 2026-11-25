@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-24T00:02:32.207Z",
+  "generatedAt": "2026-11-25T01:19:38.703Z",
   "sourceLastUpdated": "November 23, 2026",
   "sourceFiles": [
     "src/data/benchmarks.json",
@@ -953,6 +953,8 @@
           "frontierMathV2Tiers13": 93.684
         },
         "external": {
+          "shellBench": 62.3,
+          "humanitysFirstExam": 84,
           "agenticRlBench": 14,
           "gameArenaGo": 1735,
           "asciiArena": 1701,
@@ -2029,6 +2031,8 @@
           "frontierMathV2Tier4": 80.488
         },
         "external": {
+          "shellBench": 54.7,
+          "humanitysFirstExam": 65.6,
           "frontierPhysics": 27.4,
           "gameArenaGo": 1442,
           "asciiArena": 1519,
@@ -2255,6 +2259,7 @@
           "frontierMathV2Tier4": 83
         },
         "external": {
+          "humanitysFirstExam": 56.5,
           "gameArenaGo": 1005,
           "pelicanArena": 1623,
           "jokeArena": 1468,
@@ -7077,6 +7082,7 @@
           "frontierMathV2Tier4": 17.073
         },
         "external": {
+          "humanitysFirstExam": 33.4,
           "gameArenaGo": 497,
           "factsMultimodal": 49.7,
           "benchflowSkillsBench": 54.6,
@@ -9984,6 +9990,7 @@
           "frontierMathV2Tier4": 46.341
         },
         "external": {
+          "humanitysFirstExam": 42.5,
           "gameArenaGo": 1076,
           "asciiArena": 1332,
           "pelicanArena": 1312,
@@ -16137,6 +16144,7 @@
           "frontierMathV2Tier4": 100
         },
         "external": {
+          "shellBench": 54.3,
           "frontierPhysics": 33.3,
           "gameArenaGo": 1877,
           "nytConnections": 97.3,
@@ -16629,6 +16637,7 @@
           "frontierMathV2Tier4": 100
         },
         "external": {
+          "humanitysFirstExam": 90.7,
           "agenticRlBench": 17.5,
           "frontierPhysics": 26.8,
           "spireClimb": 41.3,
@@ -16883,6 +16892,8 @@
           "frontierMathV2Tier4": 95
         },
         "external": {
+          "shellBench": 51.3,
+          "humanitysFirstExam": 70,
           "agenticRlBench": 14,
           "gameArenaGo": 1543,
           "asciiArena": 1627,
@@ -17088,6 +17099,8 @@
           "frontierMathV2Tier4": 100
         },
         "external": {
+          "shellBench": 64.3,
+          "humanitysFirstExam": 81.7,
           "agenticRlBench": 22.8,
           "gameArenaGo": 1448,
           "asciiArena": 1658,
@@ -17271,6 +17284,8 @@
           "frontierMathV2Tier4": 95.122
         },
         "external": {
+          "shellBench": 58.3,
+          "humanitysFirstExam": 79.2,
           "agenticRlBench": 19.3,
           "frontierPhysics": 19,
           "gameArenaGo": 1830,
@@ -17425,6 +17440,7 @@
           "frontierMathV2Tier4": 97.561
         },
         "external": {
+          "humanitysFirstExam": 85.6,
           "asciiArena": 1807,
           "agenticRlBench": 10.5,
           "pelicanArena": 1668,
@@ -17586,6 +17602,7 @@
           "frontierMathV2Tier4": 92.683
         },
         "external": {
+          "humanitysFirstExam": 78.1,
           "gameArenaGo": 1202,
           "factsMultimodal": 48.8,
           "frontierPhysics": 14.3,
@@ -17773,6 +17790,7 @@
           "frontierMathV2Tier4": 78.049
         },
         "external": {
+          "humanitysFirstExam": 76.6,
           "agenticRlBench": 7,
           "gameArenaGo": 1686,
           "asciiArena": 1952,
@@ -18201,6 +18219,7 @@
         "instructionFollowing": {},
         "math": {},
         "external": {
+          "humanitysFirstExam": 87.5,
           "agenticRlBench": 10.5,
           "frontierPhysics": 21.4,
           "secBenchPro": 88.34,
@@ -18386,6 +18405,7 @@
           "frontierMathV2Tier4": 21.951
         },
         "external": {
+          "humanitysFirstExam": 56.1,
           "gameArenaGo": 1170,
           "asciiArena": 1650,
           "landmarkArena": 1336,
@@ -21114,6 +21134,7 @@
           "frontierMathV2Tier4": 26.829
         },
         "external": {
+          "shellBench": 33.3,
           "landmarkArena": 1406,
           "frontierPhysics": 3.6,
           "cookieBench": 87.9,
@@ -21289,6 +21310,7 @@
           "frontierMathV2Tier4": 87.805
         },
         "external": {
+          "humanitysFirstExam": 70.5,
           "asciiArena": 1721,
           "pelicanArena": 1689,
           "landingPageArena": 1386,
@@ -27858,6 +27880,7 @@
           "frontierMathV2Tier4": 56.098
         },
         "external": {
+          "shellBench": 20.2,
           "gameArenaGo": 474,
           "asciiArena": 1248,
           "pelicanArena": 1520,
@@ -32404,6 +32427,7 @@
           "frontierMathV2Tiers13": 27.719
         },
         "external": {
+          "humanitysFirstExam": 18.5,
           "benchflowSkillsBench": 20.1,
           "nytConnections": 8.2
         }
@@ -139129,5 +139153,5 @@
       }
     }
   ],
-  "dataVersion": "sha256:a52c413f9b1df00fa569e7708859913da18e90d242bbc90c3e827b0346de0689"
+  "dataVersion": "sha256:8a3cab3bc87d338aca418d9ebe090b4f690ce56a7f99008d84349a6f38b15583"
 }

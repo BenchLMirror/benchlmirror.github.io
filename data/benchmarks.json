@@ -8,7 +8,7 @@
   "termsUrl": "https://benchlm.ai/terms",
   "commercialUse": "Not permitted without a license from BenchLM: https://benchlm.ai/contact",
   "attribution": "Data from BenchLM.ai",
-  "generatedAt": "2026-11-24T00:02:32.207Z",
+  "generatedAt": "2026-11-25T01:19:38.703Z",
   "sourceLastUpdated": "November 23, 2026",
   "sourceFiles": [
     "src/data/benchmark_descriptions.json",
@@ -409,7 +409,7 @@
   },
   "counts": {
     "categories": 10,
-    "benchmarks": 952
+    "benchmarks": 954
   },
   "items": [
     {
@@ -31487,6 +31487,56 @@
     {
       "category": "external",
       "categoryLabel": "external",
+      "benchmarkKey": "humanitysFirstExam",
+      "name": "Humanity's First Exam (HFE)",
+      "fullName": "Humanity's First Exam (HFE)",
+      "description": "Google DeepMind's Humanity's First Exam (HFE) gives frontier models tasks people get right almost every time, like counting objects in a picture or spotting a false premise. The score falls fast when a model that can solve a task doesn't solve it every time.",
+      "capabilityCategory": "reasoning",
+      "paperUrl": null,
+      "paperTitle": null,
+      "authors": "Google DeepMind",
+      "year": "2026",
+      "tasks": "544 prompts in 136 families of four, each run six times",
+      "format": "Single turn, no tools; a judge marks each final answer right or wrong",
+      "difficulty": "Easy for people: 3 of 4 raters solved each seed, median 1.5 minutes",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 16,
+      "url": "https://benchlm.ai/benchmarks/humanitys-first-exam",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/humanitys-first-exam.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
+      "benchmarkKey": "shellBench",
+      "name": "ShellBench",
+      "fullName": "ShellBench",
+      "description": "The OpenClaw Foundation's ShellBench tests whether an AI agent can finish the everyday requests people hand to an assistant, working from a folder of that person's own files. A task passes only if the answer meets every correctness and safety criterion, so a right answer that leaks a private detail fails.",
+      "capabilityCategory": "agentic",
+      "paperUrl": null,
+      "paperTitle": null,
+      "authors": "OpenClaw Foundation",
+      "year": "2026",
+      "tasks": "100 everyday assistant requests, three runs each",
+      "format": "Agent works in a container of the person's files; all-or-nothing on correctness and safety",
+      "difficulty": "Everyday requests over a median of 188 files, with outdated records and phishing emails mixed in",
+      "decimals": 1,
+      "successorKey": null,
+      "successorUrl": null,
+      "weight": null,
+      "scoringBasis": null,
+      "scoredCategory": null,
+      "displayableScoreCount": 8,
+      "url": "https://benchlm.ai/benchmarks/shellbench",
+      "markdownUrl": "https://benchlm.ai/md/benchmarks/shellbench.md"
+    },
+    {
+      "category": "external",
+      "categoryLabel": "external",
       "benchmarkKey": "kaggleSocialCognition",
       "name": "Dynamic Social Cognition Benchmark",
       "fullName": "Dynamic Social Cognition Benchmark",
@@ -32410,5 +32460,5 @@
       "markdownUrl": "https://benchlm.ai/md/benchmarks/riemannbench.md"
     }
   ],
-  "dataVersion": "sha256:4ecfdde6077cbabc62a6db86ac16d9448071cafa7b00d737d207688d6065080a"
+  "dataVersion": "sha256:c598629df02911cda4e2c7868cb429c340f99f7553ca1fe126d8a0ba3e4b03a4"
 }
